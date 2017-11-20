@@ -1,0 +1,248 @@
+head	1.12;
+access;
+symbols;
+locks
+	engine:1.12; strict;
+comment	@# @;
+
+
+1.12
+date	2004.05.07.19.55.30;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.02.07.11.48.53;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.26.13.37.32;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.13.15.12.55;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.06.19.24.42;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.06.16.18.12;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.05.20.02.11;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.05.18.08.45;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.05.11.15.46;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.03.16.30.21;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.03.14.27.34;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.12
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: main.php,v 1.11 2004/02/07 11:48:53 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+error_reporting(E_ALL|2048) ; // 2048 is E_STRICT
+/************************************************************/
+require_once("globals.php");
+require_once("functions.php");
+/************************************************************/
+if ( msdbPreInstall() )
+	msdbHtbrowse() ;
+/************************************************************/
+?>
+@
+
+
+1.11
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: main.php,v 1.10 2004/01/26 13:37:32 engine Exp engine $ ';
+a9 1
+require_once("config.php");
+@
+
+
+1.10
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: main.php,v 1.9 2004/01/13 15:12:55 engine Exp engine $ ';
+d8 1
+a8 1
+error_reporting(E_ALL|E_STRICT) ;
+@
+
+
+1.9
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid="$Id: main.php,v 1.8 2004/01/13 13:08:00 engine Exp engine $ ";
+d14 3
+a16 1
+msdbHtbrowse() ;
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid="$Id: .exrc,v 1.5 2004/01/05 10:16:31 engine Exp engine $ ";
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 3
+a5 3
+/* $Id: main.php,v 1.6 2004/01/06 16:18:12 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.6
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: main.php,v 1.5 2004/01/05 20:02:11 engine Exp engine $  */
+a12 1
+msdbInit() ;
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: main.php,v 1.4 2004/01/05 18:08:45 engine Exp engine $  */
+a12 2
+/*	echo "Content-type: text/html\n\n";	*/
+/************************************************************/
+@
+
+
+1.4
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: main.php,v 1.3 2004/01/05 11:15:46 engine Exp engine $  */
+d15 2
+a16 2
+mypdbInit() ;
+mypdbHtbrowse() ;
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: main.php,v 1.2 2004/01/03 16:30:21 engine Exp engine $  */
+d15 1
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: main.php,v 1.1 2004/01/03 14:27:34 engine Exp engine $  */
+d13 1
+a13 1
+echo "Content-type: text/html\n\n";
+@
+
+
+1.1
+log
+@None
+@
+text
+@d2 2
+a3 1
+/* $Id: htbrowse.php,v 1.1 2004/01/03 12:01:03 engine Exp engine $  */
+d7 4
+a10 2
+error_reporting(E_ALL | E_STRICT) ;
+require_once("settings.php");
+d14 1
+a14 2
+
+
+@

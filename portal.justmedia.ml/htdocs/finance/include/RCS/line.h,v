@@ -1,0 +1,178 @@
+head	1.7;
+access;
+symbols;
+locks
+	engine:1.7; strict;
+comment	@ * @;
+
+
+1.7
+date	2004.08.16.16.44.22;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.07.28.08.09.12;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.07.27.12.46.56;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.07.27.12.15.40;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.07.27.12.01.09;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.07.27.11.57.05;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.07.27.06.15.42;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.7
+log
+@None
+@
+text
+@<TR class=$cbLineClass>
+	<TD> $date</TD>
+	<TD ALIGN=RIGHT $negAmountClass> $amount </TD>
+	<TD> <A HREF="javascript:cbRestrictView(1, '$toFrom');">$toFrom</A> </TD>
+	<TD> <A HREF="javascript:cbRestrictView(0, '$category');">$category</A> </TD>
+	<TD> $notes</TD>
+	<TD ALIGN=RIGHT $negBalClass> $balance </TD>
+	<TD>
+		<A HREF="javascript:cbCmd('cbChange', $id, '')" onMouseOver="msdbMover('Edit this Entry');" onMouseOut="msdbMout();">Edit</A>
+	</TD>
+	<TD>
+		<A HREF="javascript:cbCmd('cbNew', $id, '')" onMouseOver="msdbMover('Edit a new Copy');" onMouseOut="msdbMout();">Copy</A>
+	</TD>
+	<TD>
+		<A HREF="javascript:cbCmd('cbCons', $id, '')" onMouseOver="msdbMover('Hide Past Entries');" onMouseOut="msdbMout();">Fold</A>
+	</TD>
+	<TD>
+		<A HREF="javascript:cbCmd('cbDelete', $id, '')" onMouseOver="msdbMover('Remove this Entry');" onMouseOut="msdbMout();">Delete</A>
+	</TD>
+</TR>
+@
+
+
+1.6
+log
+@None
+@
+text
+@d9 1
+a9 1
+		<A HREF="javascript:cbCmd('cbChange', $id, '')" onMouseOver="msdbSaveMouse();">Edit</A>
+d12 1
+a12 1
+		<A HREF="javascript:cbCmd('cbNew', $id, '')" onMouseOver="msdbSaveMouse();">Copy</A>
+d15 1
+a15 1
+		<A HREF="javascript:cbCmd('cbCons', $id, '')">Fold</A>
+d18 1
+a18 1
+		<A HREF="javascript:cbCmd('cbDelete', $id, '')">Delete</A>
+@
+
+
+1.5
+log
+@None
+@
+text
+@d15 1
+a15 1
+		<A HREF="javascript:cbCmd('cbCons', $id, '')"><IMG BORDER=0 ALT="Consolidate (Hide Entries to Date)" SRC="images/$CONSGIF"></A>
+@
+
+
+1.4
+log
+@None
+@
+text
+@d9 1
+a9 1
+		<A HREF="javascript:cbCmd('cbChange', $id, '')" onMouseOver="msdbSaveMouse();"><IMG BORDER=0 ALT="Edit/Change" SRC="images/edit.gif"></A>
+d12 1
+a12 1
+		<A HREF="javascript:cbCmd('cbNew', $id, '')" onMouseOver="msdbSaveMouse();"><IMG BORDER=0 ALT="New Copy" SRC="images/new.gif"></A>
+d18 1
+a18 1
+		<A HREF="javascript:cbCmd('cbDelete', $id, '')"><IMG BORDER=0 ALT="Discard" SRC="images/remove.gif"></A>
+@
+
+
+1.3
+log
+@None
+@
+text
+@d2 6
+a7 6
+	<TD>&nbsp;$date</TD>
+	<TD ALIGN=RIGHT $negAmountClass>&nbsp;$amount&nbsp;</TD>
+	<TD>&nbsp;<A HREF="javascript:cbRestrictView(1, '$toFrom');">$toFrom</A>&nbsp;</TD>
+	<TD>&nbsp;<A HREF="javascript:cbRestrictView(0, '$category');">$category</A>&nbsp;</TD>
+	<TD>&nbsp;$notes</TD>
+	<TD ALIGN=RIGHT $negBalClass>&nbsp;$balance&nbsp;</TD>
+@
+
+
+1.2
+log
+@None
+@
+text
+@d6 1
+a6 1
+	<TD>&nbsp;$description</TD>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 1
+a1 1
+<TR class=$gldLineClass>
+d4 2
+a5 3
+	<TD>&nbsp;<A HREF="javascript:gldRestrictView(1, '$toFrom');">$toFrom</A>&nbsp;</TD>
+	<TD>&nbsp;$ref</TD>
+	<TD>&nbsp;<A HREF="javascript:gldRestrictView(0, '$category');">$category</A>&nbsp;</TD>
+d9 1
+a9 1
+		<A HREF="javascript:youGldCmd('gldChange', $lEid, '')" onMouseOver="youSaveMouse();"><IMG BORDER=0 ALT="Edit/Change" SRC="http://$YOU_ICON_SERVER/$YOU_ICONDIR/gld/edit.gif"></A>
+d12 1
+a12 1
+		<A HREF="javascript:youGldCmd('gldNew', $lEid, '')" onMouseOver="youSaveMouse();"><IMG BORDER=0 ALT="New Copy" SRC="http://$YOU_ICON_SERVER/$YOU_ICONDIR/new.gif"></A>
+d15 1
+a15 1
+		<A HREF="javascript:youGldCmd('gldCons', $lEid, '')"><IMG BORDER=0 ALT="Consolidate (Hide Entries to Date)" SRC="http://$YOU_ICON_SERVER/$YOU_ICONDIR/gld/$CONSGIF"></A>
+d18 1
+a18 1
+		<A HREF="javascript:youGldCmd('gldDelete', $lEid, '')"><IMG BORDER=0 ALT="Discard" SRC="http://$YOU_ICON_SERVER/$YOU_ICONDIR/gld/remove.gif"></A>
+@

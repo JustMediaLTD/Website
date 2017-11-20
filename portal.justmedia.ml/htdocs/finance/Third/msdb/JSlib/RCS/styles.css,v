@@ -1,0 +1,443 @@
+head	1.5;
+access;
+symbols;
+locks
+	engine:1.5; strict;
+comment	@# @;
+
+
+1.5
+date	2004.07.29.08.48.13;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.07.28.06.13.44;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.05.31.10.15.07;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.05.13.09.58.16;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.20.01.06.36;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.5
+log
+@None
+@
+text
+@/* $Id: styles.css,v 1.4 2004/07/28 06:13:44 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://www.engine.com/license.txt (BSD) */
+/************************************************************/
+/* general styles */
+body            {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #F5F5F5}
+pre, tt         {font-size: small}
+th              {font-family: arial, helvetica, geneva, sans-serif; font-size: small; font-weight: bold; color: #000000; background-color: #D3DCE3}
+td              {font-family: arial, helvetica, geneva, sans-serif; font-size: small}
+form            {font-family: arial, helvetica, geneva, sans-serif; font-size: small}
+input           {font-family: arial, helvetica, geneva, sans-serif; font-size: smaller}
+input.textfield {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+select          {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+textarea        {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+h1              {font-family: arial, helvetica, geneva, sans-serif; font-size: large; font-weight: bold}
+A:link          {font-family: arial, helvetica, geneva, sans-serif; text-decoration: none; color: #0000FF}
+A:visited       {font-family: arial, helvetica, geneva, sans-serif; text-decoration: none; color: #0000FF}
+A:hover         {font-family: arial, helvetica, geneva, sans-serif; text-decoration: underline; color: #FF0000}
+A.nav:link      {font-family: arial, helvetica, geneva, sans-serif; color: #000000}
+A.nav:visited   {font-family: arial, helvetica, geneva, sans-serif; color: #000000}
+A.nav:hover     {font-family: arial, helvetica, geneva, sans-serif; color: #FF0000}
+/************************************************************/
+.msdbPerf {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #dddddd;
+}
+/******************************/
+.msdbPerfName {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #aaccee;
+}
+/******************************/
+.msdbPerfData {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #99bbdd;
+}
+/******************************/
+.msdbPerfNameTotal {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #cccccc;
+}
+/******************************/
+.msdbPerfDataTotal {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #eeeeee;
+}
+/************************************************************/
+.listDBs {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #cccccc;
+}
+/******************************/
+.dbIsPerm {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #dddddd;
+}
+/******************************/
+.dbIsntPerm {
+	/*	font-family: arial;	*/
+	font-size: 5pt;
+	background-color: #ffffff;
+}
+/************************************************************/
+.msdbInfoName {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #cccccc;
+}
+/******************************/
+.msdbInfoData {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #dddddd;
+}
+/************************************************************/
+.msdbTableBar {
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold ;
+}
+/******************************/
+.msdbTablesHead {
+	font-family: arial;
+	font-size: 10pt;
+	background-color: #bbddff;
+}
+/******************************/
+.msdbTablesName {
+	font-family: arial;
+	font-size: 10pt;
+	background-color: #bbddff;
+}
+/******************************/
+.msdbTablesRowNum {
+	font-family: arial;
+	font-size: 10pt;
+	background-color: #aaaaff;
+}
+/************************************************************/
+.msdbSpotClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:3px outset #ddddff;
+	background-color: #ddddff;
+}
+/************************************************************/
+.hebLetterClass {
+	position: absolute;
+	visibility: hidden;
+}
+/************************************************************/
+
+.searchClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:2px outset #aaaaff;
+	background-color: #ddddff;
+}
+
+/************************************************************/
+
+.changeClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:2px outset #aaffaa;
+	background-color: #aaffaa;
+}
+
+/************************************************************/
+
+.newClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:3px outset #FFCC99;
+	background-color: #FFCC99;
+}
+
+/************************************************************/
+
+.tableClass {
+	font-family: arial;
+	font-size: 8pt;
+}
+
+/******************************/
+
+.headClass {
+	background-color: #D3DCE3;
+}
+
+/******************************/
+
+.evenLineClass {
+	background-color: #dddddd;
+}
+
+/******************************/
+
+.oddLineClass {
+	background-color: #cccccc;
+}
+
+/******************************/
+
+.currentLineClass {
+	background-color: #aaffaa;
+}
+
+/******************************/
+
+.dummyLineClass {
+	background-color: #bbbbbb;
+}
+
+/************************************************************/
+
+.reportsClass {
+	background-color: #eeeeee;
+}
+
+/**************************************************/
+.reportHead {
+	background-color: #D3DCE3;
+}
+.reportBy {
+	background-color: #cccccc;
+}
+.reportCnt {
+	background-color: #cccccc;
+}
+.reportTotal {
+	background-color: #cccccc;
+}
+/**************************************************/
+.dateStatHead {
+	background-color: #D3DCE3;
+}
+.dateStat {
+	/*	background-color: #ccccff;	*/
+}
+.dateStatMonth {
+	background-color: #cccccc;
+}
+.dateStatCnt {
+	background-color: #cccccc;
+}
+.dateStatBal {
+	background-color: #cccccc;
+}
+/**************************************************/
+.tlinksHead {
+	background-color: #bbddff;
+}
+.tlinksTable {
+	background-color: #bbffff;
+}
+.tlinksField {
+	background-color: #bbffff;
+}
+.tlinksHt {
+	background-color: #bbddff;
+}
+.tlinksOther {
+	background-color: #ffeeee;
+}
+/**************************************************/
+@
+
+
+1.4
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: styles.css,v 1.3 2004/05/31 10:15:07 engine Exp engine $  */
+d16 3
+a18 3
+A:link          {font-family: arial, helvetica, geneva, sans-serif; font-size: small; text-decoration: none; color: #0000FF}
+A:visited       {font-family: arial, helvetica, geneva, sans-serif; font-size: small; text-decoration: none; color: #0000FF}
+A:hover         {font-family: arial, helvetica, geneva, sans-serif; font-size: small; text-decoration: underline; color: #FF0000}
+@
+
+
+1.3
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: styles.css,v 1.2 2004/05/13 09:58:16 engine Exp engine $  */
+d3 1
+a3 1
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.2
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: styles.css,v 1.1 2004/04/20 01:06:36 engine Exp engine $  */
+d11 1
+a11 1
+input           {font-family: arial, helvetica, geneva, sans-serif; font-size: small}
+d83 6
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: styles.html,v 1.25 2004/04/20 00:59:42 engine Exp engine $  */
+d26 1
+a26 1
+	background-color: #bbddff;
+d44 1
+a44 1
+	background-color: #adebc2;
+d50 1
+a50 1
+	background-color: #7debd4;
+d56 1
+a56 1
+	background-color: #aaccee;
+d62 1
+a62 1
+	background-color: #bbddff;
+d74 1
+a74 1
+	background-color: #7debd4;
+d80 1
+a80 1
+	background-color: #adebc2;
+d117 12
+d135 2
+a136 2
+	border:2px outset #ddddff;
+	background-color: #ddddff;
+d147 2
+a148 2
+	border:3px outset #ffdd00;
+	background-color: #ffdd00;
+d161 1
+a161 1
+	background-color: #ffffdd;
+d167 1
+a167 1
+	background-color: #bbddff;
+d173 1
+a173 1
+	background-color: #aaccff;
+d179 1
+a179 1
+	background-color: #ffa0ff;
+d185 1
+a185 1
+	background-color: #cccccc;
+d195 2
+a196 2
+.reportHead0 {
+	background-color: #7debd4;
+d198 2
+a199 2
+.reportBy0 {
+	background-color: #22ff22;
+d201 1
+a201 1
+.reportCnt0 {
+d204 2
+a205 2
+.reportTotal0 {
+	background-color: #ddddff;
+d208 2
+a209 2
+.reportHead1 {
+	background-color: #70e0aa;
+d211 2
+a212 2
+.reportBy1 {
+	background-color: #88ff88;
+d214 2
+a215 2
+.reportCnt1 {
+	background-color: #bbbbbb;
+d217 2
+a218 2
+.reportTotal1 {
+	background-color: #ccccff;
+d220 2
+a221 19
+/**************************************************/
+.reportHead2 {
+	background-color: #90ffaa;
+}
+.reportBy2 {
+	background-color: #aaffaa;
+}
+.reportCnt2 {
+	background-color: #dddddd;
+}
+.reportTotal2 {
+	background-color: #bbbbff;
+}
+/**************************************************/
+.dateStatHead {
+	background-color: #7debd4;
+}
+.dateStat {
+	background-color: #ccccff;
+@

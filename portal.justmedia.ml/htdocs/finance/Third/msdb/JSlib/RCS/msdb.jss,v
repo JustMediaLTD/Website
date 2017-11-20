@@ -1,0 +1,2452 @@
+head	1.56;
+access;
+symbols;
+locks
+	engine:1.56; strict;
+comment	@# @;
+
+
+1.56
+date	2004.08.23.09.18.39;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.08.16.16.44.01;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.08.05.12.12.22;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.07.29.08.48.12;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.07.27.08.32.35;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.05.31.14.57.34;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.02.23.21.57.19;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.02.01.20.32.39;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.02.01.20.01.26;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.01.31.09.30.24;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.01.31.09.29.56;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.01.29.10.26.44;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.01.28.02.17.22;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.01.28.01.35.16;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.01.28.01.32.45;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.26.18.49.45;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.26.17.32.26;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.21.17.18.34;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.21.06.05.21;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.19.15.25.49;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.19.13.54.33;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.15.13.52.05;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.14.14.36.38;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.14.10.06.50;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.14.10.05.35;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.14.10.02.25;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.13.19.33.07;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.13.19.29.17;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.13.12.15.56;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.13.12.09.54;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.13.12.09.06;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.13.09.56.44;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.13.09.44.26;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.13.09.30.15;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.07.22.01.21;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.12.22.07.55.13;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.12.22.07.40.20;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.07.10.14.45.26;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.07.04.07.22.09;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.06.15.06.45.15;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.06.14.13.59.53;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.06.07.09.31.53;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.06.07.07.40.25;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.06.05.04.01.19;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.06.04.10.48.34;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.05.28.07.47.12;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.05.27.20.33.41;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.05.24.07.02.06;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.05.23.16.45.29;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.05.23.16.17.58;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.05.23.11.58.34;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.05.23.10.49.18;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.05.23.10.14.58;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.05.23.05.39.05;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.05.23.05.18.00;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.05.23.05.09.56;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.56
+log
+@None
+@
+text
+@/* $Id: msdb.jss,v 1.55 2004/08/16 16:44:01 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/************************************************************/
+#include "alert.h"
+/************************************************************/
+
+function
+msdb(homeUrl, db, tname, sid, sidst, pkName)
+{
+	ALERT1("msdb");
+
+	this.homeUrl = homeUrl ;
+	this.db = db ;
+	this.tname = tname ;
+	this.sid = sid ;
+	this.sidst = sidst ;
+	this.pkName = pkName ;
+
+	this.ieMenuIsV = 0;
+	this.iuFailed = false ;
+	this.uFailedId = 0;
+	this.isChange = false;
+	this.isNew = false;
+	this.changeVisitCtl = 0;
+	this.rows = new Array();
+	this.failedNew = new Array();
+	this.colnames = new Array();
+	this.coltypes = new Array();
+	ALERT1("msdb");
+	return(this);
+}
+
+/************************************************************/
+
+function
+msdbRandom()
+{
+	var d;
+
+	ALERT1("msdbRandom");
+
+	d = new Date();
+
+	return(
+		d.getMinutes() * 60 * 1000 +
+		d.getSeconds() * 1000 +
+		d.getMilliseconds()
+		);
+}
+
+/******************************/
+
+function
+msdbCmdStr(action, args)
+{
+	var tnameCmd;
+
+	ALERT1("msdbCmdStr");
+
+	if ( action == '' )
+		act = '';
+	else
+		act = '&msdbEA=' + action ;
+
+	addArgs = ''
+	if ( args.indexOf('msdbDB') == -1 )
+		addArgs += "&msdbDB=" + msdbTop.db ;
+	if ( args.indexOf('msdbTNAME') == -1 )
+		addArgs += "&msdbTNAME=" + msdbTop.tname ;
+
+	loc = '?' +
+		"msdbSID=" + msdbTop.sid +
+		"&msdbSIDST=" + msdbTop.sidst +
+		"&msdb_t0=" + msdbRandom() +
+		act +
+		addArgs +
+		args
+		;
+
+	return(loc);
+}
+
+/******************************/
+
+function
+msdbCmd(action, args)
+{
+	ALERT1("msdbCmd");
+	loc = msdbCmdStr(action, args);
+	location = loc ;
+}
+
+/************************************************************/
+
+function
+msdbRow2string(r)
+{
+	var i, s;
+
+	s = "" ;
+
+	for(i=0;i<r.length;i++)
+		if ( i == 0 )
+			s += r[i] ;
+		else
+			s += "-" + r[i] ;
+
+	return(s);
+}
+
+/************************************************************/
+
+function
+msdbRow(msdbPkval)
+{
+	ALERT10("msdbRow");
+	this.msdbPkval = msdbPkval;
+	this.row = new Array();
+	return(this);
+}
+
+/************************************************************/
+
+function
+msdbSaveEvent()
+{
+	ALERT10("msdbSaveEvent");
+	msdbTop.mouseX = event.clientX;
+	msdbTop.mouseY = event.clientY;
+}
+
+/************************************************************/
+
+/*
+ * e is an event generated by netscape, ie knows
+ * about 'event' as a global but doesn't pass it in.
+ * msdbSaveMouse needs an 'e' if NS and an 'event' if Ie
+ */
+
+function
+msdbSaveMouse()
+{
+	ALERT10("msdbSaveMouse");
+	if ( ! event )
+		return;
+	msdbSaveEvent(event);
+}
+
+/************************************************************/
+
+/*	must include mOver.h in the html	*/
+
+function
+msdbMover(text)
+{
+	msdbSaveMouse();
+
+	ALERT10("msdbMover");
+
+	if (
+				msdbTop.lastMoverX &&
+				msdbTop.isMover && 
+				text == msdbTop.lastText &&
+				(ax = msdbTop.lastMoverX - msdbTop.mouseX) < 2 && ax > -2 &&
+				(ay = msdbTop.lastMoverY - msdbTop.mouseY) < 2 && ay > -2
+			)
+		return;
+
+	msdbTop.isMover = true ;
+	msdbTop.lastMoverX = msdbTop.mouseX ;
+	msdbTop.lastMoverY = msdbTop.mouseY ;
+	if ( text != msdbTop.lastText ) {
+		msdbMoverInnerId.innerHTML = text ;
+		msdbTop.lastText = text ;
+	}
+
+	msdbShowDialogAt('msdbMoverId', false);
+}
+
+/******************************/
+
+function msdbMout()
+{
+	msdbSaveMouse();
+
+	ALERT10("msdbMout");
+
+	if ( ! msdbTop.isMover )
+		return;
+
+	msdbMoverId.style.visibility = 'hidden';
+	msdbTop.isMover = false ;
+}
+
+/************************************************************/
+
+function
+msdbFalse()
+{
+	ALERT1("msdbFalse");
+	return(false);
+}
+
+/************************************************************/
+
+function
+msdbNoOp()
+{
+	ALERT1("msdbNoOp");
+	i = 1 ;
+}
+
+/************************************************************/
+
+function
+msdbIdStyleName(name)
+{
+	ALERT1("msdbIdStyleName");
+	return(name + ".style");
+}
+
+/************************************************************/
+
+function
+msdbDateStr(d)
+{
+	ALERT1("msdbDateStr");
+	if ( d == 0 )
+		return("");
+	mName = new Array('', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+						'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+
+	s = "" + d;
+
+	m =	Number(s.substr(4, 2));
+	d = Number(s.substr(6, 2));
+	y = Number(s.substr(0, 4));
+
+	ret =
+		mName[m] + " " +
+		d + " " +
+		y + " "
+		;
+	return(ret);
+}
+
+/************************************************************/
+/*		*/
+/*	function	*/
+/*	msdbDate2int(t)	*/
+/*	{	*/
+	/*	ALERT1("msdbDateStr");	*/
+	/*	y = t.getFullYear();	*/
+	/*	m = t.getMonth() + 1;	*/
+	/*	d = t.getDate();	*/
+/*		*/
+/*		*/
+	/*	return(y * 10000 + m * 100 + d);	*/
+/*	}	*/
+/*		*/
+/************************************************************/
+
+function
+msdbAlert()
+{
+	ALERT1("msdbAlert");
+	s = "";
+
+	for(i=1;i<arguments.length;i++) {
+		s +=  arguments[i]  + ": " + arguments[i+1];
+		i++;
+		if ( i != arguments.length-1 )
+			s += ' -- ' ;
+	}
+	alert(arguments[0] + '>>> ' + s);
+}
+
+/************************************************************/
+
+function
+msdbAlertForm(f)
+{
+	ALERT1("msdbAlertForm");
+	s = "Form Name=" + f.name + "\n" ;
+	for(i=0;i<f.length;i++)
+		s += '\tf[' + i + '] : ' + f[i].name + ' = ' + f[i].value + "\n" ;
+	
+	alert(s);
+}
+
+/************************************************************/
+
+function
+msdbBack()
+{
+	ALERT1("msdbBack");
+	window.history.back();
+}
+
+/************************************************************/
+
+function
+msdbForm(n)
+{
+	ALERT1("msdbForm");
+	ALERT2("msdbForm");
+
+	nnewForm = document.forms[0]; /*newForm is probably a keyword */
+	changeForm = document.forms[1] ;
+	searchForm = document.forms[2] ;
+
+	/* '' only used in msdbSpotSet() ??? */
+	if ( n == '' ) {
+		if ( msdbTop.isChange == true || msdbTop.isNew == true )
+			return(changeForm);
+		else
+			return(nnewForm);
+	} else if ( n == 'Change' )
+		return(changeForm);
+	else /* n == 'Search' */
+		return(searchForm) ;
+}
+
+/************************************************************/
+
+function
+msdbIsHebLetter(l)
+{
+	ALERT10("msdbIsHebLetter");
+	if ( l >= 'A' && l <= 'Z' || l == '_' )
+		return(true);
+
+	return(false);
+}
+
+/******************************/
+
+function
+msdbHebLetter(l)
+{
+	ALERT10("msdbHebLetter");
+
+	if ( msdbIsHebLetter(l) == false )
+		return(l);
+
+	jstr = 'ret = hebLetter' + l + '.innerHTML ; ' ;
+	eval(jstr);
+	return(ret);
+}
+
+/******************************/
+
+function
+msdbDbToHeb(s)
+{
+	var i;
+
+	ALERT1("msdbDbToHeb");
+	len = s.length;
+	ret = "";
+	for(i=0;i<len;i++)
+		ret += msdbHebLetter(s.charAt(i));
+	return(ret);
+}
+
+/******************************/
+
+function
+msdbFindRow(msdbPkval)
+{
+	var d, i;
+
+	ALERT1("msdbFindRow");
+	ALERT2("msdbFindRow");
+
+	d = msdbTop.rows;
+	ALERT3(d.length);
+	for(i=0;i<d.length;i++) {
+		ALERT3("msdbFindRow: d[i].msdbPkval= :::" + d[i].msdbPkval + "msdbPkval = ::: " + msdbPkval);
+		if ( d[i].msdbPkval == msdbPkval )
+			return(d[i].row);
+	}
+	return(null);
+}
+
+/******************************/
+
+function
+msdbFillForm(msdbPkval)
+{
+	var r, f, i, jstr;
+
+	ALERT1("msdbFillForm");
+	ALERT2("msdbFillForm");
+
+	f = msdbForm('Change');
+
+	r =  msdbFindRow(msdbPkval);
+
+	if ( r == null ) {
+		alert("msdbNewOrChange: Can not find data to change.");
+		return;
+	}
+
+	for(i=0;i<r.length;i++) {
+		if ( msdbTop.coltypes[i] == 'hebrew' )
+			s = msdbDbToHeb(r[i]);
+		else
+			s = r[i];
+
+		jstr = 'f.' + msdbTop.colnames[i] + '.value =  s ; ' ;
+		eval(jstr);
+	}
+}
+
+/******************************/
+
+function
+msdbNewOrChange(msdbPkval)
+{
+	var f, field0, jstr;
+
+	ALERT1("msdbNewOrChange");
+	ALERT2("msdbNewOrChange");
+
+	/* iuFailed==1 is MSDB_UPDATE_FAILED */
+	if ( msdbTop.changeVisitCtl != 1 || msdbTop.iuFailed != 1 || msdbTop.uFailedId != msdbPkval )
+		msdbFillForm(msdbPkval)
+
+	msdbShowDialog('changeId');
+	alStrX = "sLeft=" + msdbScrollLeft() + " msdbTop.mouseX=" + msdbTop.mouseX ;
+	alStrY = "sTop=" + msdbScrollTop() + " msdbTop.mouseY=" + msdbTop.mouseY ;
+	msdbPlaceDialog('changeId', 8, msdbScrollTop() + msdbTop.mouseY - 12);
+
+	f = msdbForm('Change');
+	field0 = 'f.' + msdbTop.colnames[0] ;
+	jstr = field0 + '.focus(); ' + field0 + '.select();' ;
+	ALERT3(jstr);
+	eval(jstr);
+
+}
+
+/************************************************************/
+
+function
+msdbHideChange()
+{
+	ALERT1("msdbHideChange");
+	msdbTop.isChange = false ;
+	msdbTop.isNew = false ;
+
+	msdbHideDialog('changeId');
+}
+
+/******************************/
+
+function
+msdbHideSearch()
+{
+	ALERT1("msdbHideSearch");
+	msdbHideDialog('searchId');
+}
+
+/************************************************************/
+
+function
+msdbSearch()
+{
+
+	ALERT1("msdbSearch");
+	ALERT2("msdbSearch");
+
+	/* ??? */
+	f = msdbForm('Search');
+
+	msdbShowDialog('searchId');
+	alStrX = "sLeft=" + msdbScrollLeft() + " msdbTop.mouseX=" + msdbTop.mouseX ;
+	alStrY = "sTop=" + msdbScrollTop() + " msdbTop.mouseY=" + msdbTop.mouseY ;
+	msdbPlaceDialog('searchId', 8, msdbScrollTop() + msdbTop.mouseY - 12);
+	field0 = 'f.' + msdbTop.colnames[0] ;
+	jstr = field0 + '.focus(); ' + field0 + '.select();' ;
+	eval(jstr);
+}
+
+/************************************************************/
+
+function
+msdbChange(msdbPkval)
+{
+	ALERT1("msdbChange");
+	ALERT2("msdbChange");
+
+	changeId.className = 'changeClass' ;
+
+	f = msdbForm('Change');
+	f.msdbEA.value = "msdbUpdate" ;
+	f.msdbPkval.value = msdbPkval ;
+
+	msdbTop.isChange = true ;
+
+	msdbTop.changeVisitCtl++;
+	msdbNewOrChange(msdbPkval);
+	msdbTop.changeVisitCtl++;
+
+}
+
+/************************************************************/
+
+function
+msdbNewCopy()
+{
+	ALERT1("msdbNewCopy");
+	f = msdbForm('Change');
+	f.submit();
+}
+
+/************************************************************/
+
+function
+msdbNew(msdbPkval)
+{
+	ALERT1("msdbNew");
+	msdbTop.isNew = true ;
+	changeId.className = 'newClass' ;
+	f = msdbForm('Change');
+	f.msdbEA.value = "msdbInsert" ;
+	msdbNewOrChange(msdbPkval);
+}
+
+/************************************************************/
+
+function
+msdbDelete(msdbPkval)
+{
+	var r;
+
+	ALERT1("msdbDelete");
+
+	r = msdbFindRow(msdbPkval);
+
+	if ( ! confirm("Are you Sure you want to Discard this entry\n(" + msdbRow2string(r) + ") ?"))
+		return;
+
+	msdbCmd("msdbDelete", "&msdbPkval=" + msdbPkval + "&msdbPkName=" + msdbTop.pkName);
+}
+
+/************************************************************/
+
+function
+msdbSpotSet(isHeb, fname, dbval)
+{
+	var form;
+	var val;
+	var jstr;
+	var idname;
+
+	ALERT1("msdbSpotSet");
+
+	form = msdbForm('');
+	if ( isHeb == 0 )
+		val = dbval;
+	else
+		val = msdbDbToHeb(dbval);
+
+	jstr = "form." + fname + ".value = val ; " ;
+
+	eval(jstr);
+
+	idname = "msdbSpotID" + fname ;
+
+	msdbHideDialog(idname);
+}
+
+/************************************************************/
+
+function
+msdbStatRestrict(fname, fvalue)
+{
+	ALERT1("msdbStatRestrict");
+
+	/* ...&fname='= fvalue'&... */
+	msdbCmd('msdbInsert', '&msdbStatRestrict=' + '&' + fname + '=%3D+' + fvalue);
+}
+
+/************************************************************/
+
+function
+msdbDateRestrict(s)
+{
+	ALERT1("msdbDateRestrict");
+
+	msdbCmd('', '&msdbDateRestrict=' + s);
+}
+
+/************************************************************/
+@
+
+
+1.55
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.54 2004/08/05 12:12:22 engine Exp engine $  */
+d9 1
+a9 1
+msdb(db, tname, sid, sidst, pkName)
+d13 1
+a60 2
+
+
+d72 1
+a72 1
+	loc = "main.php?" +
+@
+
+
+1.54
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.53 2004/07/29 08:48:12 engine Exp engine $  */
+d127 1
+a127 1
+msdbSaveEvent(e)
+d143 1
+a143 1
+msdbSaveMouse(e)
+d153 46
+@
+
+
+1.53
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.52 2004/07/27 08:32:35 engine Exp engine $  */
+d394 1
+@
+
+
+1.52
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.51 2004/05/31 14:57:34 engine Exp engine $  */
+d69 1
+a69 1
+		addArgs += "&msdbDB=" + ht.db ;
+d71 1
+a71 1
+		addArgs += "&msdbTNAME=" + ht.tname ;
+d74 2
+a75 2
+		"msdbSID=" + ht.sid +
+		"&msdbSIDST=" + ht.sidst +
+d130 2
+a131 2
+	msdb.mouseX = event.clientX;
+	msdb.mouseY = event.clientY;
+d270 1
+a270 1
+		if ( ht.isChange == true || ht.isNew == true )
+d332 1
+a332 1
+	d = ht.rows;
+d362 1
+a362 1
+		if ( ht.coltypes[i] == 'hebrew' )
+d367 1
+a367 1
+		jstr = 'f.' + ht.colnames[i] + '.value =  s ; ' ;
+d383 1
+a383 1
+	if ( ht.changeVisitCtl != 1 || ht.iuFailed != 1 || ht.uFailedId != msdbPkval )
+d387 3
+a389 3
+	alStrX = "sLeft=" + msdbScrollLeft() + " ht.mouseX=" + ht.mouseX ;
+	alStrY = "sTop=" + msdbScrollTop() + " ht.mouseY=" + ht.mouseY ;
+	msdbPlaceDialog('changeId', 8, msdbScrollTop() + ht.mouseY - 12);
+d392 1
+a392 1
+	field0 = 'f.' + ht.colnames[0] ;
+d404 2
+a405 2
+	ht.isChange = false ;
+	ht.isNew = false ;
+d432 4
+a435 4
+	alStrX = "sLeft=" + msdbScrollLeft() + " ht.mouseX=" + ht.mouseX ;
+	alStrY = "sTop=" + msdbScrollTop() + " ht.mouseY=" + ht.mouseY ;
+	msdbPlaceDialog('searchId', 8, msdbScrollTop() + ht.mouseY - 12);
+	field0 = 'f.' + ht.colnames[0] ;
+d454 1
+a454 1
+	ht.isChange = true ;
+d456 1
+a456 1
+	ht.changeVisitCtl++;
+d458 1
+a458 1
+	ht.changeVisitCtl++;
+d478 1
+a478 1
+	ht.isNew = true ;
+d499 1
+a499 1
+	msdbCmd("msdbDelete", "&msdbPkval=" + msdbPkval + "&msdbPkName=" + ht.pkName);
+@
+
+
+1.51
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.50 2004/02/23 21:57:19 engine Exp engine $  */
+d130 2
+a131 2
+	ht.mouseX = event.clientX;
+	ht.mouseY = event.clientY;
+@
+
+
+1.50
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.49 2004/02/01 20:32:39 engine Exp engine $  */
+d264 1
+d266 1
+a266 1
+	nnewForm = document.forms[0]; /*newForm is probably a keyword */
+d274 4
+a277 4
+	}
+
+	/* else ( n == 'Change' ) */
+	return(changeForm);
+d410 30
+@
+
+
+1.49
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.48 2004/02/01 20:01:26 engine Exp engine $  */
+d264 2
+a265 2
+	changeForm = document.forms[0] ;
+	nnewForm = document.forms[1]; /*newForm is probably a keyword */
+d267 1
+@
+
+
+1.48
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.47 2004/01/31 09:30:24 engine Exp engine $  */
+d9 1
+a9 1
+msdb(tname, sid, SIDST, pkName)
+d13 1
+d16 1
+a16 1
+	this.SIDST = SIDST ;
+d60 2
+d67 3
+d71 1
+a71 3
+		tnameCmd = "&msdbTNAME=" + ht.tname ;
+	else
+		tnameCmd = '' ;
+d75 1
+a75 1
+		"&msdbSIDST=" + ht.SIDST +
+d78 1
+a78 1
+		tnameCmd +
+a386 1
+	ALERT4(alStrX + alStrY);
+@
+
+
+1.47
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.46 2004/01/31 09:29:56 engine Exp engine $  */
+d133 2
+a134 2
+ * e is an event generate by netscape, ie knows
+ * about 'event' as a global but doesn't pass it in
+d381 4
+a384 3
+	msdbPlaceDialog('changeId',
+				8,
+				document.body.scrollTop + ht.mouseY - 12);
+@
+
+
+1.46
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.45 2004/01/29 10:26:44 engine Exp engine $  */
+d511 1
+a511 1
+	msdbCmd('', '&MSDB_dateRestrict=' + s);
+@
+
+
+1.45
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.44 2004/01/28 02:17:22 engine Exp engine $  */
+d200 13
+a212 13
+
+function
+msdbDate2int(t)
+{
+	ALERT1("msdbDateStr");
+	y = t.getFullYear();
+	m = t.getMonth() + 1;
+	d = t.getDate();
+
+
+	return(y * 10000 + m * 100 + d);
+}
+
+@
+
+
+1.44
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.43 2004/01/28 01:35:16 engine Exp engine $  */
+d501 1
+a501 1
+	msdbCmd('msdbInsert', '&StatRestrict=' + '&' + fname + '=%3D+' + fvalue);
+@
+
+
+1.43
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.42 2004/01/28 01:32:45 engine Exp engine $  */
+d70 2
+a71 2
+		"SID=" + ht.sid +
+		"&SIDST=" + ht.SIDST +
+@
+
+
+1.42
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.41 2004/01/26 18:49:45 engine Exp engine $  */
+d62 1
+a62 1
+		act = '&EA=' + action ;
+d415 1
+a415 1
+	f.EA.value = "msdbUpdate" ;
+d445 1
+a445 1
+	f.EA.value = "msdbInsert" ;
+@
+
+
+1.41
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.40 2004/01/26 17:32:26 engine Exp engine $  */
+d64 2
+a65 2
+	if ( args.indexOf('TNAME') == -1 )
+		tnameCmd = "&TNAME=" + ht.tname ;
+@
+
+
+1.40
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.39 2004/01/21 17:18:34 engine Exp engine $  */
+d9 1
+a9 1
+msdb(tname, sid, SIDST)
+d16 1
+d112 1
+a112 1
+msdbRow(pkval)
+d115 1
+a115 1
+	this.pkval = pkval;
+d319 1
+a319 1
+msdbFindRow(pkval)
+d329 2
+a330 2
+		ALERT3("msdbFindRow: d[i].pkval= :::" + d[i].pkval + "pkval = ::: " + pkval);
+		if ( d[i].pkval == pkval )
+d339 1
+a339 1
+msdbFillForm(pkval)
+d348 1
+a348 1
+	r =  msdbFindRow(pkval);
+d369 1
+a369 1
+msdbNewOrChange(pkval)
+d377 2
+a378 2
+	if ( ht.changeVisitCtl != 1 || ht.iuFailed != 1 || ht.uFailedId != pkval )
+		msdbFillForm(pkval)
+d407 1
+a407 1
+msdbChange(pkval)
+d416 1
+a416 1
+	f.pkval.value = pkval ;
+d421 1
+a421 1
+	msdbNewOrChange(pkval);
+d439 1
+a439 1
+msdbNew(pkval)
+d446 1
+a446 1
+	msdbNewOrChange(pkval);
+d452 1
+a452 1
+msdbDelete(pkval)
+d458 1
+a458 1
+	r = msdbFindRow(pkval);
+d463 1
+a463 1
+	msdbCmd("msdbDelete", "&msdbPkval=" + pkval + "&msdbPkName=" + ht.pkName);
+@
+
+
+1.39
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.38 2004/01/21 06:05:21 engine Exp engine $  */
+d462 1
+a462 1
+	msdbCmd("msdbDelete", "&pkval=" + pkval);
+@
+
+
+1.38
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.37 2004/01/19 15:25:49 engine Exp engine $  */
+d100 4
+a103 1
+		s += r[i] + "-" ;
+@
+
+
+1.37
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.36 2004/01/19 13:54:33 engine Exp engine $  */
+d412 1
+@
+
+
+1.36
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.35 2004/01/15 13:52:05 engine Exp engine $  */
+d440 1
+a440 1
+	f.EA.value = "msdbAdd" ;
+d496 1
+a496 1
+	msdbCmd('msdbAdd', '&StatRestrict=' + '&' + fname + '=%3D+' + fvalue);
+@
+
+
+1.35
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.34 2004/01/14 14:36:38 engine Exp engine $  */
+d254 2
+d319 3
+d323 3
+a325 1
+	for(i=0;i<d.length;i++)
+d328 1
+d340 1
+d370 1
+d406 1
+@
+
+
+1.34
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.33 2004/01/14 10:06:50 engine Exp engine $  */
+d484 1
+@
+
+
+1.33
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.32 2004/01/14 10:05:35 engine Exp engine $  */
+d9 1
+a9 1
+msdb(tname, host, cginame, sid, SIDstarted)
+d12 1
+a12 1
+	/*	ALERT2("msdb - started at " + SIDstarted);	*/
+a13 2
+	this.host = host ;
+	this.cginame = cginame ;
+d15 2
+a16 1
+	this.SIDstarted = SIDstarted ;
+d39 1
+d70 1
+a70 1
+		"&SIDstarted=" + ht.SIDstarted +
+@
+
+
+1.32
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.31 2004/01/14 10:02:25 engine Exp engine $  */
+d343 1
+a343 1
+		if ( ht.coltypes[i] == 'ENG_hebrew' )
+@
+
+
+1.31
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.30 2004/01/13 19:33:07 engine Exp engine $  */
+d63 2
+a64 2
+	if ( args.indexOf('ENG_TNAME') == -1 )
+		tnameCmd = "&ENG_TNAME=" + ht.tname ;
+@
+
+
+1.30
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.29 2004/01/13 19:29:17 engine Exp engine $  */
+d5 2
+@
+
+
+1.29
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.28 2004/01/13 12:15:56 engine Exp engine $  */
+d480 2
+d490 2
+@
+
+
+1.28
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.27 2004/01/13 12:09:54 engine Exp engine $  */
+d66 1
+a66 1
+	loc = "http://" + ht.host + "/cgi-bin/" + ht.cginame + "?" +
+@
+
+
+1.27
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.26 2004/01/13 12:09:06 engine Exp engine $  */
+d478 1
+a478 1
+msdbStatsRestrict(fname, fvalue)
+d480 1
+a480 1
+	msdbCmd('msdbAdd', '&StatsRestrict=' + '&' + fname + '=%3D+' + fvalue);
+@
+
+
+1.26
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.25 2004/01/13 09:56:44 engine Exp engine $  */
+d478 1
+a478 1
+msdbReportRestrict(fname, fvalue)
+d480 1
+a480 1
+	msdbCmd('msdbAdd', '&ReportRestrict=' + '&' + fname + '=%3D+' + fvalue);
+@
+
+
+1.25
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.24 2004/01/13 09:44:26 engine Exp engine $  */
+d69 1
+a69 1
+		"&eng_r=" + msdbRandom() +
+@
+
+
+1.24
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.23 2004/01/13 09:30:15 engine Exp engine $  */
+d106 1
+a106 1
+msdbRow(id)
+d109 1
+a109 1
+	this.eng_id = id;
+d311 1
+a311 1
+msdbFindRow(eng_id)
+d317 1
+a317 1
+		if ( d[i].eng_id == eng_id )
+d325 1
+a325 1
+msdbFillForm(eng_id)
+d333 1
+a333 1
+	r =  msdbFindRow(eng_id);
+d354 1
+a354 1
+msdbNewOrChange(eng_id)
+d361 2
+a362 2
+	if ( ht.changeVisitCtl != 1 || ht.iuFailed != 1 || ht.uFailedId != eng_id )
+		msdbFillForm(eng_id)
+d391 1
+a391 1
+msdbChange(eng_id)
+d403 1
+a403 1
+	msdbNewOrChange(eng_id);
+d421 1
+a421 1
+msdbNew(eng_id)
+d428 1
+a428 1
+	msdbNewOrChange(eng_id);
+d434 1
+a434 1
+msdbDelete(eng_id)
+d440 1
+a440 1
+	r = msdbFindRow(eng_id);
+d445 1
+a445 1
+	msdbCmd("msdbDelete", "&eng_id=" + eng_id);
+@
+
+
+1.23
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: msdb.jss,v 1.22 2004/01/07 22:01:21 engine Exp engine $  */
+d360 1
+a360 1
+	/* iuFailed==1 is ENGHT_UPDATE_FAILED */
+d488 1
+a488 1
+	msdbCmd('', '&ENGHT_dateRestrict=' + s);
+@
+
+
+1.22
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.21 2003/12/22 07:55:13 engine Exp engine $  */
+d7 1
+a7 1
+enght(tname, host, cginame, sid, SIDstarted)
+d9 2
+a10 2
+	ALERT1("enght");
+	/*	ALERT2("enght - started at " + SIDstarted);	*/
+d26 1
+a26 1
+	ALERT1("enght");
+d33 1
+a33 1
+enghtRandom()
+d37 1
+a37 1
+	ALERT1("enghtRandom");
+d50 1
+a50 1
+enghtCmdStr(action, args)
+d54 1
+a54 1
+	ALERT1("enghtCmdStr");
+d69 1
+a69 1
+		"&eng_r=" + enghtRandom() +
+d81 1
+a81 1
+enghtCmd(action, args)
+d83 2
+a84 2
+	ALERT1("enghtCmd");
+	loc = enghtCmdStr(action, args);
+d91 1
+a91 1
+enghtRow2string(r)
+d106 1
+a106 1
+enghtRow(id)
+d108 1
+a108 1
+	ALERT10("enghtRow");
+d117 1
+a117 1
+enghtSaveEvent(e)
+d119 1
+a119 1
+	ALERT10("enghtSaveEvent");
+d129 1
+a129 1
+ * enghtSaveMouse needs an 'e' if NS and an 'event' if Ie
+d133 1
+a133 1
+enghtSaveMouse(e)
+d135 1
+a135 1
+	ALERT10("enghtSaveMouse");
+d138 1
+a138 1
+	enghtSaveEvent(event);
+d144 1
+a144 1
+enghtFalse()
+d146 1
+a146 1
+	ALERT1("enghtFalse");
+d153 1
+a153 1
+enghtNoOp()
+d155 1
+a155 1
+	ALERT1("enghtNoOp");
+d162 1
+a162 1
+enghtIdStyleName(name)
+d164 1
+a164 1
+	ALERT1("enghtIdStyleName");
+d171 1
+a171 1
+enghtDateStr(d)
+d173 1
+a173 1
+	ALERT1("enghtDateStr");
+d196 1
+a196 1
+enghtDate2int(t)
+d198 1
+a198 1
+	ALERT1("enghtDateStr");
+d210 1
+a210 1
+enghtAlert()
+d212 1
+a212 1
+	ALERT1("enghtAlert");
+d227 1
+a227 1
+enghtAlertForm(f)
+d229 1
+a229 1
+	ALERT1("enghtAlertForm");
+d240 1
+a240 1
+enghtBack()
+d242 1
+a242 1
+	ALERT1("enghtBack");
+d249 1
+a249 1
+enghtForm(n)
+d251 1
+a251 1
+	ALERT1("enghtForm");
+d269 1
+a269 1
+enghtIsHebLetter(l)
+d271 1
+a271 1
+	ALERT10("enghtIsHebLetter");
+d281 1
+a281 1
+enghtHebLetter(l)
+d283 1
+a283 1
+	ALERT10("enghtHebLetter");
+d285 1
+a285 1
+	if ( enghtIsHebLetter(l) == false )
+d296 1
+a296 1
+enghtDbToHeb(s)
+d300 1
+a300 1
+	ALERT1("enghtDbToHeb");
+d304 1
+a304 1
+		ret += enghtHebLetter(s.charAt(i));
+d311 1
+a311 1
+enghtFindRow(eng_id)
+d325 1
+a325 1
+enghtFillForm(eng_id)
+d329 1
+a329 1
+	ALERT1("enghtFillForm");
+d331 1
+a331 1
+	f = enghtForm('Change');
+d333 1
+a333 1
+	r =  enghtFindRow(eng_id);
+d336 1
+a336 1
+		alert("enghtNewOrChange: Can not find data to change.");
+d342 1
+a342 1
+			s = enghtDbToHeb(r[i]);
+d354 1
+a354 1
+enghtNewOrChange(eng_id)
+d358 1
+a358 1
+	ALERT1("enghtNewOrChange");
+d362 1
+a362 1
+		enghtFillForm(eng_id)
+d364 2
+a365 2
+	enghtShowDialog('changeId');
+	enghtPlaceDialog('changeId',
+d369 1
+a369 1
+	f = enghtForm('Change');
+d379 1
+a379 1
+enghtHideChange()
+d381 1
+a381 1
+	ALERT1("enghtHideChange");
+d385 1
+a385 1
+	enghtHideDialog('changeId');
+d391 1
+a391 1
+enghtChange(eng_id)
+d393 1
+a393 1
+	ALERT1("enghtChange");
+d397 2
+a398 2
+	f = enghtForm('Change');
+	f.EA.value = "enghtUpdate" ;
+d403 1
+a403 1
+	enghtNewOrChange(eng_id);
+d411 1
+a411 1
+enghtNewCopy()
+d413 2
+a414 2
+	ALERT1("enghtNewCopy");
+	f = enghtForm('Change');
+d421 1
+a421 1
+enghtNew(eng_id)
+d423 1
+a423 1
+	ALERT1("enghtNew");
+d426 3
+a428 3
+	f = enghtForm('Change');
+	f.EA.value = "enghtAdd" ;
+	enghtNewOrChange(eng_id);
+d434 1
+a434 1
+enghtDelete(eng_id)
+d438 1
+a438 1
+	ALERT1("enghtDelete");
+d440 1
+a440 1
+	r = enghtFindRow(eng_id);
+d442 1
+a442 1
+	if ( ! confirm("Are you Sure you want to Discard this entry\n(" + enghtRow2string(r) + ") ?"))
+d445 1
+a445 1
+	enghtCmd("enghtDelete", "&eng_id=" + eng_id);
+d451 1
+a451 1
+enghtSpotSet(isHeb, fname, dbval)
+d458 1
+a458 1
+	ALERT1("enghtSpotSet");
+d460 1
+a460 1
+	form = enghtForm('');
+d464 1
+a464 1
+		val = enghtDbToHeb(dbval);
+d470 1
+a470 1
+	idname = "enghtSpotID" + fname ;
+d472 1
+a472 1
+	enghtHideDialog(idname);
+d478 1
+a478 1
+enghtReportRestrict(fname, fvalue)
+d480 1
+a480 1
+	enghtCmd('enghtAdd', '&ReportRestrict=' + '&' + fname + '=%3D+' + fvalue);
+d486 1
+a486 1
+enghtDateRestrict(s)
+d488 1
+a488 1
+	enghtCmd('', '&ENGHT_dateRestrict=' + s);
+@
+
+
+1.21
+log
+@None
+@
+text
+@d1 2
+a2 2
+/* $Id: .exrc,v 1.4 2003/05/24 07:04:01 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2003. All rights reserved. */
+@
+
+
+1.20
+log
+@None
+@
+text
+@d1 3
+a3 3
+/* $Id: enght.jss,v 1.19 2003/07/10 14:45:26 engine Exp engine $ --- Ohad Aloni */
+/************************************************************/
+#include "alert.h"
+@
+
+
+1.19
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.18 2003/07/04 07:22:09 engine Exp engine $ --- Ohad Aloni */
+d7 1
+a7 1
+enght(tname, host, cginame, sid)
+d10 1
+d15 1
+d68 1
+d480 1
+a480 1
+	enghtCmd('enghtAdd', '&' + fname + '=%3D+' + fvalue);
+@
+
+
+1.18
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.17 2003/06/15 06:45:15 engine Exp engine $ --- Ohad Aloni */
+d88 15
+d308 14
+d330 1
+a330 1
+	d = ht.rows;
+d332 1
+a332 4
+	for(i=0;i<d.length;i++)
+		if ( d[i].eng_id == eng_id )
+			break;
+	if ( i == d.length ) {
+a336 1
+	r = d[i].row;
+d433 2
+d437 3
+a439 1
+	if ( ! confirm("Are you Sure you want to Discard this entry?"))
+@
+
+
+1.17
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.16 2003/06/14 13:59:53 engine Exp engine $ --- Ohad Aloni */
+d426 1
+a426 1
+	ALERT1("enghtDelete");
+@
+
+
+1.16
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.15 2003/06/07 09:31:53 engine Exp engine $ --- Ohad Aloni */
+d318 1
+a318 1
+		jstr = 'f.' + ht.colnames[i] + '.value = "' + s + '" ; ' ;
+d328 2
+d340 6
+d377 1
+@
+
+
+1.15
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.14 2003/06/07 07:40:25 engine Exp engine $ --- Ohad Aloni */
+d443 8
+@
+
+
+1.14
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.13 2003/06/05 04:01:19 engine Exp engine $ --- Ohad Aloni */
+d9 1
+a9 1
+	ALERT1("enght")
+d24 1
+a24 1
+	ALERT1("enght")
+d35 1
+d50 4
+d59 5
+d66 1
+a66 1
+		"&ENG_TNAME=" + ht.tname +
+d68 1
+a68 1
+		"&eng_r=" + enghtRandom() +
+d80 1
+d90 1
+d101 1
+d117 1
+a125 15
+enghtRandom()
+{
+	ALERT1("enghtRandom")
+	d = new Date();
+
+	return(
+		d.getMinutes() * 60 * 1000 +
+		d.getSeconds() * 1000 +
+		d.getMilliseconds()
+		);
+}
+
+/************************************************************/
+
+function
+d128 1
+a128 1
+	ALERT1("enghtFalse")
+d137 1
+a137 1
+	ALERT1("enghtNoOp")
+d146 1
+a146 1
+	ALERT1("enghtIdStyleName")
+d155 1
+a155 1
+	ALERT1("enghtDateStr")
+d180 1
+a180 1
+	ALERT1("enghtDateStr")
+d194 1
+a194 1
+	ALERT1("enghtAlert")
+d211 1
+a211 1
+	ALERT1("enghtAlertForm")
+d224 1
+a224 1
+	ALERT1("enghtBack")
+d233 1
+a233 1
+	ALERT1("enghtForm")
+d253 1
+d265 1
+a265 1
+	ALERT1("enghtHebLetter");
+d297 1
+a297 1
+	ALERT1("enghtFillForm")
+d316 1
+a316 1
+			s = r[i]
+d328 1
+a328 1
+	ALERT1("enghtNewOrChange")
+d345 1
+a345 1
+	ALERT1("enghtHideChange")
+d357 1
+a357 1
+	ALERT1("enghtChange")
+d376 1
+a376 1
+	ALERT1("enghtNewCopy")
+d386 1
+a386 1
+	ALERT1("enghtNew")
+d399 1
+a399 1
+	ALERT1("enghtDelete")
+d417 1
+a417 1
+	ALERT1("enghtDelete")
+@
+
+
+1.13
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.12 2003/06/04 10:48:34 engine Exp engine $ --- Ohad Aloni */
+d435 8
+@
+
+
+1.12
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.11 2003/05/28 07:47:12 engine Exp engine $ --- Ohad Aloni */
+d7 1
+a7 1
+enght(tname)
+d11 3
+d31 46
+d239 1
+a239 1
+		if ( ht.isChange == true )
+d245 1
+d252 11
+d266 4
+d343 12
+d403 29
+a431 4
+	f = enghtForm('Change');
+	f.EA.value = "enghtDelete" ;
+	f.eng_id.value = eng_id ;
+	f.submit();
+@
+
+
+1.11
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.10 2003/05/27 20:33:41 engine Exp engine $ --- Ohad Aloni */
+d12 5
+d18 1
+d161 1
+a161 1
+alertForm(f)
+d163 1
+a163 1
+	ALERT1("alertForm")
+d228 1
+a228 1
+enghtNewOrChange(eng_id)
+d232 1
+a232 1
+	ALERT1("enghtNewOrChange")
+d242 1
+a242 1
+		alert("enghtChange: Can not find data to change.");
+a244 4
+	if ( i == (d.length -1 ) )
+		isLast = true;
+	else
+		isLast = false;
+d256 12
+d289 1
+d291 1
+@
+
+
+1.10
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.9 2003/05/24 07:02:06 engine Exp engine $ --- Ohad Aloni */
+d14 1
+d196 26
+d224 2
+d246 6
+a251 1
+		jstr = 'f.' + ht.colnames[i] + '.value = "' + r[i] + '" ; ' ;
+@
+
+
+1.9
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.8 2003/05/23 16:45:29 engine Exp engine $ --- Ohad Aloni */
+a88 37
+enghtCmdStr(action, args)
+{
+	ALERT1("enghtCmdStr")
+	if ( action == 'showDir' )
+		act = '';
+	else
+		act = '&EA=' + action ;
+
+	loc = "http://" + ht.server + "/cgi-bin/" + ht.cginame + "?" +
+		"yckid=" + ht.yckid +
+		act +
+		"&eng_r=" + enghtRandom() +
+		args
+		;
+
+	return(loc);
+}
+
+/************************************************************/
+
+function
+enghtCmd(action, args)
+{
+	ALERT1("enghtCmd")
+	loc = enghtCmdStr(action, args);
+	location = loc ;
+}
+
+/************************************************************/
+
+/*
+ * this one shuold help with NS/IE compatibility
+ * using eval() later on this
+ * but it doesn't work so far
+ */
+
+function
+@
+
+
+1.8
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.7 2003/05/23 16:17:58 engine Exp engine $ --- Ohad Aloni */
+d232 1
+a232 1
+enghtChange(eng_id)
+d234 1
+a234 3
+	ALERT1("enghtChange")
+
+	changeId.className = 'changeClass' ;
+a236 1
+	f.EA.value = "enghtUpdate" ;
+a238 1
+	ht.isChange = true ;
+d254 1
+a254 1
+		jstr = 'f.' + ht.colnames[i] + ' = r[i] ; ' ;
+d265 55
+@
+
+
+1.7
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.6 2003/05/23 11:58:34 engine Exp engine $ --- Ohad Aloni */
+d129 1
+a129 11
+	if ( enghtIsMSIE() )
+		return(name + ".style");
+	else if ( enghtIsNS() )
+		return("document.ids." + name);
+	else if ( enghtIsOpera() )
+		alert("enghtIdStyleName() - Opera using DHTML ?");
+	else
+		alert("enghtIdStyleName - " + ht.browser);
+
+	/* should not be reached */
+	return(ht.browser);
+d265 1
+a265 1
+				document.body.scrollTop + enght.mouseY - 12);
+@
+
+
+1.6
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.5 2003/05/23 10:49:18 engine Exp engine $ --- Ohad Aloni */
+d14 1
+a32 1
+	ALERT1("enghtSaveEvent")
+a47 1
+	ALERT1("enghtSaveMouse")
+d223 19
+@
+
+
+1.5
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.4 2003/05/23 10:14:58 engine Exp engine $ --- Ohad Aloni */
+d222 39
+@
+
+
+1.4
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.3 2003/05/23 05:39:05 engine Exp engine $ --- Ohad Aloni */
+d20 10
+@
+
+
+1.3
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: enght.jss,v 1.2 2003/05/23 05:18:00 engine Exp engine $ --- Ohad Aloni */
+d18 194
+@
+
+
+1.2
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: .exrc,v 1.3 2003/05/10 17:20:37 engine Exp engine $ --- Ohad Aloni */
+d9 1
+a17 89
+
+function
+enghtClockTxt()
+{
+	this.dName = new Array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
+	this.dLname = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday',
+							'Thursday', 'Friday', 'Saturday');
+	this.mName = new Array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+						'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+	this.mLname = new Array('January', 'February', 'March', 'April', 'May', 'June',
+						'July', 'August', 'September', 'October', 'November', 'December');
+	return(this);
+}
+
+/************************************************************/
+
+function
+enghtClockStr(ct, length)
+{
+	t = new Date();
+
+	if ( ct == 0 )
+		ct = new enghtClockTxt() ;
+
+	y = t.getFullYear();
+	m = t.getMonth();
+	wDay = t.getDay();
+	d = t.getDate();
+
+	h = t.getHours();
+	mn = t.getMinutes();
+	s = t.getSeconds();
+
+	if ( h > 11 )
+		ampm = "PM";
+	else
+		ampm = "AM"
+	
+	if ( h > 12 )
+		h = h - 12;
+	if ( h == 0 )
+		h = 12;
+	
+	if ( h < 10 )
+		hours = "" + h; /* ??? no zero prefix */
+	else
+		hours = "" + h;
+
+	if ( mn < 10 )
+		minutes = "0" + mn;
+	else
+		minutes = "" + mn;
+
+	if ( s < 10 )
+		secs = "0" + s;
+	else
+		secs = "" + s;
+
+	if ( length == 1 )
+		str =
+			ct.dLname[wDay] + " " +
+			ct.mLname[m] + " " +
+			d + ", " +
+			hours + ":" + minutes +
+			/*	":" + secs +	*/
+			" " +
+			ampm
+			;
+	else if ( length == 0 )
+		str =
+			ct.dName[wDay] + " " +
+			hours + ":" + minutes +
+			/*	":" + secs +	*/
+			" " +
+			ampm
+			;
+	else /* length == 2 ) */
+		str =
+			ct.dLname[wDay] + " " +
+			ct.mLname[m] + " " +
+			d + ", " +
+			y
+			;
+
+	
+	return(str);
+}
+
+/************************************************************/
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 3
+@

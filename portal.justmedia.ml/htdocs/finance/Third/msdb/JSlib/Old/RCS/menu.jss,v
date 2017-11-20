@@ -1,0 +1,414 @@
+head	1.9;
+access;
+symbols;
+locks
+	engine:1.9; strict;
+comment	@# @;
+
+
+1.9
+date	2004.01.13.12.15.55;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.07.22.01.22;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.12.22.07.55.15;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.07.09.31.53;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.06.04.10.48.40;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.05.23.16.45.30;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.05.23.05.39.09;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.05.23.05.18.00;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.05.23.05.09.57;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.9
+log
+@None
+@
+text
+@/* $Id: menu.jss,v 1.8 2004/01/07 22:01:22 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/************************************************************/
+#include "alert.h"
+/************************************************************/
+
+function
+showmenuie5(menuid)
+{
+	ALERT1("showmenuie5");
+	msdbSaveMouse();
+
+	var rightedge=document.body.clientWidth-ht.mouseX ;
+	var bottomedge=document.body.clientHeight-ht.mouseY ;
+
+	if (rightedge<menuid.offsetWidth)
+		menuid.style.left = 
+			document.body.scrollLeft+ht.mouseX - menuid.offsetWidth ;
+	else
+		menuid.style.left=document.body.scrollLeft+ht.mouseX
+
+	if (bottomedge<menuid.offsetHeight)
+		menuid.style.top = 
+			document.body.scrollTop+ht.mouseY-menuid.offsetHeight ;
+	else
+		menuid.style.top=document.body.scrollTop+ht.mouseY ;
+
+	menuid.style.visibility="visible" ;
+	return false ;
+}
+
+/************************************************************/
+
+function
+hidemenuie5(menuid)
+{
+	ALERT1("hidemenuie5");
+	menuid.style.visibility="hidden"
+}
+
+/************************************************************/
+
+function
+highlightie5()
+{
+	ALERT1("highlightie5");
+	if (event.srcElement.className=="iemenuitems") {
+		event.srcElement.style.backgroundColor="highlight"
+		event.srcElement.style.color="white"
+		/*	window.status=event.srcElement.url;	*/
+	}
+}
+
+/************************************************************/
+
+function
+lowlightie5()
+{
+	ALERT1("lowlightie5");
+	if (event.srcElement.className=="iemenuitems") {
+		event.srcElement.style.backgroundColor=""
+		event.srcElement.style.color="black"
+		window.status=''
+	}
+}
+
+/************************************************************/
+
+function
+jumptoie5()
+{
+	ALERT1("jumptoie5");
+	if (event.srcElement.className=="iemenuitems")
+		window.location=event.srcElement.url;
+}
+
+/************************************************************/
+
+/*
+ * ieMenuIsV set to zero, by new msdb()
+ * since we get both onclick events at once
+ * the first being the oone from the <A ...>
+ * we then set it to 2, so then it doesn't
+ * get immediately hidden by the next one
+ * the the first document.onclick set it back to
+ * 1, so the next one turns it off
+ */
+
+function
+msdbShowIeMenu(menuid, arg1, arg2)
+{
+	ALERT1("msdbShowIeMenu");
+	if ( ht.ieMenuIsV == 1 ) {
+		msdbHideIeMenu();
+		ht.ieMenuIsV = 0;
+	}
+
+	if ( ht.ieMenuIsV != 0 )
+		return;
+
+	ht.menuid = menuid;
+
+
+	ht.menuid.arg1 = arg1;
+	ht.menuid.arg2 = arg2;
+
+	ht.ieMenuIsV = 2;
+
+	showmenuie5(menuid);
+	/*	document.body.onclick=msdbHideIeMenu;	*/
+	document.onclick=msdbHideIeMenu;
+}
+
+/************************************************************/
+
+function
+msdbHideIeMenu()
+{
+	ALERT1("msdbHideIeMenu");
+	if ( ht.ieMenuIsV == 2 ) {
+		ht.ieMenuIsV = 1;
+		return;
+	}
+	if ( ht.ieMenuIsV == 0 )
+		return;
+	ht.ieMenuIsV = 0;
+	hidemenuie5(ht.menuid);
+}
+
+/************************************************************/
+@
+
+
+1.8
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: menu.jss,v 1.7 2003/12/22 07:55:15 engine Exp engine $  */
+d12 1
+a12 1
+	enghtSaveMouse();
+d81 1
+a81 1
+ * ieMenuIsV set to zero, by new enght()
+d91 1
+a91 1
+enghtShowIeMenu(menuid, arg1, arg2)
+d93 1
+a93 1
+	ALERT1("enghtShowIeMenu");
+d95 1
+a95 1
+		enghtHideIeMenu();
+d111 2
+a112 2
+	/*	document.body.onclick=enghtHideIeMenu;	*/
+	document.onclick=enghtHideIeMenu;
+d118 1
+a118 1
+enghtHideIeMenu()
+d120 1
+a120 1
+	ALERT1("enghtHideIeMenu");
+@
+
+
+1.7
+log
+@None
+@
+text
+@d1 2
+a2 2
+/* $Id: .exrc,v 1.4 2003/05/24 07:04:01 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2003. All rights reserved. */
+@
+
+
+1.6
+log
+@None
+@
+text
+@d1 3
+a3 1
+/* $Id: menu.jss,v 1.5 2003/06/04 10:48:40 engine Exp engine $ --- Ohad Aloni */
+@
+
+
+1.5
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: menu.jss,v 1.4 2003/05/23 16:45:30 engine Exp engine $ --- Ohad Aloni */
+d9 1
+a9 1
+	ALERT1("showmenuie5")
+d36 1
+a36 1
+	ALERT1("hidemenuie5")
+d45 1
+a45 1
+	ALERT1("highlightie5")
+d58 1
+a58 1
+	ALERT1("lowlightie5")
+d71 1
+a71 1
+	ALERT1("jumptoie5")
+d91 1
+a91 1
+	ALERT1("enghtShowIeMenu")
+d118 1
+a118 1
+	ALERT1("enghtHideIeMenu")
+@
+
+
+1.4
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: iemenu.jss,v 1.3 2003/05/23 05:39:09 engine Exp engine $ --- Ohad Aloni */
+d79 1
+a79 1
+ * ieMenuIsV set to zero, by new theora()
+@
+
+
+1.3
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: iemenu.jss,v 1.2 2003/05/23 05:18:00 engine Exp engine $ --- Ohad Aloni */
+d9 1
+a9 1
+	ALERT1("youIeClockAlert")
+d12 2
+a13 2
+	var rightedge=document.body.clientWidth-you.mouseX ;
+	var bottomedge=document.body.clientHeight-you.mouseY ;
+d17 1
+a17 1
+			document.body.scrollLeft+you.mouseX - menuid.offsetWidth ;
+d19 1
+a19 1
+		menuid.style.left=document.body.scrollLeft+you.mouseX
+d23 1
+a23 1
+			document.body.scrollTop+you.mouseY-menuid.offsetHeight ;
+d25 1
+a25 1
+		menuid.style.top=document.body.scrollTop+you.mouseY ;
+d36 1
+a36 1
+	ALERT1("youIeClockAlert")
+d45 1
+a45 1
+	ALERT1("youIeClockAlert")
+d58 1
+a58 1
+	ALERT1("youIeClockAlert")
+d71 1
+a71 1
+	ALERT1("youIeClockAlert")
+d89 1
+a89 1
+youShowIeMenu(menuid, arg1, arg2)
+d91 4
+a94 4
+	ALERT1("youIeClockAlert")
+	if ( you.ieMenuIsV == 1 ) {
+		youHideIeMenu();
+		you.ieMenuIsV = 0;
+d97 1
+a97 1
+	if ( you.ieMenuIsV != 0 )
+d100 1
+a100 1
+	you.menuid = menuid;
+d103 2
+a104 2
+	you.menuid.arg1 = arg1;
+	you.menuid.arg2 = arg2;
+d106 1
+a106 1
+	you.ieMenuIsV = 2;
+d109 2
+a110 2
+	/*	document.body.onclick=youHideIeMenu;	*/
+	document.onclick=youHideIeMenu;
+d116 1
+a116 1
+youHideIeMenu()
+d118 3
+a120 3
+	ALERT1("youIeClockAlert")
+	if ( you.ieMenuIsV == 2 ) {
+		you.ieMenuIsV = 1;
+d123 1
+a123 1
+	if ( you.ieMenuIsV == 0 )
+d125 2
+a126 2
+	you.ieMenuIsV = 0;
+	hidemenuie5(you.menuid);
+@
+
+
+1.2
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: .exrc,v 1.3 2003/05/10 17:20:37 engine Exp engine $ --- Ohad Aloni */
+d9 1
+d36 1
+d45 1
+d58 1
+d71 1
+d91 1
+d118 1
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 3
+a3 2
+/* (C) Copyright theora.com 1998-2000. Unpublished. All Rights Reserved. */
+/* %A% - Ohad Aloni - theora.com - %G% %U% */
+@

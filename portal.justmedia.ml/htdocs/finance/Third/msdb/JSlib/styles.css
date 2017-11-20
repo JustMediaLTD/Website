@@ -1,0 +1,245 @@
+/* $Id: styles.css,v 1.5 2004/07/29 08:48:13 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://www.engine.com/license.txt (BSD) */
+/************************************************************/
+/* general styles */
+body            {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #F5F5F5}
+pre, tt         {font-size: small}
+th              {font-family: arial, helvetica, geneva, sans-serif; font-size: small; font-weight: bold; color: #000000; background-color: #D3DCE3}
+td              {font-family: arial, helvetica, geneva, sans-serif; font-size: small}
+form            {font-family: arial, helvetica, geneva, sans-serif; font-size: small}
+input           {font-family: arial, helvetica, geneva, sans-serif; font-size: smaller}
+input.textfield {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+select          {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+textarea        {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+h1              {font-family: arial, helvetica, geneva, sans-serif; font-size: large; font-weight: bold}
+A:link          {font-family: arial, helvetica, geneva, sans-serif; text-decoration: none; color: #0000FF}
+A:visited       {font-family: arial, helvetica, geneva, sans-serif; text-decoration: none; color: #0000FF}
+A:hover         {font-family: arial, helvetica, geneva, sans-serif; text-decoration: underline; color: #FF0000}
+A.nav:link      {font-family: arial, helvetica, geneva, sans-serif; color: #000000}
+A.nav:visited   {font-family: arial, helvetica, geneva, sans-serif; color: #000000}
+A.nav:hover     {font-family: arial, helvetica, geneva, sans-serif; color: #FF0000}
+/************************************************************/
+.msdbPerf {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #dddddd;
+}
+/******************************/
+.msdbPerfName {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #aaccee;
+}
+/******************************/
+.msdbPerfData {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #99bbdd;
+}
+/******************************/
+.msdbPerfNameTotal {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #cccccc;
+}
+/******************************/
+.msdbPerfDataTotal {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #eeeeee;
+}
+/************************************************************/
+.listDBs {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #cccccc;
+}
+/******************************/
+.dbIsPerm {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #dddddd;
+}
+/******************************/
+.dbIsntPerm {
+	/*	font-family: arial;	*/
+	font-size: 5pt;
+	background-color: #ffffff;
+}
+/************************************************************/
+.msdbInfoName {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #cccccc;
+}
+/******************************/
+.msdbInfoData {
+	font-family: arial;
+	font-size: 8pt;
+	background-color: #dddddd;
+}
+/************************************************************/
+.msdbTableBar {
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold ;
+}
+/******************************/
+.msdbTablesHead {
+	font-family: arial;
+	font-size: 10pt;
+	background-color: #bbddff;
+}
+/******************************/
+.msdbTablesName {
+	font-family: arial;
+	font-size: 10pt;
+	background-color: #bbddff;
+}
+/******************************/
+.msdbTablesRowNum {
+	font-family: arial;
+	font-size: 10pt;
+	background-color: #aaaaff;
+}
+/************************************************************/
+.msdbSpotClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:3px outset #ddddff;
+	background-color: #ddddff;
+}
+/************************************************************/
+.hebLetterClass {
+	position: absolute;
+	visibility: hidden;
+}
+/************************************************************/
+
+.searchClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:2px outset #aaaaff;
+	background-color: #ddddff;
+}
+
+/************************************************************/
+
+.changeClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:2px outset #aaffaa;
+	background-color: #aaffaa;
+}
+
+/************************************************************/
+
+.newClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:3px outset #FFCC99;
+	background-color: #FFCC99;
+}
+
+/************************************************************/
+
+.tableClass {
+	font-family: arial;
+	font-size: 8pt;
+}
+
+/******************************/
+
+.headClass {
+	background-color: #D3DCE3;
+}
+
+/******************************/
+
+.evenLineClass {
+	background-color: #dddddd;
+}
+
+/******************************/
+
+.oddLineClass {
+	background-color: #cccccc;
+}
+
+/******************************/
+
+.currentLineClass {
+	background-color: #aaffaa;
+}
+
+/******************************/
+
+.dummyLineClass {
+	background-color: #bbbbbb;
+}
+
+/************************************************************/
+
+.reportsClass {
+	background-color: #eeeeee;
+}
+
+/**************************************************/
+.reportHead {
+	background-color: #D3DCE3;
+}
+.reportBy {
+	background-color: #cccccc;
+}
+.reportCnt {
+	background-color: #cccccc;
+}
+.reportTotal {
+	background-color: #cccccc;
+}
+/**************************************************/
+.dateStatHead {
+	background-color: #D3DCE3;
+}
+.dateStat {
+	/*	background-color: #ccccff;	*/
+}
+.dateStatMonth {
+	background-color: #cccccc;
+}
+.dateStatCnt {
+	background-color: #cccccc;
+}
+.dateStatBal {
+	background-color: #cccccc;
+}
+/**************************************************/
+.tlinksHead {
+	background-color: #bbddff;
+}
+.tlinksTable {
+	background-color: #bbffff;
+}
+.tlinksField {
+	background-color: #bbffff;
+}
+.tlinksHt {
+	background-color: #bbddff;
+}
+.tlinksOther {
+	background-color: #ffeeee;
+}
+/**************************************************/

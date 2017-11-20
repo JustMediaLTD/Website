@@ -1,0 +1,156 @@
+head	1.5;
+access;
+symbols;
+locks
+	engine:1.5; strict;
+comment	@ * @;
+
+
+1.5
+date	2004.01.21.08.00.24;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.02.22.01.51;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.06.07.09.31.51;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.06.05.04.01.15;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.05.24.07.02.01;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.5
+log
+@None
+@
+text
+@/* $Id: alert.h,v 1.4 2004/01/02 22:01:51 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/************************************************************/
+/*
+ * environment controlled alert level system for debugging
+ *
+ */
+/************************************************************/
+#define ALERT(m, level) alert(__FILE__ + ": " + __LINE__ + ": " + level + ": " + m);
+/************************************************************/
+
+/*
+ * alert level 0 always stays by virtue of jsal 0
+ * which is normal operation.
+ *
+ * alert level 1 is function tracing
+ * alert level 2 is everything interactive. (all functions that are called for only
+ *    as a result of user request are traced).
+ * alert level 10 is function tracing of heisenberg functions like youSaveMouse
+ * other alert reasons are not yet conventionalized
+ */
+
+#ifdef ALERT_LEVEL_0
+#define ALERT0(m) ALERT(m, 0)
+#else
+#define ALERT0(m)
+#endif
+
+#ifdef ALERT_LEVEL_1
+#define ALERT1(m) ALERT(m, 1)
+#else
+#define ALERT1(m)
+#endif
+
+#ifdef ALERT_LEVEL_2
+#define ALERT2(m) ALERT(m, 2)
+#else
+#define ALERT2(m)
+#endif
+
+#ifdef ALERT_LEVEL_3
+#define ALERT3(m) ALERT(m, 3)
+#else
+#define ALERT3(m)
+#endif
+
+#ifdef ALERT_LEVEL_4
+#define ALERT4(m) ALERT(m, 4)
+#else
+#define ALERT4(m)
+#endif
+
+#ifdef ALERT_LEVEL_10
+#define ALERT10(m) ALERT(m, 10)
+#else
+#define ALERT10(m)
+#endif
+
+/************************************************************/
+@
+
+
+1.4
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: .exrc,v 1.4 2003/05/24 07:04:01 engine Exp engine $  */
+a15 1
+ * it is used like ERR_LOG(m) with if's
+d18 2
+@
+
+
+1.3
+log
+@None
+@
+text
+@d1 3
+a3 1
+/* $Id: alert.h,v 1.2 2003/06/05 04:01:15 engine Exp engine $ --- Ohad Aloni */
+@
+
+
+1.2
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: alert.h,v 1.1 2003/05/24 07:02:01 engine Exp engine $ --- Ohad Aloni */
+d17 1
+d51 6
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: .exrc,v 1.3 2003/05/10 17:20:37 engine Exp engine $ --- Ohad Aloni */
+d12 4
+d20 6
+@

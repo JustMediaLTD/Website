@@ -1,0 +1,923 @@
+head	1.20;
+access;
+symbols;
+locks
+	engine:1.20; strict;
+comment	@# @;
+
+
+1.20
+date	2004.07.29.08.48.07;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.02.02.15.32.13;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.02.02.10.39.40;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.02.02.08.10.17;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.02.01.22.44.16;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.02.01.10.38.21;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.02.01.08.35.05;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.30.05.58.37;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.29.17.12.00;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.29.16.37.26;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.29.15.55.28;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.29.15.54.44;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.29.15.26.40;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.29.15.07.42;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.29.14.44.24;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.29.12.22.12;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.15.13.52.02;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.13.15.12.56;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.11.08.58.52;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.20
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: user.php,v 1.19 2004/02/02 15:32:13 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+// allways strings strings (incl 'true' for isDesc).
+/************************************************************/
+
+$msdbUserPrefNames = array('DB', 'tname', 'orderBy', 'isDesc', 'lastWhere', 'curId');
+
+function msdbUserPrefClearProperties()
+{
+	global $msdbUserPrefNames;
+	global $msdbUserPrefs;
+
+	foreach ( $msdbUserPrefNames as $name ) {
+		$msdbUserPrefs['fromDB'][$name] = null;
+		$msdbUserPrefs['fromUser'][$name] = null ;
+		$msdbUserPrefs['runWith'][$name] = null ;
+	}
+}
+
+/******************************/
+
+function msdbUserPrefGetProperty($name)
+{
+	global $msdbUserPrefs;
+
+	if ( ! msdbArrKeyIn($name, $msdbUserPrefs['fromDB']) ) {
+		return(null);
+	}
+
+	$ret = $msdbUserPrefs['fromDB'][$name];
+
+	return($ret);
+}
+
+/******************************/
+
+// intialized individually to null,
+// a property can ber set to the interger -1,
+// which means clear the property, side effecting other properties
+// see msdbUserPrefsMergePropoerties()
+// and msdbUserPrefsStoreDbPropoerties()
+
+function msdbUserPrefSetProperty($name, $value)
+{
+	global $msdbUserPrefs;
+
+	$msdbUserPrefs['fromUser'][$name] = $value ;
+}
+
+/******************************/
+//  1. never store in DB these fields without a table name and a db name
+//	2. URL should allwways have a DB.tname if there is an orderBy, where,curid(insert/update).
+//	3. if a requested  db.table is not whats in the database,
+//		reset the rest of the values to null, except	as specified in the URL.
+
+function msdbUserPrefsMergePropoerties()
+{
+	global $msdbUserPrefNames;
+	global $msdbUserPrefs;
+	global $msdbConfig;
+	global $dbMeta;
+
+
+	$controlDB = $msdbConfig['DB_NAME'];
+	$fu = $msdbUserPrefs['fromUser'];
+	$fdb = $msdbUserPrefs['fromDB'];
+
+	// DB
+	if ( $fu['DB'] == -1 ) {
+		$msdbUserPrefs['runWith'] = array();
+		return;
+	}
+	if ( $fu['DB'] )
+		$msdbUserPrefs['runWith']['DB'] = $fu['DB'];
+	else if ( $fdb['DB'] )
+		$msdbUserPrefs['runWith']['DB'] = $fdb['DB'];
+	else
+		$msdbUserPrefs['runWith']['DB'] = $controlDB;
+
+	// tname
+	if ( $fu['tname'] == -1 ) {
+		$msdbUserPrefs['runWith']['tname'] = null;
+		return;
+	}
+	if ( $fu['tname'] )
+		$tname = $fu['tname'] ;
+	else if ( $fdb['tname'] )
+		$tname = $fdb['tname'] ;
+	else
+		return;  // clear all other properties too
+	if ( ! msDbDatabaseHasTable($msdbUserPrefs['runWith']['DB'], $tname) )
+		return; // clear all other properties too
+	$msdbUserPrefs['runWith']['tname'] = $tname;
+
+	// do not run with anything else if no tname
+	if ( ! $dbMeta->tname )
+		return;
+	
+	// orderBy, isDesc
+	if ( $fu['orderBy'] )
+		$ob = $fu['orderBy'];
+	else if ( $fdb['orderBy'] )
+		$ob = $fdb['orderBy'] ;
+	else
+		$ob = null;
+
+
+	// isDesc is never explicitly set by the user, rahter head.php
+	// sets it when the orderBy is requested on a field for which
+	// Get property return the same name
+	if ( $fu['isDesc'] )
+		$isDesc = $fu['isDesc'];
+	else if ( $fdb['isDesc'] )
+		$isDesc = $fdb['isDesc'];
+	else
+		$isDesc = null;
+
+	// if orderBy is not in this table, then lastWhere and curId
+	// are probably not either so skip them
+	if ( $ob == -1 || $ob != null && msdbMetaFieldIndex($ob) == -1 )
+		return;
+
+	$msdbUserPrefs['runWith']['orderBy'] = $ob;
+	$msdbUserPrefs['runWith']['isDesc'] = $isDesc;
+		
+	// lastWhere and curId are now safe to set
+	if ( $fu['lastWhere'] )
+		$lastWhere = $fu['lastWhere'];
+	else if ( $fdb['lastWhere'] )
+		$lastWhere = $fdb['lastWhere'];
+	else
+		$lastWhere = null;
+	$msdbUserPrefs['runWith']['lastWhere'] = $lastWhere;
+	if ( $fu['curId'] )
+		$curId = $fu['curId'];
+	else if ( $fdb['curId'] )
+		$curId = $fdb['curId'];
+	else
+		$curId = null;
+	$msdbUserPrefs['runWith']['curId'] = $curId;
+}
+
+/************************************************************/
+
+function msdbUserPrefsStoreDbPropoerties()
+{
+	global $msdbUserPrefs;
+	global $msdbConfig;
+	global $msdbEnterVar;
+
+	msdbUserPrefsMergePropoerties();
+
+	$store = $msdbUserPrefs['runWith'];
+
+	/*	ksort($store);	*/
+
+	$str = "" ;
+
+	foreach ( $store as $name => $value ) {
+		if ( $value == null || $value == -1 )
+			continue; // erase from the database. e.g. isDesc => nothing.
+		$encoded = rawurlencode($value);
+		$pair = $name."=".$encoded;
+		if ( $str == "" )
+			$str = $pair;
+		else
+			$str = $str."&".$pair ;
+			
+	}
+
+	if ( $msdbEnterVar->pwent['userprefs'] == $str )
+		return; // nothing to update
+
+	$controlDb = $msdbConfig['DB_NAME'];
+	$uid = $msdbEnterVar->pwent['userid'];
+
+	$sql = "update $controlDb.msdb_passwd set userprefs = '$str' where userid = $uid";
+
+	msDbSql("$sql");
+}
+
+
+/************************************************************/
+
+// parse properties from the database
+// and set in the fromDB global
+
+function msdbUserPrefsSetDbPropoerties()
+{
+	global $msdbUserPrefs;
+	global $msdbEnterVar;
+
+	msdbUserPrefClearProperties();
+
+	$str = $msdbEnterVar->pwent['userprefs'] ;
+	
+	if ( $str == "" )
+		return;
+
+	$nameVals = split('&', $str);
+
+	foreach ( $nameVals as $nv ) {
+		$nvPair = split('=', $nv);
+		if ( count($nvPair) != 2 ) {
+			msdbMsg("User config value $nv not parsed");
+			continue;
+		}
+		list($name, $val) = $nvPair;
+		$decoded = rawurldecode($val);
+		$msdbUserPrefs['fromDB'][$name] = $decoded;
+	}
+}
+
+/************************************************************/
+?>
+@
+
+
+1.19
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.18 2004/02/02 10:39:40 engine Exp engine $ ';
+d176 1
+a176 1
+	if ( $msdbEnterVar->pwent->userprefs == $str )
+d180 1
+a180 1
+	$uid = $msdbEnterVar->pwent->userid;
+d200 1
+a200 1
+	$str = $msdbEnterVar->pwent->userprefs ;
+@
+
+
+1.18
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.17 2004/02/02 08:10:17 engine Exp engine $ ';
+a67 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a72 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a77 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a89 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a95 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a102 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a111 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a121 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a126 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+a145 1
+	MSDB_ERROR("msdbUserPrefsMergePropoerties");
+@
+
+
+1.17
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.16 2004/02/01 22:44:16 engine Exp engine $ ';
+d8 2
+d11 1
+a11 1
+$msdbUserPrefNames = array('DB', 'tname', 'orderBy', 'lastWhere', 'curId');
+d16 1
+d44 1
+a44 1
+// which means clear the property.
+d46 1
+d55 5
+a59 1
+/************************************************************/
+d64 1
+d66 3
+a69 8
+	// the problem I am trying to solved is how to no use
+	// an orderBy, a lastWhere and a curId, when they come from a database
+	// and try to glue themselves to the wrong table.
+	// when selecting a new table or db.table
+	//  1. should never store in DB these fields without a table name and a db name
+	// 2. URL should allwways have a DB.tname if there is an orderBy, where,curid(insert/update).
+	// 3. if a requested  db.table is not what in the database, reset the rest of the values to null, except
+   //		as specified in the URL.
+d72 1
+a72 1
+	$fdb = $$msdbUserPrefs['fromDB'];
+d74 13
+a86 1
+	if ( $fu['DB'];
+d88 29
+a116 4
+	if ( $msdbUserPrefNames[]
+	foreach ( $msdbUserPrefNames as $name )
+		if ( $msdbUserPrefs['fromDB'][$name] == $msdbUserPrefs['fromUser'][$name] )
+			$msdbUserPrefs['areSame'][$name] = true;
+d118 1
+d120 7
+a126 4
+	if ( $msdbUserPrefs['fromUser']['DB'] )
+		$msdbUserPrefs['runWith']['DB'] = $msdbUserPrefs['fromUser']['DB'] ;
+	else if ( $msdbUserPrefs['fromDB']['DB'] )
+		$msdbUserPrefs['runWith']['DB'] = $msdbUserPrefs['fromDB']['DB'] ;
+d128 8
+a135 1
+		$msdbUserPrefs['runWith']['DB'] = $controlDB;
+d137 19
+a155 2
+	if ( 
+	if ( ! msdbUserPrefs['areSame']['DB'] 
+d168 3
+a170 1
+	ksort($msdbUserPrefs['runWith']);
+d174 2
+a175 2
+	foreach ( $msdbUserPrefs['runWith'] as $name => $value ) {
+		if ( $value == null )
+@
+
+
+1.16
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.15 2004/02/01 10:38:21 engine Exp engine $ ';
+d8 15
+a22 2
+// DB, tname, orderBy, isDesc, lastWhere, curId
+/************************************************************/
+d39 5
+a47 1
+	$msdbUserPrefs['runWith'][$name] = $value ;
+d53 38
+d97 2
+d137 2
+a154 1
+		$msdbUserPrefs['runWith'][$name] = $decoded;
+@
+
+
+1.15
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.14 2004/02/01 08:35:05 engine Exp engine $ ';
+d15 1
+a15 1
+	if ( ! msdbArrKeyIn($name, $msdbUserPrefs['runWith']) ) {
+d19 1
+a19 1
+	$ret = $msdbUserPrefs['runWith'][$name];
+a28 28
+	global $dbMeta;
+	global $msdbConfig;
+
+	$controlDB = $msdbConfig['DB_NAME'];
+
+	if ( $name == 'DB' ) {
+		$msdbUserPrefs['runWith'] = array('DB' => $value);
+		$msdbUserPrefs['fromUser'] = array('DB' => $value);
+		return;
+	}
+
+	if ( $name == 'tname' ) {
+		if ( isset($msdbUserPrefs['runWith']['DB']) )
+			$db = $msdbUserPrefs['runWith']['DB'];
+		else
+			$db = $controlDB;
+		if ( $db == $controlDB ) {
+			$msdbUserPrefs['runWith'] = array('tname' => $value);
+			$msdbUserPrefs['fromUser'] = array('tname' => $value);
+			return;
+		} else {
+			$msdbUserPrefs['runWith'] = array('DB' => $db, 'tname' => $value);
+			$msdbUserPrefs['fromUser'] = array('DB' => $db, 'tname' => $value);
+			return;
+		}
+	}
+	
+	// orderBy, isDesc, lastWhere, curId
+@
+
+
+1.14
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.13 2004/01/30 05:58:37 engine Exp engine $ ';
+d30 3
+d41 1
+a41 1
+		if ( isset($msdbUserPrefs['runWith']['DB']) ) {
+d43 7
+a52 4
+		} else {
+			$msdbUserPrefs['runWith'] = array('tname' => $value);
+			$msdbUserPrefs['fromUser'] = array('tname' => $value);
+			return;
+d56 1
+a56 5
+	// this is the usual page
+	// coming back to the next page on the same DB.tname
+	// or coming back after a new logon to the same DB.tname
+
+	// the orderBy case covers isDesc as needed.
+@
+
+
+1.13
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.12 2004/01/29 17:12:00 engine Exp engine $ ';
+d114 6
+a119 1
+		list($name, $val) = split('=', $nv);
+@
+
+
+1.12
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.11 2004/01/29 16:37:26 engine Exp engine $ ';
+d8 1
+a8 1
+// db, tname, orderBy, isDesc, lastWhere, curId
+d13 1
+a13 3
+	global $userPrefs;
+	
+	$rw = & $userPrefs['runWith'];
+d15 1
+a15 1
+	if ( is_null($rw) )
+d17 1
+d19 1
+a19 2
+	if ( ! msdbArrKeyIn($name, $rw) )
+		return(null);
+d21 1
+a21 1
+	return($rw[$name]);
+d28 21
+a48 1
+	global $userPrefs;
+d50 5
+a54 2
+	$rw = & $userPrefs['runWith'];
+	$fuser = & $userPrefs['fromUser'];
+d56 2
+a57 2
+	$fsuser[$name] = $val ;
+	$rw[$name] = $val;
+d76 6
+a81 1
+		$str .= $name."=".$encoded;
+d91 2
+a92 2
+	MSDB_ERROR($sql);
+	/*	msDbSql("$sql");	*/
+d114 1
+a114 1
+		list($name, $val) = split('=', $pref);
+@
+
+
+1.11
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.10 2004/01/29 15:55:28 engine Exp engine $ ';
+a10 19
+function msdbUserPrefsOrderBy()
+{
+	$ob = msdbUserPrefGetProperty('orderBy');
+	$isDesc = msdbUserPrefGetProperty('isDesc');
+
+	if ( is_null($ob) )
+		return(null);
+
+	if ( $isdesc == null )
+		return("order by $ob");
+
+	if ( $isdesc != 'true' )
+		return("order by $ob");
+
+	return("order by $ob desc");
+}
+
+/******************************/
+
+d52 2
+d91 1
+@
+
+
+1.10
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.9 2004/01/29 15:54:44 engine Exp engine $ ';
+d16 2
+a17 1
+	$rw = & $userPrefs['runWith'];
+d19 2
+a20 2
+	if ( is_null($rw) )
+		return(null);
+d22 2
+a23 2
+	if ( ! $rw->orderBy )
+		return(null);
+d25 1
+a25 2
+	$desc = ( $rw->isDesc == 'true' ) ? ' desc' : '';
+	return($rw->orderBy.$desc);
+d30 1
+a30 1
+msdbUserPrefGetProperty($name)
+d47 1
+a47 1
+msdbUserPrefSetProperty($name, $value)
+d49 1
+d51 5
+d68 2
+d75 1
+a75 1
+	if ( $msdbEnterVar->userprefs == $str )
+@
+
+
+1.9
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.8 2004/01/29 15:26:40 engine Exp engine $ ';
+d60 2
+@
+
+
+1.8
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.7 2004/01/29 15:07:42 engine Exp engine $ ';
+d8 2
+d13 3
+a15 2
+	global $userPrefs;
+	
+d28 18
+a45 1
+/************************************************************/
+d47 1
+a47 1
+class userPrefs
+d49 1
+a49 9
+	function userPrefs($db, $tname, $orderBy, $isDesc, $lastWhere, $curId)
+	{
+		$this->db = $db;
+		$this->tname = $tname;
+		$this->orderBy = $orderBy;
+		$this->isDesc = $isDesc; // 'true' or 'false'
+		$this->lastWhere = $lastWhere;
+		$this->curId = $curId;
+	}
+d60 1
+a60 7
+	$str = "";
+
+	$rwAsArray = (array)$msdbUserPrefs['runWith'];
+
+	foreach ( $rwAsArray as $name => $value ) {
+		if ( ! $value )
+			continue;
+a78 23
+function msdbSetDbUserPref($pref)
+{
+	global $msdbUserPrefs;
+
+	$arr = split('=', $pref);
+
+	msdb_r($arr);
+
+	/*	list($name, $val) = $arr;	*/
+
+	$decoded = rawurldecode($val);
+
+	$dbpref = & $msdbUserPrefs['fromDB'];
+
+	$evstr = "\$dbpref->$name = \$decoded ;" ;
+
+	MSDB_ERROR("evstr = :::$evstr:::");
+
+	/*	eval($evstr);	*/
+}
+
+/******************************/
+
+d84 1
+d94 5
+a98 2
+	foreach ( $nameVals as $nv )
+		msdbSetDbUserPref($nv);
+@
+
+
+1.7
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.6 2004/01/29 14:44:24 engine Exp engine $ ';
+d18 1
+a18 1
+	if ( ! $rw->sortBy )
+d22 1
+a22 1
+	return($rw->sortBy.$desc);
+a26 1
+
+d29 1
+a29 1
+	function userPrefs($db, $tname, $sortBy, $isDesc, $lastWhere, $curId)
+d33 1
+a33 1
+		$this->sortBy = $sortBy;
+d42 1
+a42 1
+function msdbStoreUserPrefs()
+d59 3
+d96 4
+a99 1
+function msdbSetDbUserPrefs()
+@
+
+
+1.6
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.5 2004/01/29 12:22:12 engine Exp engine $ ';
+d75 5
+a79 1
+	list($name, $val) = split('=', $pref);
+d89 1
+a89 1
+	eval($evstr);
+d100 3
+d104 1
+a109 19
+
+/*
+ * user preferences and choices to remember
+ */
+/******************************/
+
+function msdbUserOrder()
+{
+	global $msdbUserPrefs;
+
+	return(null);
+}
+/******************************/
+
+function msdbUrlOrder()
+{
+	return(null);
+}
+/******************************/
+@
+
+
+1.5
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.4 2004/01/15 13:52:02 engine Exp engine $ ';
+d9 1
+a9 1
+class userPrefs()
+d11 20
+a30 1
+	function userPrefs($db, $tname, $sortBy, $sortIsDesc, $lastWhere, $curId)
+d35 2
+a36 2
+		$this->isDesc = $isDesc;
+		$this->lastWhere = $lastWhere; // serialized separately when in DB.
+d43 60
+d110 1
+a110 1
+	global msdbUserPrefs;
+@
+
+
+1.4
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.3 2004/01/13 15:12:56 engine Exp engine $ ';
+d9 15
+d31 2
+@
+
+
+1.3
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: user.php,v 1.2 2004/01/13 13:08:00 engine Exp engine $ ';
+d10 1
+a10 1
+ * user preferences and chices to remember
+d19 6
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.1
+log
+@None
+@
+text
+@d2 5
+a6 4
+/* $Id: .exrc,v 1.5 2004/01/05 10:16:31 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/******************************/
+@

@@ -1,0 +1,34 @@
+
+Msdb Prigramming Interfaces
+---------------------------
+
+msDbGetString($query) returns a signle field from the database.
+msDbFetchRows($query) returns a two dimensional array of rows and columns.
+msDbGetAssoc($query) returns a two dimensional array
+		where each row is indexed by the column names
+
+example:
+
+<table>
+	<tr>
+		<td>Name</td>
+		<td>Address</td>
+		<td>Phone</td>
+	</tr>
+
+
+
+<?php
+	require_once("msdb/config.php"); // see config.php for alternatives
+	require_once("msdb/library.php");
+	$rows = msDbGetAssoc("select Name, Address, phone from addressBook");
+	foreach ( $rows as $row ) {
+		echo "<tr>";
+		foreach ( $row as $field )
+			echo "<td>$field</td>";
+		echo "</tr>";
+	}
+?>
+
+
+</table>

@@ -1,0 +1,53 @@
+head	1.2;
+access;
+symbols;
+locks
+	engine:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2004.07.29.08.48.09;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.26.18.49.26;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.2
+log
+@None
+@
+text
+@	<TD> Edit </TD>
+	<TD> New </TD>
+	<TD> Delete </TD>
+</TR>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 3
+a3 9
+	<TD>
+		<IMG BORDER="0" ALT="Edit/Change" SRC="icons/edit.gif">
+	</TD>
+	<TD>
+		<IMG BORDER="0" ALT="New Copy" SRC="icons/new.gif">
+	</TD>
+	<TD>
+		<IMG BORDER="0" ALT="Discard" SRC="icons/remove.gif">
+	</TD>
+@

@@ -1,0 +1,6 @@
+
+<TABLE CLASS=msdbTableBar BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+	<TD>$appBarTitle</TD>
+</TR>
+</TABLE>

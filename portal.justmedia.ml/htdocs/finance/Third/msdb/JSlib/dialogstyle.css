@@ -1,0 +1,79 @@
+/* $Id: dialogstyle.css,v 1.5 2004/08/16 16:44:02 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/************************************************************/
+
+.ieDialog {
+	position:absolute;
+	width:200px;
+	border:3px outset gray70;
+	background-color: #aaaaff;
+	font-family:Verdana;
+	font-size: 8pt;
+	line-height:16px;
+	cursor:default;
+	visibility:hidden;
+}
+
+/************************************************************/
+
+.exploreClass {
+	position:absolute;
+	border:3px outset gray70;
+	background-color: #dddddd;
+	visibility:hidden;
+}
+
+/************************************************************/
+
+.ieMoveClass {
+	position:absolute;
+	border:3px outset gray70;
+	background-color: #dddddd;
+	visibility:hidden;
+}
+
+/************************************************************/
+
+.ieRenameClass {
+	position:absolute;
+	width:200px;
+	border:3px outset gray70;
+	background-color: #aaaaff;
+	font-family:Verdana;
+	font-size: 8pt;
+	line-height:16px;
+	cursor:default;
+	visibility:hidden;
+}
+
+/************************************************************/
+
+.ieExportClass {
+	position:absolute;
+	width:200px;
+	border:3px outset gray70;
+	background-color: #ffdd99;
+	font-family:Verdana;
+	font-size: 8pt;
+	line-height:16px;
+	cursor:default;
+	visibility:hidden;
+}
+
+/************************************************************/
+
+.msdbMoverInner {
+	font-family:Verdana;
+	font-size: 8pt;
+	font-weight: bold ;
+	font-color: #010101;
+	background-color: #ffffff;
+}
+/******************************/
+
+.msdbMover {
+	position:absolute;
+	visibility:hidden;
+}
+/************************************************************/

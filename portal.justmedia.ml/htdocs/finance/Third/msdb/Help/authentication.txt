@@ -1,0 +1,9 @@
+
+authentication
+--------------
+
+msdb_passwd is similar to a unix /etc/passwd.
+It is also the table used for session authentication.
+A user logs on, and thereafter they continue to work
+until they logout or until the session expires.
+

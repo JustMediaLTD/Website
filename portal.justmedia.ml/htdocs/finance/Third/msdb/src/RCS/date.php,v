@@ -1,0 +1,1021 @@
+head	1.19;
+access;
+symbols;
+locks
+	engine:1.19; strict;
+comment	@# @;
+
+
+1.19
+date	2004.09.02.12.10.53;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.07.31.08.57.29;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.07.29.08.47.58;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.05.19.08.21.38;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.03.27.17.04.08;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.03.21.17.37.55;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.03.14.16.25.57;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.03.03.05.48.00;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.02.26.12.45.11;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.02.23.21.57.07;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.02.22.16.41.50;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.02.16.12.37.24;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.02.16.11.39.12;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.02.16.08.59.48;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.02.03.06.31.57;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.02.02.17.33.22;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.02.01.07.44.27;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.31.12.09.32;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.31.06.55.39;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.19
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: date.php,v 1.18 2004/07/31 08:57:29 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+function msdbDayLeap($y)
+{
+	return( $y % 4 == 0 && $y % 100 != 0 || $y % 400 == 0 );
+}
+
+/******************************/
+
+function msdbMonthLength($m, $y = null)
+{
+	$monthlen = array( 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31) ;
+
+	if ( $y == null )
+		return($monthlen[$m]);
+
+	return($monthlen[$m] + ( ( $m == 2 && msdbDayLeap($y)) ? 1 : 0 ));
+}
+
+/************************************************************/
+/************************************************************/
+
+function msdbDayDsub($date)
+{
+
+	list($y, $m, $d) = msdbDayBreak($date);
+
+	if ( $d > 1 )
+		return($date-1);
+
+	if ( $m == 1 )
+		return(($y-1)*10000 + 1231);
+
+	$m--;
+
+	$d = msdbMonthLength($m, $y);
+
+	return(msdbDayCompose($y, $m, $d));
+}
+
+/******************************/
+
+function msdbDayDadd($date)
+{
+
+	list($y, $m, $d) = msdbDayBreak($date);
+
+	$mdays = msdbMonthLength($m, $y);
+
+	if ( $d < $mdays )
+		return($date+1);
+
+	$d = 1;
+	if ( $m < 12 )
+		$m = $m+1;
+	else {
+		$m = 1;
+		$y = $y+1;
+	}
+	return(msdbDayCompose($y, $m, $d));
+}
+
+/******************************/
+
+function msdbDayMonthOf($date)
+{
+	return(((int)($date/100))%100);
+}
+/******************************/
+
+function msdbDayMadd($date)
+{
+	list($y, $m, $d) = msdbDayBreak($date);
+
+	if ( $m < 12 )
+		return($date + 100 );
+	else
+		return($date - 1100 + 10000);
+}
+
+/******************************/
+
+function msdbDayMsub($date)
+{
+	list($d, $m, $y) = msdbDayBreak($date);
+
+	if ( $m > 1 )
+		return($date - 100 );
+	else
+		return($date + 1100 - 10000);
+}
+
+/******************************/
+
+function msdbDayWadd($date)
+{
+	for($i=0;$i<7;$i++)
+		$date = msdbDayDadd($date);
+	return($date);
+}
+
+/******************************/
+
+function msdbDayWsub($date)
+{
+	for($i=0;$i<7;$i++)
+		$date = msdbDayDsub($date);
+	return($date);
+}
+
+/******************************/
+function msdbDayYadd($date) { return($date+10000); }
+function msdbDayYsub($date) { return($date-10000); }
+/************************************************************/
+/************************************************************/
+
+// a human readable string representing the date
+// (without the time)
+
+function msdbDayFmt($date, $withWeek = true)
+{
+	if ( $withWeek )
+		$fmt = "l F j, Y";
+	else
+		$fmt = "F j, Y";
+
+	$ts = msdbDayToTs($date);
+
+	return(date($fmt, $ts));
+}
+
+/******************************/
+
+// the time now, as in 18:47 or 8:05
+
+function msdbTimeNow()
+{
+	return(date("G:i"));
+}
+
+/******************************/
+
+// a sql suitable string representing now.
+
+function msdbDateTimeNow()
+{
+	
+	return(date("Y-m-d H:i:s"));
+}
+
+/************************************************************/
+
+// no, this is not dawn
+
+function msdbDayBreak($dt)
+{
+	$d = $dt % 100 ;
+	$m = ( (int)($dt/100) ) % 100 ;
+	$y = (int)($dt / 10000);
+
+	return(array($y, $m, $d));
+}
+
+/******************************/
+
+function msdbDayCompose($y, $m, $d)
+{
+	return($y * 10000 + $m * 100 + $d);
+	
+}
+/********************/
+
+function msdbDayConstruct($y, $m, $d)
+{
+	list($ty, $tm, $td) = msdbDayBreak(msdbDayToday());
+
+	if ( $y < 0 )
+		return(null);
+	else if ( $y == 0 )
+		$y = $ty;
+	else if ( $y < 50 )
+		$y += 2000 ;
+	else if ( $y < 100 )
+		$y += 1900;
+
+	if ( is_int($m) && $m == 0 )
+		$m = $tm;
+	else if ( $m < 1 || $m > 12 )
+		return(null);
+
+	// this will accept 2/31/1961 ???
+	if ( $d < 1 || $d > 31 )
+		return(null);
+
+	return(msdbDayCompose($y, $m, $d));
+}
+
+/******************************/
+
+function msdbDayToTs($dt)
+{
+	list($y, $m, $d) = msdbDayBreak($dt);
+
+	$ts = mktime(0, 0, 0, $m, $d, $y);
+
+	return($ts);
+}
+
+/******************************/
+
+function msdbPhpDate($dt)
+{
+	$ts = msdbDayToTs($dt);
+	return(getdate($ts));
+}
+
+/******************************/
+
+function msdbWdayLname($wday)
+{
+	$wdaylstring = array(
+		"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+	);
+
+	return($wdaylstring[$wday]);
+}
+
+/******************************/
+
+function msdbWdayName($wday)
+{
+	$wdaystring = array(
+		"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"
+	);
+
+	return($wdaystring[$wday]);
+}
+
+/******************************/
+
+function msdbMonthLname($m)
+{
+	$monthlname = array(
+		"",
+		"January", "February", "March", "April", "May", "June",
+		"July", "August", "Sepember", "October", "November", "December"
+	);
+
+	return($monthlname[$m]);
+}
+
+/******************************/
+
+function msdbMonthName($m)
+{
+	$monthname = array(
+		"",
+		"Jan", "Feb", "Mar", "Apr", "May", "Jun",
+		"Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+	);
+
+	return($monthname[$m]);
+}
+
+/******************************/
+
+function msdbDayWday($dt)
+{
+	$a = msdbPhpDate($dt);
+	return($a['wday']);
+}
+
+/******************************/
+
+function msdbDayFromTs($ts)
+{
+	$arr = getdate($ts);
+	$ret = msdbDayCompose($arr['year'], $arr['mon'], $arr['mday']);
+
+	return($ret);
+}
+
+/******************************/
+
+function msdbDayToday()
+{
+	return(msdbDayFromTs(time()));
+}
+
+/************************************************************/
+
+function msdbDayScanEuro($s)
+{
+	$dmy = @@ split('\.', $s);
+	if ( count($dmy) == 3 )
+		return(msdbDayConstruct($dmy[2], $dmy[1], $dmy[0]));
+	if ( count($dmy) == 2 )
+		return(msdbDayConstruct(0, $dmy[1], $dmy[0]));
+
+	return(null);
+}
+
+/******************************/
+
+// elimiate things that strtotime() is wrong about.
+
+function msdbDateMakesSense($s)
+{
+	$BadExps = array(
+		'^[a-su-z]$',
+		);
+
+	$goodExpsxps = array(
+		'^[ 	]*[+-]?[   ]*[0-9jfmasondtlJFMASONDLT]',
+		);
+
+	foreach ( $BadExps as $exp )
+		if ( @@ereg($exp, $s) )
+			return(false);
+
+	foreach ( $goodExpsxps as $exp )
+		if ( @@ereg($exp, $s) )
+			return(true);
+
+	return(false);
+}
+
+/******************************/
+
+// scan m/d/yyyy only
+// but allow pre-unix-epoc
+
+function msdbDaySimpleScan($s)
+{
+	if ( $s == 't' )
+		return(msdbDayToday());
+	$mdy = @@ split('/', $s);
+	if ( count($mdy) == 3 )
+		return(msdbDayConstruct($mdy[2], $mdy[0], $mdy[1]));
+	if ( count($mdy) == 2 )
+		return(msdbDayConstruct(0, $mdy[0], $mdy[1]));
+
+
+	$mdy = @@ split(' ', $s);
+	if ( count($mdy) == 3 )
+		return(msdbDayConstruct($mdy[2], $mdy[0], $mdy[1]));
+	if ( count($mdy) == 2 )
+		return(msdbDayConstruct(0, $mdy[0], $mdy[1]));
+
+	if ( @@ereg("[+-]", $s) )
+		return(null);
+
+	$d = @@(int)$s ;
+
+	if ( $d >= 1 && $d <= 31 )
+		return(msdbDayConstruct(0, 0, $d));
+	return(null);
+
+}
+
+/******************************/
+
+function msdbDayIsZero($s)
+{
+	if ( 
+			$s == '0'
+			|| $s == ''
+			|| $s == '0000-00-00'
+			)
+		return(true);
+	return(false);
+}
+
+/******************************/
+// try a bit better than strtotime()
+
+function msdbDayScan($s)
+{
+
+	// euro first
+	if ( ($ret = msdbDayScanEuro($s)) != null)
+		return($ret);
+
+	// simple scan allows pre-1970 values
+	if ( ($ret = msdbDaySimpleScan($s)) != null)
+		return($ret);
+
+	// change '+15' to '+15 Days' 't+15' likewise and 't-15' liekwise
+	$words = split(' ', $s);
+	if ( count($words) == 1 && strlen($words[0]) >= 2 && ($words[0][0] == '+' || $words[0][0] == '-') )
+		return(msdbDayScan("$s Days"));
+	if ( count($words) == 1 && strlen($words[0]) >= 3 && $words[0][0] == 't' && ($words[0][1] == '+' || $words[0][1] == '-') ) {
+		$compat = substr($s, 1)." Days";
+		return(msdbDayScan($compat));
+	}
+
+	if ( ! msdbDateMakesSense($s) )
+		return(null);
+
+	// is it an int as in '20040131' or 20040131
+	$start = msdbDayConstruct(1000, 1, 1);
+	$finish = msdbDayConstruct(9999, 1, 1);
+	$ret = @@(int)$s;
+	if ( $ret >= $start && $ret <= $finish )
+		return($ret);
+
+	// strtotime will scan it ok, so avoid it
+	if ( msdbDayIsZero($s) )
+		return(0);
+
+	$ts = @@ strtotime($s);
+
+	if ( $ts == -1 )
+		return(null);
+	$ret = msdbDayFromTs($ts);
+	if ( $ts == -1 && ($ts = @@strtotime($s." day")) == -1 )
+		return(null);
+
+	// compenstate for daylite savings time unknown errors
+	// on or around '19700101'
+	if ( $ts < -(24 * 3600) )
+		return(null);
+
+	if ( $ret >= $start && $ret <= $finish )
+		return($ret);
+
+	return(null);
+}
+
+/************************************************************/
+
+// change an int or string of the form 20040301 to the string 2004-03-01
+
+function msdbDayDashIt($d)
+{
+	$i = @@( (int)$d) ;
+
+	if ( $i < 1900*100*100 || $i > 10000*100*100 )
+		return($d);
+
+	list($y, $m, $d) = msdbDayBreak($i);
+	return(sprintf("%02d-%02d-%02d", $y, $m, $d));
+}
+
+/******************************/
+
+// short scanning for known valid dates in mysql format
+
+function msdbDayUnDash($d)
+{
+	return(str_replace('-', '', $d));
+}
+
+/************************************************************/
+
+function msdbDateScanTest()
+{
+	$dates = array (
+		'',
+		'0',
+		'1970-01-01',
+		'1970-09-17',
+		'70-9-17',
+		'70-09-17',
+		'9/17/72',
+		'24 September 1972',
+		'24 Sept 72',
+		'24 Sep 72',
+		'Sep 24, 1972',
+		'24-sep-72',
+		'24sep72',
+		'now',
+		'10 September 2000',
+		'September10 2000',
+		'+1',
+		't',
+		'Thu',
+		'thu',
+		'+1 day',
+		'4 2 3',
+		'7/8',
+		'7 8',
+		'28',
+		'+1 week',
+		'+1 week 2 days 4 hours 2 seconds',
+		'next Thursday',
+		'last Monday',
+		'None',
+		'385.4',
+		'20040131',
+		'',
+		'( select * from msdb_passwd )',
+		'k',
+		'z',
+		'January 15, 2004 special',
+		'January 15, 2004',
+		'zeptember',
+		'today',
+		'msdbDayScanEuro() Scans dot notation<BR>as a reverse m/d notation:',
+		'7.10.2004',
+		'msdbDaySimpleScan() takes pre-epoc<BR>but php native does not:',
+		'15.2.1961',
+		'2/15/61',
+		'a',
+		'February 15 1961',
+		'February 15 1991',
+		'February 15 some year',
+		'February 2004 no day of the month',
+		'February 2004',
+		'February 15 year',
+		'February 15 none',
+		'-3 months',
+		20040131
+	);
+
+	echo "<TABLE BORDER=1>";
+	foreach ( $dates as $d ) {
+		$di =  msdbDayScan($d) ;
+		if ( is_null($di) )
+			$di = 'null' ;
+		echo "<TR><TD>" ; var_dump($d) ; echo "</TD><TD>$di</TD></TR>" ;
+	}
+	$di =  msdbDayToday($d) ;
+	$tn = msdbTimeNow();
+	$dtn = msdbDateTimeNow();
+	echo "<TR><TD>msdbDayToday()</TD><TD>$di</TD></TR>" ;
+	echo "<TR><TD>msdbTimeNow()</TD><TD>$tn</TD></TR>" ;
+	echo "<TR><TD>msdbDateTimeNow()</TD><TD>$dtn</TD></TR>" ;
+	echo "</TABLE>";
+}
+	
+/************************************************************/
+?>
+@
+
+
+1.18
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.17 2004/07/29 08:47:58 engine Exp engine $ ';
+d311 2
+d315 6
+a320 2
+	$exps = array(
+		"^[ 	]*[+-]?[   ]*[0-9jfmasondtlJFMASONDLT]"
+d323 5
+a327 1
+	foreach ( $exps as $exp )
+d330 2
+a331 1
+		return(false);
+d385 1
+@
+
+
+1.17
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.16 2004/05/19 08:21:38 engine Exp engine $ ';
+a370 1
+// msdb wants dates to allways be just that, exactly 8 digits yyyymmdd
+d382 1
+d384 1
+a384 1
+	if ( count($words) == 1 && $words[0] != '' && ($words[0][0] == '+' || $words[0][0] == '-') )
+d386 4
+d407 2
+d439 9
+@
+
+
+1.16
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.15 2004/03/27 17:04:08 engine Exp engine $ ';
+d71 6
+d311 1
+a311 2
+function
+msdbDateMakesSense($s)
+d383 3
+d420 15
+@
+
+
+1.15
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.14 2004/03/21 17:37:55 engine Exp engine $ ';
+d352 13
+d389 4
+a392 1
+	// will strtotime() scan it
+d415 2
+@
+
+
+1.14
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.13 2004/03/14 16:25:57 engine Exp engine $ ';
+d8 6
+a13 1
+$monthlen = array( 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31) ;
+d15 15
+a29 1
+function msdbDayLeap($y)
+d31 14
+a44 1
+	return( $year % 4 == 0 && $year % 100 != 0 || $year % 400 == 0 );
+a50 1
+	global $monthlen;
+d52 1
+a52 1
+	list($d, $m, $y) = msdbDayBreak($date);
+d54 1
+a54 1
+	$mdays = $monthlen[$m] + ( ( $m == 2 && day_leap($y)) ? 1 : 0 );
+d69 45
+d116 17
+a132 1
+/************************************************************/
+d151 1
+a151 1
+/******************************/
+d204 1
+a204 1
+	$ts = mktime(0, 0, 0, m, d, y);
+d211 64
+@
+
+
+1.13
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.12 2004/03/03 05:48:00 engine Exp engine $ ';
+d8 33
+@
+
+
+1.12
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.11 2004/02/26 12:45:11 engine Exp engine $ ';
+d257 2
+@
+
+
+1.11
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.10 2004/02/23 21:57:07 engine Exp engine $ ';
+d61 1
+a61 1
+	if ( $m == 0 )
+d136 2
+d151 3
+d176 1
+d190 1
+a198 2
+	$ret = msdbDayFromTs($ts);
+
+d223 1
+d225 1
+d244 2
+d253 1
+d256 3
+@
+
+
+1.10
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.9 2004/02/22 16:41:50 engine Exp engine $ ';
+d124 1
+a124 1
+		if ( @@ereg($exp, $s) > 0 )
+@
+
+
+1.9
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.8 2004/02/16 12:37:24 engine Exp engine $ ';
+d106 4
+a109 2
+	if ( count($dmy) != 3 )
+		return(null);
+d111 1
+a111 1
+	return(msdbDayConstruct($dmy[2], $dmy[1], $dmy[0]));
+d137 17
+a153 2
+	if ( count($mdy) != 3 )
+		return(null);
+a154 1
+	return(msdbDayConstruct($mdy[2], $mdy[0], $mdy[1]));
+d163 2
+a164 2
+	// simple scan allows pre-1970 values
+	if ( ($ret = msdbDaysimpleScan($s)) != null)
+d167 2
+a168 1
+	if ( ($ret = msdbDayScanEuro($s)) != null)
+d223 3
+@
+
+
+1.8
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.7 2004/02/16 11:39:12 engine Exp engine $ ';
+d202 2
+d205 1
+@
+
+
+1.7
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.6 2004/02/16 08:59:48 engine Exp engine $ ';
+d216 1
+a216 1
+		'msdbDayScanEuro() Scans dot notation as a reverse m/d notation:',
+d218 1
+a218 1
+		'msdbDaySimpleScan() takes pre-epoc but php native does not:',
+@
+
+
+1.6
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.5 2004/02/03 06:31:57 engine Exp engine $ ';
+d41 7
+d50 1
+a50 1
+	$ret = $y * 10000 + $m * 100 + $d;
+d52 19
+a70 1
+	return($ret);
+d89 1
+a89 1
+	$ret = msdbDayConstruct($arr['year'], $arr['mon'], $arr['mday']);
+d102 40
+d147 11
+a159 2
+
+	// is it an int as in '20040131' or 20040131
+d164 1
+d176 1
+d212 12
+@
+
+
+1.5
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.4 2004/02/02 17:33:22 engine Exp engine $ ';
+d135 1
+@
+
+
+1.4
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.3 2004/02/01 07:44:27 engine Exp engine $ ';
+d9 19
+d146 2
+d149 2
+@
+
+
+1.3
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.2 2004/01/31 12:09:32 engine Exp engine $ ';
+a62 2
+	$t0 = time();
+
+d67 1
+a67 1
+	$ret = (int)$s;
+d71 1
+a71 1
+	$ts = strtotime($s);
+d73 1
+a73 1
+	if ( $ts == -1 && ($ts = strtotime($s." day")) == -1 )
+d115 1
+d124 1
+a124 1
+		echo "<TR><TD>$d</TD><TD>$di</TD></TR>" ;
+@
+
+
+1.2
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: date.php,v 1.1 2004/01/31 06:55:39 engine Exp engine $ ';
+d75 1
+a75 1
+	if ( $ts == -1 )
+d108 1
+@
+
+
+1.1
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.81 2004/01/30 11:04:57 engine Exp engine $ ';
+d9 23
+a31 1
+function msdbDayConstrunct($y, $m, $d)
+d33 22
+a54 1
+	return($y * 10000 + $m * 100 + $d);
+d58 2
+d61 1
+a61 1
+function msdbDayToday()
+d63 11
+a73 1
+	$now = getdate();
+d75 13
+a87 1
+	return(msdbDayConstruct($now->year, $now->mon, $now->mday));
+d91 41
+@

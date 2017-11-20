@@ -1,0 +1,440 @@
+head	1.18;
+access;
+symbols;
+locks
+	engine:1.18; strict;
+comment	@# @;
+
+
+1.18
+date	2004.08.23.09.18.00;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.08.23.08.56.51;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.08.23.06.00.14;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.08.21.12.58.06;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.08.21.11.02.50;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.08.15.07.44.49;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.08.05.13.32.05;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.08.05.12.13.20;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.08.05.12.12.10;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.08.05.01.20.08;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.08.04.14.29.24;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.07.31.10.38.38;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.07.31.10.20.53;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.07.31.09.13.42;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.07.29.08.48.05;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.07.21.16.46.31;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.05.31.14.56.29;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.05.19.12.01.59;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.18
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+$rcsid='$Id: msdbMoreConfig.php,v 1.17 2004/08/23 08:56:51 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+// session expires after being idle this long
+if ( ! isset($msdbConfig['SID_EXP']) )
+	$msdbConfig['SID_EXP'] = 3600 ;
+/******************************/
+// tables not explicitely permitted in msdb_permit are read-only if this is set
+if ( ! isset($msdbConfig['READ_ONLY_MODE']) )
+	$msdbConfig['READ_ONLY_MODE'] = false ;
+/******************************/
+// how many rows is considered 'a lot'
+if ( ! isset($msdbConfig['LOTS_OF_ROWS']) )
+	$msdbConfig['LOTS_OF_ROWS'] = 1000;
+/******************************/
+// how many rows to show when no select criteria
+if ( ! isset($msdbConfig['showRows']) )
+	$msdbConfig['showRows'] =  20 ;
+/******************************/
+// maximum rows to show (even with a select criterion )
+if ( ! isset($msdbConfig['limitRows']) )
+	$msdbConfig['limitRows'] =  70 ;
+/******************************/
+// round to this many digits in floats in reports
+if ( ! isset($msdbConfig['statsFloatRound']) )
+	$msdbConfig['statsFloatRound'] =  2 ; // money style by default
+/******************************/
+// do not show autoIncrement field(s) on screen
+if ( ! isset($msdbConfig['noAi']) )
+	$msdbConfig['noAi'] = true ;
+/******************************/
+// show internal data structures and performance information
+if ( ! isset($msdbConfig['msdbInfo']) )
+	$msdbConfig['msdbInfo'] = false ;
+/************************************************************/
+$msdbDefOrderBy = array();
+$msdbDefWhere = array();
+// $msdbDefWhere['addressBook'] = "where name like 'ohad%'" ;
+// $msdbDefOrderBy['addressBook'] = "name asc, zip desc";
+/************************************************************/
+?>
+@
+
+
+1.17
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.16 2004/08/23 06:00:14 engine Exp engine $ ';
+a6 6
+// installation folder
+// if ( ! isset($msdbConfig['myHome'] ) )
+//	$msdbConfig['myHome'] = "/usr/local/msdb" ;
+// if ( ! isset($msdbConfig['myHomeUrl'] ) )
+// 	$msdbConfig['myHome'] = "/var/www/html/msdb" ;
+/******************************/
+@
+
+
+1.16
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.15 2004/08/21 12:58:06 engine Exp engine $ ';
+d10 2
+@
+
+
+1.15
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.14 2004/08/21 11:02:50 engine Exp engine $ ';
+d8 2
+a9 2
+if ( ! isset($msdbConfig['myHome'] ) )
+	$msdbConfig['myHome'] = "/usr/local/msdb" ;
+@
+
+
+1.14
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.13 2004/08/15 07:44:49 engine Exp engine $ ';
+d7 3
+a9 2
+if ( ! isset($msdbConfig['ONLY_DB'] ) )
+	$msdbConfig['ONLY_DB'] = true ; // only access $msdbConfig['DB_NAME']
+d12 3
+a14 1
+$msdbConfig['SID_EXP'] = 3600 ;
+d16 3
+a18 1
+$msdbConfig['READ_ONLY_MODE'] = false ;
+d20 3
+a22 1
+$msdbConfig['LOTS_OF_ROWS'] = 1000;
+d24 3
+a26 1
+$msdbConfig['showRows'] =  20 ;
+d28 3
+a30 1
+$msdbConfig['limitRows'] =  70 ;
+d32 3
+a34 7
+$msdbConfig['statsFloatRound'] =  2 ; // money style by default
+// e-mailing errors:
+// if the address contains '@@' then mail errors to this user,
+// otherwise, check if there is a local user by this name,
+// and only mail the local user if it exists.
+$msdbConfig['mailErrorsTo'] =  'nekko@@engine.com' ;
+
+d36 3
+a38 2
+$msdbConfig['noAi'] = true ;
+
+d40 2
+a41 2
+$msdbConfig['msdbInfo'] = false ;
+
+@
+
+
+1.13
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.12 2004/08/05 13:32:05 engine Exp engine $ ';
+d7 2
+a8 1
+$msdbConfig['ONLY_DB'] = false ; // only access $msdbConfig['DB_NAME']
+@
+
+
+1.12
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.11 2004/08/05 12:13:20 engine Exp engine $ ';
+d7 1
+a7 1
+$msdbConfig['ONLY_DB'] = true ; // only access $msdbConfig['DB_NAME']
+@
+
+
+1.11
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.10 2004/08/05 12:12:10 engine Exp engine $ ';
+d28 1
+a28 1
+$msdbConfig['noAi'] =  true ;
+d31 1
+a31 1
+$msdbConfig['msdbInfo'] =  false ;
+@
+
+
+1.10
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.9 2004/08/05 01:20:08 engine Exp engine $ ';
+d7 1
+a7 1
+$msdbConfig['ONLY_DB'] = false ; // only access $msdbConfig['DB_NAME']
+@
+
+
+1.9
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbConfig.php,v 1.55 2004/07/31 09:14:31 engine Exp engine $ ';
+d7 1
+a7 1
+$msdbConfig['ONLY_DB'] = true ; // only access $msdbConfig['DB_NAME']
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 3
+a5 1
+// pre-realease original in  ~/etc/config/Release/msdbMoreConfig
+@
+
+
+1.7
+log
+@None
+@
+text
+@d26 1
+a26 1
+// $msdbConfig['noAi'] =  true ;
+@
+
+
+1.6
+log
+@None
+@
+text
+@a22 2
+// with the following default no mail is sent to anyone,
+// excpet there happen's to b a local unix user called msdb
+@
+
+
+1.5
+log
+@None
+@
+text
+@d36 2
+a37 2
+$msdbDefWhere['addressBook'] = "where name like 'ohad'" ;
+$msdbDefOrderBy['addressBook'] = "name asc, zip desc";
+@
+
+
+1.4
+log
+@None
+@
+text
+@d31 1
+a31 1
+$msdbConfig['msdbInfo'] =  true ;
+d36 2
+a37 2
+$msdbDefWhere['accountTypes'] = "where atypeId != reccursTo" ;
+$msdbDefOrderBy['anBill'] = "companyId asc, billDate asc";
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 3
+$rcsid='$Id: msdbMoreConfig.php,v 1.2 2004/05/31 14:56:29 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+a4 6
+
+// in ONLY_DB mode there is no security
+// save what is set by other means (such as server network accessibility or htpasswd)
+// when false, access uses the table DB_NAME.msdb_password
+// with each database  accessibility setting according to $db.msdb_permit
+
+d25 1
+a25 1
+$msdbConfig['mailErrorsTo'] =  'msdb' ;
+d31 1
+a31 1
+$msdbConfig['msdbInfo'] =  false ;
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: msdbMoreConfig.php,v 1.1 2004/05/19 12:01:59 engine Exp engine $ ';
+d7 8
+a14 4
+//
+// some other options one might want to change (later)
+//
+//
+d36 1
+a36 1
+$msdbConfig['noAi'] =  true ;
+d43 2
+@
+
+
+1.1
+log
+@None
+@
+text
+@d3 1
+a3 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+d32 1
+a32 1
+$msdbConfig['noAi'] =  false ; // shows by default
+@

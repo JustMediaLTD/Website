@@ -1,0 +1,6253 @@
+head	1.72;
+access;
+symbols;
+locks
+	engine:1.72; strict;
+comment	@# @;
+
+
+1.72
+date	2004.08.16.16.44.21;	author engine;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.08.11.10.08.18;	author engine;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.08.05.13.04.14;	author engine;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.08.05.10.04.22;	author engine;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.08.05.08.56.46;	author engine;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.08.04.16.27.47;	author engine;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.08.03.14.14.10;	author engine;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.08.03.14.00.37;	author engine;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.08.03.13.54.51;	author engine;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.08.03.13.42.16;	author engine;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.08.03.13.25.02;	author engine;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.08.01.09.33.50;	author engine;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.07.29.14.42.24;	author engine;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.07.29.14.32.23;	author engine;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.07.29.14.05.12;	author engine;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.07.29.12.22.19;	author engine;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.07.29.12.01.49;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.07.29.09.31.02;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.07.29.09.28.54;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.07.28.13.15.46;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.07.28.11.20.47;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.07.28.11.05.14;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.07.28.09.03.36;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.07.28.08.34.58;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.07.28.08.09.47;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.07.28.07.56.58;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.07.28.07.13.33;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.07.28.07.06.02;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.07.28.05.28.18;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.07.28.05.21.47;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.07.27.15.35.02;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.07.27.14.17.44;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.07.27.13.29.46;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.07.27.12.56.03;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.07.27.12.05.30;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.07.27.12.03.55;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.07.27.11.57.04;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.07.27.11.17.57;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.07.27.10.16.07;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.07.27.10.10.15;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.07.27.10.08.41;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.07.27.10.05.00;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.07.27.09.35.06;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.07.27.09.09.57;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.07.27.07.10.06;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.07.26.18.37.27;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.07.26.18.22.21;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.07.26.18.16.05;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.07.26.16.03.35;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.07.26.15.39.30;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.07.26.15.27.23;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.07.26.14.13.24;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.07.26.13.13.29;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.07.26.12.57.40;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.07.26.12.47.19;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.07.26.12.13.32;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.07.26.11.40.00;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.07.26.11.21.43;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.07.25.06.30.46;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.07.25.05.55.37;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.05.19.08.21.39;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.03.22.20.54.48;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.03.22.17.11.49;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.03.22.17.04.05;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.03.22.14.48.56;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.03.22.12.44.03;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.03.22.11.43.18;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.03.21.17.32.18;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.03.21.16.50.11;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.03.21.16.44.02;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.03.21.14.59.46;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.03.21.09.38.05;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.72
+log
+@None
+@
+text
+@<?php
+$rcsid='$Id: cb.php,v 1.71 2004/08/11 10:08:18 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://www.engine.com/license.txt (BSD)";
+/************************************************************/
+#include "../Third/msdb/src/msdb.h"
+#define MAX_TOF_RPRT 80
+/************************************************************/
+error_reporting(E_ALL|2048) ;
+/************************************************************/
+require_once("config.php");
+/************************************************************/
+$cbFname = array("category", "toFrom", "Balance" );
+$repfvalues = array();
+$stCloseDates = 0; // ints of repfvalues[2]
+$repnvalues = array( -2, -2, -2);
+/************************************************************/
+if ( ! cbEnter() )
+	return;
+if ( ! isset($_REQUEST['EA']) ) {
+	cbMain();
+	return;
+}
+$action = $_REQUEST['EA'];
+$action();
+return;
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+function  cbCreateSampleData()
+{
+	static $previousDay = null;
+
+	$today = msdbDayToday();
+	list($y, $m, $d) = msdbDayBreak($today);
+
+	for($iy=$y-1;$iy<=$y;$iy++) {
+		for($im=1;$im<=12;$im++) {
+			$id = rand(1, 5);
+			$numEntries = rand(2, 5);
+			for($i=0;$i<$numEntries;$i++) {
+				cbCreateBogusEntry(msdbDayCompose($iy, $im, $id), $i == $numEntries-1);
+				$id += rand(3, 4);
+				if ( $iy == $y && $im >= $m && $id >= $id )
+					return;
+				// numEntries will be less then $numEntries
+				// endOfMonth left open
+				if ( $id > 28 )
+					break;
+			}
+		}
+	}
+}
+
+/******************************/
+
+function cbCreateTable()
+{
+	global $cbTable;
+	global $cbConfig;
+
+	$crtfields = " category varchar(64), date date, amount double, toFrom varchar(64), notes varchar(64), closed date, entered date, wasClosed int, id int auto_increment NOT NULL, PRIMARY KEY(id) ";
+
+	if ( msDbIsTable($cbTable) )
+			return(true);
+
+	$crt = "create table $cbTable ( $crtfields )";
+	cbMsg("Creating table $cbTable");
+	$ret = msDbSql($crt);
+	if ( $ret == -1 )
+		return(false);
+	$tables = msdbTables();
+	if ( ! @@$cbConfig['Tutor'] && @@count($tables) != 1 )
+		return(true);
+	cbMsg("Throwing in some ramdom data in $cbTable");
+	cbCreateSampleData();
+	return(true);
+}
+
+/******************************/
+
+function cbTableName()
+{
+	global $_SERVER;
+	global $cbConfig;
+
+	if ( isset($cbConfig['tableName']) )
+		return($cbConfig['tableName']);
+
+	if ( isset($_REQUEST['cbTable']) )
+		return($_REQUEST['cbTable']);
+
+	if ( isset($_SERVER['REMOTE_USER']) )
+		return("cb_".$_SERVER['REMOTE_USER']);
+
+	return("cashbook");
+}
+
+/******************************/
+
+function cbEnter()
+{
+	global $cbTable;
+
+	$cbTable = cbTableName();
+	return(cbCreateTable());
+}
+
+/************************************************************/
+global $lastAddDate;
+$lastAddDate = 0;
+/******************************/
+
+function cbStPrevDate($closeDate)
+{
+	global $cbTable;
+
+	return(msDbGetString("select max(date) from $cbTable where date < '$closeDate' and closed > 0"));
+}
+
+/******************************/
+
+
+function cbPrevDate($isStatement, $closeDate)
+{
+	global $cbTable;
+
+	static $thePrevDate = -1 ;
+
+	if ( $thePrevDate != -1 )
+		return($thePrevDate);
+
+	if ( $isStatement ) {
+		$thePrevDate = cbStPrevDate($closeDate);
+		return($thePrevDate);
+	}
+
+	$cmd = "select max(date) from $cbTable where closed > 0" ;
+	$thePrevDate = msDbGetString($cmd);
+	if ( ! $thePrevDate )
+		$thePrevDate = 0;
+
+
+	return($thePrevDate);
+}
+
+/************************************************************/
+
+/*
+ * it is not an error to change or add consolidated data 
+ * this can occur when entering or changing the date
+ * or when accessing data from the restricted (unconsolidated) view
+ * but the results do not show on screen, except for the previous balance
+ * which may have changed
+ */
+
+function cbWarnPreCons($date)
+{
+	$p = msdbDayUnDash(cbPrevDate(0, 0));
+
+	if ( $date > $p )
+		return;
+
+	cbMsg("Note: $date is before $p");
+}
+
+/************************************************************/
+
+function cbPrevBalance($isStatement, $stCloseDate)
+{
+	global $cbTable;
+
+	$pdate = cbPrevDate($isStatement, $stCloseDate);
+	return(msdbGetString("select sum(-amount) from $cbTable where date <= '$pdate'"));
+}
+
+/************************************************************/
+
+function cbSelect($which)
+{
+	global $cbFname, $repfvalues, $repnvalues;
+
+	$args = array(
+			"DIALOGID" => "cbSEL".$cbFname[$which],
+			"CLASSNAME" => "cbSEL".$cbFname[$which]."Class"
+		);
+	msdbInclude("include/dialogHeader.h", $args);
+
+	cbRepData();
+
+	if ( $repnvalues[$which] <= 0 || $repnvalues[$which] == 1 && ! $repfvalues[$which][0] ) {
+		msdbInclude("include/dialogFooter.h", $args);
+		return(0);
+	}
+
+	for($i=0;$i<$repnvalues[$which];$i++) {
+		if ( ! $repfvalues[$which][$i] )
+			continue;
+		$val = $repfvalues[$which][$i];
+		$jVal = msdbJsStr($repfvalues[$which][$i]);
+		$br = ($i == $repnvalues[$which] - 1 ) ? "" : "<BR>" ;
+
+		echo "\t\t\t<A HREF=\"javascript:cbSet($which, '$jVal')\">$val</A>$br\n";
+	}
+	msdbInclude("include/dialogFooter.h", $args);
+	return(1);
+}
+
+/************************************************************/
+
+function fltScan($s)
+{
+	if ( sscanf($s, "%lf", $ret) == 1 )
+		return($ret);
+	return(null);
+}
+
+/******************************/
+
+function cbGetEnv()
+{
+	global $isSearch, $searchCond;
+
+	$isSearch = false;
+	$amtDtOps = array('>', '<', '=', '>=', '<=', '!=');
+	$strOps = array('like', '%', '*', '='); // all treated as 'like'
+
+	$ret = array();
+
+	$ret = $_REQUEST;
+
+	$d = @@$_REQUEST['date'];
+
+	// string searches
+	foreach ( array('category', 'toFrom', 'notes') as $field ) {
+		$strWop = split(' ', $_REQUEST[$field]);
+		if ( count($strWop) > 1 && msdbArrValIn($strWop[0], $strOps) ) {
+			$isSearch = true;
+			$val = substr($_REQUEST[$field], strlen($strWop[0])+1);
+			$searchCond = "$field like '%$val%'";
+		}
+	}
+
+	if ( $d == '' )
+		$ret['date'] = msdbDayToday();
+	else if ( ! ($ret['date'] = msdbDayScan($d)) ) {
+		cbMsg("$d: Invalid date format");
+		return(false);
+	}
+	$amtWop = split(' ', $_REQUEST['amount']);
+	if ( count($amtWop) == 2 && msdbArrValIn($amtWop[0], $amtDtOps) ) {
+		if ( ! ($ret['amount'] = fltScan($amtWop[1])) ) {
+			cbMsg($amtWop[1].": Invalid amount");
+			return(false);
+		}
+		$isSearch = true;
+		$op = $amtWop[0];
+		$val = $amtWop[1];
+		$searchCond = "amount $op $val";
+	} else if ( ! $isSearch && ($_REQUEST['amount']) == '' ) {
+		cbMsg("Empty Amount - Ignored");
+		return(false);
+	} else if ( ! $isSearch && ! ($ret['amount'] = fltScan($amtWop[0])) ) {
+		cbMsg($amtWop[0].": Invalid amount");
+		return(false);
+	}
+
+	if ( ! @@$ret['entered'] )
+		$ret['entered'] = time();
+
+	return($ret);
+}
+
+/******************************/
+
+function cbAdd()
+{
+	global $cbTable;
+	global $lastAddDate;
+	global $isSearch, $searchCond;
+
+	if ( ! ($cb = cbGetEnv()) )
+		return(cbMain());
+
+	/* searchCond, if at all, is set by cbGetEnv */
+
+	if ( $isSearch )
+		return(cbMain());
+
+	$sql = msDbInsertSql($cbTable, $cb);
+	$affected = msDbSql($sql);
+	$cbDescribed = $cb['date']." ".$cb['amount']." ". $cb['toFrom']." ".$cb['category']." ".$cb['notes'];
+	if ( $affected == 1 ) {
+		cbMsg("Entered: $cbDescribed");
+		cbWarnPreCons($cb['date']);
+		$lastAddDate = $cb['date'];
+	} else
+		cbMsg("Not Inserted ($cbDescribed)");
+
+	cbMain();
+
+}
+
+/******************************/
+
+function cbUpdate()
+{
+	global $cbTable;
+
+	if ( isset($_REQUEST['cbAdd']) && $_REQUEST['cbAdd'] == "Copy" )
+		return(cbAdd());
+
+	if ( ! ($cb = cbGetEnv()) )
+		return(cbMain());
+
+	$sql = msDbUpdateSql($cbTable, $cb, "where id = ".$cb['id']);
+	$affected = msDbSql($sql);
+	$cbDescribed = $cb['date']." ".$cb['amount']." ". $cb['toFrom']." ".$cb['category']." ".$cb['notes'];
+	if ( $affected == 1 ) {
+		cbMsg("Updated: $cbDescribed");
+		cbWarnPreCons($cb['date']);
+	} else
+		cbMsg("Nothing Changed ($cbDescribed)");
+	cbMain();
+}
+
+/************************************************************/
+
+function cbCons()
+{
+	global $cbTable;
+
+	$id = $_REQUEST['id'];
+	$date = msDbGetString("select date from $cbTable where id = $id");
+	if ( ! $date ) {
+		cbMsg("No Date for Consolidation");
+		cbMain();
+		return;
+	}
+	$ceidq = "select max(id) from $cbTable where date = '$date'";
+	$ceid = msDbGetString($ceidq);
+	if ( ! $ceid ) {
+		cbMsg("Consolidation Date Error ($ceidq)");
+		cbMain();
+		return;
+	}
+	$today = msdbDayToday();
+	msDbSql("update $cbTable set closed = '$today', wasClosed = 1 where id = $id");
+	cbMain();
+}
+
+/************************************************************/
+
+function cbUncons()
+{
+	global $cbTable;
+
+	if ( ! ( $dt = msDbGetString("select max(date) from $cbTable where closed != 0")) ) {
+		cbMsg("cbUncons: Nothing to Do ???");
+		cbMain();
+		return;
+	}
+
+	$sql = "update $cbTable set closed = 0 where date = '$dt'" ;
+	msDbSql($sql);
+	/*	cbMsg("cbUncons: $sql");	*/
+	cbMain();
+}
+
+/************************************************************/
+
+function cbMonthlyLine($year, $month, $bal)
+{
+
+	$args['cbLineClass'] = 'cbMonthLine';
+
+
+	/*
+	 * the date on the report is the first day of the month
+	 * as is convenienced by the sql query (last_day() only as of mysql 4.1.1)
+	 * I am converting it to the last day of the month
+	 */
+	$endDate = msdbDayDsub(msdbDayMadd(msdbDayConstruct($year, $month, 1)));
+
+	$args['sEndDate'] = msdbDayDashIt($endDate) ;
+	$args['amount'] = sprintf("%.2lf", $bal) ;
+
+	msdbInclude("include/monthlyTotals.h", $args);
+}
+
+/************************************************************/
+
+function cbLine(& $bal, $line, $isodd, $nextIsNextMonth)
+{
+	$isMonthly = isset($_REQUEST['cbMonthly']);
+
+	$args = $line;
+
+	$args['cbLineClass'] = ( $isodd ) ? 'cbOddLine' : 'cbEvenLine';
+
+	if ( $line['amount'] < -0.004 )
+		$args['negAmountClass'] =  "class=cbNegAmount";
+	else
+		$args['negAmountClass'] = '';
+
+	$bal += -$line['amount'];
+
+	if ( $bal < -0.004 )
+		$args['negBalClass'] = 'class=cbNegBal';
+	else
+		$args['negBalClass'] = '';
+
+	// this hae to do with diffrent icons for folding
+	/*	if ( $line['wasClosed'] )	*/
+		/*	$args['CONSGIF'] = "redCons.gif";	*/
+	/*	else if ( $nextIsNextMonth )	*/
+		/*	$args['CONSGIF'] =  "whiteCons.gif";	*/
+	/*	else	*/
+		/*	$args['CONSGIF'] =  "cons.gif";	*/
+
+	$args['amount'] = sprintf("%.02lf", $args['amount']);
+	$args['balance'] = sprintf("%.02lf", $bal);
+
+	msdbInclude($isMonthly ? "include/monthlyLine.h" : "include/line.h", $args);
+}
+
+/************************************************************/
+
+function cbSend_data($cbLines)
+{
+
+	$js[] =  "\ncbl = new Array();\n";
+
+	foreach ( $cbLines as $cb ) {
+		$js[] = sprintf( "%s = new cbItem('%s', '%s', %.2lf, '%s', '%s', %d, %d, %d);\n",
+			"cbl[cbl.length]",
+			msdbJsStr($cb['category']),
+			$cb['date'],
+			$cb['amount'],
+			msdbJsStr($cb['toFrom']),
+			msdbJsStr($cb['notes']),
+			$cb['closed'],
+			$cb['entered'],
+			$cb['id']
+			);
+	}
+	$js[] = "\ncb.data = cbl;\n";
+
+	msdbJs(implode("\n", $js));
+}
+
+/************************************************************/
+
+function cbReportLine($n, $which)
+{
+	global $cbTable;
+	global $cbFname, $repfvalues, $stCloseDates;
+
+	$repRestrClass = array("cbCategoryRestrictClass", "cbToFromRestrictClass", "cbBalancesRestrictClass" );
+	$repFvalClass = array("cbCategoryValClass", "cbToFromValClass", "cbBalancesValClass", );
+	$repNegClass = array("cbCategoryNegTotalClass", "cbToFromNegTotalClass", "cbBalancesNegTotalClass" );
+	$repPosClass = array( "cbCategoryTotalClass", "cbToFromTotalClass", "cbBalancesTotalClass" );
+$repAlt = array( "Show Detail of this Category", "Show Detail of this Payee/Payer", "Show Statement Ending with this date");
+
+	$fval = $repfvalues[$which][$n];
+
+	if ( $which == 2 ) {
+		$closeDate = $stCloseDates[$n];
+		$cmd = "select sum(-amount) from $cbTable where date <= '$closeDate'";
+	} else {
+		$sval = str_replace("'", "\\'", $fval);
+		$fname = $cbFname[$which];
+		$cmd = "select sum(amount) from $cbTable where $fname = '$sval'";
+	}
+	
+	$tot = msDbGetString($cmd);
+	$args['Total'] = sprintf("%.02lf", $tot) ;
+	$args['which'] = $which ;
+	$args['fval'] = $fval ;
+	$args['restrictClass'] = $repRestrClass[$which] ;
+
+	if ( $tot < -0.004 )
+		$args['totalClass'] = $repNegClass[$which];
+	else
+		$args['totalClass'] = $repPosClass[$which];
+
+
+	$args['repAlt'] = $repAlt[$which];
+
+	$args['fvalClass'] =  $repFvalClass[$which];
+
+	if ( $which == 2 ) {
+		$args['cdate'] = $stCloseDates[$n];
+		msdbInclude("include/balLine.h", $args);
+	} else
+		msdbInclude("include/repLine.h", $args);
+}
+
+/******************************/
+
+function cbReportBy($which)
+{
+	global $cbFname, $repnvalues;
+	$repFdesc = array("Category", "Paid To/From", "Balance as of" );
+
+	if ( $repnvalues[$which] <= 0 )
+		return(0);
+	if ( $which == 1 && $repnvalues[1] > MAX_TOF_RPRT )
+		return(0);
+	$args['moreHeading'] = ($which == 2) ? "<TR><TD COLSPAN=3 ALIGN=CENTER><B>Folded Pages</B></TD></TR>\n" : "" ;
+	$args['reportBy'] = $cbFname[$which];
+	$args['reportByDesc'] = $repFdesc[$which];
+	msdbInclude("include/reportTableTag.h", $args);
+	for($i=0;$i<$repnvalues[$which];$i++)
+		cbReportLine($i, $which);
+	printf("</TABLE>\n");
+	return(1);
+}
+
+/******************************/
+
+function cbRepData()
+{
+	global $cbTable;
+
+	global $cbFname, $repfvalues, $stCloseDates, $repnvalues;
+
+
+	if ( $repnvalues[0] != -2 )
+		return(1);
+
+	for($i=0;$i<2;$i++) {
+		$fname = $cbFname[$i];
+		$cmd = "select distinct $fname from $cbTable order by $fname";
+		$repfvalues[$i] = msDbGetStrings($cmd);
+		$repnvalues[$i] = count($repfvalues[$i]);
+	}
+
+	$cmd = "select date from $cbTable where closed > 0";
+	$stCloseDates = msDbGetStrings($cmd);
+	$repnvalues[2] = count($stCloseDates);
+	for($i=0;$i<$repnvalues[2];$i++)
+		$repfvalues[2][$i] = $stCloseDates[$i] ;
+	return(1);
+}
+
+/******************************/
+
+function cbReports()
+{
+	global $cbFname, $repnvalues;
+
+	if ( $repnvalues[0] <= 0 && ($repnvalues[1] <= 0 || $repnvalues[1] > MAX_TOF_RPRT) )
+		return(0);
+
+	msdbInclude("include/reportsTableTag.h");
+	printf("<TR><TD VALIGN=\"TOP\">\n");
+	cbReportBy(0);
+	printf("</TD><TD VALIGN=\"TOP\">\n");
+	cbReportBy(1);
+	printf("</TD><TD VALIGN=\"TOP\">\n");
+	cbReportBy(2);
+	printf("</TD></TR></TABLE>\n");
+	return(1);
+}
+
+/************************************************************/
+
+function cbMainTable($prevDate, $prevBal, $cbLines)
+{
+	global $cbTable;
+	static $curBal;
+
+	$curBal = $prevBal;
+	$isMonthly = isset($_REQUEST['cbMonthly']);
+
+	msdbInclude("include/tableTag.h");
+	if ( $prevDate )
+		msdbInclude("include/prev.h", array(
+					'prevDate' => $prevDate,
+					'prevBal' => sprintf("%.02lf", $prevBal),
+					'prevBalClass' => ($prevBal < -0.004) ? "cbNegPrev" : "cbPosPrev",
+				)
+			);
+	msdbInclude($isMonthly ? "include/monthlyHead.h" : "include/head.h");
+		
+
+	for($i=0;$i<count($cbLines);$i++) {
+		$nextIsNextMonth = ( $i != count($cbLines)-1 &&
+					(
+						! $isMonthly && msdbDayMonthOf($cbLines[$i]['date']) != msdbDayMonthOf($cbLines[$i+1]['date']) ||
+						$isMonthly && $cbLines[$i]['month'] != $cbLines[$i+1]['month']
+					)
+				)
+			;
+		cbLine($curBal, $cbLines[$i], $i%2, $nextIsNextMonth);
+		if ( $isMonthly && ($i == count($cbLines)-1 || $nextIsNextMonth ) ) {
+			cbMonthlyLine($cbLines[$i]['year'], $cbLines[$i]['month'], -$curBal);
+			$curBal = 0.0;
+		}
+	}
+
+	if ( $isMonthly ) {
+		printf("</TABLE>\n");
+		return;
+		
+	}
+
+	cbRepData();
+
+	cbForm();
+
+	printf("</TABLE>\n");
+
+	cbSelect(0);
+	cbSelect(1);
+
+	cbReports();
+
+	if ( ! $isMonthly )
+		cbSend_data($cbLines);
+
+	$args['cbTable'] = $cbTable;
+
+	msdbInclude("include/change.h", $args);
+
+}
+
+/************************************************************/
+
+function cbForm()
+{
+	global $cbTable;
+	global $lastAddDate;
+	global $repfvalues, $repnvalues;
+
+	$args['cbTable'] = $cbTable;
+
+	if ( $lastAddDate ) {
+		$d = $lastAddDate;
+		$args['date'] = sprintf("%d %d %d", ((int)($d/100))%100, $d%100, (int)($d/10000));
+	} else
+		$args['date'] = '' ;
+
+	$args['categImg'] = 'cbNoImg' ;
+	$args['toFromImg'] = 'cbNoImg' ;
+
+	if ( $repnvalues[0] > 0 && ( $repnvalues[0] != 1 || $repfvalues[0] != '' ) )
+		$args['categImg'] = 'IMG' ;
+	if ( $repnvalues[1] > 0 && ( $repnvalues[1] != 1 || $repfvalues[1] != '' ) )
+		$args['toFromImg'] = 'IMG' ;
+
+	msdbInclude("include/new.h", $args);
+}
+
+/************************************************************/
+
+function cbMsg($m)
+{
+	msdbMsg($m);
+}
+
+/************************************************************/
+
+function cbMain()
+{
+	global $cbTable;
+	global $restrFname, $restrVal, $isMonthly, $searchOp, $isSearch, $searchCond;
+
+	$restrFname = @@$_REQUEST['restrFname'];
+	$restrVal = @@$_REQUEST['restrVal'];
+	$isMonthly = isset($_REQUEST['cbMonthly']);
+	$isStatement = $restrFname == "Statement" ;
+
+	$stCloseDate = 0;
+	if ( $isStatement )
+		$stCloseDate = $restrVal;
+
+	if ( $isStatement ) {
+		$describe =  "- Statement Ending $stCloseDate";
+	} else if ( $isSearch ) {
+		$describe = " - where $searchCond";
+	} else if ( $restrFname )
+		$describe = " - where $restrFname = '$restrVal'";
+	else if ( $isMonthly )
+		$describe = "- Month by Month Expenses";
+	else
+		$describe = '';
+
+	$args = array(
+			'cbTable' => $cbTable,
+			'restrFname' => $restrFname,
+			'restrVal' => $restrVal,
+			'describe' => "$describe",
+		);
+
+
+	msdbInclude("include/cb.h", $args);
+
+
+	msdbInclude("Third/msdb/include/mOver.h");
+
+
+
+	$conds = array();
+
+	if ( $isMonthly || $restrFname && ! $isStatement ) {
+		$prevDate = 0;
+	} else {
+		$prevDate = cbPrevDate($isStatement, $stCloseDate) ;
+		if ( $prevDate != 0 )
+			$conds[] = "date > '$prevDate'" ;
+	}
+
+	if ( $prevDate )
+		$prevBal = cbPrevBalance($isStatement, $stCloseDate);
+	else
+		$prevBal = 0.0;
+	if ( $isStatement )
+		$conds[] =  "date <= '$stCloseDate'";
+	else if ( $isSearch )
+		$conds[] = "$searchCond" ;
+	else if ( $restrFname && ! $isStatement )
+		$conds[] = "$restrFname = '$restrVal'" ;
+
+	if ( count($conds) > 0 )
+		$w = "where ".implode(" and ", $conds);
+	else
+		$w = "";
+
+	if ( $isMonthly ) {
+		$fields = "category, YEAR(date) as year, MONTH(date) as month, max(TO_DAYS(date)) as date, sum(amount) as amount";
+		$gb = "group by YEAR(date), MONTH(date), category";
+		$ob = "order by YEAR(date), MONTH(date), category";
+		/*	$q = "select $fields from $cbTable where amount > 0 $gb $ob" ;	*/
+		$q = "select $fields from $cbTable $gb $ob" ;
+	} else
+		$q = "select * from $cbTable $w order by date, entered";
+
+	$cbLines = msDbGetAssoc($q);
+
+	if ( $cbLines === null ) {
+		cbMsg("Can not get data - $q");
+		return;
+	}
+
+	cbMainTable($prevDate, $prevBal, $cbLines);
+	msdbInclude("include/cb.t");
+}
+
+/************************************************************/
+
+function cbDelete()
+{
+	global $cbTable;
+
+	$id = $_REQUEST['id'];
+	$affected = msDbSql("delete from $cbTable where id = $id");
+	if ( $affected != 1 )
+		cbMsg("Not Deleted");
+	cbMain();
+}
+
+/************************************************************/
+
+function cbNoOp()
+{
+	cbMain();
+}
+
+/************************************************************/
+
+/* date,amount,toFrom,category,notes,entered,closed */
+#define CB_HS "%-9.9s %-19.19s %-19.19s %-19.19s %-24.24s %-14.14s %-9.9s\n"
+#define CB_DS "%-9.9s %19.2lf %-19s %-19s %-24s %-14d %-9d\n"
+
+function cbExport()
+{
+	global $cbTable;
+
+	$us="--------------------------------------------------------------------------------------";
+
+	msdbMime("text/plain");
+
+
+	$cbLines = msDbGetAssoc("select * from $cbTable order by date, entered");
+
+	printf(CB_HS,
+		"Date", "Amount", "To/Form", "Category",
+		"Notes", "Entered", "Closed");
+	printf(CB_HS, us, us, us, us, us, us, us);
+	foreach($cbLiones as $cb)
+		printf(CB_DS,
+			$cb['date'],
+			$cb['amount'],
+			$cb['toFrom'],
+			$cb['category'],
+			$cb['notes'],
+			$cb['entered'],
+			$cb['closed']
+			);
+}
+
+/************************************************************/
+
+function cbMonthly()
+{
+	$_REQUEST['cbMonthly'] = 1 ;
+	cbMain();
+}
+
+/************************************************************/
+
+function cbCreateBogusEntry($date, $isLastDayOfMonth)
+{
+	global $cbTable;
+	static $lines = null;
+
+	$closed = ($isLastDayOfMonth) ? 1 : 0 ;
+	if (  $lines === null )
+		foreach ( array('category', 'toFrom', 'notes') as $fname )
+			$lines[$fname] = msdbFile("include/bogusData/$fname");
+
+	$cb = array(
+		'category' => $lines['category'][rand(0, count($lines['category'])-2)],
+		'date' => $date,
+		'amount' => ( rand(0,1) * 2 - 1) * rand(40, 80) + rand(0,99)/100,
+		'toFrom' => $lines['toFrom'][rand(0, count($lines['toFrom'])-2)],
+		'notes' => str_replace("'", "\\'", $lines['notes'][rand(0, count($lines['notes'])-2)]),
+		'closed' => $isLastDayOfMonth ? $date : 0,
+		);
+	msDbSql(msDbInsertSql($cbTable, $cb));
+}
+
+/************************************************************/
+?>
+@
+
+
+1.71
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.70 2004/08/05 13:04:14 engine Exp engine $ ';
+d702 3
+@
+
+
+1.70
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.69 2004/08/05 10:04:22 engine Exp engine $ ';
+d823 1
+a823 1
+		'category' => $lines['category'][rand(0, count($lines['category'])-1)],
+d826 2
+a827 2
+		'toFrom' => $lines['toFrom'][rand(0, count($lines['toFrom'])-1)],
+		'notes' => str_replace("'", "\\'", $lines['notes'][rand(0, count($lines['notes'])-1)]),
+@
+
+
+1.69
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.68 2004/08/05 08:56:46 engine Exp engine $ ';
+d820 1
+a820 1
+			$lines[$fname] = file("include/bogusData/$fname");
+@
+
+
+1.68
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.67 2004/08/04 16:27:47 engine Exp engine $ ';
+d74 1
+a74 1
+	if ( @@$cbConfig['Tutor'] || @@count($tables) != 1 )
+@
+
+
+1.67
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.66 2004/08/03 14:14:10 engine Exp engine $ ';
+d69 1
+@
+
+
+1.66
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.65 2004/08/03 14:00:37 engine Exp engine $ ';
+d33 2
+d37 17
+a53 5
+	for($iy=$y-1;$iy<=$y;$iy++)
+		for($im=1;$im<=12;$im++)
+			for($id=4;$id < 27 ; $id += rand(1, 16))
+				if($iy < $y || $im < $m)
+					cbCreateBogusEntry(msdbDayCompose($iy, $im, $id));
+d61 1
+d73 1
+a73 1
+	if ( @@count($tables) != 1 )
+d75 1
+a75 1
+	cbMsg("Just created the first table in the database. Throwing in some ramdom data");
+d811 1
+a811 1
+function cbCreateBogusEntry($date)
+d816 1
+d827 1
+@
+
+
+1.65
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.64 2004/08/03 13:54:51 engine Exp engine $ ';
+d35 1
+a35 1
+	for($iy=$y-3;$iy<=$y;$iy++)
+d37 1
+a37 1
+			for($id=4;$id < 27 ; $id += rand(1, 5))
+d808 1
+a808 1
+		'amount' => rand(40, 80) + rand(0,99)/100,
+@
+
+
+1.64
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.63 2004/08/03 13:42:16 engine Exp engine $ ';
+d810 1
+a810 1
+		'notes' => $lines['notes'][rand(0, count($lines['notes'])-1)],
+@
+
+
+1.63
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.62 2004/08/03 13:25:02 engine Exp engine $ ';
+d39 1
+a39 1
+					cbCreateBogusEntry(msdbDayCompose(($iy, $im, $id));
+d60 1
+a60 1
+	// just created the first table in the database
+a800 1
+	categories
+d803 1
+a803 1
+			$lines['$fname'] = file("include/bogusData/$fname");
+d808 1
+a808 1
+		'amount' => rand(40, 80) + rand(0,99)/100
+d812 1
+a812 1
+	msDbSql(msDbInsertSql($cb, $cb));
+@
+
+
+1.62
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.61 2004/08/01 09:33:50 engine Exp engine $ ';
+d799 6
+a804 8
+	static $lines;
+	static $categories;
+	static $toFroms;
+
+	if ( ! $lines ) {
+		$lines = file('include/bogusData');
+		// create arrays of category + toFrom from the same data, and alsop descriptionS
+	}
+d807 1
+d809 3
+a811 2
+		'hm' => $h * 100,
+		'what' => $lines[rand(0, count($lines)-1)],
+@
+
+
+1.61
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.60 2004/07/29 14:42:24 engine Exp engine $ ';
+d31 13
+d55 8
+a62 1
+	return($ret != -1);
+d795 22
+@
+
+
+1.60
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.59 2004/07/29 14:32:23 engine Exp engine $ ';
+a48 1
+	global $cbTable;
+d50 4
+a65 3
+// if a user entered succefully then true is returned and $cbTable is set to the
+// name of the  table
+
+d176 9
+d190 2
+a191 2
+	$amtOps = array('>', '<', '=', '>=', '<=', '!=');
+	$notesOps = array('like', '%', '*', '='); // all treated as 'like'
+d199 9
+d216 5
+a220 1
+	if ( count($amtWop) == 2 && msdbArrValIn($amtWop[0], $amtOps) ) {
+d225 1
+a225 10
+	}
+
+	$notesWop = split(' ', $_REQUEST['notes']);
+	if ( count($notesWop) > 1 && msdbArrValIn($notesWop[0], $notesOps) ) {
+		$isSearch = true;
+		$val = $notesWop[1];
+		$searchCond = "notes like '%$val%'";
+	}
+
+	if ( ! $isSearch && ($_REQUEST['amount']) == '' ) {
+d228 3
+d647 3
+a649 3
+		$describe = " - $searchCond";
+	} else if ( $restrVal )
+		$describe = " - $restrFname = $restrVal";
+d659 1
+a659 1
+			'cbTitle' => "$cbTable $describe",
+a665 1
+	echo "<BR>Cash Book Balance <A HREF=\"javascript:cbNoOp()\">$cbTable</A>  $describe<BR><BR>\n\n" ;
+d669 1
+a669 1
+	if ( $isMonthly || $restrVal && ! $isStatement ) {
+d685 1
+a685 1
+	else if ( $restrFname && $restrVal )
+@
+
+
+1.59
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.58 2004/07/29 14:05:12 engine Exp engine $ ';
+a677 2
+	cbMsg($w);
+
+@
+
+
+1.58
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.57 2004/07/29 12:22:19 engine Exp engine $ ';
+d108 1
+d124 1
+a124 1
+	$p = cbPrevDate(0, 0);
+d228 1
+d242 1
+a242 1
+	if ( $affected == 1 )
+d244 3
+a246 1
+	else
+a248 2
+	cbWarnPreCons($cb['date']);
+	$lastAddDate = $cb['date'];
+d266 7
+a272 2
+	msDbSql($sql);
+	cbWarnPreCons($cb['date']);
+@
+
+
+1.57
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.56 2004/07/29 12:01:49 engine Exp engine $ ';
+a13 6
+$repFdesc = array("Category", "Paid To/From", "Balance as of" );
+$repFvalClass = array("cbCategoryValClass", "cbToFromValClass", "cbBalancesValClass", );
+$repRestrClass = array("cbCategoryRestrictClass", "cbToFromRestrictClass", "cbBalancesRestrictClass" );
+$repPosClass = array( "cbCategoryTotalClass", "cbToFromTotalClass", "cbBalancesTotalClass" );
+$repNegClass = array("cbCategoryNegTotalClass", "cbToFromNegTotalClass", "cbBalancesNegTotalClass" );
+$repAlt = array( "Show Detail of this Category", "Show Detail of this Payee/Payer", "Show Statement Ending with this date");
+a68 1
+	global $_SERVER;
+d145 1
+a145 1
+	global $cbFname, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+a195 1
+
+d227 1
+a227 1
+	global $restrVal, $isMonthly, $isSearch, $searchCond;
+a232 1
+	$isSearch = isset($_REQUEST['searchCond']);
+d238 7
+a244 1
+	msDbSql($sql);
+d399 7
+a405 1
+	global $cbFname, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d445 2
+a446 1
+	global $cbFname, $repFdesc, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d468 1
+a468 1
+	global $cbFname, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d493 1
+a493 1
+	global $cbFname, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d577 1
+a577 1
+	global $cbFname, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d700 3
+a702 1
+	msDbSql("delete from $cbTable where id = $id");
+@
+
+
+1.56
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.55 2004/07/29 09:31:02 engine Exp engine $ ';
+d380 1
+a380 1
+		$js[] = sprintf( "%s = new cbItem('%s', %d, %.2lf, '%s', '%s', %d, %d, %d);\n",
+@
+
+
+1.55
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.54 2004/07/29 09:28:54 engine Exp engine $ ';
+d64 1
+a64 1
+	return("cb_cb");
+d154 3
+a156 5
+	msdbInclude("include/dialogHeader.h",
+		array(
+				"DIALOGID" => "cbSEL".$cbFname[$which],
+				"CLASSNAME" => "cbSEL".$cbFname[$which]."Class"
+			)
+d158 1
+d163 1
+a163 1
+		msdbInclude("include/dialogFooter.h");
+d176 1
+a176 1
+	msdbInclude("include/dialogFooter.h");
+d220 1
+a220 1
+		cbMsg("Empty Entry Ignored");
+d509 1
+d561 3
+a563 1
+	msdbInclude("include/change.h");
+d571 1
+d575 2
+@
+
+
+1.54
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.53 2004/07/28 13:15:46 engine Exp engine $ ';
+a12 1
+/*	global $cbFname, $repFdesc, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;	*/
+d152 1
+a152 1
+	global $cbFname, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d443 1
+a443 1
+	global $cbFname, $repFdesc, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d465 1
+a465 1
+	global $cbFname, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d490 1
+a490 1
+	global $cbFname, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d570 1
+a570 1
+	global $cbFname, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+@
+
+
+1.53
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.52 2004/07/28 11:20:47 engine Exp engine $ ';
+d15 1
+a15 1
+$repFdesc = array("Category", "Paid To/From", "Balances" );
+d153 1
+a153 1
+	global $cbFname, $repFdesc, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d404 1
+a404 1
+	global $cbFname, $repFdesc, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d466 1
+a466 1
+	global $cbFname, $repFdesc, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d491 1
+a491 1
+	global $cbFname, $repFdesc, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d571 1
+a571 1
+	global $cbFname, $repFdesc, $repFvalClass, $repRestrClass, $repPosClass, $repNegClass, $repAlt, $repfvalues, $stCloseDates, $repnvalues;
+d625 1
+d635 1
+a635 1
+	echo "<BR><A HREF=\"javascript:cbNoOp()\">CashBook</A>  $describe<BR>\n\n" ;
+d682 1
+@
+
+
+1.52
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.51 2004/07/28 11:05:14 engine Exp engine $ ';
+d319 1
+a319 1
+function cbMonthlyLine($date, $bal)
+d327 1
+a327 1
+	 * as is convenienced by the stored proc,
+d330 1
+a330 1
+	$endDate = msdbDayDsub(msdbDayMadd($date));
+d332 2
+a333 3
+	$args['sEndDate'] = $endDate ;
+	$args['negAmountClass'] = "class=cbNegAmount" ;
+	$args['amount'] = $bal ;
+d450 1
+d514 1
+a514 1
+	$isMonthly = isset($_REQUEST['"cbMonthly']);
+d529 6
+a534 1
+			msdbDayMonthOf($cbLines[$i]['date']) != msdbDayMonthOf($cbLines[$i+1]['date']) );
+d537 1
+a537 1
+			cbMonthlyLine($cb[$i]['date'], $curBal);
+d558 3
+a560 1
+	cbSend_data($cbLines);
+d651 1
+a651 1
+		$conds[] =  "date > $prevDate date <= '$stCloseDate'";
+d665 5
+a669 3
+		$fields = "category, max(date/100 * 100 + 1) as date, sum(amount) as amount";
+		$gbob = "date/100, category";
+		$q = "select $fields from $cbTable where amount > 0 group by $gbob order by $gbob";
+@
+
+
+1.51
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.50 2004/07/28 09:03:36 engine Exp engine $ ';
+d108 1
+a108 1
+		return($thePrevDate);;
+d112 2
+a113 2
+	$thePrevDate = msdbGetString($cmd);
+	if ( $thePrevDate < 0 )
+a642 1
+
+d644 2
+a645 2
+		$conds[] =  "date <= '$stCloseDate'";
+	if ( $isSearch )
+d647 1
+a647 2
+
+	if ( $restrFname && $restrVal )
+d655 2
+@
+
+
+1.50
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.49 2004/07/28 08:34:58 engine Exp engine $ ';
+d419 1
+a419 1
+	$args['Total'] = $tot ;
+@
+
+
+1.49
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.48 2004/07/28 08:09:47 engine Exp engine $ ';
+a474 1
+		cbMsg($cmd);
+@
+
+
+1.48
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.47 2004/07/28 07:56:58 engine Exp engine $ ';
+d475 1
+d477 1
+a477 1
+		$repnvalues[$i] = count($repfvalues);
+@
+
+
+1.47
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.46 2004/07/28 07:13:33 engine Exp engine $ ';
+d13 11
+d33 2
+a85 11
+$cbFname = array("category", "toFrom", "Balance" );
+$repFdesc = array("Category", "Paid To/From", "Balances" );
+$repFvalClass = array("cbCategoryValClass", "cbToFromValClass", "cbBalancesValClass", );
+$repRestrClass = array("cbCategoryRestrictClass", "cbToFromRestrictClass", "cbBalancesRestrictClass" );
+$repPosClass = array( "cbCategoryTotalClass", "cbToFromTotalClass", "cbBalancesTotalClass" );
+$repNegClass = array("cbCategoryNegTotalClass", "cbToFromNegTotalClass", "cbBalancesNegTotalClass" );
+$repAlt = array( "Show Detail of this Category", "Show Detail of this Payee/Payer", "Show Statement Ending with this date");
+$repfvalues = array();
+$stCloseDates = 0; // ints of repfvalues[2]
+$repnvalues = array( -2, -2, -2);
+/************************************************************/
+d476 1
+a476 1
+		$repnvalues[i] = count($repfvalues);
+d576 1
+a576 1
+		setenv("categImg", "IMG");
+d578 1
+a578 1
+		setenv("toFromImg", "IMG");
+a605 3
+	msdb_r($_REQUEST);
+	cbMsg("--$restrFname --$restrVal --$isMonthly --$isStatement");
+
+a670 2
+	/*	msdb_r($cbLines);	*/
+
+@
+
+
+1.46
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.45 2004/07/28 07:06:02 engine Exp engine $ ';
+d518 1
+a518 1
+					'prevBal' => $prevBal,
+d596 1
+a596 1
+	$restrVal = @@$_REQUEST['("restrVal'];
+d604 3
+d612 1
+a612 1
+		$describe = " - $restrVal";
+d647 1
+a647 1
+	else if ( $isSearch )
+d650 3
+@
+
+
+1.45
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.44 2004/07/28 05:28:18 engine Exp engine $ ';
+d359 7
+a365 1
+	$args['balance'] = $bal ;
+d367 2
+a368 6
+	if ( $line['wasClosed'] )
+		$args['CONSGIF'] = "redCons.gif";
+	else if ( $nextIsNextMonth )
+		$args['CONSGIF'] =  "whiteCons.gif";
+	else
+		$args['CONSGIF'] =  "cons.gif";
+@
+
+
+1.44
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.43 2004/07/28 05:21:47 engine Exp engine $ ';
+d29 1
+a29 1
+	$crtfields = " category varchar(64), date date, amount double, toFrom varchar(64), notes varchar(64), closed int, entered date, wasClosed int, id int auto_increment NOT NULL, PRIMARY KEY(id) ";
+d89 1
+a89 1
+	return(msDbGetString("select max(date) from $cbTable where date < $closeDate and closed > 0"));
+d144 1
+a144 1
+	return(msdbGetString("select sum(-amount) from $cbTable where date <= $pdate"));
+d293 1
+a293 1
+	msDbSql("update $cbTable set closed = $today, wasClosed = 1 where id = $id");
+d407 1
+a407 1
+		$cmd = "select sum(-amount) from $cbTable where date <= $closeDate";
+d632 1
+a632 1
+			$conds[] = "date > $prevDate" ;
+d641 1
+a641 1
+		$conds[] =  "date <= $stCloseDate";
+@
+
+
+1.43
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.42 2004/07/27 15:35:02 engine Exp engine $ ';
+d345 1
+a345 1
+	$args['cbLineClass'] = ( $isodd ) ? 'cbdOddLine' : 'cbdEvenLine';
+@
+
+
+1.42
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.41 2004/07/27 14:17:44 engine Exp engine $ ';
+d105 1
+a105 1
+		$thePrevDate = cbStPrevDate(closeDate);
+d308 4
+a311 1
+	msDbSql("update $cbTable set closed = 0 where date = $dt");
+a580 9
+function cbTitle($restrVal)
+{
+	$href = "javascript:cbNoOp()";
+
+	echo "<BR><A HREF=\"$href\">CashBook</A>  $restrVal<BR>\n\n" ;
+}
+
+/************************************************************/
+
+a587 11
+function cbDescription()
+{
+	global $restrFname, $restrVal, $isMonthly, $searchOp, $isSearch, $searchCond;
+
+	$isStatement = $restrFname == "Statement" ;
+
+	
+}
+
+/************************************************************/
+
+d596 1
+d598 14
+d616 1
+a616 1
+			'cbTitle' => "$cbTable ---",
+d618 2
+a620 1
+	$isStatement = $restrFname == "Statement" ;
+a621 14
+	$stCloseDate = 0;
+	if ( $isStatement ) {
+		$stCloseDate = $restrVal;
+		$stTitle =  "Statement Ending $stCloseDate";
+		$rtitle = $stTitle;
+	} else if ( $isSearch ) {
+		$stTitle = sprintf("%s %s %s", $restrFname, $searchOp, $restrVal);
+		$rtitle = $stTitle;
+	} else if ( $restrVal )
+		$rtitle = $restrVal;
+	else if ( $isMonthly )
+		$rtitle = "Month by Month Expenses";
+	else
+		$rtitle = '';
+d623 3
+a625 1
+	cbTitle($rtitle);
+a628 1
+		$cons = '' ;
+d631 2
+a632 4
+		if ( $prevDate == 0 )
+			$cons = '' ;
+		else
+			$cons = "date > $prevDate" ;
+d641 1
+a641 1
+		$restr =  "and date <= $stCloseDate";
+d643 1
+a643 3
+		$restr = "and $searchCond" ;
+	else
+		$restr = '';
+d645 2
+a646 2
+	if ( $cons != '' || $restr != '' )
+		$w = "where $cons $restr"; 
+d648 1
+a648 1
+		$w = '' ;
+d658 1
+@
+
+
+1.41
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.40 2004/07/27 13:29:46 engine Exp engine $ ';
+d184 2
+d209 1
+a209 1
+		$_REQUEST['searchCond'] = 'where amount $op $val';
+d216 1
+a216 1
+		$_REQUEST['searchCond'] = "where notes like '%$val%'";
+d235 1
+d285 2
+a286 1
+	$ceid = msDbGetString("select max(eng_id) from $cbTable where date = $date");
+d288 1
+a288 1
+		cbMsg("Consolidation Date Error");
+d290 1
+d293 1
+a293 1
+	msDbSql("update $cbTable set closed = $today wasClosed = 1 where id = $id");
+d582 1
+a582 1
+	echo "<BR><A HREF=\"$href\">CashBook</A>  $restrVal\n\n" ;
+d594 11
+d608 1
+a612 2
+	$searchOp = @@$_REQUEST['("searchOp'];
+	$isSearch = isset($_REQUEST['searchCond']);
+d618 1
+a618 1
+			'cbTitle' => "$cbTable ($restrFname $searchOp $restrVal)",
+d648 1
+a648 1
+			$cons = "and date > $prevDate" ;
+d663 1
+a663 1
+	if ( $cons != '' || $restr = '' )
+d668 5
+a672 4
+	if ( $isMonthly )
+		// from create proc gldMonthly
+		$q = "select category, max(date/100 * 100 + 1), sum(amount), max(toFrom), max(''), max(0), max(0), max(eng_id), max(0) from $cbTable where amount > 0";
+	else
+@
+
+
+1.40
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.39 2004/07/27 12:56:03 engine Exp engine $ ';
+d537 4
+a540 4
+	/*	cbSelect(0);	*/
+	/*	cbSelect(1);	*/
+/*		*/
+	/*	cbReports();	*/
+@
+
+
+1.39
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.38 2004/07/27 12:05:30 engine Exp engine $ ';
+a359 2
+	msdb_r($args);
+
+@
+
+
+1.38
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.37 2004/07/27 12:03:55 engine Exp engine $ ';
+d360 2
+d374 1
+a374 1
+			"cbl[cbll.length]",
+d387 1
+a387 1
+	msdbJs(implode('\n', $js));
+@
+
+
+1.37
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.36 2004/07/27 11:57:04 engine Exp engine $ ';
+d516 1
+a516 1
+		$nextIsNextMonth = ( $i != $n-1 &&
+d519 1
+a519 1
+		if ( $isMonthly && ($i == $n-1 || $nextIsNextMonth ) ) {
+@
+
+
+1.36
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.35 2004/07/27 11:17:57 engine Exp engine $ ';
+d186 1
+a186 1
+	$descOps = array('like', '%', '*', '='); // all treated as 'like'
+d210 2
+a211 2
+	$descWop = split(' ', $_REQUEST['description']);
+	if ( count($descWop) > 1 && msdbArrValIn($descWop[0], $descOps) ) {
+d213 2
+a214 2
+		$val = $descWop[1];
+		$_REQUEST['searchCond'] = "where description like '%$val%'";
+d377 1
+a377 1
+			msdbJsStr($cb['description']),
+d690 1
+a690 1
+/* date,amount,toFrom,category,description,entered,closed */
+d707 1
+a707 1
+		"Description", "Entered", "Closed");
+d715 1
+a715 1
+			$cb['description'],
+@
+
+
+1.35
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.34 2004/07/27 10:16:07 engine Exp engine $ ';
+d244 1
+a244 1
+	$msDbSql($sql);
+@
+
+
+1.34
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.33 2004/07/27 10:10:15 engine Exp engine $ ';
+d192 1
+a192 1
+	$d = $_REQUEST['date'];
+d194 4
+a197 1
+	if ( ! ($ret['date'] = msdbDayScan($d)) ) {
+d199 1
+a199 1
+		return(0);
+d217 1
+a217 1
+	if ( ! $ $isSearch && ($_REQUEST['amount']) == '' ) {
+d219 1
+a219 1
+		return(0);
+d222 1
+a222 1
+	if ( ! $ret['entered'] )
+a223 2
+	if ( $ret['date'] == 0 )
+		$ret['date'] = msdbDayToday();
+d225 1
+a225 1
+	return(1);
+d234 1
+a234 1
+	if ( ! cbGetEnv() )
+a242 2
+	$cb = $_REQUEST;
+
+a503 2
+	msdbInclude("include/change.h");
+
+d509 1
+a509 1
+					'prevBalClass' => (prevBal < -0.004) ? "cbNegPrev" : "cbPosPrev",
+d537 7
+a543 2
+	cbSelect(0);
+	cbSelect(1);
+a544 2
+	cbReports();
+	cbSend_data($cbLines);
+d665 1
+a665 1
+	msdb_r($cbLines);
+@
+
+
+1.33
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.32 2004/07/27 10:08:41 engine Exp engine $ ';
+d685 1
+a685 1
+	return(cbMain());
+@
+
+
+1.32
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.31 2004/07/27 10:05:00 engine Exp engine $ ';
+d575 1
+a575 1
+	$href = "javascript:cbNoNoOp()";
+@
+
+
+1.31
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.30 2004/07/27 09:35:06 engine Exp engine $ ';
+d16 1
+a16 1
+if ( ! isset($_REQUEST['cbAction']) ) {
+d20 1
+a20 1
+$action = $_REQUEST['cbAction'];
+@
+
+
+1.30
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.29 2004/07/27 09:09:57 engine Exp engine $ ';
+d13 6
+a18 2
+if ( cbEnter() ) {
+        cbMain();
+d20 3
+a360 1
+
+d653 4
+a656 4
+	if ( $isMonthly ) {
+		/*	sprintf(s, "exec cbMonthly %d, %d ", uid, fid);	*/
+		/*	n = engdb_getobjects_by_cmd(cb, GLD_MAX_ITEMS, "cb_cb", s);	*/
+	} else {
+d658 2
+a659 2
+		$cbLines = msDbGetAssoc($q);
+	}
+@
+
+
+1.29
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.28 2004/07/27 07:10:06 engine Exp engine $ ';
+d571 1
+a571 1
+	echo "<BR><A HREF=\"$href\">CashBook</A>  $restrVal" ;
+d658 3
+@
+
+
+1.28
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.27 2004/07/26 18:37:27 engine Exp engine $ ';
+d4 1
+a4 1
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+d363 1
+a363 1
+	$js[] =  "\ng = new Array();\n";
+d367 1
+a367 1
+			"cbl[cbl.length]",
+@
+
+
+1.27
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.26 2004/07/26 18:22:21 engine Exp engine $ ';
+d306 1
+a306 1
+	$args['gldLineClass'] = 'gldMonthLine';
+d314 7
+a320 11
+	/*	endDate = yd_dsub(yd_madd(date));	*/
+/*		*/
+	/*	eng_intwdate_fmt(sdate, &endDate);	*/
+	/*	setenv("sEndDate", sdate);	*/
+/*		*/
+	/*	setenv("negAmountClass", "class=gldNegAmount");	*/
+/*		*/
+	/*	sprintf(sbal, "%.2lf", -bal);	*/
+	/*	setenv("amount", sbal);	*/
+/*		*/
+	/*	you_include("gld/monthlyTotals.h");	*/
+d426 1
+a426 1
+function gldReportBy($which)
+a547 1
+
+d569 1
+a569 6
+		/*	strcpy(href, "javascript:gldNoCat()");	*/
+/*		*/
+	/*	you_appBar("Cashbook", File, href, restrVal);	*/
+}
+
+/************************************************************/
+d571 1
+a571 10
+function cbJs($restrFname, $restrVal)
+{
+	/*	you_jsSrc("gld");	*/
+	/*	eprintf(js, "you.gld = new youGld('%s', %d, '%s', '%s');",	*/
+		/*	you_jsStr(File),	*/
+		/*	fid, 	*/
+		/*	restrFname ? you_jsStr(restrFname) : "",	*/
+		/*	restrVal ? you_jsStr(restrVal) : ""	*/
+		/*	);	*/
+	/*	you_js(js);	*/
+d593 7
+a599 1
+	cbJs($restrFname, $restrVal);
+d648 2
+a649 2
+		/*	sprintf(s, "exec gldMonthly %d, %d ", uid, fid);	*/
+		/*	n = engdb_getobjects_by_cmd(gld, GLD_MAX_ITEMS, "gld", s);	*/
+d681 30
+a710 35
+/* date,amount,toFrom,category,description,ref,entered,closed */
+#define GLD_HS "%-9.9s %-19.19s %-19.19s %-19.19s %-24.24s %-9.9s %-14.14s %-9.9s\n"
+#define GLD_DS "%-9.9s %19.2lf %-19s %-19s %-24s %-9s %-14d %-9d\n"
+
+/*	function cbExport(File)	*/
+/*	{	*/
+	/*	GLD *gld[4096];	*/
+	/*	$us="-------------------------------------------------------------------------------------------------";	*/
+/*		*/
+	/*	uid = atoi(getenv("Uid"));	*/
+	/*	if ( (fid = fid_fileFid(File)) == 0 )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	sprintf(w, "where uid = %d and fid = %d %s",	*/
+		/*	uid, fid, "order by date, entered");	*/
+	/*	n = engdb_getobjects_by_where(gld, 4096, "gld", w);	*/
+	/*	you_mime("text/plain");	*/
+	/*	printf(GLD_HS,	*/
+		/*	"Date", "Amount", "To/Form", "Category",	*/
+		/*	"Description", "Reference", "Entered", "Closed");	*/
+	/*	printf(GLD_HS, us, us, us, us, us, us, us, us);	*/
+	/*	for(i=0;i<n;i++)	*/
+		/*	printf(GLD_DS,	*/
+			/*	you_stdDateFmt(gld[i]->date),	*/
+			/*	gld[i]->amount,	*/
+			/*	gld[i]->toFrom,	*/
+			/*	gld[i]->category,	*/
+			/*	gld[i]->description,	*/
+			/*	gld[i]->ref,	*/
+			/*	gld[i]->entered,	*/
+			/*	gld[i]->closed	*/
+			/*	);	*/
+/*		*/
+	/*	return(1);	*/
+/*	}	*/
+@
+
+
+1.26
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.25 2004/07/26 18:16:05 engine Exp engine $ ';
+d375 2
+a376 2
+			you_jsStr($cb['toFrom']),
+			you_jsStr($cb['description']),
+d478 2
+d483 1
+a483 1
+	you_include("include/reportsTableTag.h");
+d549 3
+a551 1
+	you_setenv_int("Fid", fid);
+d567 1
+a567 1
+	you_include("include/new.h", $args);
+d664 2
+a665 1
+		$cbLines = msDbGetAssoc("select * from $cbTable $w order by date, entered");
+d667 2
+a668 2
+	if ( $cbLines == null ) {
+		cbMsg("Can not get data");
+@
+
+
+1.25
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.24 2004/07/26 16:03:35 engine Exp engine $ ';
+d97 1
+a97 1
+	if ( isStatement ) {
+d591 7
+d602 2
+a603 2
+	$restrFname = $_REQUEST['restrFname'];
+	$restrVal = $_REQUEST['("restrVal'];
+d605 1
+a605 1
+	$searchOp = $_REQUEST['("searchOp'];
+d621 1
+a621 1
+	else if ( isMonthly )
+@
+
+
+1.24
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.23 2004/07/26 15:39:30 engine Exp engine $ ';
+d7 1
+d34 16
+d58 1
+a58 11
+	if ( isset($_REQUEST['cbTable']) )
+		$cbTable = $_REQUEST['cbTable'];
+	else if ( ! isset($_SERVER['REMOTE_USER']) ) {
+	return(cbCreateTable());
+
+			$cbTable = 'cb_cb' ;
+			return(cbCreateTable());
+	}
+
+	$ru = $_SERVER['REMOTE_USER'];
+	$cbTable = "cb_$ru";
+d80 2
+d90 2
+d98 1
+a98 1
+		$thePrevDate = cbStPrevDate(uid, fid, closeDate);
+d134 1
+d197 1
+a197 1
+		$_REQUEST['searchW'] = 'where amount $op $val';
+d204 1
+a204 2
+		$_REQUEST['searchW'] = "where description like '%$val%'";
+		$isSearch = true;
+d224 2
+d229 2
+a230 2
+	/* searchW, if at all, is set by cbGetEnv */
+	$isSearch = isset($_REQUEST['searchW']);
+d249 2
+d267 2
+d290 2
+d303 1
+a303 1
+function gldMonthlyLine(date, bal)
+d305 3
+a307 1
+	setenv("gldLineClass", "gldMonthLine");
+d314 11
+a324 11
+	endDate = yd_dsub(yd_madd(date));
+
+	eng_intwdate_fmt(sdate, &endDate);
+	setenv("sEndDate", sdate);
+
+	setenv("negAmountClass", "class=gldNegAmount");
+
+	sprintf(sbal, "%.2lf", -bal);
+	setenv("amount", sbal); /* !!! */
+
+	you_include("gld/monthlyTotals.h");
+d331 1
+a331 2
+	$isMonthly = getenv("gldMonthly") != 0;
+
+d335 1
+a335 2
+	$args['cbLineClass'] = #isodd
+	setenv("gldLineClass", isodd ? "gldOddLine" : "gldEvenLine");
+d337 4
+a340 1
+	setenv("category", gld->category);
+d342 1
+a342 5
+	if ( isdev )
+		devSdate = you_stdDateFmt(gld->date);
+	else
+		eng_intwdate_fmt(sdate, &gld->date);
+	setenv("date", isdev ? devSdate : sdate);
+d344 2
+a345 2
+	if ( gld->amount < -0.004 )
+		setenv("negAmountClass", "class=gldNegAmount");
+d347 1
+a347 3
+		setenv("negAmountClass", "");
+	sprintf(samount, "%.2lf", gld->amount);
+	setenv("amount", samount);
+d349 1
+a349 1
+	setenv("toFrom", gld->toFrom);
+d351 4
+a354 22
+	setenv("description", gld->description);
+
+	setenv("ref", gld->ref);
+
+	*bal += -gld->amount;
+
+	if ( *bal < -0.004 )
+		setenv("negBalClass", "class=gldNegBal");
+	else
+		setenv("negBalClass", "");
+	if ( *bal < 0.0 && *bal > -0.004 )
+		*bal = 0.0 ;
+	sprintf(sbal, "%.2lf", *bal);
+	setenv("balance", sbal);
+
+	you_setenv_int("lEid", gld->eng_id);
+
+	setenv("eFile", you_escape(getenv("File")));
+	if ( gld->wasClosed )
+		setenv("CONSGIF", "redCons.gif");
+	else if ( nextIsNextMonth )
+		setenv("CONSGIF", "whiteCons.gif");
+d356 1
+a356 1
+		setenv("CONSGIF", "cons.gif");
+a357 1
+	you_include(isMonthly ? "gld/monthlyLine.h" : ( isdev ? "gld/devLine.h" : "gld/line.h"));
+d359 1
+a359 2
+
+	msdbInclude(isMonthly ? "include/monthlyLine.h" : "include/line.h", $args);
+d364 1
+a364 2
+function cbSend_data(gld, n)
+GLD *gld[];
+d367 13
+a379 15
+	strcpy(js, "\ng = new Array();\n");
+	for(i=0;i<n;i++) {
+		sprintf(s,
+		"%s = new %s('%s', %d, %.2lf, '%s', '%s', '%s', %d, %d, %d);\n",
+			"g[g.length]",
+			"youGldItem",
+			you_jsStr(gld[i]->category),
+			gld[i]->date,
+			gld[i]->amount,
+			you_jsStr(gld[i]->toFrom),
+			you_jsStr(gld[i]->description),
+			you_jsStr(gld[i]->ref),
+			gld[i]->closed,
+			gld[i]->entered,
+			gld[i]->eng_id
+a380 1
+		strcat(js, s);
+d382 3
+a384 2
+	strcat(js, "\nyou.gld.data = g;\n");
+	you_js(js);
+d389 1
+a389 1
+function gldReportLine(uid, fid, n, which)
+d391 1
+d394 1
+a394 1
+	fval = repfvalues[which][n];
+d396 8
+a403 8
+	if ( which == 2 )
+		sprintf(cmd, "%s where uid = %d and fid = %d and date <= %d",
+			"select sum(-amount) from gld",
+			uid, fid, stCloseDates[n]);
+	else
+		sprintf(cmd, "%s where uid = %d and fid = %d and %s = '%s'",
+			"select sum(amount) from gld",
+			uid, fid, cbFname[which], youdb_strFmt(fval));
+d405 8
+a412 10
+	tot = engdb_getdouble(cmd);
+	sprintf(stot, "%.2lf", ( tot < 0.0 && tot > -0.004) ? 0.0 : tot);
+	setenv("Total", stot);
+
+	you_setenv_int("which", which);
+	setenv("fval", fval);
+
+	setenv("restrictClass", repRestrClass[which]);
+	if ( tot < -0.004 )
+		totClass = repNegClass[which];
+d414 1
+a414 2
+		totClass = repPosClass[which];
+	setenv("totalClass", totClass);
+a415 1
+	setenv("repAlt", repAlt[which]);
+d417 1
+a417 1
+	setenv("fvalClass", repFvalClass[which]);
+d419 7
+a425 6
+	if ( which == 2 ) {
+		you_setenv_int("cdate", stCloseDates[n]);
+		you_include("gld/balLine.h");
+	}
+	else
+		you_include("gld/repLine.h");
+d430 1
+a430 1
+function gldReportBy(uid, fid, which)
+d434 1
+a434 1
+	if ( repnvalues[which] <= 0 )
+d436 1
+a436 1
+	if ( which == 1 && repnvalues[1] > MAX_TOF_RPRT )
+d438 5
+a442 5
+	setenv("reportBy", cbFname[which]);
+	setenv("reportByDesc", repFdesc[which]);
+	you_include("gld/reportTableTag.h");
+	for(i=0;i<repnvalues[which];i++)
+		gldReportLine(uid, fid, i, which);
+d449 1
+a449 1
+function cbRepData(uid, fid)
+d451 2
+d456 1
+a456 1
+	if ( repnvalues[0] != -2 )
+d459 5
+a463 6
+	for(i=0;i<2;i++) {
+		sprintf(cmd, "%s %s from gld where uid = %d and fid = %d %s %s",
+			"select distinct",
+			cbFname[i], uid, fid,
+			"order by", cbFname[i]);
+		repnvalues[i] = engdb_getstrings(repfvalues[i], 1024, cmd);
+d466 5
+a470 7
+	sprintf(cmd, "%s where uid = %d and fid = %d and closed > 0",
+		"select date from gld", uid, fid);
+	repnvalues[2] =
+		engdb_getitems_by_cmd(stCloseDates, 1024, cmd, "ENG_int", 0);
+	for(i=0;i<repnvalues[2];i++)
+		repfvalues[2][i] =
+			strdup(eng_intwdate_fmt(sdate, &stCloseDates[i]));
+d476 1
+a476 1
+function cbReports(uid, fid)
+d478 1
+a478 1
+	if ( repnvalues[0] <= 0 && (repnvalues[1] <= 0 || repnvalues[1] > MAX_TOF_RPRT) )
+d481 1
+a481 1
+	you_include("gld/reportsTableTag.h");
+d483 1
+a483 1
+	gldReportBy(uid, fid, 0);
+d485 1
+a485 1
+	gldReportBy(uid, fid, 1);
+d487 1
+a487 1
+	gldReportBy(uid, fid, 2);
+d494 1
+a494 2
+function cbTable($prevDate, $prevBal, $cbLines)
+GLD *gld[];
+a540 1
+	}
+d587 2
+a588 2
+/*	}	*/
+/*		*/
+d593 4
+a596 2
+	restrFname = getenv("restrFname");
+	restrVal = getenv("restrVal");
+d598 2
+a599 9
+	searchOp = getenv("searchOp");
+	isSearch = isset($_REQUEST['searchW']);
+	if ( isSearch ) {
+		searchLeftQuote = getenv("searchLeftQuote");
+		searchRightQuote = getenv("searchRightQuote");
+	} else {
+		searchOp  = "=" ;
+		searchLeftQuote = searchRightQuote = "'" ;
+	}
+d601 2
+a602 2
+	cbJs(restrFname, restrVal);
+	isStatement = restrFname && strcmp(restrFname, "Statement") == 0 ;
+d604 10
+a613 11
+	stCloseDate = 0;
+	if ( isStatement ) {
+		stCloseDate = atoi(restrVal);
+		eng_intwdate_fmt(sdate, &stCloseDate);
+		sprintf(stTitle, "Statement Ending %s", sdate);
+		rtitle = stTitle;
+	} else if ( isSearch ) {
+		sprintf(stTitle, "%s %s %s", restrFname, searchOp, restrVal);
+		rtitle = stTitle;
+	} else if ( restrVal )
+		rtitle = restrVal;
+d615 1
+a615 1
+		rtitle = "Month by Month Expenses";
+d617 1
+a617 1
+		rtitle = 0;
+d619 1
+a619 1
+	cbTitle(File, rtitle);
+d621 3
+a623 3
+	if ( isMonthly || restrVal && ! isStatement ) {
+		prevDate = 0;
+		*cons = 0;
+d625 3
+a627 3
+		prevDate = cbPrevDate(uid, fid, isStatement, stCloseDate) ;
+		if ( prevDate == 0 )
+			*cons = 0;
+d629 1
+a629 1
+			sprintf(cons, "and date > %d", prevDate);
+d632 9
+a640 2
+	if ( prevDate )
+		prevBal = cbPrevBalance(uid, fid, isStatement, stCloseDate);
+d642 1
+a642 1
+		prevBal = 0.0;
+d644 2
+a645 4
+	if ( ! restrVal )
+		*restr = 0;
+	else if ( isStatement )
+		sprintf(restr, "and date <= %d", stCloseDate);
+d647 1
+a647 5
+		sprintf(restr, "and %s %s %s%s%s",
+			restrFname,
+			searchOp,
+			searchLeftQuote, restrVal, searchRightQuote
+			);
+d649 3
+a651 3
+	if ( isMonthly ) {
+		sprintf(s, "exec gldMonthly %d, %d ", uid, fid);
+		n = engdb_getobjects_by_cmd(gld, GLD_MAX_ITEMS, "gld", s);
+d653 1
+a653 3
+		sprintf(w, "where uid = %d and fid = %d %s %s order by date, entered",
+			uid, fid, cons, restr);
+		n = engdb_getobjects_by_where(gld, GLD_MAX_ITEMS, "gld", w);
+d655 3
+a657 3
+	if ( n < 0 ) {
+		MSDB_ERROR("Can not get data");
+		return(0);
+d659 1
+a659 48
+	cbTable(uid, fid, prevDate, prevBal, gld, n);
+	return(1);
+}
+
+/************************************************************/
+
+function cbOpen()
+{
+	cbInit(uid, fid);
+
+	return(cbMain(File, uid, fid));
+}
+
+/************************************************************/
+
+function cbSample(uid, fid)
+{
+	GLD g;
+
+	g.uid = uid;
+	g.fid = fid;
+	strcpy(g.category, "Internet");
+	g.date = day_today();
+	strcpy(g.toFrom, "max headroom");
+	strcpy(g.description, "20 points");
+	strcpy(g.ref, "#24");
+	g.amount = 20.0;
+	g.entered = time(0);
+
+	if ( ! eng_insert(&g, "gld") ) {
+		YOU_ERROR0();
+		return(0);
+	}
+	return(1);
+}
+
+/************************************************************/
+
+function cbInit(uid, fid)
+{
+	sprintf(thisCmd,
+		"select count(*) from gld where uid = %d and fid = %d",
+		uid, fid);
+	sprintf(cmd, "select count(*) from gld where uid = %d", uid);
+	if ( engdb_getint(thisCmd) > 0 || engdb_getint(cmd) > 12 )
+		return(1);
+
+	return(cbSample(uid, fid));
+d666 1
+a666 5
+	/* security implied */
+	sprintf(cmd,
+		"delete from gld where uid = %d and fid = %d and eng_id = %d",
+		uid, fid, eid);
+	engdb_sql(cmd);
+d668 3
+a670 2
+	cbMain(getenv("File"), uid, fid);
+	return(1);
+d677 1
+a677 8
+	return(cbMain(getenv("File"), atoi(getenv("Uid")), atoi(getenv("Fid"))));
+}
+
+/************************************************************/
+
+function cbDevShowFile(File)
+{
+	return(cbOpen(File));
+d686 31
+a716 31
+function cbExport(File)
+{
+	GLD *gld[4096];
+	$us="-------------------------------------------------------------------------------------------------";
+
+	uid = atoi(getenv("Uid"));
+	if ( (fid = fid_fileFid(File)) == 0 )
+		return(0);
+
+	sprintf(w, "where uid = %d and fid = %d %s",
+		uid, fid, "order by date, entered");
+	n = engdb_getobjects_by_where(gld, 4096, "gld", w);
+	you_mime("text/plain");
+	printf(GLD_HS,
+		"Date", "Amount", "To/Form", "Category",
+		"Description", "Reference", "Entered", "Closed");
+	printf(GLD_HS, us, us, us, us, us, us, us, us);
+	for(i=0;i<n;i++)
+		printf(GLD_DS,
+			you_stdDateFmt(gld[i]->date),
+			gld[i]->amount,
+			gld[i]->toFrom,
+			gld[i]->category,
+			gld[i]->description,
+			gld[i]->ref,
+			gld[i]->entered,
+			gld[i]->closed
+			);
+
+	return(1);
+}
+d722 2
+a723 3
+	you_setenv_int("gldMonthly", 1);
+	cbMain(getenv("File"), uid, fid);
+	return(1);
+@
+
+
+1.23
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.22 2004/07/26 15:27:23 engine Exp engine $ ';
+d308 1
+a308 2
+function cbLine(bal, gld, isodd, nextIsNextMonth)
+GLD *gld;
+d310 1
+a310 2
+	isdev = you_isDevice();
+	isMonthly = getenv("gldMonthly") != 0;
+d312 4
+d361 3
+d528 4
+a531 4
+		cbLine(&curBal, gld[i], i%2, nextIsNextMonth);
+		if ( isMonthly && (i == n-1 || nextIsNextMonth ) ) {
+			gldMonthlyLine(gld[i]->date, curBal);
+			curBal = 0.0;
+d535 1
+a535 1
+	if ( isMonthly ) {
+d541 1
+a541 1
+	cbRepData(uid, fid);
+d543 1
+a543 2
+	if ( ! isdev )
+		cbForm(fid);
+d545 1
+a545 4
+	if ( isdev )
+		you_include("gld/devTableEnd.h");
+	else
+		printf("</TABLE>\n");
+d547 2
+a548 2
+	if ( isdev )
+		cbForm(fid);
+d550 2
+a551 10
+	if ( isjs ) {
+		gldSelect(0, uid, fid);
+		gldSelect(1, uid, fid);
+	}
+
+	if ( isdev ) {
+		/* print links to reports rather than reports ??? */
+	} else {
+		cbReports(uid, fid);
+		cbSend_data(gld, n);
+d557 1
+a557 1
+function cbForm(fid)
+d561 3
+a563 4
+	if ( lastAddDate ) {
+		d = lastAddDate;
+		sprintf(sdate, "%d %d %d", (d / 100)%100, d%100, d/10000);
+		setenv("date", sdate);
+d565 4
+a568 1
+		setenv("date", "");
+d570 6
+a575 10
+	setenv("categImg", "youNoImg");
+	setenv("toFromImg", "youNoImg");
+	if ( you_isNS() || you_isMSIE() ) {
+		if ( repnvalues[0] > 0 && ( repnvalues[0] != 1 || *repfvalues[0][0] != 0 ) )
+			setenv("categImg", "IMG");
+		if ( repnvalues[1] > 0 && ( repnvalues[1] != 1 || *repfvalues[1][0] != 0 ) )
+			setenv("toFromImg", "IMG");
+	}
+	you_include(you_isDevice() ? "gld/devNew.h" : "gld/new.h");
+	return(1);
+d580 1
+a580 1
+function cbTitle(File, restrVal)
+d582 3
+a584 9
+	isdev = you_isDevice();
+
+	if ( isdev ) {
+		sprintf(args, "&File=%s", getenv("File"));
+		you_href(href, "Open", args);
+	} else
+		strcpy(href, "javascript:gldNoCat()");
+
+	you_appBar("Cashbook", File, href, restrVal);
+d589 1
+a589 1
+function cbJs(File, fid, restrFname, restrVal)
+d591 10
+a600 10
+	you_jsSrc("gld");
+	eprintf(js, "you.gld = new youGld('%s', %d, '%s', '%s');",
+		you_jsStr(File),
+		fid, 
+		restrFname ? you_jsStr(restrFname) : "",
+		restrVal ? you_jsStr(restrVal) : ""
+		);
+	you_js(js);
+}
+
+d618 1
+a618 1
+	cbJs(File, fid, restrFname, restrVal);
+d684 1
+a684 1
+function cbOpen(File)
+a685 8
+	p = getenv("Uid");
+	uid = atoi(p);
+
+
+	if ( (fid = fid_open(uid, File)) == 0)
+		return(0);
+
+	you_setenv_int("Fid", fid);
+@
+
+
+1.22
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.21 2004/07/26 14:13:24 engine Exp engine $ ';
+d499 1
+a499 1
+function cbTable(uid, fid, prevDate, prevBal, gld, n)
+d502 1
+a502 1
+	static curBal;
+d504 1
+a504 1
+	curBal = prevBal;
+d507 1
+a507 1
+	msdbInclude(isie ? "include/Hange.h");
+d510 1
+a510 1
+	if ( prevDate )
+d514 1
+a514 1
+					'prevBalClass' => (prevBal < -0.004) ? "gldNegPrev" : "gldPosPrev",
+d520 3
+a522 3
+	for(i=0;i<n;i++) {
+		nextIsNextMonth =
+			( i != n-1 && yd_monthOf(gld[i]->date) != yd_monthOf(gld[i+1]->date) );
+@
+
+
+1.21
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.20 2004/07/26 13:13:29 engine Exp engine $ ';
+d6 1
+a10 1
+#include "../Third/msdb/src/msdb.h"
+d180 1
+a180 1
+	$amtWop = split(' ', $_REQUEST['amount'];
+d196 1
+a196 1
+	if ( ! $ isSearch && ($_REQUEST['amount']) == '' ) {
+d211 1
+a211 1
+cbAdd()
+d213 2
+a214 1
+	GLD gldbuf, *gld = &gldbuf;
+d216 2
+a217 1
+	bzero(gld, sizeof(GLD));
+d219 2
+a220 5
+	if ( gld->fid == 0 ) {
+		YOU_ERROR("lost Fid");
+		YOU_MSG("Communication Error");
+		return(0);
+	}
+d222 1
+a222 2
+	if ( ! cbGetEnv(gld) )
+		return(cbMain(getenv("File"), gld->uid, gld->fid));
+d224 5
+a228 2
+	/* searchOp, if at all, set by cbGetEnv */
+	isSearch = (getenv("searchOp") != 0 );
+a229 13
+	if ( isSearch )
+		return(cbMain(getenv("File"), gld->uid, gld->fid));
+
+	gld->closed = 0 ;
+
+	if ( ! eng_insert(gld, "gld") )
+		YOU_ERROR0();
+	else
+		cbWarnPreCons(gld->date, gld->uid, gld->fid);
+	lastAddDate = gld->date;
+	cbMain(getenv("File"), gld->uid, gld->fid);
+
+	return(1);
+d234 1
+a234 1
+cbUpdate()
+d236 1
+a236 3
+	GLD gld;
+
+	if ( isset($_REQUEST['cbAdd']) && $_REQUEST['cbAdd']) == "Copy")
+d239 1
+a239 1
+	if ( ! (cb = cbGetEnv()) )
+d242 1
+a242 1
+	$sql = msDbUpdateSql($cbTable, $cb, "where id = ".$cb['id']) ) {
+d244 1
+a244 1
+	cbWarnPreCons(cb['date']);
+a245 1
+	return(true);
+d250 1
+a250 3
+/* this is showChange for device and Opera */
+
+cbChange()
+d252 6
+a257 6
+	GLD *gld;
+
+	if ( fid == 0 ) {
+		YOU_ERROR("lost Fid");
+		YOU_MSG("Communication Error");
+		return(0);
+d259 4
+a262 7
+
+	File = getenv("File");
+	sprintf(w, "where uid = %d and fid = %d and eng_id = %d",
+		uid, fid, eid);
+	if ( engdb_getobjects_by_where(&gld, 1, "gld", w) != 1 ) {
+		YOU_LOG("Amateur");
+		return(0);
+d264 3
+a266 30
+
+	if ( gld->date != 0 )
+		eng_intwdate_fmt(sdate, &gld->date);
+	else
+		*sdate = 0;
+	setenv("date", sdate);
+
+	setenv("category", gld->category);
+	setenv("toFrom", gld->toFrom);
+	setenv("description", gld->description);
+	setenv("ref", gld->ref);
+	you_setenv_int("closed", gld->closed);
+	you_setenv_int("entered", gld->entered);
+
+	sprintf(samount, "%.2lf", gld->amount);
+	setenv("amount", samount);
+
+	you_setenv_int("Eid", eid);
+	setenv("eFile", you_escape(File));
+
+	cbTitle(File, (char *)0);
+
+	if ( you_isDevice() )
+		you_include("gld/devChange.h");
+	else if ( you_isOpera() )
+		you_include("gld/operaChange.h");
+	else 
+		YOU_MSG2(you_agent(), "Unexpected Browser");
+
+	return(1);
+d271 1
+a271 1
+cbCons()
+d273 4
+a276 5
+
+	if ( fid == 0 ) {
+		YOU_ERROR("lost Fid");
+		YOU_MSG("Communication Error");
+		return(0);
+d278 2
+a279 78
+
+	sprintf(cmd, "select uid from gld where eng_id = %d", eid);
+	if ( engdb_getint(cmd) != uid ) {
+		YOU_LOG("Amateur");
+		return(0);
+	}
+
+	File = getenv("File");
+
+	sprintf(cmd, "select date from gld where eng_id = %d", eid);
+	date = engdb_getint(cmd);
+	if ( date < 0 ) {
+		YOU_ERROR("No date for consolidation");
+		cbMain(File, uid, fid);
+		return(0);
+	}
+	sprintf(cmd,
+		"select max(eng_id) from gld where uid = %d and fid = %d and date = %d",
+		uid, fid, date);
+	
+	if ( (ceid = engdb_getint(cmd)) <= 0 ) {
+		YOU_ERROR("Consolidation date error");
+		cbMain(File, uid, fid);
+		return(0);
+	}
+	sprintf(cmd, "update gld set closed = %d, wasClosed = 1 where eng_id = %d",
+		day_today(), 
+		ceid
+		);
+	engdb_sql(cmd);
+	cbMain(File, uid, fid);
+	return(1);
+}
+
+/************************************************************/
+
+cbUncons()
+{
+
+	if ( fid == 0 ) {
+		YOU_ERROR("lost Fid");
+		YOU_MSG("Communication Error");
+		return(0);
+	}
+	sprintf(cmd, "%s where uid = %d and fid = %d and closed != 0",
+		"select max(date) from gld",
+		uid, fid);
+
+	if ( (dt = engdb_getint(cmd)) < 0 ) {
+		YOU_LOG("Amateur");
+		return(0);
+	}
+
+	sprintf(cmd, "%s where uid = %d and fid = %d and date = %d",
+		"update gld set closed = 0",
+		uid, fid, dt);
+	engdb_sql(cmd);
+	cbMain(getenv("File"), uid, fid);
+	return(1);
+}
+
+/************************************************************/
+
+function cbPrev(prevDate, prevBal)
+{
+
+	eng_intwdate_fmt(sdate, &prevDate);
+	setenv("prevDate", sdate);
+
+	setenv("prevBalClass", ( prevBal < -0.004 ) ? "gldNegPrev" : "gldPosPrev");
+	if ( prevBal < 0 && prevBal >= -0.004 )
+		strcpy(sbal, "0.00");
+	else
+		sprintf(sbal, "%.2lf", prevBal);
+
+	setenv("prevBal", sbal);
+	setenv("eFile", you_escape(getenv("File")));
+	you_include(you_isDevice() ? "gld/devPrev.h" : "gld/prev.h");
+a285 1
+
+a310 1
+
+d505 1
+a505 1
+	isMonthly = getenv("gldMonthly") != 0;
+d507 1
+a507 2
+	if ( isjs )
+		you_include(isie ? "gld/ieChange.h" : "gld/nsChange.h");
+d509 9
+a517 11
+	if ( isdev ) {
+		if ( prevDate )
+			cbPrev(prevDate, prevBal);
+		you_include("gld/devTableTag.h");
+		if ( n > 0 )
+			you_include("gld/devHead.h");
+	} else {
+		you_include("gld/tableTag.h");
+		if ( prevDate )
+			cbPrev(prevDate, prevBal);
+		you_include(isMonthly ? "gld/monthlyHead.h" : "gld/head.h");
+a518 1
+	}
+a565 1
+
+a590 1
+
+a605 1
+	
+d607 1
+a607 1
+	sprintf(js, "you.gld = new youGld('%s', %d, '%s', '%s');",
+a619 5
+	if ( fid == 0 ) {
+		YOU_ERROR("lost Fid");
+		YOU_MSG("Communication Error");
+		return(0);
+	}
+d622 1
+a622 1
+	isMonthly = getenv("gldMonthly") != 0;
+d624 1
+a624 1
+	isSearch = ( searchOp != 0 );
+d699 1
+a699 1
+cbOpen(File)
+a700 1
+
+a740 1
+
+d753 1
+a753 1
+cbDelete()
+a754 1
+
+d767 1
+a767 1
+cbNoOp()
+d774 1
+a774 1
+cbDevShowFile(File)
+d785 1
+a785 1
+cbExport(File)
+d819 1
+a819 1
+cbMonthly()
+a820 1
+
+@
+
+
+1.20
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.18 2004/07/26 12:47:19 engine Exp engine $ ';
+d134 6
+d141 1
+a141 8
+	sprintf(s, "cbSEL%s", $cbFname[which]);
+	setenv("DIALOGID", s);
+	sprintf(s, "cbSEL%sClass", cbFname[which]);
+	setenv("CLASSNAME", s);
+
+	msdbInclude("include/dialogHeader.h", array("DIALOGID" => "cbSEL".$cbFname[which]));
+
+	cbRepData(Uid, fid);
+d144 1
+a144 1
+		youDialogFrame(0);
+d148 6
+a153 7
+	for($i=0;$i<$repnvalues[$which];$i++)
+		if ( $repfvalues[$which][$i] )
+			printf("\t\t\t<A HREF=\"javascript:cbSet($which, '%s')\">%s</A>%s\n",
+				you_jsStr($repfvalues[$which][i]),
+				$repfvalues[$which][$i],
+				($i == $repnvalues[$which] - 1 ) ? "" : "<BR>"
+				);
+d155 2
+d165 12
+a176 2
+	if ( (gld->date = youGetEnvDate("date")) == -1 ) {
+		YOU_MSG2(getenv("date"), "Invalid date format");
+d180 18
+a197 45
+	youGetEnvStr(gld->category, "category");
+	youGetEnvStr(searchS, "amount");
+	if ( sin_intl0(*searchS, '>', '<', '=', 0) ) {
+		isSearch = 1;
+		setenv("restrFname", "amount");
+		sprintf(searchOp, "%c", *searchS);
+		setenv("restrVal", searchS+1);
+		setenv("searchOp", searchOp);
+		setenv("searchLeftQuote", "");
+		setenv("searchRightQuote", "");
+	} else
+		youGetEnvDouble(&gld->amount, "amount");
+	youGetEnvStr(gld->toFrom, "toFrom");
+	youGetEnvStr(gld->description, "description");
+	if ( *gld->description == '=' ) {
+		isSearch = 1;
+		setenv("restrFname", "description");
+		setenv("restrVal", gld->description+1);
+		setenv("searchOp", "like");
+		setenv("searchLeftQuote", "'%");
+		setenv("searchRightQuote", "%'");
+	}
+
+	youGetEnvStr(gld->ref, "ref");
+	if ( *gld->ref == '=' ) {
+		isSearch = 1;
+		setenv("restrFname", "ref");
+		setenv("restrVal", gld->ref+1);
+		setenv("searchOp", "like");
+		setenv("searchLeftQuote", "'%");
+		setenv("searchRightQuote", "%'");
+
+	}
+	youGetEnvInt(&gld->closed, "closed");
+	youGetEnvInt(&gld->entered, "entered");
+
+
+	if ( 		! isSearch &&
+				! *gld->category &&
+				! *gld->toFrom &&
+				! *gld->description &&
+				! *gld->ref &&
+				gldIsZero(gld->amount)
+			) {
+		YOU_MSG("empty entry ignored");
+d201 4
+a204 4
+	if ( ! gld->entered )
+		gld->entered = time(0);
+	if ( gld->date == 0 )
+		gld->date = day_today();
+d253 2
+a254 2
+	if ( ! cbGetEnv(&gld) )
+		return(cbMain(getenv("File"), gld.uid, gld.fid));
+d256 5
+a260 7
+	if ( ! eng_update(&gld, "gld") )
+		YOU_ERROR0();
+	else
+		cbWarnPreCons(gld.date, gld.uid, gld.fid);
+
+	cbMain(getenv("File"), gld.uid, gld.fid);
+	return(1);
+@
+
+
+1.19
+log
+@None
+@
+text
+@d140 1
+a140 2
+	msdbInclude
+	youDialogFrame(1);
+d144 1
+a144 1
+	if ( repnvalues[which] <= 0 || repnvalues[which] == 1 && ! *repfvalues[which][0] ) {
+d149 6
+a154 7
+	for(i=0;i<repnvalues[which];i++)
+		if ( *repfvalues[which][i] )
+			printf("\t\t\t<A HREF=\"javascript:cbSet(%d, '%s')\">%s</A>%s\n",
+				which,
+				you_jsStr(repfvalues[which][i]),
+				repfvalues[which][i],
+				(i == repnvalues[which] - 1 ) ? "" : "<BR>"
+d157 1
+a157 1
+	youDialogFrame(0);
+a164 2
+
+
+d240 1
+a240 1
+	if ( ! gldGetEnv(gld) )
+d243 1
+a243 1
+	/* searchOp, if at all, set by gldGetEnv */
+d267 1
+a267 1
+	if ( (p=getenv("gldAdd")) != 0 && strcmp(p, "Copy") == 0 )
+d270 1
+a270 12
+	bzero(&gld, sizeof(GLD));
+
+	if ( gld.fid == 0 ) {
+		YOU_ERROR("lost Fid");
+		YOU_MSG("Communication Error");
+		return(0);
+	}
+
+	if ( ! you_top4isSecure("gld", gld.uid, gld.eng_id) )
+		return(0);
+
+	if ( ! gldGetEnv(&gld) )
+@
+
+
+1.18
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.17 2004/07/26 12:13:32 engine Exp engine $ ';
+d140 1
+@
+
+
+1.17
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.16 2004/07/26 11:40:00 engine Exp engine $ ';
+d19 1
+a19 1
+        global $cbTable;
+d21 1
+a21 1
+        $crtfields = "date int, hm int, what varchar(255), id int auto_increment NOT NULL, PRIMARY KEY (date, hm), KEY(id)";
+d23 2
+a24 2
+        if ( msDbIsTable($cbTable) )
+                return(true);
+d26 3
+a28 3
+        $crt = "create table $cbTable ( $crtfields )";
+        $ret = msDbSql($crt);
+        return($ret != -1);
+d38 2
+a39 2
+        global $cbTable;
+        global $_SERVER;
+d41 12
+a52 8
+        if ( ! isset($_SERVER['REMOTE_USER']) ) {
+                $cbTable = 'cb_cb' ;
+                return(cbCreateTable());
+        }
+
+        $ru = $_SERVER['REMOTE_USER'];
+        $cbTable = "cb_$ru";
+        return(cbCreateTable());
+d73 1
+a73 1
+	return(msDbGetString("select max(date) from $cbTable where date < $closeDate and closed > 0");
+d111 1
+a111 1
+	p = cbPrevDate(uid, fid, 0, 0);
+d113 1
+a113 1
+	if ( date > p )
+d116 1
+a116 5
+	eng_intwdate_fmt(pdate, &p);
+	eng_intwdate_fmt(sdate, &date);
+
+	sprintf(msg, "Note: %s is before %s", sdate, pdate);
+	YOU_MSG(msg);
+d121 1
+a121 1
+cbPrevBalance(uid, fid, isStatement, stCloseDate)
+d124 2
+a125 6
+	sprintf(cmd, "%s where uid = %d and fid = %d and date <= %d",
+		"select sum(-amount) from $cbTable",
+		uid, fid,
+		cbPrevDate(uid, fid, isStatement, stCloseDate)
+		);
+	return(engdb_getdouble(cmd));
+d130 1
+a130 1
+function cbSelect(which, Uid, fid)
+d132 2
+d135 1
+a135 1
+	sprintf(s, "cbSEL%s", cbFname[which]);
+d552 1
+d595 1
+d614 2
+@
+
+
+1.16
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.15 2004/07/26 11:21:43 engine Exp engine $ ';
+d10 1
+d55 11
+a65 46
+static char *gldFname[3] = { "category", "toFrom", "Balance" };
+static char *repFdesc[3] = { "Category", "Paid To/From", "Balances" };
+static char *repFvalClass[3] = {
+	"gldCategoryValClass",
+	"gldToFromValClass",
+	"gldBalancesValClass"
+	};
+static char *repRestrClass[3] = {
+	"gldCategoryRestrictClass",
+	"gldToFromRestrictClass",
+	"gldBalancesRestrictClass"
+	};
+static char *repPosClass[3] = {
+	"gldCategoryTotalClass",
+	"gldToFromTotalClass",
+	"gldBalancesTotalClass"
+	};
+static char *repNegClass[3] = {
+	"gldCategoryNegTotalClass",
+	"gldToFromNegTotalClass",
+	"gldBalancesNegTotalClass"
+	};
+static char *repAlt[3] = {
+	"Show Detail of this Category",
+	"Show Detail of this Payee/Payer",
+	"Show Statement Ending with this date"
+	};
+static char *repfvalues[3][1024];
+static int stCloseDates[1024]; /* ints of repfvalues[2] */
+static int repnvalues[3] = { -2, -2, -2 };
+/************************************************************/
+
+function cbStPrevDate(uid, fid, closeDate)
+int uid, fid, closeDate;
+{
+	char cmd[1024];
+	int ret;
+
+	sprintf(cmd, "%s where uid = %d and fid = %d and date < %d %s",
+		"select max(date) from $cbTable",
+		uid, fid, closeDate,
+		"and closed > 0"
+		);
+	ret = engdb_getint(cmd);
+	if ( ret < 0 )
+		return(0);;
+d67 3
+a69 1
+	return(ret);
+d75 1
+a75 3
+function cbPrevDate(uid, fid, isStatement, closeDate)
+int uid, fid;
+int isStatement, closeDate;
+d77 1
+a77 2
+	char cmd[1024];
+	static int thePrevDate = -1 ;
+d79 2
+a80 2
+	if ( thePrevDate != -1 )
+		return(thePrevDate);
+d83 2
+a84 2
+		thePrevDate = cbStPrevDate(uid, fid, closeDate);
+		return(thePrevDate);;
+d87 4
+a90 6
+	sprintf(cmd, "%s where uid = %d and fid = %d and closed > 0",
+		"select max(date) from $cbTable",
+		uid, fid);
+	thePrevDate = engdb_getint(cmd);
+	if ( thePrevDate < 0 )
+		thePrevDate = 0;
+d92 1
+a92 1
+	return(thePrevDate);
+d105 1
+a105 2
+function cbWarnPreCons(date, uid, fid)
+int date, uid, fid;
+a106 3
+	char msg[1024], sdate[1024], pdate[1024];
+	int p;
+
+a120 1
+static double
+a121 1
+int uid, fid, isStatement, stCloseDate;
+a122 1
+	char cmd[1024];
+a134 2
+int which;
+int Uid, fid;
+a135 2
+	int i;
+	char s[1024];
+d137 1
+a137 1
+	sprintf(s, "cbSEL%s", gldFname[which]);
+d139 1
+a139 1
+	sprintf(s, "cbSEL%sClass", gldFname[which]);
+a167 3
+	char searchS[1024];
+	char searchOp[1024];
+	int isSearch = 0;
+a235 1
+	int isSearch;
+a238 2
+	youGetEnvUFE(&gld->uid, &gld->fid, (int *)0);
+
+a270 1
+	char *p;
+a275 1
+	youGetEnvUFE(&gld.uid, &gld.fid, &gld.eng_id);
+a303 2
+	int uid, eid, fid;
+	char sdate[1024], samount[1024], w[1024];
+a304 3
+	char *File;
+
+	youGetEnvUFE(&uid, &fid, &eid);
+a354 7
+	int uid, fid, eid;
+	int ceid;
+	char cmd[1024];
+	char *File;
+	int date;
+
+	youGetEnvUFE(&uid, &fid, &eid);
+a398 4
+	int uid, fid, dt;
+	char cmd[1024];
+
+	youGetEnvUFE(&uid, &fid, (int *)0);
+a424 2
+int prevDate;
+double prevBal;
+a425 1
+	char sdate[1024], sbal[1024];
+a443 2
+double bal;
+int date;
+a444 2
+	char sdate[1024], sbal[1024];
+	int endDate;
+a468 1
+double *bal;
+a469 2
+int isodd;
+int nextIsNextMonth;
+a470 3
+	char *devSdate, sdate[1024], samount[1024], sbal[1024];
+	int isdev;
+	int isMonthly;
+a525 1
+int n;
+a526 3
+	char js[1024*64];
+	char s[1024*4];
+	int i;
+d553 1
+a553 9
+int uid, fid;
+int n;
+int which;
+{
+	char cmd[1024];
+	double tot;
+	char stot[1024];
+	char *totClass;
+	char *fval;
+d564 1
+a564 1
+			uid, fid, gldFname[which], youdb_strFmt(fval));
+a594 2
+int uid, fid;
+int which;
+a595 1
+	int i;
+d601 1
+a601 1
+	setenv("reportBy", gldFname[which]);
+a612 1
+int uid, fid;
+a613 3
+	int i;
+	char cmd[1024];
+	char sdate[1024];
+d621 2
+a622 2
+			gldFname[i], uid, fid,
+			"order by", gldFname[i]);
+a638 1
+int uid, fid;
+a656 3
+int uid, fid;
+int prevDate;
+double prevBal;
+a657 1
+int n;
+d659 1
+a659 8
+	static double curBal;
+	int i;
+	int isie = you_isMSIE();
+	int isdev = you_isDevice();
+	int isns = you_isNS();
+	int isjs = isns || isie ;
+	int isMonthly;
+	int nextIsNextMonth;
+a725 1
+int fid;
+a726 2
+	int d;
+	char sdate[1024];
+a751 2
+char *File;
+char *restrVal;
+a752 2
+	char args[1024], href[1024];
+	int isdev;
+a767 3
+char *File;
+int fid;
+char *restrFname, *restrVal;
+a768 1
+	char js[1024];
+a782 2
+char *File;
+int uid, fid;
+a783 16
+	char s[1024], w[1024];
+	char cons[1024];
+	int prevDate;
+	double prevBal;
+	int n;
+	GLD *gld[GLD_MAX_ITEMS];
+	char restr[1024];
+	char *restrFname;
+	char *restrVal;
+	int isStatement, stCloseDate;
+	char sdate[1024], stTitle[1024];
+	char *rtitle;
+	int isMonthly;
+	int isSearch;
+	char *searchOp, *searchLeftQuote, *searchRightQuote;;
+
+d859 1
+a859 1
+		YOU_IERROR2(uid, fid, "Can not get data");
+a868 1
+char *File;
+a869 3
+	int fid;
+	int uid;
+	char *p;
+a886 1
+int uid, fid;
+a909 1
+int uid, fid;
+a910 1
+	char thisCmd[1024], cmd[1024];
+a925 4
+	int uid, fid, eid;
+	char cmd[1024];
+
+	youGetEnvUFE(&uid, &fid, &eid);
+a946 1
+char *File;
+a957 1
+char *File;
+a958 3
+	int fid;
+	int uid;
+	char w[1024];
+d960 1
+a960 2
+	int i, n;
+	char *us="-------------------------------------------------------------------------------------------------";
+a992 4
+	int uid, fid, eid;
+	char cmd[1024];
+
+	youGetEnvUFE(&uid, &fid, &eid);
+@
+
+
+1.15
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.14 2004/07/25 06:30:46 engine Exp engine $ ';
+d12 1
+a12 1
+        cbOpen();
+d51 527
+d579 482
+a1060 1
+function cbOpen()
+d1062 10
+d1075 18
+d1094 6
+d1101 64
+@
+
+
+1.14
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: cb.php,v 1.13 2004/07/25 05:55:37 engine Exp engine $ ';
+a5 1
+#include "msdb/src/msdb.h"
+d11 2
+a12 32
+
+function calCreateTable()
+{
+	global $calTable;
+	$crtfields = "date int, hm int, what varchar(255), id int auto_increment NOT NULL, PRIMARY KEY (date, hm), KEY(id)";
+
+	if ( msDbIsTable($calTable) )
+		return(true);
+
+	$crt = "create table $calTable ( $crtfields )";
+	$ret = msDbSql($crt);
+	return($ret != -1);
+}
+
+/******************************/
+
+// if a user entered succefully then true is returned and $calTable is set to the
+// name of the  table
+
+function calEnter()
+{
+	global $calTable;
+	global $_SERVER;
+
+	if ( ! isset($_SERVER['REMOTE_USER']) ) {
+		$calTable = 'cal_cal' ;
+		return(calCreateTable());
+	}
+
+	$ru = $_SERVER['REMOTE_USER'];
+	$calTable = "cal_$ru";
+	return(calCreateTable());
+a13 12
+
+/************************************************************/
+
+global $calTable;
+
+if ( calEnter() ) {
+	calOpen();
+}
+
+/************************************************************/
+$NUMHours =	9 ;
+$startHour = array(0, 8, 24 - $NUMHours);
+d16 1
+a16 1
+function calAlerts()
+d18 1
+a18 1
+	global $calTable;
+d20 1
+a20 1
+	$today = msdbDayToday();
+d22 2
+a23 1
+	$till = msdbDayScan("t+6");
+d25 3
+a27 3
+	$w = "where date between $today and $till order by date, hm";
+	$ret = msDbGetAssoc("select * from $calTable $w");
+	return($ret);
+d32 2
+a33 50
+function calShowAlert($date, $hm, $what)
+{
+	$today = msdbDayToday();
+
+	$z = calDayZone($a['hm']);
+
+	$href = "javascript:calEDay($d, $z)" ;
+	if ( $date == $today )
+		$showDate = 'Today' ;
+	else
+		$showDate = msdbWdayLname(msdbDayWday($date));
+
+	$ts = calTimeStr($hm);
+	echo "\t\t<A HREF=\"$href\">$showDate</A> $ts: $what<BR>\n";
+}
+
+/******************************/
+
+function calShowAlerts()
+{
+	$alerts = calAlerts();
+	foreach ( $alerts as $a )
+		calShowAlert($a['date'], $a['hm'], $a['what']);
+}
+
+/************************************************************/
+
+function calToolBar($date, $dayZone, $view)
+{
+	// the improper nesting of table and form gives better visual layout
+
+	echo "<FORM><INPUT TYPE=hidden NAME=date value=$date>\n";
+	printf("<TABLE class=calToolBar CELLPADDING=0 CELLSPACING=0 BORDER=0>\n");
+	printf("<TR>\n");
+	if ( $view == '' )
+		printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_EARLIER'));
+	printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_DAY'));
+	if ( $view == '' )
+		printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_LATER'));
+	printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_TODAY'));
+	printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_WEEK'));
+	printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_MONTH'));
+	printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_YEAR'));
+	printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_PREVIOUS'));
+	printf("<TD>%s</TD>\n", calTBcontrol('CAL_CTRL_NEXT'));
+	printf("<TD>%s</TD>\n", TBgoto($date));
+	echo "</TR>\n";
+	echo "</FORM>\n";
+	echo "</TABLE>\n";
+}
+d35 1
+a35 46
+/************************************************************/
+// not used as such
+$views = array('', 'week', 'month', 'year');
+/******************************/
+
+$viewFuncs = array('' => 0, 'week' => 'calWeekView', 'month' => 'calMonthView', 'year' => 'calYearView');
+
+/**********/
+
+function calLeftSide($date, $dayZone, $view)
+{
+	global $viewFuncs;
+
+	echo "<TABLE class=calLeftSide BORDER=0>\n" ;
+	echo "\t<TR>\n\t\t<TD>\n";
+	calToolBar($date, $dayZone, $view);
+	echo "\t\t</TD>\n\t</TR>\n\t<TR>\n\t\t<TD>\n";
+	if ( $view == '' )
+		$s = "calDayView($date, $dayZone);";
+	else {
+		$vf = $viewFuncs[$view];
+		$s = "$vf($date);";
+	}
+
+	/*	MSDB_ERROR($s);	*/
+	eval($s);
+
+	echo "\t\t</TD>\n\t</TR>\n</TABLE>\n";
+}
+
+/******************************/
+
+function jsInfo($date, $dayZone, $view)
+{
+	global $calTable ;
+
+	$newCal = "var cal = new calendar('$calTable', $date, $dayZone, '$view') ;" ;
+
+	echo "<LINK REL=STYLESHEET TYPE=\"text/css\" HREF=\"JSlib/calStyles.css\">\n" ;
+	echo "<SCRIPT LANGUAGE=\"JavaScript1.2\" SRC=\"JSlib/cal.js\"></SCRIPT>\n";
+	echo "<SCRIPT LANGUAGE=\"javascript\"> $newCal </SCRIPT>\n";
+}
+
+/******************************/
+
+function calMain($date)
+d37 2
+a38 59
+	global $calTable ;
+
+	if ( isset($_REQUEST['View']) )
+		$view = $_REQUEST['View'];
+	else
+		$view = '' ;
+
+	if ( $view == '' && isset($_REQUEST['dayZone']) )
+		$dayZone = $_REQUEST['dayZone'];
+	else
+		$dayZone = 1;
+
+	if ( isset($_REQUEST['calNext']) ) {
+		if ( $view == 'week' )
+			$date = msdbDayWadd($date);
+		else if ( $view == 'month' )
+			$date = msdbDayMadd($date);
+		else if ( $view == 'year' )
+			$date = msdbDayYadd($date);
+		else
+			$date = msdbDayDadd($date);
+	} else if ( isset($_REQUEST['calPrev']) ) {
+		if ( $view == 'week' )
+			$date = msdbDayWsub($date);
+		else if ( $view == 'month' )
+			$date = msdbDayMsub($date);
+		else if ( $view == 'year' )
+			$date = msdbDayYsub($date);
+		else
+			$date = msdbDayDsub($date);
+	}
+
+	msdbInclude("include/cal.h", array('calTitle' => "$calTable: $date"));
+
+	jsInfo($date, $dayZone, $view);
+
+	calHeader($date, $view == 0);
+
+	?>
+	<TABLE class=calTopTable BORDER=1>
+		<TR>
+			<TD VALIGN=TOP ROWSPAN=3>
+				<?php calLeftSide($date, $dayZone, $view); ?>
+			</TD>
+			<TD>
+				<?php calMlist($date); ?>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<?php calPrintMtable($date, $date); ?>
+			</TD>
+		</TR>
+		<TR>
+			<TD>
+				<?php calPrintMtable(msdbDayMadd($date), $date); ?>
+			</TD>
+		</TR>
+	</TABLE>
+d40 4
+a43 2
+	<?php
+	msdbInclude("include/cal.t");
+d45 3
+a47 1
+	return(1);
+d52 1
+a52 1
+function calDayZone($hm)
+a53 9
+	global $startHour ;
+	global $NUMHours;
+
+	$hm = $hm / 100 ;
+	if ( $hm <  $startHour[1] )
+		return(0);
+	if ( $hm >= $startHour[1] + $NUMHours )
+		return(2);
+	return(1);
+a56 17
+
+function calDtype($date, $curdate)
+{
+	static $today = -1;
+
+	if ( $today == -1 )
+		$today = msdbDayToday();
+
+	if ( $date == $today && $date == $curdate )
+		return('CAL_BOTH');
+	if ( $date == $today )
+		return('CAL_TODAY');
+	if ( $date == $curdate)
+		return('CAL_CURDATE');
+	return('CAL_REG');
+}
+
+a57 22
+
+function calMonDtype($y, $m, $curdate)
+{
+	static $today = -1;
+	static $ty, $tm, $td;
+
+	if ( $today == -1 ) {
+		$today = msdbDayToday();
+		list($ty, $tm, $td) = msdbDayBreak($today);
+	}
+
+	list($cury, $curm, $curd) = msdbDayBreak($curdate);
+
+	if ( $tm == $m && $ty == $y && $curm == $m && $cury == $y )
+		return('CAL_BOTH');
+	if ( $tm == $m && $ty == $y )
+		return('CAL_TODAY');
+	if ( $curm == $m && $cury == $y )
+		return('CAL_CURDATE');
+	return('CAL_REG');
+}
+
+a58 615
+
+function monClass($y, $m, $curdate)
+{
+	$mClasses = array(
+		'CAL_REG' => "",
+		'CAL_TODAY' => "class=calMonToday",
+		'CAL_CURDATE' => "class=calMonCurdate",
+		'CAL_BOTH' => "class=calMonBoth"
+		);
+
+	$ty = calMonDtype($y, $m, $curdate);
+
+	return($mClasses[calMonDtype($y, $m, $curdate)]);
+}
+
+/************************************************************/
+
+function calMdayClass($hasApts, $date, $curdate)
+{
+	$MdayClasses = array(
+		array(
+			'CAL_REG' => "",
+			'CAL_TODAY' => "class=calMdayToday",
+			'CAL_CURDATE' => "class=calMdayCurdate",
+			'CAL_BOTH' => "class=calMdayBoth"
+		),
+		array(
+			'CAL_REG' => "class=calMdayHasApts",
+			'CAL_TODAY' => "class=calMdayTodayHasApts",
+			'CAL_CURDATE' => "class=calMdayCurdateHasApts",
+			'CAL_BOTH' => "class=calMdayBothHasApts"
+		)
+	);
+
+	return($MdayClasses[$hasApts][calDtype($date, $curdate)]);
+}
+
+/************************************************************/
+
+function calPcell($y, $m, $theday, $curdate)
+{
+	global $calTable ;
+	static $today = -1;
+
+	if ( $theday == 0 ) {
+		echo "\t\t<TD></TD>\n";
+		return(1);
+	}
+
+	if ( $today == -1 )
+		$today = msdbDayToday();
+
+	$date = msdbDayCompose($y, $m, $theday);
+
+	$n = msdbGetString("select count(*) from $calTable where date = $date");
+
+	$cellClass = calMdayClass($n > 0, $date, $curdate);
+
+	if ( $date == $curdate )
+		$inner = $theday;
+	else
+		$inner = "<A HREF=\"javascript:calDay($date)\">$theday</A>";
+
+	echo "\t\t<TD $cellClass>$inner</TD>\n" ;
+
+	return(1);
+}
+
+/************************************************************/
+
+function calWeekRef($y, $m, $w)
+{
+	global $calMtable;
+
+	for($i=0;$i<7;$i++)
+		if ( isset($calMtable[$w][$i]) )
+			break;
+	if ( $i == 7 ) {
+		MSDB_ERROR('calWeekRef');
+		return("");
+	}
+	$date = msdbDayCompose($y, $m, $calMtable[$w][$i]);
+	$imgRef = calImgRef('images/Mweek.gif', 'View this Week');
+	$ret = "<A HREF=\"javascript:calWeek($date)\">$imgRef</A>" ;
+	return($ret);
+}
+
+/******************************/
+
+function calSetWtable($date)
+{
+	global $calWtable;
+
+	$calWtable = array();
+
+	$wd = msdbDayWday($date);
+
+	$calWtable[$wd] = $date;
+	for($i=$wd+1;$i<7;$i++)
+		$calWtable[$i] = msdbDayDadd($calWtable[$i-1]);
+	for($i=$wd-1;$i>=0;$i--)
+		$calWtable[$i] = msdbDayDsub($calWtable[$i+1]);
+}
+
+/******************************/
+
+global $calMtable;
+
+function calSetMtable($y, $m)
+{
+	global $calMtable;
+
+	$calMtable = array();
+
+	$mdays = msdbMonthLength($m, $y);
+	$wd = msdbDayWday(msdbDayCompose($y, $m, 1));
+
+	for($i=0,$w=0;$i<$mdays;$i++) {
+		if ( $i != 0 && $wd == 0 )
+			$w++;
+		$calMtable[$w][$wd] = $i+1 ;
+		$wd = ($wd+1) % 7 ;
+	}
+}
+
+/******************************/
+
+function calPrintMtable($date, $curdate)
+{
+	global $calMtable;
+
+	list($y, $m, $d) = msdbDayBreak($date);
+
+	calSetMtable($y, $m);
+
+	/*	msdb_r($calMtable);	*/
+
+	$mname = msdbMonthLname($m);
+
+	echo "<TABLE class=calMday BORDER=1>\n";
+	echo "\t<TR class=calMheader>\n\t\t<TD COLSPAN=8>$mname $y</TD>\n";
+	echo "\t<TR class=calWday>\n";
+	echo "\t\t<TD class=calMcorner></TD>\n";
+
+	for($d=0;$d<7;$d++)
+		printf("\t\t<TD>%s</TD>\n", msdbWdayName($d));
+
+	echo "\t</TR>\n";
+	for($w=0;$w<6;$w++) {
+
+		// skip showing empty weeks
+		for($d=0,$w0=0;$d<7;$d++)
+			if ( isset($calMtable[$w][$d]) )
+				$w0++;
+		if ( $w0 == 0 )
+			continue;
+
+
+		echo "\t<TR>\n";
+		printf("\t\t<TD class=calMweek>%s</TD>\n", calWeekRef($y, $m, $w));
+		for($d=0;$d<7;$d++) {
+			$mday = ( isset($calMtable[$w][$d]) ) ? $calMtable[$w][$d] : 0 ;
+			calPcell($y, $m, $mday, $curdate);
+		}
+		echo "\t</TR>\n";
+	}
+	echo "</TABLE>\n";
+}
+
+/************************************************************/
+
+function aptString($date, $hm)
+{
+	global $calTable;
+
+	$cmd = "select what from $calTable where date = $date and hm = $hm" ;
+	$ret = @@msDbGetString($cmd);
+	if ( ! $ret )
+		$ret = '' ;
+	return($ret);
+}
+
+/******************************/
+
+function calViewSlot($date, $h, $m)
+{
+	$hm = $h*100 + $m;
+	$what = aptString($date, $hm);
+	$hlabel = calTimeStr($hm);
+	$href =  "javascript:calSetApt($hm)";
+	echo "\t\t<TD><A HREF=\"$href\">$hlabel</A>:</TD>\n" ;
+	echo "\t\t<TD ID=HM$hm>$what</TD>\n" ;
+	if ($what) {
+		$jw = msdbJsStr($what);
+		$js = "calStore($hm, '$jw');";
+		msdbJs($js);
+	}
+}
+
+/************************************************************/
+
+function calListApt($date, $hm, $what, $withAptTimeLink)
+{
+	$dz = calDayZone($hm);
+	$ts = calTimeStr($hm);
+
+	if ( $withAptTimeLink )
+		echo "\t\t\t<A HREF=\"javascript:calTime($date, $dz)\">$ts</A>:";
+
+	echo " $what<BR>\n";
+}
+
+/******************************/
+
+function listDay($date, $withAptTimeLink)
+{
+	global $calTable ;
+
+	$w = "where date = $date order by hm" ;
+	$apts = msDbGetAssoc("select * from $calTable $w");
+	foreach ( $apts as $apt )
+		calListApt($apt['date'], $apt['hm'], $apt['what'], $withAptTimeLink);
+}
+
+/******************************/
+
+function calWeekView($date)
+{
+	global $calWtable;
+
+	calSetWtable($date);
+	list($y, $m, $mday) = msdbDayBreak($date);
+	$ds = msdbDayFmt($calWtable[0], false);
+
+	echo "\n\n<!-- Week View -->\n";
+	$atts = "BORDER=1 CELLPADDING=2 CELLSPACING=0 HEIGHT=\"100%\" WIDTH=\"100%\"";
+	$h = "\t<TR><TD><B>Date</B></TD><TD><B>Appointment</B></TD></TR>\n";
+	$title = "\t<TR><TD COLSPAN=2>Week of $ds</TD></TR>";
+	echo "<TABLE class=calWeekView $atts>\n$title\n$h\n";
+
+	for($i=0;$i<7;$i++) {
+		echo "\t<TR>\n";
+		$dt = $calWtable[$i] ;
+		list($y, $m, $d) = msdbDayBreak($dt);
+		$wday = msdbWdayName($i);
+		$mname = msdbMonthName($m);
+		$inner = "<A HREF=\"javascript:calDay($dt)\">$wday $mname $d</A>" ;
+		$atts = "VALIGN=\"TOP\" WIDTH=\"80\"";
+		echo "\t\t<TD $atts class=calWeekHeader>$inner</TD>\n" ;
+		echo "\t\t<TD>\n";
+		listDay($calWtable[$i], 1);
+		echo "\t\t</TD>\n";
+		echo "\t</TR>\n";
+	}
+	echo "</TABLE>\n";
+	echo "<!-- End Week View -->\n";
+}
+
+/******************************/
+
+function calYmView($date, $isy)
+{
+	global $calTable;
+
+	list($y, $m, $mday) = msdbDayBreak($date);
+
+	if ( $isy ) {
+		$vname = "Year";
+		$title = "$y";
+	} else {
+		$vname = "Month";
+		$mname = msdbMonthLname($m);
+		$title = "$mname $y";
+	}
+
+	$tClass = ( $isy ) ? "class=calYearView" : "class=calMonthHeader" ;
+	$hClass = ( $isy ) ? "class=calYearHeader" : "class=calMonthHeader" ;
+	$tAtts="BORDER=1 CELLPADDING=2 CELLSPACING=0 HEIGHT=\"100%\" WIDTH=\"100%\"" ;
+	
+	$tHead =
+			 "<TR><TD COLSPAN=2 align=center>$title</TD></TR>\n" 
+			.
+			"<TR><TD><B>Date</B></TD><TD><B>Appointment</B></TD></TR>"
+			;
+
+	echo "\n\n<!-- $vname View -->\n" ;
+	echo "<TABLE $tClass $tAtts>\n$tHead\n" ;
+
+
+	if ( $isy )
+		$datecond = "FLOOR(date/10000) = $y" ;
+	else {
+		$my = $y*100 + $m ;
+		$datecond = "FLOOR(date/100) = $my";
+	}
+
+	$selDate = "select distinct date from $calTable" ;
+
+	$cmd = "$selDate where $datecond order by date" ;
+
+
+	$dlist = msDbGetStrings($cmd);
+
+	/*	MSDB_ERROR($cmd);	*/
+	/*	msdb_r($dlist);	*/
+
+	foreach ( $dlist as $d ) {
+		list($y, $m, $mday) = msdbDayBreak($d);
+		$wday = msdbWdayName(msdbDayWday($d));
+		$mname = msdbMonthName($m);
+
+		echo "\t<TR>\n";
+
+		$inner = "<A HREF=\"javascript:calDay($d)\">$wday $mname $mday</A>" ;
+		$atts = "VALIGN=\"TOP\" WIDTH=\"80\"";
+
+		echo "\t\t<TD $atts $hClass>$inner</TD>\n";
+
+		echo "\t\t<TD>\n";
+		listDay($d, 1);
+		echo "\t\t</TD>\n";
+
+		echo "\t</TR>\n";
+	}
+	echo "</TABLE>\n";
+	echo "<!-- End $vname View -->\n";
+}
+
+/******************************/
+
+function calMonthView($date)
+{
+	calYmView($date, 0);
+}
+
+/******************************/
+
+function calYearView($date)
+{
+	calYmView($date, 1);
+}
+
+/************************************************************/
+
+// convert time value to showable string
+// with one arg, its hm, otherwise h & m
+
+function calTimeStr($hm)
+{
+	$ret = sprintf("%02d:%02d", (int)($hm/100), $hm%100);
+	return($ret);
+}
+
+/************************************************************/
+
+function offApt($date, $hm, $what)
+{
+	$dz = calDayZone($hm);
+	$href = "javascript:calTime($date, $dz)";
+	$hlabel = calTimeStr($hm);
+
+	echo "\t<TR class=calOffApt>\n" ;
+	echo "\t\t<TD><A HREF=\"$href\">$hlabel</A>:</TD>\n" ;
+	echo "\t\t<TD ID=HM$hm>$what</TD>\n" ;
+	echo "\t</TR>\n" ;
+}
+
+/******************************/
+
+function offHours($date, $thisZone, $whence)
+{
+	global $calTable ;
+	global $startHour ;
+	global $NUMHours;
+	static $n = -1;
+	static $c = array();
+
+	if ( $n == -1 ) {
+		$w = "where date = $date order by hm" ;
+		$c = msDbGetAssoc("select * from $calTable $w");
+		$n = count($c);
+	}
+
+	if ( $whence == 0 && $thisZone != 0 )
+		for($i=0;$i<$n && $c[$i]['hm'] < $startHour[$thisZone]*100 ;$i++)
+			offApt($c[$i]['date'], $c[$i]['hm'], $c[$i]['what'] );
+
+	if ( $whence == 1 && $thisZone != 2 ) {
+		for($i=0;
+			$i<$n && $c[$i]['hm'] <= ($startHour[$thisZone] + $NUMHours)*100;
+				$i++)
+			;
+		if ( $i != $n )
+			for(;$i<$n;$i++)
+				offApt($c[$i]['date'], $c[$i]['hm'], $c[$i]['what']);
+	}
+}
+
+/******************************/
+
+function calDayView($date, $zone)
+{
+	global $NUMHours;
+	global $startHour ;
+
+	echo "\n\n<!-- Day View -->\n";
+	echo "<TABLE class=calDday WIDTH=\"100%%\" BORDER=1>\n";
+	echo "\t<TR class=calDayHeader>\n";
+	echo "\t\t<TD WIDTH=40>Time</TD>\n\t\t<TD>Appointment</TD>\n";
+	echo "\t</TR>\n";
+	offHours($date, $zone, 0);
+	for($i=0;$i<=$NUMHours*2;$i++) {
+		echo "\t<TR>\n";
+		calViewSlot($date, $startHour[$zone] + (int)($i/2), ($i%2)*30);
+		echo "\t</TR>\n";
+	}
+	offHours($date, $zone, 1);
+	echo "</TABLE>\n";
+	echo "<!-- End Day View -->\n";
+}
+
+/************************************************************/
+
+function calHeader($date, $isday)
+{
+	if ( ! $isday )
+		return;
+
+
+	list($y, $m, $d) = msdbDayBreak($date);
+
+	$wday = msdbDayWday($date);
+	$wdname = msdbWdayLname($wday);
+	$mname = msdbMonthLname($m);
+
+	echo "$wdname $mname $d, $y\n";
+}
+
+/************************************************************/
+
+function calMref($y, $m, $date)
+{
+	$dt = calMonDtype($y, $m, $date);
+
+	$mname = msdbMonthLname($m);
+
+	if ( $dt == 'CAL_CURDATE' || $dt == 'CAL_BOTH' )
+		return($mname);
+
+	$mdate = msdbDayCompose($y, $m, 1);
+	$href = "javascript:calMonth($mdate)";
+	return("<A HREF=\"javascript:calMonth($mdate)\">$mname</A>");
+}
+
+/************************************************************/
+
+function calMlist($date)
+{
+	$numshow = 5;
+	$numShowBefore = 2;
+
+	list($y, $thisM, $thisDay) = msdbDayBreak($date);
+
+	if ( $thisM - $numShowBefore + $numshow - 1 > 12  )
+		$firstMthisYear = 12 - $numshow + 1;
+	else if ( $thisM - $numShowBefore < 1 )
+		$firstMthisYear = 1;
+	else
+		$firstMthisYear = $thisM - $numShowBefore ;
+
+	echo "<TABLE class=calMlist BORDER=1 WIDTH=\"100%%\">\n";
+
+	echo "\t<TR class=calMlistYear>\n";
+
+	for($i=0;$i<3;$i++) {
+		$ty = $y - 1 + $i ;
+		echo "\t\t<TD><A HREF=\"javascript:calYear($ty)\">$ty</A></TD>\n";
+	}
+	echo "\t</TR>\n";
+
+	for($m=0;$m<$numshow;$m++) {
+		echo "\t<TR>\n";
+
+		$prevYM = 12-$numshow+$m+1 ;
+		printf("\t\t<TD %s>%s</TD>\n",
+				monClass($y-1, $prevYM, $date),
+				calMref($y-1, $prevYM, $date)
+			);
+
+		$thisYM = $firstMthisYear + $m ;
+		printf("\t\t<TD %s>%s</TD>\n",
+				monClass($y, $thisYM, $date),
+				calMref($y, $thisYM, $date)
+				);
+
+		printf("\t\t<TD %s>%s</TD>\n",
+				monClass($y+1, $m+1, $date),
+				calMref($y+1, $m+1, $date)
+			);
+
+		echo "\t</TR>\n";
+	}
+
+	echo "</TABLE>\n";
+}
+
+/******************************/
+
+$calControls = array(
+	'CAL_CTRL_EARLIER' => array('images/earlier.gif', "Starting at Midnight (wee hours)", 0),
+	'CAL_CTRL_LATER' => array('images/later.gif', "Ending at Midnight (after hours)", 1),
+	'CAL_CTRL_TODAY' => array('images/today.gif', "Today", 2),
+	'CAL_CTRL_DAY' => array('images/day.gif', "Day View", 3),
+	'CAL_CTRL_WEEK' => array('images/week.gif', "Week View", 4),
+	'CAL_CTRL_MONTH' => array('images/month.gif', "Month View", 5),
+	'CAL_CTRL_YEAR' => array('images/year.gif', "Year View", 6),
+	'CAL_CTRL_PREVIOUS' => array('images/left.gif', "Previous", 7),
+	'CAL_CTRL_NEXT' => array('images/right.gif', "Next", 8),
+	);
+
+/**********/
+
+function calImgRef($imgname, $alt)
+{
+	if ( $alt )
+		$altStr = "ALT=\"$alt\"";
+	else
+		$altStr = "";
+
+	$ret = "<IMG BORDER=0 $altStr SRC=\"$imgname\">" ;
+	return($ret);
+}
+
+/**********/
+
+function calTBcontrol($which)
+{
+	global $calControls;
+
+	$img = $calControls[$which][0];
+	$alt = $calControls[$which][1];
+	$imgRef = calImgRef($img, $alt);
+	$w = $calControls[$which][2];
+
+	return("<A HREF=\"javascript:calTBcontrol($w)\">$imgRef</A>");
+}
+
+/******************************/
+
+function TBgoto($date)
+{
+	list($y, $m, $d) = msdbDayBreak($date);
+	$type = "TYPE=text NAME=GoTo SIZE=16 MAXLENGTH=20";
+	return("&nbsp;Go&nbsp;to:<INPUT $type value=\"$m/$d/$y\">");
+}
+
+/************************************************************/
+
+function calInsert($date, $hm, $what)
+{
+	global $calTable;
+
+	$w = ereg_replace("'", "\\'", $what);
+	$row = array('date' => $date, 'hm' => $hm, 'what' => $what);
+	if ( ! msDbPreInsert($calTable, $row) )
+		return;
+	$cmd = msDbInsertSql($calTable, $row) ;
+	msDbSql($cmd);
+}
+
+/************************************************************/
+
+function calOpen()
+{
+	if ( isset($_REQUEST['date']) )
+		$date = $_REQUEST['date'];
+	else
+		$date = msdbDayToday();
+
+	if ( isset($_REQUEST['GoTo']) ) {
+		$gt = $_REQUEST['GoTo'];
+		if ( ($gtdate = msdbDayScan($gt)) == null ) {
+			msdbMsg("$gt: Incorrect date format");
+			return(calMain($date));
+		}
+		return(calMain($gtdate));
+	}
+
+	if ( isset($_REQUEST['calApt']) )
+			return(calApt());
+
+	return(calMain($date));
+}
+
+/******************************/
+
+function calApt()
+{
+	global $calTable;
+
+
+	$date = $_REQUEST['date'];
+	$hm = $_REQUEST['hm'];
+	$what = $_REQUEST['what'];
+
+	msDbSql("delete from $calTable where date = $date and hm = $hm");
+
+	if ( $what != '' )
+		calInsert($date, $hm, $what);
+
+	calMain($date);
+
+	return(1);
+}
+
+@
+
+
+1.13
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.12 2004/05/19 08:21:39 engine Exp engine $ ';
+d6 1
+a6 1
+#include "/usr/local/msdb/src/msdb.h"
+a10 2
+require_once("$msdbDir/library.php");
+require_once("calMain.php");
+@
+
+
+1.12
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.11 2004/03/22 20:54:48 engine Exp engine $ ';
+d8 49
+d174 1
+d206 2
+a207 1
+	msdbInclude("include/cal.h");
+a854 20
+/*	function cpiTest($ign, & $cal)	*/
+/*	{	*/
+	/*	$cal['what'] .= " cpi Test3";	*/
+	/*	return(true);	*/
+/*	}	*/
+
+/********************/
+
+// this is a test of the msDb automatic preInsert plugin
+// uncommenting this, will cause it to be called.
+
+/*	function preInsert_cal_cal(& $cal)	*/
+/*	{	*/
+	/*	$cal['what'] .= " hard pre insert" ;	*/
+	/*	return(true);	*/
+	/*	return(false);	*/
+/*	}	*/
+
+/********************/
+
+d861 4
+a864 7
+	// test msDbInsertTrigger(), by uncommenting this and the function source above
+	/*	msDbInsertTrigger($calTable, 'cpiTest');	*/
+	if ( ($cmd = msDbInsertSql($calTable, $row)) != null )
+		msDbSql($cmd);
+	else
+		msdbError("calInsert: msDbInsertSql failed");
+
+@
+
+
+1.11
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.10 2004/03/22 17:11:49 engine Exp engine $ ';
+d6 1
+a6 1
+#include "/home/msdb/src/msdb.h"
+a11 1
+
+d116 1
+a116 1
+	echo "<LINK REL=STYLESHEET TYPE=\"text/css\" HREF=\"JSlib/calStyles.html\">\n" ;
+d156 1
+d184 1
+d798 1
+a798 1
+	$type = "TYPE=text NAME=GoTo SIZE=16 MAXLENGTH=16";
+d804 20
+d829 8
+a836 2
+	$cmd = "insert into $calTable values ( $date, $hm, '$w', 0)";
+	msDbSql($cmd);
+@
+
+
+1.10
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.9 2004/03/22 17:04:05 engine Exp engine $ ';
+d57 1
+a57 6
+	$a = array(
+		'date' => $date, 
+		'dayZone' => $dayZone,
+		'formname' => "calAptGoto"
+		);
+	msdbInclude( "include/aptForm.h", $a);
+d59 1
+d92 1
+a92 1
+	echo "<TABLE class=calLeftSide HEIGHT=\"100%\" BORDER=0>\n" ;
+d103 1
+d142 1
+a142 1
+		else if ( view == 'year' )
+d193 1
+d476 2
+d481 3
+a483 2
+	$h = "\t<TR><TD><B>Date</B></TD><TD><B>Appointment</B></TD></TR>";
+	echo "<TABLE class=calWeekView $atts >\n$h\n";
+d503 1
+a503 1
+/************************************************************/
+d509 11
+a519 1
+	$ym =( $isy ) ? "Year" : "Month" ;
+d523 6
+a528 1
+	$tHead = "<TR><TD><B>Date</B></TD><TD><B>Appointment</B></TD></TR>" ;
+d530 1
+a530 1
+	echo "\n\n<!-- $ym View -->\n" ;
+a532 1
+	list($y, $m, $mday) = msdbDayBreak($date);
+d535 1
+a535 1
+		$datecond = "date/10000 = $y" ;
+d538 1
+a538 1
+		$datecond = "(date/100) = $my";
+a544 1
+	/*	MSDB_ERROR($cmd);	*/
+d548 3
+d570 1
+a570 1
+	echo "<!-- End $ym View -->\n";
+d703 2
+a704 2
+	$numshow = 4;
+	$numShowBefore = 1;
+d716 1
+d718 5
+a722 5
+	printf("\t\t<TD>%d</TD>\n\t\t<TD>%d</TD>\n\t\t<TD>%d</TD>\n",
+			$y-1,
+			$y,
+			$y+1
+			);
+a797 1
+	$val = "value=\"$m/$d/$y\"";
+a802 15
+function calOpen()
+{
+	if ( isset($_REQUEST['Do']) ) {
+		if ( $_REQUEST['Do'] == 'calApt' )
+			return(calApt());
+	}
+
+	if ( isset($_REQUEST['date']) )
+		return(calMain($_REQUEST['date']));
+
+	return(calMain(msdbDayToday()));
+}
+
+/************************************************************/
+
+d814 1
+a814 1
+function calApt()
+d816 4
+a819 1
+	global $calTable;
+d823 1
+a823 1
+		if ( ($date = msdbDayScan($_REQUEST['GoTo'])) == null ) {
+d825 1
+a825 1
+			return(calMain(msdbDayToday()));
+d827 1
+a827 1
+		return(calMain($date));
+d830 13
+@
+
+
+1.9
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.8 2004/03/22 14:48:56 engine Exp engine $ ';
+d601 1
+d603 1
+d831 1
+a831 1
+	if ( what != '' )
+@
+
+
+1.8
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.7 2004/03/22 12:44:03 engine Exp engine $ ';
+d106 1
+a106 1
+	MSDB_ERROR($s);
+a128 1
+	MSDB_ERROR('calMain');
+d336 1
+a336 1
+function setWtable($date)
+d338 3
+a340 1
+	unset($calWtable);
+a425 1
+
+a433 1
+
+a434 1
+
+a435 1
+
+a436 1
+
+d475 3
+a477 1
+	setWtable($date);
+d494 1
+a494 1
+		listDay($calWtable[i], 1);
+d506 2
+d515 1
+a515 1
+	echo "<TABLE $tCLass $tAtts>\n$thead\n" ;
+d520 1
+a520 1
+		$datecond = "and date/10000 = $y" ;
+d523 1
+a523 1
+		$datecond = "and (date/100) = $my";
+d526 1
+a526 1
+	$selDate = "select distinct date from cal" ;
+d530 1
+a530 1
+	MSDB_ERROR($cmd);
+d532 1
+a532 1
+	$dlist = msdbGetStrings($cmd);
+d639 1
+a639 1
+		calViewSlot($date, $startHour[$zone] + $i/2, ($i%2)*30);
+d658 1
+a658 1
+	$wdname = msdbDayWdayLname($wday);
+d786 8
+d799 1
+a799 1
+function calDay()
+d801 5
+a805 1
+	return(calMain($_REQUEST['date']));
+d815 1
+d817 2
+a818 2
+			msdbMsg("Incorrect date format");
+			return(calDay());
+d820 1
+a820 2
+		$_REQUEST['date'] = $date ;
+		return(calDay());
+@
+
+
+1.7
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.6 2004/03/22 11:43:18 engine Exp engine $ ';
+a34 2
+	$h = (int)($hm / 100);
+	$m = $hm % 100;
+d38 4
+a41 5
+		$showDate = yd_wdaylstring(yd_wday($date));
+	printf("\t\t<A HREF=\"$href\">$showDate</A> %02d:%02d: $what<BR>\n",
+			(int)($hm / 100),
+			$hm % 100
+			);
+d78 3
+a80 3
+	printf("</TR>\n");
+	printf("</FORM>\n");
+	printf("</TABLE>\n");
+d88 1
+a88 1
+$viewFuncs = array(0, 'calWeekView', 'calMonthView', 'calYearView');
+d97 1
+a97 1
+	printf("\t<TR>\n\t\t<TD>\n");
+d99 1
+a99 1
+	printf("\t\t</TD>\n\t</TR>\n\t<TR>\n\t\t<TD>\n");
+d104 1
+a104 1
+		$s = "$vf($date)";
+d106 1
+a106 1
+	/*	MSDB_ERROR($s);	*/
+d109 1
+a109 1
+	printf("\t\t</TD>\n\t</TR>\n</TABLE>\n");
+d118 1
+a118 1
+	$newCal = "var cal = new calendar('$calTable', $date, $dayZone, '$view') ;\n" ;
+d143 1
+a143 1
+			$date = yd_wadd($date);
+d145 1
+a145 1
+			$date = yd_madd($date);
+d147 1
+a147 1
+			$date = yd_yadd($date);
+d149 1
+a149 1
+			$date = yd_dadd($date);
+d152 1
+a152 1
+			$date = yd_wsub($date);
+d154 1
+a154 1
+			$date = yd_msub($date);
+d156 1
+a156 1
+			$date = yd_ysub($date);
+d158 1
+a158 1
+			$date = yd_dsub($date);
+d293 1
+a293 1
+		printf("\t\t<TD></TD>\n");
+d341 1
+a341 1
+	$wd = yd_wday($date);
+d393 1
+a393 1
+	printf("\t</TR>\n");
+d404 1
+a404 1
+		printf("\t<TR>\n");
+d410 1
+a410 1
+		printf("\t</TR>\n");
+d412 1
+a412 1
+	printf("</TABLE>\n");
+d434 1
+d437 1
+a437 1
+	$hlabel = sprintf("%02d:%02d", $h, $m);
+d454 3
+d458 1
+a458 4
+		printf(
+			"\t\t\t<A HREF=\"%s(%d, %d)\">%02d:%02d</A>:",
+			"javascript:calTime", $date, calDayZone($hm),
+			(int)($hm/100), $hm%100);
+d460 1
+a460 1
+	printf(" %s<BR>\n", $what);
+d481 5
+a485 6
+	printf("\n\n<!-- Week View -->\n");
+	printf("<TABLE class=calWeekView %s %s>\n%s\n",
+		"BORDER=1 CELLPADDING=2 CELLSPACING=0",
+		"HEIGHT=\"100%\" WIDTH=\"100%\"",
+		"<TR><TD><B>Date</B></TD><TD><B>Appointment</B></TD></TR>"
+		);
+d487 9
+a495 12
+		printf("\t<TR>\n");
+		sprintf($inner,
+			"<A HREF=\"javascript:calDay(%d)\">%s %s %d</A>",
+			$calWtable[$i],
+			yd_wdaystring($i),
+			yd_monthsname(yd_month($calWtable[$i])),
+			yd_day($calWtable[$i])
+			);
+		printf("\t\t<TD %s class=calWeekHeader>%s</TD>\n",
+			"VALIGN=\"TOP\" WIDTH=\"80\"",
+			$inner);
+		printf("\t\t<TD>\n");
+d497 2
+a498 2
+		printf("\t\t</TD>\n");
+		printf("\t</TR>\n");
+d500 2
+a501 2
+	printf("</TABLE>\n");
+	printf("<!-- End Week View -->\n");
+d508 10
+a517 7
+	printf("\n\n<!-- %s View -->\n", isy ? "Year" : "Month");
+	printf("<TABLE class=cal%sView %s %s>\n%s\n",
+		$isy ? "Year" : "Month",
+		"BORDER=1 CELLPADDING=2 CELLSPACING=0",
+		"HEIGHT=\"100%\" WIDTH=\"100%\"",
+		"<TR><TD><B>Date</B></TD><TD><B>Appointment</B></TD></TR>"
+		);
+d520 5
+a524 3
+		sprintf($datecond, "and date/10000 = %d", yd_year($date));
+	else
+		sprintf($datecond, "and (date/100) = %d", yd_year($date)*100 + yd_month($date));
+d529 3
+d533 1
+d535 12
+a546 13
+		printf("\t<TR>\n");
+		sprintf($inner,
+			"<A HREF=\"javascript:calDay(%d)\">%s %s %d</A>",
+			$d,
+			yd_wdaystring(yd_wday($d)),
+			yd_monthsname(yd_month($d)),
+			yd_day($d)
+			);
+		printf("\t\t<TD %s class=cal%sHeader>%s</TD>\n",
+			"VALIGN=\"TOP\" WIDTH=\"80\"",
+			$isy ? "Year" : "Month",
+			$inner);
+		printf("\t\t<TD>\n");
+d548 3
+a550 2
+		printf("\t\t</TD>\n");
+		printf("\t</TR>\n");
+d552 2
+a553 2
+	printf("</TABLE>\n");
+	printf("<!-- End %s View -->\n", $isy ? "Year" : "Month");
+d572 11
+d585 8
+a592 8
+	sprintf($href, "javascript:calTime(%d, %d)", $date, calDayZone($hm));
+	
+	sprintf($hlabel, "%02d:%02d", (int)($hm/100), $hm%100);
+
+	printf("\t<TR class=calOffApt>\n");
+	printf("\t\t<TD><A HREF=\"%s\">%s</A>:</TD>\n", $href, $hlabel);
+	printf("\t\t<TD ID=HM%d>%s</TD>\n", $hm,  $what);
+	printf("\t</TR>\n");
+d631 5
+a635 5
+	printf("\n\n<!-- Day View -->\n");
+	printf("<TABLE class=calDday WIDTH=\"100%%\" BORDER=1>\n");
+	printf("\t<TR class=calDayHeader>\n");
+	printf("\t\t<TD WIDTH=40>Time</TD>\n\t\t<TD>Appointment</TD>\n");
+	printf("\t</TR>\n");
+d638 1
+a638 1
+		printf("\t<TR>\n");
+d640 1
+a640 1
+		printf("\t</TR>\n");
+d643 2
+a644 2
+	printf("</TABLE>\n");
+	printf("<!-- End Day View -->\n");
+d696 2
+a697 2
+	printf("<TABLE class=calMlist BORDER=1 WIDTH=\"100%%\">\n");
+	printf("\t<TR class=calMlistYear>\n");
+d703 1
+a703 1
+	printf("\t</TR>\n");
+d706 1
+a706 1
+		printf("\t<TR>\n");
+d725 1
+a725 1
+		printf("\t</TR>\n");
+d728 1
+a728 1
+	printf("</TABLE>\n");
+@
+
+
+1.6
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.5 2004/03/21 17:32:18 engine Exp engine $ ';
+d216 1
+a216 1
+		$today = day_today();
+a267 34
+function setWtable($date)
+{
+	unset($calWtable);
+
+	$wd = yd_wday($date);
+
+	$calWtable[$wd] = $date;
+	for($i=$wd+1;$i<7;$i++)
+		$calWtable[$i] = msdbDayDadd($calWtable[$i-1]);
+	for($i=$wd-1;$i>=0;$i--)
+		$calWtable[$i] = msdbDayDsub($calWtable[$i+1]);
+}
+
+/************************************************************/
+
+function calSetMtable($y, $m)
+{
+	global $calMtable;
+
+	unset($calMtable);
+
+	$mdays = msdbMonthLength($m, $y);
+	$wd = msdbDayWday(msdbDayCompose($y, $m, 1));
+
+	for($i=0,$w=0;$i<$mdays;$i++) {
+		if ( $i != 0 && $wd == 0 )
+			$w++;
+		$calMtable[$w][$wd] = $i+1 ;
+		$wd = ($wd+1) % 7 ;
+	}
+}
+
+/************************************************************/
+
+d272 4
+a275 4
+			"",
+			"class=calMdayToday",
+			"class=calMdayCurdate",
+			"class=calMdayBoth"
+d278 4
+a281 4
+			"class=calMdayHasApts",
+			"class=calMdayTodayHasApts",
+			"class=calMdayCurdateHasApts",
+			"class=calMdayBothHasApts"
+d290 1
+a290 1
+function pcell($y, $m, $theday, $curdate)
+d321 1
+a321 1
+function weekRef($y, $m, $w)
+d326 1
+a326 1
+		if ( $calMtable[$w][$i] )
+d329 1
+a329 1
+		MSDB_ERROR('weekRef');
+d340 36
+d384 2
+d398 2
+d401 2
+a402 1
+			$w0 += $calMtable[$w][$d] ;
+d405 2
+d408 5
+a412 3
+		printf("\t\t<TD class=calMweek>%s</TD>\n", weekRef($y, $m, $w));
+		for($d=0;$d<7;$d++)
+			pcell($y, $m, $calMtable[$w][$d], $curdate);
+@
+
+
+1.5
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.4 2004/03/21 16:50:11 engine Exp engine $ ';
+d91 1
+a91 1
+$viewFuncs = array(0, 'weekView', 'monthView', 'yearView');
+d95 1
+a95 1
+function leftSide($date, $dayZone, $view)
+d104 1
+a104 1
+		$s = "dayView($date, $dayZone)";
+d109 2
+a110 2
+	MSDB_ERROR($s);
+	/*	eval($s);	*/
+d121 1
+a121 9
+	echo <<< HEREDOC
+
+	<LINK REL=STYLESHEET TYPE="text/css" HREF="JSlib/calStyles.html">
+	<SCRIPT LANGUAGE="JavaScript1.2" SRC="JSlib/cal.js"></SCRIPT>
+	<SCRIPT LANGUAGE=javascript>
+		var cal = new calendar("$calTable", $date, $dayZone, "$view") ;
+	</SCRIPT>
+
+HEREDOC;
+d123 3
+d166 1
+a166 1
+	pHeader($date, $view == 0);
+d172 1
+a172 1
+				<?php leftSide($date, $dayZone, $view); ?>
+d180 1
+a180 1
+				<?php printMtable($date, $date); ?>
+d185 1
+a185 1
+				<?php printMtable(yd_madd($date), $date); ?>
+d199 2
+d283 1
+a283 1
+function setMtable($y, $m)
+d289 2
+a290 2
+	$mdays = yd_monthlen($m) + ( ($m == 2 && msdbDayLeap($y)) ? 1 : 0);
+	$wd = yd_wday(msdbDayCompose($y, $m, 1));
+d357 2
+d374 1
+a374 1
+function printMtable($date, $curdate)
+d376 5
+a380 2
+	$m = yd_month($date);
+	$y = yd_year($date);
+d382 6
+a387 1
+	setMtable($y, $m);
+a388 6
+	printf("<TABLE class=calMday BORDER=1>\n");
+	printf("\t<TR class=calMheader>\n\t\t<TD COLSPAN=8>%s %d</TD>\n",
+			yd_monthname($m),
+			$y);
+	printf("\t<TR class=calWday>\n");
+	printf("\t\t<TD class=calMcorner></TD>\n");
+d390 2
+a391 1
+		printf("\t\t<TD>%s</TD>\n", yd_wdaystring($d));
+d409 20
+a428 1
+// not clear why I use eid (oe eidp) here
+d430 10
+a439 50
+/*	static char *	*/
+/*	aptString(eidp, date, h, m)	*/
+/*	int *eidp;	*/
+/*	int date;	*/
+/*	int h, m;	*/
+/*	{	*/
+	/*	char cmd[1024];	*/
+	/*	static char ret[1024];	*/
+	/*	global $calTable ;	*/
+/*		*/
+	/*	cmd = "select what from $calTable where date = $date and hm = $hm" ;	*/
+	/*	$ret = msDbGetString(cmd);	*/
+	/*	if ( ! *ret )	*/
+		/*	return(0);	*/
+	/*		*/
+	/*	sprintf(cmd,	*/
+		/*	"%s where uid = %d and fid = %d and date = %d and hm = %d",	*/
+		/*	"select eng_id from $calTable",	*/
+		/*	uid, fid, date, h*100+m);	*/
+	/*		*/
+	/*	*eidp = engdb_getint(cmd);	*/
+	/*	return(you_strdup(ret));	*/
+/*	}	*/
+/*		*/
+/*	static	*/
+/*	viewSlot(date, h, m)	*/
+/*	int uid, fid;	*/
+/*	int date;	*/
+/*	int h, m;	*/
+/*	{	*/
+	/*	char *what;	*/
+	/*	char hlabel[1024];	*/
+	/*	char href[1024];	*/
+	/*	char js[1024];	*/
+	/*	int eid;	*/
+/*		*/
+	/*	what = aptString(&eid, uid, fid, date, h, m);	*/
+/*		*/
+	/*	sprintf(hlabel, "%02d:%02d", h, m);	*/
+/*		*/
+	/*	sprintf(href, "javascript:calApt(%d)", h*100+m);	*/
+/*		*/
+	/*	printf("\t\t<TD><A HREF=\"%s\">%s</A>:</TD>\n", href, hlabel);	*/
+	/*	printf("\t\t<TD ID=HM%d>%s</TD>\n", h*100+m,  what ? what : "");	*/
+	/*	if (what) {	*/
+		/*	sprintf(js, "calStore(%d, %d, '%s');",	*/
+			/*	eid, h*100+m, you_jsStr(what));	*/
+		/*	you_js(js);	*/
+	/*	}	*/
+/*	}	*/
+d445 1
+a445 1
+	if ( withAptTimeLink )
+d468 1
+a468 1
+function weekView($date)
+d501 1
+a501 1
+function ymView($date, $isy)
+d516 3
+a518 6
+	sprintf($cmd,
+		"%s where uid = %d and fid = %d %s %s",
+		"select distinct date from cal",
+		$datecond,
+		"order by date"
+		);
+d544 1
+a544 1
+function monthView($date)
+d546 1
+a546 1
+	ymView($date, 0);
+d551 1
+a551 1
+function yearView($date)
+d553 1
+a553 1
+	ymView($date, 1);
+d575 2
+a576 2
+	static $n = 0;
+	static $c = null;
+d578 2
+a579 2
+	if ( n == 0 ) {
+		sprintf($w, "where date = %d order by hm", date);
+d588 1
+a588 1
+	if ( whence == 1 && thisZone != 2 ) {
+d601 1
+a601 1
+function dayView($date, $zone)
+d604 1
+d614 1
+a614 1
+		viewSlot($date, $startHour[$zone] + $i/2, ($i%2)*30);
+d624 1
+a624 1
+function pHeader($date, $isday)
+d626 11
+a636 7
+	if ( $isday )
+		printf("%s %s %d %d\n",
+				yd_wdaylstring(yd_wday($date)),
+				yd_monthname(yd_month($date)),
+				yd_day($date),
+				yd_year($date)
+			);
+a639 1
+/************************************************************/
+d645 1
+a645 1
+	$mname = yd_monthname($m);
+@
+
+
+1.4
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.3 2004/03/21 16:44:02 engine Exp engine $ ';
+d130 1
+d171 2
+d180 1
+a180 1
+				<?php Mlist($date); ?>
+d238 1
+a238 1
+		$today = day_today();
+d659 1
+a659 1
+function mref($ref, $y, $m, $date)
+d663 1
+a663 4
+	if ( $dt == 'CAL_CURDATE' || $dt == 'CAL_BOTH' ) {
+		sprintf($ref, "%s", yd_monthname(m));
+		return($ref);
+	}
+d665 2
+a666 1
+	sprintf($href, "javascript:calMonth(%d)", $y*10000+$m*100+1);
+d668 3
+a670 2
+	sprintf($ref, "<A HREF=\"%s\">%s</A>", $href, $yd_monthname(m));
+	return($ref);
+d675 1
+a675 1
+function Mlist($date)
+d704 1
+a704 1
+				mref($ref1, $y-1, $prevYM, $date)
+d709 2
+a710 2
+				monClass(y, thisYM, date),
+				mref($ref2, $y, $thisYM, $date)
+d715 1
+a715 1
+				mref($ref3, $y+1, $m+1, $date)
+@
+
+
+1.3
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.2 2004/03/21 14:59:46 engine Exp engine $ ';
+d70 10
+a79 10
+		printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_EARLIER'));
+	printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_DAY'));
+	if ( view == '' )
+		printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_LATER'));
+	printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_TODAY'));
+	printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_WEEK'));
+	printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_MONTH'));
+	printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_YEAR'));
+	printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_PREVIOUS'));
+	printf("<TD>%s</TD>\n", TBcontrol('CAL_CTRL_NEXT'));
+d346 1
+a346 1
+		$inner = "<A HREF=\"javascript:youCalDay($date)\">$theday</A>";
+d366 1
+a366 1
+	$ret = "<A HREF=\"javascript:youCalWeek($date)\">$imgRef</A>" ;
+d446 1
+a446 1
+	/*	sprintf(href, "javascript:youCalApt(%d)", h*100+m);	*/
+d451 1
+a451 1
+		/*	sprintf(js, "youCalStore(%d, %d, '%s');",	*/
+d464 1
+a464 1
+			"javascript:youCalTime", $date, calDayZone($hm),
+d497 1
+a497 1
+			"<A HREF=\"javascript:youCalDay(%d)\">%s %s %d</A>",
+d542 1
+a542 1
+			"<A HREF=\"javascript:youCalDay(%d)\">%s %s %d</A>",
+d579 1
+a579 1
+	sprintf($href, "javascript:youCalTime(%d, %d)", $date, calDayZone($hm));
+d665 1
+a665 1
+	sprintf($href, "javascript:youCalMonth(%d)", $y*10000+$m*100+1);
+d751 1
+a751 1
+function TBcontrol($which)
+d753 2
+a756 1
+	/*	youIconRef	*/
+d760 1
+a760 1
+	return("<A HREF=\"javascript:youCalTBcontrol($w)\">$imgRef</A>");
+@
+
+
+1.2
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: calMain.php,v 1.1 2004/03/21 09:38:05 engine Exp engine $ ';
+d40 1
+a40 1
+		$showDate = yd_wdaylstring(yd_wday(cal->date));
+d43 1
+a43 1
+			cal->hm % 100
+d58 1
+a58 1
+function toolBar($date, $dayZone, $view)
+a59 2
+	setenv("formname", "calAptGoto");
+
+a66 2
+
+
+d101 1
+a101 1
+	toolBar(File, fid, date, dayZone, view);
+d119 2
+d128 1
+d138 4
+a141 1
+	$view = $_REQUEST['View'];
+a197 14
+return
+?>
+
+/************************************************************/
+#define	CAL_REG		0
+#define	CAL_TODAY	1
+#define	CAL_CURDATE	2
+#define	CAL_BOTH	3
+/************************************************************/
+static int calMtable[6][7];
+static int calWtable[7];
+
+/************************************************************/
+
+d199 1
+a199 1
+function calDayZone(hm)
+d201 2
+a202 2
+	hm = hm / 100 ;
+	if ( hm <  startHour[1] )
+d204 1
+a204 1
+	if ( hm >= startHour[1] + $NUMHours )
+d211 1
+a211 3
+static
+Dtype(date, curdate)
+int date, curdate;
+d213 1
+a213 1
+	static int today = -1;
+d215 2
+a216 2
+	if ( today == -1 )
+		today = day_today();
+d218 7
+a224 7
+	if ( today == date && today == curdate )
+		return(CAL_BOTH);
+	if ( today == date )
+		return(CAL_TODAY);
+	if ( date == curdate)
+		return(CAL_CURDATE);
+	return(CAL_REG);
+d229 1
+a229 3
+static
+monDtype(y, m, curdate)
+int y, m, curdate;
+d231 2
+a232 3
+	static int today = -1;
+	int cury, curm;
+	int tm, ty;
+d234 4
+a237 2
+	if ( today == -1 )
+		today = day_today();
+d239 1
+a239 5
+	curm = yd_month(curdate);
+	cury = yd_year(curdate);
+	
+	tm = yd_month(today);
+	ty = yd_year(today);
+d241 7
+a247 8
+	if ( tm == m && ty == y && curm == m && cury == y )
+		return(CAL_BOTH);
+	if ( tm == m && ty == y )
+		return(CAL_TODAY);
+	else if ( curm == m && cury == y )
+		return(CAL_CURDATE);
+	else
+		return(CAL_REG);
+d252 1
+a252 3
+static char *
+monClass(y, m, curdate)
+int y, m, curdate;
+d254 6
+a259 6
+	static char *mClasses[4] = {
+		"",
+		"class=calMonToday",
+		"class=calMonCurdate",
+		"class=calMonBoth"
+		};
+d261 3
+a263 1
+	return(mClasses[monDtype(y, m, curdate)]);
+d272 1
+a272 1
+	wd = yd_wday($date);
+d275 4
+a278 4
+	for($i=$wd+1;$i<7;i++)
+		calWtable[$i] = yd_dadd(calWtable[$i-1]);
+	for(i=wd-1;i>=0;i--)
+		calWtable[i] = yd_dsub(calWtable[i+1]);
+d283 1
+a283 2
+function setMtable(y, m)
+int y, m;
+d285 1
+a285 2
+	int i, wd, mdays;
+	int w;
+d287 1
+a287 1
+	unset $calMtable;
+d290 1
+a290 1
+	$wd = yd_wday($y*10000+$m*100+1);
+d295 1
+a295 1
+		calMtable[$w][$wd] = $i+1 ;
+d302 1
+a302 1
+mDayClass($hasApts, $date, $curdate)
+d319 1
+a319 1
+	return($MdayClasses[$hasApts][Dtype($date, $curdate)]);
+d326 1
+d334 2
+a335 4
+	if ( today == -1 )
+		today = msdbDayToday();
+
+	date = y * 10000 + m * 100 + theday;
+d337 1
+d339 1
+a339 6
+	sprintf(cmd, "%s where date = %d",
+		"select count(*) from cal",
+		uid,
+		fid,
+		date);
+	hasApts =  ( engdb_getint(cmd) > 0 );
+d341 1
+a341 1
+	cellClass = mDayClass(hasApts, date, curdate);
+d343 2
+a344 2
+	if ( date == curdate )
+		sprintf(inner, "%d", theday);
+d346 1
+a346 2
+		sprintf(inner, "<A HREF=\"javascript:youCalDay(%d)\">%d</A>",
+			date,  theday);
+d348 1
+a348 1
+	printf("\t\t<TD %s>%s</TD>\n", cellClass, inner);
+d355 4
+a358 11
+static char *
+weekRef(y, m, w)
+int y, m;
+int w; /* index into calMtable */
+{
+	char ret[1024];
+	char img[1024];
+	int i;
+
+	for(i=0;i<7;i++)
+		if ( calMtable[w][i] )
+d360 2
+a361 2
+	if ( i == 7 ) {
+		YOU_ERROR0();
+d364 4
+a367 4
+	youIconRef(img, "Mweek.gif", "View this Week", (char *)0, "cal", 0);
+	sprintf(ret, "<A HREF=\"javascript:youCalWeek(%d)\">%s</A>",
+			y*10000+m*100+calMtable[w][i], img);
+	return(you_strdup(ret));
+d372 1
+a372 4
+static
+printMtable(uid, fid, date, curdate)
+int uid, fid;
+int date, curdate;
+d374 2
+a375 2
+	int d, w, w0;
+	int m, y;
+d377 1
+a377 4
+	m = yd_month(date);
+	y = yd_year(date);
+
+	setMtable(y, m);
+d381 2
+a382 2
+			yd_monthname(m),
+			y);
+d385 2
+a386 2
+	for(d=0;d<7;d++)
+		printf("\t\t<TD>%s</TD>\n", yd_wdaystring(d));
+d388 4
+a391 4
+	for(w=0;w<6;w++) {
+		for(d=0,w0=0;d<7;d++)
+			w0 += calMtable[w][d] ;
+		if ( w0 == 0 )
+d394 3
+a396 3
+		printf("\t\t<TD class=calMweek>%s</TD>\n", weekRef(y, m, w));
+		for(d=0;d<7;d++)
+			pcell(uid, fid, y, m, calMtable[w][d], curdate);
+d404 1
+a404 47
+/*
+ * its probaly faster to cache the day's appts
+ */
+
+static char *
+aptString(eidp, uid, fid, date, h, m)
+int *eidp;
+int uid, fid;
+int date;
+int h, m;
+{
+	char cmd[1024];
+	static char ret[1024];
+
+	sprintf(cmd, "%s where uid = %d and fid = %d and date = %d and hm = %d",
+		"select what from cal",
+		uid, fid, date, h*100+m);
+	
+	*ret = 0;
+	engdb_getstring(ret, cmd);
+	if ( ! *ret )
+		return(0);
+	
+	sprintf(cmd,
+		"%s where uid = %d and fid = %d and date = %d and hm = %d",
+		"select eng_id from cal",
+		uid, fid, date, h*100+m);
+	
+	*eidp = engdb_getint(cmd);
+	return(you_strdup(ret));
+}
+
+/******************************/
+
+static
+viewSlot(uid, fid, date, h, m)
+int uid, fid;
+int date;
+int h, m;
+{
+	char *what;
+	char hlabel[1024];
+	char href[1024];
+	char js[1024];
+	int eid;
+
+	what = aptString(&eid, uid, fid, date, h, m);
+d406 50
+a455 12
+	sprintf(hlabel, "%02d:%02d", h, m);
+
+	sprintf(href, "javascript:youCalApt(%d)", h*100+m);
+
+	printf("\t\t<TD><A HREF=\"%s\">%s</A>:</TD>\n", href, hlabel);
+	printf("\t\t<TD ID=HM%d>%s</TD>\n", h*100+m,  what ? what : "");
+	if (what) {
+		sprintf(js, "youCalStore(%d, %d, '%s');",
+			eid, h*100+m, you_jsStr(what));
+		you_js(js);
+	}
+}
+d459 1
+a459 1
+function listApt($date, $hm, $what, $withAptTimeLink)
+d467 1
+a467 1
+	printf(" %s<BR>\n", c->what);
+d472 1
+a472 3
+function listDay(date, withAptTimeLink)
+int uid, fid, date;
+int withAptTimeLink;
+d474 1
+a474 3
+	CAL *c[1024]; /* max is actually 48 with half-hour spacing */
+	char w[1024];
+	int i, n;
+d476 4
+a479 6
+	sprintf(w,
+		"where uid = %d and fid = %d and date = %d order by hm",
+		uid, fid, date);
+	n = engdb_getobjects_by_where(c, 1024, "cal", w);
+	for(i=0;i<n;i++)
+		listApt(c[i], withAptTimeLink);
+d484 1
+a484 1
+function weekView(date)
+d486 1
+a486 1
+	setWtable(date);
+d494 1
+a494 1
+	for(i=0;i<7;i++) {
+d496 1
+a496 1
+		sprintf(inner,
+d498 4
+a501 4
+			calWtable[i],
+			yd_wdaystring(i),
+			yd_monthsname(yd_month(calWtable[i])),
+			yd_day(calWtable[i])
+d505 1
+a505 1
+			inner);
+d507 1
+a507 1
+		listDay(calWtable[i], 1);
+d535 1
+a535 1
+		datecond,
+d541 1
+a541 1
+		sprintf(inner,
+d550 2
+a551 2
+			isy ? "Year" : "Month",
+			inner);
+d591 5
+a595 7
+function offHours(date, thisZone, whence)
+int date, thisZone;
+int whence; /* before=0 or after=1 thisZone */
+{
+	CAL *c[64];
+	int i;
+	static n=0;
+d604 2
+a605 2
+		for($i=0;$i<$n && $c[$i]['hm'] < startHour[$thisZone]*100 ;$i++)
+			offApt($c[$i]);
+d608 3
+a610 3
+		for(i=0;
+			i<n && c[i]->hm <= (startHour[thisZone] + NUMHours)*100;
+				i++)
+d612 3
+a614 3
+		if ( i != n )
+			for(;i<n;i++)
+				offApt(c[i]);
+d630 1
+a630 1
+	for(i=0;i<=$NUMHours*2;i++) {
+d632 1
+a632 1
+		viewSlot(date, startHour[zone] + i/2, (i%2)*30);
+d658 1
+a658 1
+	$dt = monDtype($y, $m, $date);
+d738 1
+a738 14
+static char *controlAlts[] = {
+	"Starting at Midnight (wee hours)",
+	"Ending at Midnight (after hours)",
+	"Today",
+	"Day View",
+	"Week View",
+	"Month View",
+	"Year View",
+	"Previous",
+	"Next"
+};
+
+/**********/
+function calIImgRef($imgname, $alt)
+d756 1
+a756 1
+	$imgRef = calIImgRef($img, $alt);
+d776 1
+a776 1
+	return(calMain(day_today()));
+d816 1
+@
+
+
+1.1
+log
+@None
+@
+text
+@d2 1
+a2 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+d8 19
+d28 108
+a135 1
+function calMain()
+d138 55
+d196 1
+d198 688
+@

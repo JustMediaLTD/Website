@@ -1,0 +1,963 @@
+head	1.18;
+access;
+symbols;
+locks
+	engine:1.18; strict;
+comment	@# @;
+
+
+1.18
+date	2004.08.16.16.44.00;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.08.16.15.33.54;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.07.29.08.48.11;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.07.27.08.32.33;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.05.31.14.57.27;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.02.11.07.45.57;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.21.08.00.25;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.13.12.15.54;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.07.22.01.20;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.22.07.55.13;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.07.09.31.52;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.06.05.04.01.18;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.05.28.07.49.35;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.05.23.16.45.27;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.05.23.05.39.03;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.05.23.05.29.48;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.05.23.05.18.00;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.05.23.05.09.56;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.18
+log
+@None
+@
+text
+@/* $Id: dialog.jss,v 1.17 2004/08/16 15:33:54 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/************************************************************/
+#include "alert.h"
+/************************************************************/
+
+function
+msdbIeHideDialog(id)
+{
+	ALERT1("msdbIeHideDialog");
+	jstr = id + ".style.visibility = 'hidden';" ;
+	eval(jstr);
+	id.isShown = 0;
+}
+
+/************************************************************/
+
+/*
+ * clip is the scrollable clip region
+ * sTop and sLeft, are the clip position in the overall area
+ * mx my are mouse cooordinates relative to the clip region
+ * I don't know how to get the size of the whole area (yet)
+ * but it doesn't matter
+ * when setting the position it is set relative to the whole region,
+ * not the clip ( i.e. setting to mouseXY will only position
+ * in the natural place when not scrolled)
+ */
+
+function
+msdbShowDialogAt(id, isTopLeft)
+{
+	ALERT1("msdbIeShowDialog: " + id);
+	ALERT2("msdbIeShowDialog");
+
+	jstr = "dw = " + id + ".offsetWidth ;" ;
+	eval(jstr);
+	jstr = "dh = " + id + ".offsetHeight ;" ;
+	eval(jstr);
+
+	sx = msdbScrollLeft();
+	sy = msdbScrollTop();
+	sw = document.body.clientWidth;
+	sh = document.body.clientHeight;
+
+	ax =  sx + msdbTop.mouseX;
+	ay = sy + msdbTop.mouseY;
+
+	pos = new msdbPositionDialog(ax, ay, sx, sy, sw, sh, dw, dh);
+
+	if ( isTopLeft ) {
+		jstr = id + ".style.left = " + pos.x + ";" ;
+		eval(jstr);
+		jstr = id + ".style.top = " + pos.y + ";" ;
+		eval(jstr);
+	} else {
+		jstr = id + ".style.left = " + pos.x + " - 2 - " + dw + ";" ;
+		eval(jstr);
+		jstr = id + ".style.top = " + pos.y + " - 2 - "  + dh + ";" ;
+		eval(jstr);
+	}
+
+	jstr = id + ".style.visibility = 'visible';" ;
+	eval(jstr);
+
+	msdbSetDialogVisibility(id, 1);
+}
+
+/************************************************************/
+
+function
+msdbShowDialog(id)
+{
+		msdbShowDialogAt(id, true);
+}
+
+/************************************************************/
+/************************************************************/
+
+function
+msdbDiaVis(id, v)
+{
+	ALERT1("msdbDiaVis");
+	this.id = id;
+	this.v = v;
+	return(this);
+}
+
+/******************************/
+
+function
+msdbSetDialogVisibility(id, v)
+{
+	ALERT1("msdbSetDialogVisibility");
+	if ( msdbTop.dialogVis == msdbTop.undef )
+		msdbTop.dialogVis = new Array();
+	
+	va = msdbTop.dialogVis;
+	for(i=0;i<va.length;i++)
+		if( va[i].id == id ) {
+			va[i].v = v ;
+			return;
+		}
+	va[i] = new msdbDiaVis(id, v);
+}
+
+/******************************/
+
+
+function
+msdbDialogVisibility(id)
+{
+	ALERT1("msdbDialogVisibility");
+	if ( msdbTop.dialogVis == msdbTop.undef )
+		msdbTop.dialogVis = new Array();
+	
+	v = msdbTop.dialogVis;
+	for(i=0;i<v.length;i++)
+		if( v[i].id == id )
+			return(v[i].v) ;
+	return(0);
+}
+
+/************************************************************/
+
+function
+msdbHideDialog(id)
+{
+	ALERT1("msdbHideDialog");
+	msdbIeHideDialog(id);
+
+	msdbSetDialogVisibility(id, 0);
+}
+
+/************************************************************/
+/*
+ * agent independant arith for positioning a dialog given:
+ *
+ * ax, ay - the absolute mouse click corrdinates
+ * sx, sy - scroll region offset
+ * sw, sh - scroll region size
+ * dw, dh - the width and hight of the dialog
+ * return.x, return.y - the resulting canvas relative position
+ */
+
+function
+msdbPositionDialog(ax, ay, sx, sy, sw, sh, dw, dh)
+{
+	ALERT1("msdbPositionDialog");
+	this.x = this.y = 0;
+
+	sRight = sx + sw;
+	sBottom = sy + sh ;
+
+	/*	msdbAlert('msdbPositionDialog',	*/
+		/*	'ax', ax,	*/
+		/*	'ay', ay,	*/
+		/*	'sx', sx,	*/
+		/*	'sy', sy,	*/
+		/*	'sw', sw,	*/
+		/*	'sh', sh,	*/
+		/*	'dw', dw,	*/
+		/*	'dh', dh	*/
+		/*	);	*/
+
+	/*
+	 * mx my are mouse cooordinates relative to the clip region
+	 */
+	mx = ax - sx;
+	my = ay - sy;
+
+	nativeX = ax;
+	nativeY = ay;
+
+	this.x = nativeX;
+	if ( (this.x + dw) > sx + sw )
+		this.x = sx + sw - dw;
+	if ( this.x < sx )
+		this.x = sx;
+
+	this.y = nativeY;
+	if ( (this.y + dh) > sy + sh )
+		this.y = sy + sh - dh;
+	if ( this.y < sy )
+		this.y = sy;
+
+	return(this);
+}
+
+/************************************************************/
+
+function
+msdbPlaceDialog(idname, l, t)
+{
+	ALERT1("msdbPlaceDialog");
+	ALERT2("msdbPlaceDialog");
+
+	ids = msdbIdStyleName(idname);
+
+	jstr = ids + ".left = " + l + " ; " ;
+	eval(jstr);
+	jstr = ids + ".top = " + t + " ; " ;
+	eval(jstr);
+}
+
+/************************************************************/
+
+function
+msdbToggleSelect(idname)
+{
+	vis = msdbDialogVisibility(idname);
+	if ( vis == 1 ) {
+		msdbHideDialog(idname);
+		return;
+	}
+
+	msdbShowDialog(idname);
+
+	msdbPlaceDialog(idname,
+		msdbTop.mouseX + msdbScrollLeft() - 8,
+		msdbTop.mouseY + msdbScrollTop() + 4
+		);
+}
+
+/************************************************************/
+
+function
+msdbShowSelect(fname)
+{
+	var idname;
+
+	idname = "msdbSpotID" + fname ;
+	msdbToggleSelect(idname);
+}
+
+/************************************************************/
+
+function msdbScrollLeft()
+{
+	return(document.documentElement.scrollLeft ?
+				document.documentElement.scrollLeft :
+				document.body.scrollLeft);
+}
+
+/******************************/
+
+function msdbScrollTop()
+{
+	return(document.documentElement.scrollTop ?
+				document.documentElement.scrollTop :
+				document.body.scrollTop);
+}
+
+/************************************************************/
+@
+
+
+1.17
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.16 2004/07/29 08:48:11 engine Exp engine $  */
+d57 1
+a57 1
+		jstr = id + ".style.left = " + pos.x + " - " + dw + ";" ;
+d59 1
+a59 1
+		jstr = id + ".style.top = " + pos.y + " - "  + dh + ";" ;
+@
+
+
+1.16
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.15 2004/07/27 08:32:33 engine Exp engine $  */
+d31 1
+a31 1
+msdbShowDialog(id)
+d51 12
+a62 4
+	jstr = id + ".style.left = " + pos.x + ";" ;
+	eval(jstr);
+	jstr = id + ".style.top = " + pos.y + ";" ;
+	eval(jstr);
+d72 9
+@
+
+
+1.15
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.14 2004/05/31 14:57:27 engine Exp engine $  */
+d46 2
+a47 2
+	ax =  sx + ht.mouseX;
+	ay = sy + ht.mouseY;
+a62 2
+var dialogVis, undef;
+
+d78 2
+a79 2
+	if ( dialogVis == undef )
+		dialogVis = new Array();
+d81 1
+a81 1
+	va = dialogVis;
+d97 2
+a98 2
+	if ( dialogVis == undef )
+		dialogVis = new Array();
+d100 1
+a100 1
+	v = dialogVis;
+d203 2
+a204 2
+		ht.mouseX + msdbScrollLeft() - 8,
+		ht.mouseY + msdbScrollTop() + 4
+@
+
+
+1.14
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.13 2004/02/11 07:45:57 engine Exp engine $  */
+d63 2
+d80 2
+a81 2
+	if ( ht.dialogVis == ht.undef )
+		ht.dialogVis = new Array();
+d83 1
+a83 1
+	va = ht.dialogVis;
+d94 1
+d99 2
+a100 2
+	if ( ht.dialogVis == ht.undef )
+		ht.dialogVis = new Array();
+d102 1
+a102 1
+	v = ht.dialogVis;
+@
+
+
+1.13
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.12 2004/01/21 08:00:25 engine Exp engine $  */
+d33 1
+a33 1
+	ALERT1("msdbIeShowDialog");
+@
+
+
+1.12
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.11 2004/01/13 12:15:54 engine Exp engine $  */
+d41 2
+a42 2
+	sx = document.body.scrollLeft;
+	sy = document.body.scrollTop;
+d202 2
+a203 2
+		ht.mouseX + document.body.scrollLeft - 8,
+		ht.mouseY + document.body.scrollTop + 4
+d219 18
+@
+
+
+1.11
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.10 2004/01/07 22:01:20 engine Exp engine $  */
+d34 1
+d178 1
+@
+
+
+1.10
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.9 2003/12/22 07:55:13 engine Exp engine $  */
+d9 1
+a9 1
+enghtIeHideDialog(id)
+d11 1
+a11 1
+	ALERT1("enghtIeHideDialog");
+d31 1
+a31 1
+enghtShowDialog(id)
+d33 1
+a33 1
+	ALERT1("enghtIeShowDialog");
+d48 1
+a48 1
+	pos = new enghtPositionDialog(ax, ay, sx, sy, sw, sh, dw, dh);
+d57 1
+a57 1
+	enghtSetDialogVisibility(id, 1);
+d63 1
+a63 1
+enghtDiaVis(id, v)
+d65 1
+a65 1
+	ALERT1("enghtDiaVis");
+d74 1
+a74 1
+enghtSetDialogVisibility(id, v)
+d76 1
+a76 1
+	ALERT1("enghtSetDialogVisibility");
+d86 1
+a86 1
+	va[i] = new enghtDiaVis(id, v);
+d92 1
+a92 1
+enghtDialogVisibility(id)
+d94 1
+a94 1
+	ALERT1("enghtDialogVisibility");
+d108 1
+a108 1
+enghtHideDialog(id)
+d110 2
+a111 2
+	ALERT1("enghtHideDialog");
+	enghtIeHideDialog(id);
+d113 1
+a113 1
+	enghtSetDialogVisibility(id, 0);
+d128 1
+a128 1
+enghtPositionDialog(ax, ay, sx, sy, sw, sh, dw, dh)
+d130 1
+a130 1
+	ALERT1("enghtPositionDialog");
+d136 1
+a136 1
+	/*	enghtAlert('enghtPositionDialog',	*/
+d174 1
+a174 1
+enghtPlaceDialog(idname, l, t)
+d176 1
+a176 1
+	ALERT1("enghtPlaceDialog");
+d178 1
+a178 1
+	ids = enghtIdStyleName(idname);
+d189 1
+a189 1
+enghtToggleSelect(idname)
+d191 1
+a191 1
+	vis = enghtDialogVisibility(idname);
+d193 1
+a193 1
+		enghtHideDialog(idname);
+d197 1
+a197 1
+	enghtShowDialog(idname);
+d199 1
+a199 1
+	enghtPlaceDialog(idname,
+d208 1
+a208 1
+enghtShowSelect(fname)
+d212 2
+a213 2
+	idname = "enghtSpotID" + fname ;
+	enghtToggleSelect(idname);
+@
+
+
+1.9
+log
+@None
+@
+text
+@d1 2
+a2 2
+/* $Id: .exrc,v 1.4 2003/05/24 07:04:01 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2003. All rights reserved. */
+@
+
+
+1.8
+log
+@None
+@
+text
+@d1 3
+a3 1
+/* $Id: dialog.jss,v 1.7 2003/06/05 04:01:18 engine Exp engine $ --- Ohad Aloni */
+@
+
+
+1.7
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.6 2003/05/28 07:49:35 engine Exp engine $ --- Ohad Aloni */
+d9 1
+a9 1
+	ALERT1("enghtIeHideDialog")
+d31 1
+a31 1
+	ALERT1("enghtIeShowDialog")
+d63 1
+a63 1
+	ALERT1("enghtDiaVis")
+d74 1
+a74 1
+	ALERT1("enghtSetDialogVisibility")
+d92 1
+a92 1
+	ALERT1("enghtDialogVisibility")
+d108 1
+a108 1
+	ALERT1("enghtHideDialog")
+d128 1
+a128 1
+	ALERT1("enghtPositionDialog")
+d174 1
+a174 1
+	ALERT1("enghtPlaceDialog")
+@
+
+
+1.6
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.5 2003/05/23 16:45:27 engine Exp engine $ --- Ohad Aloni */
+a16 12
+function
+enghtHideChange()
+{
+	ALERT1("enghtHideChange")
+	ht.isChange = false ;
+	ht.isNew = false ;
+
+	enghtHideDialog('changeId');
+}
+
+/************************************************************/
+
+d185 30
+@
+
+
+1.5
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.4 2003/05/23 05:39:03 engine Exp engine $ --- Ohad Aloni */
+d20 1
+d121 1
+a121 1
+		enghtIeHideDialog(id);
+@
+
+
+1.4
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.3 2003/05/23 05:29:48 engine Exp engine $ --- Ohad Aloni */
+d7 1
+a7 1
+youDiaVis(id, v)
+d9 4
+a12 4
+	ALERT1("youIeClockAlert")
+	this.id = id;
+	this.v = v;
+	return(this);
+d15 1
+a15 1
+/******************************/
+d18 1
+a18 1
+youSetDialogVisibility(id, v)
+d20 2
+a21 12
+	ALERT1("youIeClockAlert")
+	if ( you.dialogVis == you.undef )
+		you.dialogVis = new Array();
+	
+	va = you.dialogVis;
+	for(i=0;i<va.length;i++)
+		if( va[i].id == id ) {
+			va[i].v = v ;
+			return;
+		}
+	va[i] = new youDiaVis(id, v);
+}
+d23 1
+a23 14
+/******************************/
+
+function
+youDialogVisibility(id)
+{
+	ALERT1("youIeClockAlert")
+	if ( you.dialogVis == you.undef )
+		you.dialogVis = new Array();
+	
+	v = you.dialogVis;
+	for(i=0;i<v.length;i++)
+		if( v[i].id == id )
+			return(v[i].v) ;
+	return(0);
+d28 11
+d40 1
+a40 1
+youHideDialog(id)
+d42 1
+a42 2
+	ALERT1("youIeClockAlert")
+		youIeHideDialog(id);
+d44 4
+a47 2
+	youSetDialogVisibility(id, 0);
+}
+d49 4
+a52 1
+/******************************/
+d54 2
+a55 6
+function
+youShowDialog(id)
+{
+	ALERT1("youIeClockAlert")
+	if ( ! youSessOK() )
+		return;
+d57 1
+d59 6
+a64 6
+	if ( youIsMSIE() )
+		youIeShowDialog(id);
+	else if ( youIsNS() )
+		youNsShowDialog(id);
+	else
+		alert("youShowDialog: " + you.browser );
+d66 1
+a66 1
+	youSetDialogVisibility(id, 1);
+d72 1
+a72 1
+noteId(idx)
+d74 4
+a77 2
+	ALERT1("youIeClockAlert")
+	return("note" + idx);
+d83 1
+a83 1
+youShowNote(idx)
+d85 11
+a95 4
+	ALERT1("youIeClockAlert")
+	enghtSaveMouse();
+	youShowDialog(noteId(idx));
+
+d101 1
+a101 10
+youHideNote(idx)
+{
+	ALERT1("youIeClockAlert")
+	youHideDialog(noteId(idx));
+}
+
+/************************************************************/
+
+function
+youRenameGuess(fname)
+d103 3
+a105 6
+	ALERT1("youIeClockAlert")
+	if ( fname.indexOf("D") != 0 )
+		return(fname);
+
+	if ( (p = fname.lastIndexOf("-")) == -1 )
+		return(fname);
+d107 5
+a111 17
+	return(fname.substr(p+1));
+}
+
+/******************************/
+
+function
+youShowRename(File, isdir)
+{
+	ALERT1("youIeClockAlert")
+	if ( ! youSessOK() )
+		return;
+	if ( youIsMSIE() )
+		youIeShowRename(File, isdir);
+	else if ( youIsNS() )
+		youNsShowRename(File, isdir);
+	else
+		alert("youShowRename: " + you.browser );
+d117 1
+a117 1
+youShowMove()
+d119 2
+a120 12
+	ALERT1("youIeClockAlert")
+	if ( ! youSessOK() )
+		return;
+	if ( youIsMSIE() )
+		youIeShowMove();
+	else if ( youIsNS() )
+		youNsShowMove();
+	else
+		alert("youShowMove: " + you.browser );
+}
+
+/************************************************************/
+d122 1
+a122 5
+function
+youHideMove()
+{
+	ALERT1("youIeClockAlert")
+	youHideDialog('moveId');
+d137 1
+a137 1
+youPositionDialog(ax, ay, sx, sy, sw, sh, dw, dh)
+d139 1
+a139 1
+	ALERT1("youIeClockAlert")
+d145 1
+a145 1
+	/*	youAlert('youPositionDialog',	*/
+d183 1
+a183 1
+youPlaceDialog(idname, l, t)
+d185 3
+a187 12
+	ALERT1("youIeClockAlert")
+	if ( ! youIsDhtml() ) {
+		alert("ShowChange - " + you.browser);
+		return;
+	}
+	ids = youIdStyleName(idname);
+
+	if ( youIsNS() ) {
+		youNsSetLayerVal(idname, 'pageX', l.toString());
+		youNsSetLayerVal(idname, 'pageY', t.toString());
+		return;
+	}
+a188 1
+	/* IE */
+@
+
+
+1.3
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: dialog.jss,v 1.2 2003/05/23 05:18:00 engine Exp engine $ --- Ohad Aloni */
+a54 1
+	if ( youIsMSIE() )
+a55 4
+	else if ( youIsNS() )
+		youNsHideDialog(id);
+	else
+		alert("youHideDialog: " + you.browser );
+@
+
+
+1.2
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: .exrc,v 1.3 2003/05/10 17:20:37 engine Exp engine $ --- Ohad Aloni */
+d9 1
+d20 1
+d38 1
+d54 1
+d70 1
+d90 1
+d99 1
+d110 1
+d119 1
+d134 1
+d150 1
+d166 1
+d184 1
+d230 1
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 3
+a3 2
+/* (C) Copyright theora.com 1998-2000. Unpublished. All Rights Reserved. */
+/* %A% - Ohad Aloni - theora.com - %G% %U% */
+@

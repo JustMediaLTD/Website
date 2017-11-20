@@ -1,0 +1,46 @@
+head	1.2;
+access;
+symbols;
+locks
+	engine:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2004.07.25.06.43.44;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.03.21.08.51.33;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.2
+log
+@None
+@
+text
+@<?php
+require_once("cb.php");
+?>
+
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 3
+a4 2
+
+<H3>yet another comprehensive calendar</H3>
+@

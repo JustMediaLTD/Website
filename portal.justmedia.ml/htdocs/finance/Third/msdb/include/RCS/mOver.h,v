@@ -1,0 +1,30 @@
+head	1.1;
+access;
+symbols;
+locks
+	engine:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2004.08.16.16.43.56;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.1
+log
+@None
+@
+text
+@<DIV CLASS=msdbMover ID=msdbMoverId>
+	<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 BGCOLOR=#ffffff><TR><TD>
+	<DIV CLASS=msdbMoverInner ID=msdbMoverInnerId></DIV>
+	</TD></TR></TABLE>
+</DIV>
+@

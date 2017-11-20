@@ -1,0 +1,61 @@
+<PRE>
+
+Select the table to Browse
+--------------------------
+
+click on the home icon at the top left of the screen, or
+click on a link called '(Other tables)' at the bottom left.
+
+In the list of tables, click on the desired table.
+
+
+Insert
+------
+
+Below the table view (which may be empty if the table is empty)
+there are text inputs for data entry.
+Type in the data and hit enter or click the OK button.
+
+
+Select
+------
+
+In the same form used to insert rows, if an operator is presented
+as a search criteria, then there will be no Insert.
+Rather a search is performed, and the results displayed.
+
+In the statistics report views, if there are any on the page, 
+click on a 'grouped-by' value, to display all data in rows pertaining to that
+value.
+
+e.g.
+	'< 5' in the field called age, will find all the younger kids in the table.
+	name: 'like j%' will find "where name like 'j%'"
+	'* jo' => where name like %jo%
+
+Update
+------
+click the edit button to the right of the row.
+A small window pops up, roughly overlaying the row, with a form, and the data
+in it.
+change what you need and click the OK button.
+
+Copying a row
+-------------
+with or without modification. click on the 'New' button next to the edit
+button of the row. A pop, similar to the edit popup appears, and when you
+click OK (potentially having changed some information), the information is
+inserted as a new row in the table.
+
+Delete
+------
+Click on the delete button of the row. A Javascript conform box will ask
+you to conform the delete.
+
+
+
+YOU MUST HAVE JAVASCRIPT ENABLED FOR EDITING FUNCTIONS TO WORK
+
+
+
+</PRE>

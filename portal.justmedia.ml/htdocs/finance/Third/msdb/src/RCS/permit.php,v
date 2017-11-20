@@ -1,0 +1,587 @@
+head	1.18;
+access;
+symbols;
+locks
+	engine:1.18; strict;
+comment	@# @;
+
+
+1.18
+date	2004.07.29.08.48.06;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.04.20.02.18.41;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.04.20.00.40.16;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.02.01.10.38.20;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.31.12.09.35;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.29.15.26.40;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.28.13.15.53;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.28.08.34.43;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.28.04.31.58;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.28.03.21.37;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.26.16.37.28;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.26.14.56.46;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.26.13.37.33;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.23.11.05.41;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.22.13.18.06;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.22.10.40.22;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.22.10.33.39;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.22.10.09.37;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.18
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: permit.php,v 1.17 2004/04/20 02:18:41 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+$permBitNames = array(0 => 'Unknown Action', 1 => 'select', 2 => 'insert', 4 => 'Update', 8 => 'delete');
+/************************************************************/
+
+function msdbEaBit()
+{
+	global $dbMeta;
+
+	$ea = $dbMeta->ea;
+
+	if ( ! $ea || $dbMeta->isSearch )
+		return(1);
+
+	if ( $ea == 'msdbGenCrtable' || $ea == 'msdbTest' )
+		return(1);
+
+	// ???
+	if ( $ea == 'msdbSelectDB' || $ea == 'msdbSelectTable' )
+		return(1);
+
+	// msdbInsert is also an explicit user search coming in.
+	// having checked isSearch not being set, this is safe:
+	if ( $ea == 'msdbInsert' )
+		return(2);
+
+	if ( $ea == 'msdbUpdate' )
+		return(4);
+
+	if ( $ea == 'msdbDelete' )
+		return(8);
+
+	MSDB_ERROR("msdbEaBit: msdbEA=$ea Unknown msdbEA");
+
+	return(0);
+}
+
+/******************************/
+
+function msdbGroupOf($user)
+{
+	global $msdbConfig;
+
+	$controlDB = $msdbConfig['DB_NAME'];
+
+	return(msDbGetString("select groupid from $controlDB.msdb_passwd where name = '$user'"));
+}
+
+/******************************/
+
+function msdbPermit()
+{
+	global $dbMeta;
+	global $dbPermit;
+	global $permBitNames;
+	global $msdbEnterVar;
+	global $msdbConfig;
+
+	$tname = $dbMeta->tname ;
+	$pwent = $msdbEnterVar->pwent;
+	$roMode = $msdbConfig['READ_ONLY_MODE'] ;
+
+	$eaBit = msdbEaBit();
+
+	// if there is no table the operation is permitted
+	if ( ! $tname )
+		return(true);
+
+	$tperms = msDbGet1Assoc("select * from msdb_permit where tname = '$tname'");
+
+	if ( $roMode != true && $tperms == null )
+		return(true);
+
+	if ( $roMode && $eaBit > 1 ) {
+		msdbMsg("Read Only Mode. Sorry.");
+		return(false);
+	}
+
+	if ( is_null($tperms) )
+		$tbits = 1 ; // read only mode, 1 is the read bit
+	else if ( $pwent['name'] == $tperms['owner'] )
+		$tbits = $tperms['puser'] ;
+	else if ( $pwent['groupid'] == msdbGroupOf($tperms['owner']) )
+		$tbits = $tperms['pgroup'] ;
+	else
+		$tbits = $tperms['pother'] ;
+
+
+	$perm = ( ($tbits & $eaBit) != 0 );
+
+	if ($perm)
+		return(true);
+
+	// no permission
+	$eaName = $permBitNames[$eaBit];
+
+	$dbname = $dbMeta->DB;
+
+	$u = $pwent['name'];
+	msdbMsg("$u does not have $eaName access to table $tname in database $dbname. Sorry.");
+
+	$dbMeta->noPerm = true;
+
+	return(false);
+}
+
+/************************************************************/
+?>
+@
+
+
+1.17
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.16 2004/04/20 00:40:16 engine Exp engine $ ';
+d74 1
+a74 1
+	$tperms = msDbGetObject("select * from msdb_permit where tname = '$tname'");
+d86 4
+a89 4
+	else if ( $pwent->name == $tperms->owner )
+		$tbits = $tperms->puser ;
+	else if ( $pwent->groupid == msdbGroupOf($tperms->owner) )
+		$tbits = $tperms->pgroup ;
+d91 1
+a91 1
+		$tbits = $tperms->pother ;
+d104 2
+a105 1
+	msdbMsg("$pwent->name does not have $eaName access to table $tname in database $dbname. Sorry.");
+@
+
+
+1.16
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.15 2004/02/01 10:38:20 engine Exp engine $ ';
+d74 1
+a74 1
+	$tperms = msDbGetObjectByCmd("select * from msdb_permit where tname = '$tname'");
+@
+
+
+1.15
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.14 2004/01/31 12:09:35 engine Exp engine $ ';
+d74 1
+a74 1
+	$tperms = msDbGetObjectByWhere('msdb_permit', "where tname = '$tname'");
+@
+
+
+1.14
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.13 2004/01/29 15:26:40 engine Exp engine $ ';
+d102 3
+a104 1
+	msdbMsg("$pwent->name does not have $eaName access to table $tname. Sorry.");
+@
+
+
+1.13
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.12 2004/01/28 13:15:53 engine Exp engine $ ';
+a10 1
+
+d20 1
+a20 2
+	// crtable includes insert statements so a 'select' action
+	if ( $ea == 'msdbGenCrtable' )
+d23 3
+a31 1
+
+a37 3
+	if ( $ea == 'msdbTest' )
+		return(1); // only calls msdbTest(), so harmless. fake it, so we can pass security
+
+d68 2
+d79 4
+a92 1
+	$eaBit = msdbEaBit();
+@
+
+
+1.12
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.11 2004/01/28 08:34:43 engine Exp engine $ ';
+d50 5
+a54 1
+	return(msDbGetString("select groupid from msdb_passwd where name = '$user'"));
+@
+
+
+1.11
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.10 2004/01/28 04:31:58 engine Exp engine $ ';
+a17 2
+	$otherSelectEAs = array('msdbGenInsert', 'msdbGwenCrtable', 'msdbGenDB');
+
+d21 2
+a22 1
+	if ( msdbArrValIn($ea, $otherSelectEAs) )
+a54 1
+
+@
+
+
+1.10
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.9 2004/01/28 03:21:37 engine Exp engine $ ';
+d8 1
+a8 1
+$permBitNames = array(1 => 'select', 2 => 'insert', 4 => 'Update', 8 => 'delete');
+d27 1
+d39 3
+@
+
+
+1.9
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.8 2004/01/26 16:37:28 engine Exp engine $ ';
+d59 1
+d62 2
+d65 1
+d69 3
+a71 1
+	if ( ($tperms = msDbGetObjectByWhere('msdb_permit', "where tname = '$tname'")) == null )
+a73 1
+	$pwent = $msdbEnterVar->pwent;
+d75 3
+a77 1
+	if ( $pwent->name == $tperms->owner )
+d94 1
+a94 1
+	msdbMsg("You do not have $eaName access to table $tname. Sorry.");
+@
+
+
+1.8
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.7 2004/01/26 14:56:46 engine Exp engine $ ';
+d38 1
+a38 1
+	MSDB_ERROR("msdbEaBit: EA=$ea Unknown EA");
+@
+
+
+1.7
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.6 2004/01/26 13:37:33 engine Exp engine $ ';
+d45 7
+d58 1
+d65 2
+a66 4
+	if ( ! msDbGetObjectByWhere('msdb_permit', "where
+
+
+
+d68 1
+d70 6
+a76 10
+
+
+
+
+
+
+	if ( ! msdbArrKeyIn($tname, $dbPermit) )
+		return(true);
+
+	$tbits = $dbPermit[$tname] ;
+a78 2
+	// yes, I know I don't have to explicitely write '!= 0'
+
+d81 1
+a81 1
+	if ( $perm)
+@
+
+
+1.6
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.5 2004/01/23 11:05:41 engine Exp engine $ ';
+d10 1
+a10 2
+$dbPermit = array('msdb_passwd' => 0, 'sayhi' => (1 | 2));
+/******************************/
+d18 2
+d23 1
+a23 1
+	if ( $ea == 'msdbGenInsert' )
+d31 1
+d57 13
+@
+
+
+1.5
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.4 2004/01/22 13:18:06 engine Exp engine $ ';
+a9 9
+// this is where you configure permissions to the tables
+// a list of tables and the permission bits
+
+// this system is not yet fully functional
+// the intension is that you set permissions on
+// a table like a unix file,
+// but there is only a 'world' group as it is now
+
+/*	$dbPermit = array('msdb_passwd' => (1 | 2 | 4 | 8), 'sayhi' => (1 | 2 | 4 | 8));	*/
+a10 1
+
+@
+
+
+1.4
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.3 2004/01/22 10:40:22 engine Exp engine $ ';
+d18 2
+a19 1
+$dbPermit = array('msdb_passwd' => 0, 'sayHi' => 3);
+d37 1
+a37 1
+	if ( $ea == 'msdbAdd' )
+d46 1
+a46 1
+	MSDB_ERROR("msdbEaBit: Unknown EA");
+@
+
+
+1.3
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.2 2004/01/22 10:33:39 engine Exp engine $ ';
+d8 1
+a8 1
+$permbits = array('select' => 1, 'insert' => 2, 'Update' => 4, 'delete' => 8);
+a11 1
+// ( $permbits['select'] | $permbits['Update']
+d22 30
+d57 1
+d61 3
+d67 4
+a70 1
+	$permits = $dbPermit[$tname] ;
+d72 1
+a72 12
+	
+	if ( $dbMeta->tname == 'msdb_passwd' ) {
+		msdbMsg("Access Mechanism not Yet Implemented");
+		msdbMsg("Browsing msdb_passwd is Denied");
+		$dbMeta->noPerm = true;
+		return(false);
+	}
+
+	/*
+	 * if the permit table is not installed,
+	 * then allow anything (anything the database configuration will alow).
+	 */
+d74 1
+a74 1
+	if ( ! msDbIsTable("msdb_permit"))
+d77 8
+a84 1
+	return(true);
+@
+
+
+1.2
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: permit.php,v 1.1 2004/01/22 10:09:37 engine Exp engine $ ';
+d14 4
+a28 2
+	$
+
+d34 1
+a34 3
+	$permit = $dbPermit[$tname] ;
+
+	$logBit = 0x
+d36 1
+@
+
+
+1.1
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.62 2004/01/22 09:52:01 engine Exp engine $ ';
+d8 10
+d25 1
+a25 1
+	$permbits = array('select' => 1, 'insert' => 2, 'Update' => 4, 'delete' => 8);
+@

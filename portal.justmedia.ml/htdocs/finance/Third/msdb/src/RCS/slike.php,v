@@ -1,0 +1,117 @@
+head	1.3;
+access;
+symbols;
+locks
+	engine:1.3; strict;
+comment	@# @;
+
+
+1.3
+date	2004.05.08.12.23.37;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.05.07.19.55.32;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.29.13.41.50;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.3
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: slike.php,v 1.2 2004/05/07 19:55:32 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+function msdbHtmlOptions($values, $output, $selected, $options, $name)
+{
+	$ret = '';
+
+	if ( $name )
+		$ret .= "<select name=\"$name\">\n";
+
+	if ( ! $options ) {
+		if ( ! $values || ! $output ) {
+			msdbError("msdbHtmlOptions: not enough array data");
+			return(null);
+		}
+		$options = array_combine($values, $output); // php 5 or msdb/compat.php
+	}
+
+	foreach ( $options as $v => $o ) {
+		if ( $selected == $v )
+			$s = ' selected';
+		else
+			$s = '' ; // reset it
+		$sv = htmlspecialchars($v);
+		$so = htmlspecialchars($o);
+		$ret .= "\t<option value=\"$sv\"$s>$so</option>\n";
+	}
+
+	if ( $name )
+		$ret .= "</select>\n";
+
+	return($ret);
+}
+
+/************************************************************/
+?>
+@
+
+
+1.2
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: slike.php,v 1.1 2004/04/29 13:41:50 engine Exp engine $ ';
+a7 4
+// some html utilties that generate HTML
+// following smarty conventions
+// are useful when templating is not desired
+/************************************************************/
+d11 2
+d14 1
+a14 1
+		echo "<select name=\"$name\">\n";
+d19 1
+a19 1
+			return(false);
+d31 1
+a31 1
+		echo "\t<option value=\"$sv\"$s>$so</option>\n";
+d35 3
+a37 1
+		echo "</select>\n";
+@
+
+
+1.1
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: jsutils.php,v 1.13 2004/03/30 12:58:24 engine Exp engine $ ';
+d8 33
+@

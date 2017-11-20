@@ -1,0 +1,2390 @@
+head	1.38;
+access;
+symbols;
+locks
+	engine:1.38; strict;
+comment	@ * @;
+
+
+1.38
+date	2004.04.20.02.18.42;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.03.27.17.04.09;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.03.14.16.26.00;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.02.26.11.46.52;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.02.23.21.57.09;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.02.16.12.37.43;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.02.11.07.45.32;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.02.11.05.35.24;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.02.11.05.32.02;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.02.06.08.32.45;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.02.04.15.45.37;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.02.01.08.35.04;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.31.09.30.23;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.22.20.54.08;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.22.20.11.34;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.22.20.01.47;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.15.13.52.01;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.14.14.36.35;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.14.13.04.38;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.14.10.03.13;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.14.08.02.34;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.13.18.50.20;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.13.15.43.46;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.13.15.25.34;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.13.15.23.23;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.13.15.12.47;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.13.12.15.29;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.13.12.11.38;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.13.12.09.54;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.13.11.48.11;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.13.10.06.57;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.11.18.32.18;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.11.16.51.54;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.11.16.13.52;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.11.15.24.44;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.11.15.23.05;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.11.15.12.13;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.38
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: stats.php,v 1.37 2004/03/27 17:04:09 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+function  msdbGroupBySql($by)
+{
+	global $msdbStats;
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+	$str = "select $by, count(*)";
+
+	foreach ( $msdbStats->totals as $total )
+		$str .= ", sum($total)";
+
+	$str .= " from $tname group by $by";
+
+	return($str);
+}
+
+
+/******************************/
+
+class msdbStatsVar
+{
+	function msdbStatsVar()
+	{
+		$this->started = null ;
+		$this->groupBy = array(); // names of fields to group by
+		$this->totals = array(); // names of fields to total
+	}
+}
+
+/******************************/
+$msdbStats = new msdbStatsVar();
+/************************************************************/
+
+
+// decide which are the groupBy - or 'category' - fields
+
+function msdbStatGroupBys()
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$tname = $dbMeta->tname;
+
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		$fname = $f->fname;
+
+		if ( $f->dbtype == 'string' )
+			$notNull = "$fname != '' and $fname is not null" ;
+		else if ( $f->dbtype == 'int' )
+			$notNull = "$fname != 0 and $fname is not null" ;
+		else
+			continue;
+
+		$rowNum = msDbGetInt("select count(*) from $tname where $notNull");
+
+		if ( $rowNum <= 7 )
+			continue;
+
+		$dCnt = msDbGetInt("select count(distinct $fname) from $tname where $notNull");
+
+		if ( $dCnt <= 1 || abs($rowNum-$dCnt) <= 5 )
+			continue;
+
+		if ( $dCnt >= $rowNum / 4 )
+			continue;
+
+		// skip large calculations
+		if ( $dCnt > 20 )
+			continue;
+
+		$dValues = msDbGetStrings("select $fname from $tname where  $notNull group by $fname having count(*) > 1");
+		$dvCnt = count($dValues);
+
+		if ( $dvCnt < 2 )
+			continue;
+
+		$msdbStats->groupBy[] = $fname ;
+	}
+}
+
+
+/************************************************************/
+
+
+function msdbStatTotals()
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$tname = $dbMeta->tname;
+
+	// decide which fields to total
+	// don't the primary key nor anything that is a 'category' in the groupBy
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( $f->fname == $dbMeta->primaryKey )
+			continue;
+		if ( msdbArrValIn($f->fname, $msdbStats->groupBy))
+			continue;
+		/*	if ( $f->dbtype != 'int' && $f->dbtype != 'real' )	*/
+			/*	continue;	*/
+		if ( $f->dbtype != 'real' )
+			continue;
+		$msdbStats->totals[] = $f->fname ;
+	}
+}
+
+/************************************************************/
+
+function msdbStatPrepare()
+{
+	// must first decide on the groupbys 
+	// as this info is used for deciding which fields are the totals
+
+	msdbStatGroupBys();
+	msdbStatTotals();
+}
+
+/************************************************************/
+
+function msdbStatHead($ind)
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$by = $msdbStats->groupBy[$ind];
+
+	echo "\t\t<TR>\n" ;
+
+	echo "\t\t\t<TD class=reportHead>$by</TD><TD COLSPAN=2 class=reportHead>#</TD>\n" ;
+
+	foreach ( $msdbStats->totals as $totName )
+		echo "\t\t\t<TD COLSPAN=2 class=reportHead>$totName</TD>\n" ;
+	echo "\t\t</TR>\n";
+}
+
+/************************************************************/
+
+function msdbStatLine($fname, $fvalue, $ind, $rowInd)
+{
+	global $dbMeta;
+	global $msdbStats;
+	static $runTotals; // indexed by name of total field or 'cnt'
+	
+	// rowInd==0 as many times as count($msdbStats->groupBy)
+	if ( $rowInd == 0 ) {
+		$runTotals = array(); // GC
+		$runTotals['cnt'] = 0.0;
+		foreach ( $msdbStats->totals as $totName )
+			$runTotals[$totName] = 0.0 ;
+	}
+
+	$tname = $dbMeta->tname;
+	$msdbfi = msdbMetaFieldIndex($fname);
+	$msdbf = & $dbMeta->msdbFields[$msdbfi];
+
+	$sqlval = msDbSqlValue($msdbf, $fvalue);
+	$jsval = msdbJsStr($fvalue);
+
+	// not clear how this behaves on non-string nulls ???
+	if ( $sqlval == "''" )
+		$w = "where $fname = '' or $fname is null";
+	else
+		$w = "where $fname = $sqlval";
+
+	$cntSel = "select count(*) from $tname $w";
+	$cnt = msDbGetInt($cntSel);
+	$runTotals['cnt'] += $cnt;
+
+	$hebrew = false;
+	if ( $hebrew )
+		$dname = heb_db2unicode($fvalue); // there is no such function yet!!!
+	else
+		$dname = $fvalue;
+
+	if ( $dname == '' )
+		$dname = '<FONT COLOR="white">(empty)</FONT>' ;
+
+	$runCnt = $runTotals['cnt'];
+	echo "\t\t<TR>\n";
+	$linkStr = "<A HREF=\"javascript:msdbStatRestrict('$fname', '$jsval')\">$dname</A>";
+	echo "\t\t\t<TD class=reportBy>$linkStr</TD>\n";
+	echo "\t\t\t<TD class=reportCnt><B>$cnt</B></TD><TD class=reportCnt>$runCnt</TD>\n";
+
+	foreach ( $msdbStats->totals as $totName ) {
+		$cmd = "select sum($totName) from $tname $w" ;
+		$rawTotal = msDbGetString($cmd);
+		$total = msdbRound($rawTotal);
+		$runTotals[$totName] += $rawTotal;
+		$runTotal = msdbRound($runTotals[$totName]);
+		echo "\t\t\t<TD class=reportTotal><B>$total</B></TD><TD class=reportTotal>$runTotal</TD>\n" ;
+	}
+
+	echo "\t\t</TR>\n";
+}
+
+/************************************************************/
+
+function msdbStatReport($ind)
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$tname = $dbMeta->tname;
+
+	$by = $msdbStats->groupBy[$ind];
+
+	$cmd = "select distinct $by from $tname order by $by" ;
+
+	$bys = msDbGetStrings($cmd);
+
+	if ( ! $bys || count($bys) == 0 )
+		return(false);
+
+	echo "\t<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2>\n";
+	msdbStatHead($ind);
+	for($i=0;$i<count($bys);$i++)
+		msdbStatLine($by, $bys[$i], $ind, $i);
+	printf("\t</TABLE>\n");
+	return(true);
+}
+
+/************************************************************/
+
+function msdbDateList()
+{
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+	$dateFname = $dbMeta->dateFname;
+	$lastDate = $dbMeta->lastDate;
+	$todayInt = msdbDayToday(); // not used (yet?)
+
+	if ( ! $dateFname || ! $lastDate )
+		return(false);
+
+	if ( $dbMeta->rowNum == 0 )
+		return(false);
+
+	if ( ! $dbMeta->firstDate )
+		return(false);
+
+	$lymd = split("-", $lastDate);
+	$fymd = split("-", $dbMeta->firstDate);
+	if ( count($lymd) != 3 || count($fymd) != 3 ) {
+		msdbMsg("$dbMeta->firstDate => $lastDate, can not split");
+		return(false);
+	}
+	list($ly, $lm, $ld) = $lymd;
+	list($fy, $fm, $fd) = $fymd;
+
+	for($y=$fy;$y<$ly;$y++)
+		$dbMeta->dateList[] = msdbDayConstruct($y, 12, 31);
+
+	// I mark allways as 31, but never show the date of the month on the report
+	if ( $ly == $fy )
+		$m = $fm;
+	else
+		$m = 1;
+	for(;$m<=$lm;$m++)
+		$dbMeta->dateList[] = msdbDayConstruct($ly, $m, 31);
+
+
+	return(true);
+}
+
+/******************************/
+
+function msdbDateStatsHead()
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$dateFname = $dbMeta->dateFname;
+
+	echo "\t\t<TR CLASS=dateStatHead><TD>$dateFname</TD><TD COLSPAN=2><B>#</B></TD>\n";
+
+	foreach ( $msdbStats->totals as $totName )
+		echo "\t\t\t<TD COLSPAN=2>$totName</TD>\n" ;
+	echo "\t\t</TR>\n" ;
+	
+}
+
+/******************************/
+
+function msdbDateStatsLine($i)
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$tname = $dbMeta->tname;
+	$dateFname = $dbMeta->dateFname;
+
+	if ( $i == 0 )
+		$fromDate = 0;
+	else
+		$fromDate= $dbMeta->dateList[$i-1];
+
+	$toDate = $dbMeta->dateList[$i];
+
+	$href = "javascript:msdbDateRestrict('$fromDate-$toDate')" ;
+	
+
+	$w = "where  $dateFname > $fromDate and $dateFname <= $toDate";
+	$cmd = "select count(*) from $tname $w";
+
+	$cnt = msDbGetInt($cmd);
+	if ( $cnt == null ) // no rows in this query
+		$cnt = 0;
+
+	$dbMeta->dateCntBalance += $cnt ;
+	$bal = $dbMeta->dateCntBalance ;
+
+	list($tdy, $tdm, $tdd) = msdbDayBreak($toDate);
+
+	$monthStr = "<A HREF=\"$href\">$tdm/$tdy</A>" ;
+	echo "<TR><TD CLASS=dateStatMonth>$monthStr</TD><TD CLASS=dateStatCnt><B>$cnt</B></TD><TD CLASS=dateStatCnt>$bal</TD>\n";
+
+	foreach ( $msdbStats->totals as $totName ) {
+
+		$cmd = "select sum($totName) from $tname $w" ;
+		$rawSum = msDbGetString($cmd);
+		$theSum = msdbRound($rawSum);
+		$dbMeta->dateBalances[$totName] += $rawSum ;
+		$curTotal = msdbRound($dbMeta->dateBalances[$totName]);
+
+		echo "\t\t\t<TD CLASS=dateStatBal><B>$theSum</B></TD><TD CLASS=dateStatBal>$curTotal</TD>\n" ;
+	}
+	
+
+	echo "</TR>\n";
+}
+
+/******************************/
+
+function msdbDateStats()
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	if ( ! $dbMeta->dateFname )
+		return(false);
+
+	if ( ! msdbDateList() )
+		return(false);
+
+	echo "<TD VALIGN=TOP><TABLE BORDER=0 CELLPADDING=2 CELLSPACING=2 CLASS=dateStat>\n" ;
+	msdbDateStatsHead();
+
+	foreach ( $msdbStats->totals as $totName )
+		$dbMeta->dateBalances[$totName] = 0 ;
+
+	for($i=0;$i<count($dbMeta->dateList);$i++)
+		msdbDateStatsLine($i);
+
+	echo "</TABLE></TD>\n" ;
+	return(true);
+}
+
+/************************************************************/
+
+function msdbStatistics()
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$msdbStats->started = true ;
+
+	$gbcnt = count($msdbStats->groupBy) ;
+
+	if ( $gbcnt == 0  && ! $dbMeta->firstDate )
+		return(false);
+
+	echo "<BR><B>Statistics and Data Mining</B>\n";
+
+	echo("<TABLE class=reportsClass BORDER=0 CELLPADDING=4 CELLSPACING=4><TR>\n");
+	if ( $gbcnt > 0 ) {
+		for($ind=0;$ind<$gbcnt;$ind++) {
+			echo "<TD VALIGN=TOP>\n" ;
+			msdbStatReport($ind);
+			echo "</TD>\n" ;
+		}
+	}
+
+	msdbDateStats();
+
+	echo "</TR></TABLE>\n";
+}
+
+/************************************************************/
+?>
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.36 2004/03/14 16:26:00 engine Exp engine $ ';
+d137 1
+a137 1
+	echo "\t\t<TR class=reportHead$ind>\n" ;
+d139 1
+a139 1
+	echo "\t\t\t<TD>$by</TD><TD COLSPAN=2>#</TD>\n" ;
+d142 1
+a142 1
+		echo "\t\t\t<TD COLSPAN=2>$totName</TD>\n" ;
+d191 2
+a192 2
+	echo "\t\t\t<TD class=reportBy$ind>$linkStr</TD>\n";
+	echo "\t\t\t<TD class=reportCnt$ind><B>$cnt</B></TD><TD class=reportCnt$ind>$runCnt</TD>\n";
+d200 1
+a200 1
+		echo "\t\t\t<TD class=reportTotal$ind><B>$total</B></TD><TD class=reportTotal$ind>$runTotal</TD>\n" ;
+d224 1
+a224 1
+	echo "\t<TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0>\n";
+d326 1
+a326 1
+	echo "<TR><TD>$monthStr</TD><TD><B>$cnt</B></TD><TD>$bal</TD>\n";
+d336 1
+a336 1
+		echo "\t\t\t<TD><B>$theSum</B></TD><TD>$curTotal</TD>\n" ;
+d356 1
+a356 1
+	echo "<TD VALIGN=TOP><TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0 CLASS=dateStat>\n" ;
+d383 1
+a383 1
+	msdbMsg("Statistics and Data Mining\n");
+d385 1
+a385 1
+	echo("<TABLE class=reportsClass BORDER=1 CELLPADDING=0 CELLSPACING=0><TR>\n");
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.35 2004/02/26 11:46:52 engine Exp engine $ ';
+d185 3
+d190 1
+a190 1
+	$linkStr = "<A HREF=\"javascript:msdbStatRestrict('$fname', '$jsval')\">$fvalue</A>";
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.34 2004/02/23 21:57:09 engine Exp engine $ ';
+d32 1
+d76 4
+d109 3
+a111 1
+		if ( $f->dbtype != 'int' && $f->dbtype != 'real' )
+d169 6
+a174 1
+	$w = "where $fname = $sqlval";
+d373 2
+@
+
+
+1.34
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.33 2004/02/16 12:37:43 engine Exp engine $ ';
+d69 1
+a69 2
+
+		if ( $dCnt < 0 )
+d72 1
+a72 1
+		if ( $dCnt == 0 || abs($rowNum-$dCnt) <= 5 )
+d75 2
+d78 1
+a78 2
+		if ( $dCnt < $rowNum / 4 ) {
+			$msdbStats->groupBy[] = $fname ;
+d80 2
+a81 1
+		}
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.32 2004/02/11 07:45:32 engine Exp engine $ ';
+d168 1
+a168 1
+		$dname = heb_db2unicode($fvalue);
+d180 4
+a183 3
+		$total = msDbGetString($cmd);
+		$runTotals[$totName] += $total;
+		$runTotal = $runTotals[$totName];
+d315 4
+a318 3
+		$theSum = msDbGetString($cmd);
+		$dbMeta->dateBalances[$totName] += $theSum ;
+		$curTotal = $dbMeta->dateBalances[$totName];
+d320 1
+a320 1
+		echo "\t\t\t<TD>$theSum</TD><TD><B>$curTotal</B></TD>\n" ;
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.31 2004/02/11 05:35:24 engine Exp engine $ ';
+d363 1
+a363 1
+	msdbMsg("<BR><BR>Statistics and Data Mining<BR>\n");
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.30 2004/02/11 05:32:02 engine Exp engine $ ';
+d9 10
+a18 11
+// It is not clear in what cases reorpts perform better
+// when using a group by clause rather than
+// when indivdualy calculating each row of the report
+// with multiple queries
+// it seems the trade off is, that if you calculate individualy
+// you get to have much less php interpreted code and data copying
+// but multiple queries
+// this can probably be improved, by doing an on-the-fly group-by.
+// meanwhile, there are two parallel systems here.
+// test this with yet a third system that does the same with zero
+// debug oriented control
+d20 1
+a20 1
+/************************************************************/
+d22 1
+a22 11
+class msdbStatVar
+{
+	function msdbStatVar($by)
+	{
+		$this->groupBy = $by;
+		$this->sql = null ; // group by query
+		$this->rows = null; // data from database
+		$this->rowNum = null; // count(..rows);
+		$this->cntTotal = array() ; // running total of count(*)
+		$this->runTotals = array() ; // array of arrays (for each total. a list of running totals)
+	}
+d24 2
+a33 1
+		$this->reports = array() ; // one msdbStatVar for each groupBy
+d131 1
+a131 1
+	echo "\t\t\t<TD>$by</TD><TD>#</TD>\n" ;
+d134 1
+a134 1
+		echo "\t\t\t<TD>$totName</TD>\n" ;
+d140 1
+a140 1
+function msdbStatLine($fname, $fvalue, $ind)
+d144 9
+d164 1
+d172 2
+a173 1
+
+d175 2
+a176 3
+	echo "\t\t\t<TD class=reportBy$ind>$linkStr</TD><TD class=reportCnt$ind>$cnt</TD>\n";
+
+
+d181 3
+a183 1
+		echo "\t\t\t<TD class=reportTotal$ind>$total</TD>\n" ;
+d209 2
+a210 2
+	foreach ( $bys as $byval )
+		msdbStatLine($by, $byval, $ind);
+d268 1
+a268 1
+	echo "\t\t<TR CLASS=dateStatHead><TD>$dateFname</TD><TD>#</TD><TD><B>total</B></TD>\n";
+d309 1
+a309 1
+	echo "<TR><TD>$monthStr</TD><TD>$cnt</TD><TD><B>$bal</B></TD>\n";
+a379 129
+
+function msdbNewStatHead($ind)
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$by = $msdbStats->groupBy[$ind];
+
+	echo "\t\t<TR class=reportHead$ind>\n" ;
+
+	echo "\t\t\t<TD>$by</TD><TD COLSPAN=2>#</TD>\n" ;
+
+	foreach ( $msdbStats->totals as $totName )
+		echo "\t\t\t<TD COLSPAN=2>$totName</TD>\n" ;
+	echo "\t\t</TR>\n";
+}
+
+/******************************/
+
+function  msdbNewStatSql($by)
+{
+	global $msdbStats;
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+	$str = "select $by, count(*)";
+
+	foreach ( $msdbStats->totals as $total )
+		$str .= ", sum($total)";
+
+	$str .= " from $tname group by $by";
+
+	return($str);
+}
+
+
+/******************************/
+
+function msdbNewStatLine($by, $row)
+{
+	global $msdbStats;
+
+	$r = & $msdbStats->reports[$by];
+
+	$n = count($r->cntTotal) ;
+
+	if ( $n > 0 )
+		$prevCntTotal = $r->cntTotal[$n-1];
+	else
+		$prevCntTotal = 0;
+
+	$r->cntTotal[] = $prevCntTotal + $row[1] ; 
+
+	for ($i=0;$i<count($msdbStats->totals);$i++) {
+		$totName = $msdbStats->totals[$i];
+
+		if ( $n > 0 )
+			$prevTotal = $r->runTotals[$totName][$n-1];
+		else
+			$prevTotal = 0.0 ;
+
+		$r->runTotals[$totName][] = $prevTotal + $row[$i+2];
+	}
+	// and print the line ???
+}
+
+/******************************/
+
+function msdbNewStatReport($ind)
+{
+	global $dbData;
+	global $dbMeta;
+	global $msdbStats;
+
+	$tname = $dbMeta->tname;
+
+	$by = $msdbStats->groupBy[$ind];
+
+	$msdbStats->reports[$by] = new msdbStatVar($by);
+
+	$r = & $msdbStats->reports[$by];
+
+	$r->sql = msdbNewStatSql($by);
+
+	$r->rowNum = msDbGetRows($r->sql);
+
+	if ( $r->rowNum <= 0 )
+		return(false);
+
+	$r->rows = $dbData->arrRows;
+
+	echo "\t<TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0>\n";
+	msdbNewStatHead($ind);
+	foreach ( $r->rows as $row )
+		msdbNewStatLine($by, $row);
+	printf("\t</TABLE>\n");
+	return(true);
+}
+
+/******************************/
+
+function msdbNewStatistics()
+{
+	global $dbMeta;
+	global $msdbStats;
+
+	$gbcnt = count($msdbStats->groupBy) ;
+
+	if ( $gbcnt == 0  && ! $dbMeta->firstDate )
+		return(false);
+
+	msdbMsg("<BR><BR>New Statistics and Data Mining<BR>\n");
+
+	echo("<TABLE class=reportsClass BORDER=1 CELLPADDING=0 CELLSPACING=0><TR>\n");
+	if ( $gbcnt > 0 ) {
+		for($ind=0;$ind<$gbcnt;$ind++) {
+			echo "<TD VALIGN=TOP>\n" ;
+			msdbNewStatReport($ind);
+			echo "</TD>\n" ;
+		}
+	}
+
+	msdbDateStats();
+
+	echo "</TR></TABLE>\n";
+	
+}
+
+/************************************************************/
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.29 2004/02/06 08:32:45 engine Exp engine $ ';
+d16 4
+a19 1
+// this can probably be improved, meanwhile, there are two parallel systems here.
+d390 2
+a391 3
+	if ( is_array($msdbStats->totals))
+		foreach ( $msdbStats->totals as $totName )
+			echo "\t\t\t<TD COLSPAN=2>$totName</TD>\n" ;
+@
+
+
+1.29
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.28 2004/02/04 15:45:37 engine Exp engine $ ';
+d9 39
+d54 1
+d85 1
+a85 1
+			$dbMeta->groupBy[] = $fname ;
+d98 1
+d108 1
+a108 1
+		if ( msdbArrValIn($f->fname, $dbMeta->groupBy))
+d112 1
+a112 1
+		$dbMeta->totals[] = $f->fname ;
+d132 1
+d134 1
+a134 1
+	$by = $dbMeta->groupBy[$ind];
+d140 2
+a141 3
+	if ( is_array($dbMeta->totals))
+		foreach ( $dbMeta->totals as $totName )
+			echo "\t\t\t<TD>$totName</TD>\n" ;
+d150 1
+d175 4
+a178 6
+	if ( is_array($dbMeta->totals)) {
+		foreach ( $dbMeta->totals as $totName ) {
+			$cmd = "select sum($totName) from $tname $w" ;
+			$total = msDbGetString($cmd);
+			echo "\t\t\t<TD class=reportTotal$ind>$total</TD>\n" ;
+		}
+d186 1
+a186 1
+function msdbStats($ind)
+d189 1
+d193 1
+a193 1
+	$by = $dbMeta->groupBy[$ind];
+d207 1
+d259 1
+d265 1
+a265 1
+	foreach ( $dbMeta->totals as $totName )
+d276 1
+d306 1
+a306 1
+	foreach ( $dbMeta->totals as $totName ) {
+d325 1
+d336 1
+a336 1
+	foreach ( $dbMeta->totals as $totName )
+d351 3
+d355 1
+a355 1
+	if ( ! $dbMeta->groupBy && ! $dbMeta->firstDate )
+a360 1
+	$gbcnt = count($dbMeta->groupBy) ;
+d364 1
+a364 1
+			msdbStats($ind);
+d375 130
+@
+
+
+1.28
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.27 2004/02/01 08:35:04 engine Exp engine $ ';
+d185 1
+a185 5
+	// up to this 'epoc', accumulate a total in a single row, if any
+	$sql = "select min($dateFname) from $tname where $dateFname > 19610215 and $dateFname != 0" ;
+	$firstDate = msDbGetString("$sql");
+
+	if ( ! $firstDate )
+a187 1
+
+d189 1
+a189 1
+	$fymd = split("-", $firstDate);
+d191 1
+a191 1
+		msdbMsg("$firstDate => $lastDate, can not split");
+a196 9
+	if ( $fy == 0 ) {
+		// this is really an msdb 'bug' or incompatibility
+		// with the mysql version since the first date
+		// was requested to be 1961 or up
+		MSDB_ERROR("msdbDateList: $sql: Jesus Epoc Date Found: :::$firstDate:::");
+		return(false);
+	}
+
+
+d307 1
+a307 1
+	if ( ! $dbMeta->groupBy && ! $dbMeta->dateFname )
+@
+
+
+1.27
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.26 2004/01/31 09:30:23 engine Exp engine $ ';
+d189 3
+@
+
+
+1.26
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.25 2004/01/22 20:54:08 engine Exp engine $ ';
+d190 8
+a197 2
+	list($ly, $lm, $ld) = split("-", $lastDate);
+	list($fy, $fm, $fd) = split("-", $firstDate);
+@
+
+
+1.25
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.24 2004/01/22 20:11:34 engine Exp engine $ ';
+d111 2
+d114 4
+a117 1
+	$w = "where $fname = '$fvalue'";
+d127 2
+a128 1
+	$linkStr = "<A HREF=\"javascript:msdbStatRestrict('$fname', '$fvalue')\">$fvalue</A>";
+d174 26
+a199 4
+	if ( ! $dbMeta->dateFname )
+		return;
+	if ( ! $dbMeta->lastDate )
+		return;
+a200 2
+	$tname = $dbMeta->tname;
+	$fname = $dbMeta->dateFname;
+d202 2
+a203 1
+	$firstDate = msDbGetString("select min($fname) from $tname where $fname > 19610215");
+d205 7
+a211 1
+	$dbMeta->dateList[] =  $firstDate ;
+a212 22
+	/*	if ( firstDate <= 0 )	*/
+		/*	firstDate = day_today();	*/
+/*		*/
+	/*	fy = firstDate / 10000 ;	*/
+	/*	fm = ( firstDate / 100 ) % 100 ;	*/
+	/*	lm = ( h->lastDate / 100 ) % 100 ;	*/
+	/*	ly = h->lastDate / 10000 ;	*/
+/*		*/
+	/*	ret = 0;	*/
+/*		*/
+	/*	for(y=fy;y<ly;y++)	*/
+		/*	l[ret++] = y * 10000 + 1231 ;	*/
+/*		*/
+	/* I mark allways as 31, but never show the date of the month on the report */
+	/*	if ( ly == fy )	*/
+		/*	m = fm;	*/
+	/*	else	*/
+		/*	m = 1;	*/
+	/*	for(;m<=lm;m++)	*/
+		/*	l[ret++] = ly*10000 + m * 100 + 31 ;	*/
+/*		*/
+	/*	return(ret);	*/
+d214 1
+a214 1
+	return(count($dbMeta->dateList));
+d223 1
+a223 1
+	$dfname = $dbMeta->dateFname;
+d225 1
+a225 1
+	echo "\t\t<TR CLASS=dateStatHead><TD>$dfname</TD><TD>#</TD><TD><B>total</B></TD>\n";
+d240 1
+a240 4
+	$dfname = $dbMeta->dateFname;
+
+	$l = $dbMeta->dateList ;
+
+d245 1
+a245 1
+		$fromdate= $l[$i-1];
+d247 1
+a247 1
+	$toDate = $l[$i];
+d250 1
+a250 2
+	$monthStr = "<A HREF=\"$href\">d/d $toDate</A>" ;
+	/*	sprintf(monthStr, "<A HREF=\"%s\">%d/%d</A>", href,  ( toDate / 100 ) % 100, toDate / 10000);	*/
+d252 1
+a252 1
+	$w = "where  $dfname > $fromDate and $dfname <= $toDate";
+d254 1
+d256 2
+d259 1
+a259 1
+	$dbMeta->dateCntBalance += cnt ;
+d262 3
+a266 1
+
+d288 1
+a288 1
+		return(0);
+d290 2
+a291 1
+	msdbDateList();
+d294 4
+a297 1
+	msdbDateStatsHead(h);
+d299 1
+a299 1
+	for($i=0;i<count($dbMeta->dateList);$i++)
+d303 1
+@
+
+
+1.24
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.23 2004/01/22 20:01:47 engine Exp engine $ ';
+d9 3
+a28 1
+
+d61 12
+a72 4
+	foreach ( $dbMeta->msdbFields as $f )
+		if ( $f->fname != $dbMeta->primaryKey &&
+				 ($f->dbtype == "real" || $f->dbtype == "int" ) )
+			$dbMeta->totals[] = $f->fname ;
+d79 3
+@
+
+
+1.23
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.22 2004/01/15 13:52:01 engine Exp engine $ ';
+d21 1
+a21 1
+		else if ( $f->dbtype == 'integer' )
+@
+
+
+1.22
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.21 2004/01/14 14:36:35 engine Exp engine $ ';
+d19 1
+a19 1
+		if ( $f->dbtype == "string" )
+d21 1
+a21 1
+		else if ( $f->dbtype == "integer" )
+@
+
+
+1.21
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.20 2004/01/14 13:04:38 engine Exp engine $ ';
+d15 1
+d39 2
+a40 1
+			return(false);
+d85 3
+a87 2
+	foreach ( $dbMeta->totals as $totName )
+		echo "\t\t\t<TD>$totName</TD>\n" ;
+d114 6
+a119 4
+	foreach ( $dbMeta->totals as $totName ) {
+		$cmd = "select sum($totName) from $tname $w" ;
+		$total = msDbGetString($cmd);
+		echo "\t\t\t<TD class=reportTotal$ind>$total</TD>\n" ;
+@
+
+
+1.20
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.19 2004/01/14 10:03:13 engine Exp engine $ ';
+a148 1
+	global $msdbHeadVar;
+@
+
+
+1.19
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.18 2004/01/14 08:02:34 engine Exp engine $ ';
+a80 3
+
+	/*	engf = _eng_field(h->engt, by);	*/
+
+@
+
+
+1.18
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.17 2004/01/13 18:50:20 engine Exp engine $ ';
+d284 2
+@
+
+
+1.17
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.16 2004/01/13 15:43:46 engine Exp engine $ ';
+d135 1
+a135 1
+	$bys = msDbGetStrings($sql);
+d294 1
+a294 1
+	msdbDateStats(h);
+@
+
+
+1.16
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.15 2004/01/13 15:25:34 engine Exp engine $ ';
+d281 1
+a281 1
+	if ( ! $dbMeta->groupBy || ! $dbMeta->dateFname )
+@
+
+
+1.15
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.14 2004/01/13 15:23:23 engine Exp engine $ ';
+d58 2
+a59 1
+		if ( $f->dbtype == "real" || $f->dbtype == "int" )
+d73 1
+a73 1
+function msdbStatHead($by, $ind)
+d77 2
+d125 1
+a125 1
+function msdbStats($by, $ind)
+d131 2
+d141 1
+a141 1
+	msdbStatHead($by, $ind);
+d194 1
+a194 1
+function msdbDateStatHead()
+d210 1
+a210 1
+function msdbDateStatLine($i)
+d257 1
+a257 1
+function msdbDateStat()
+d267 1
+a267 1
+	msdbDateStatHead(h);
+d270 1
+a270 1
+		msdbDateStatLine($i);
+d285 7
+a291 5
+	if ( count($dbMeta->groupBy) > 0 )
+	foreach ( $dbMeta->groupBy as $fname ) {
+		echo "<TD VALIGN=TOP>\n" ;
+		msdbStat($fname);
+		echo "</TD>\n" ;
+d294 1
+a294 1
+	msdbDateStat(h);
+@
+
+
+1.14
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.13 2004/01/13 15:12:47 engine Exp engine $ ';
+d58 1
+a58 1
+		if ( $f->dbtype == "float" )
+@
+
+
+1.13
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: stats.php,v 1.12 2004/01/13 13:08:00 engine Exp engine $ ';
+d31 1
+a31 1
+		$dCnt = msDbGetInt("select count(distinct $fname) from $tname $notNull");
+d40 1
+a40 1
+		if ( dCnt < rowNum / 4 ) {
+d122 1
+a122 1
+function msdbStat($by, $ind)
+@
+
+
+1.12
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.11
+log
+@None
+@
+text
+@d2 4
+a5 4
+/******************************/
+/* $Id: stats.php,v 1.10 2004/01/13 12:11:38 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.10
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: stats.php,v 1.9 2004/01/13 12:09:54 engine Exp engine $  */
+d27 1
+a27 1
+		if ( rowNum <= 7 )
+d65 2
+a66 2
+	msdbStatGroupBys(h);
+	msdbStatTotals(h);
+d271 1
+a271 1
+function msdbStatss()
+@
+
+
+1.9
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: stats.php,v 1.8 2004/01/13 11:48:11 engine Exp engine $  */
+d8 1
+a8 1
+function msdbStatsGroupBys()
+d50 1
+a50 1
+function msdbStatsTotals()
+d63 1
+a63 1
+function msdbStatsPrepare()
+d65 2
+a66 2
+	msdbStatsGroupBys(h);
+	msdbStatsTotals(h);
+d71 1
+a71 1
+function msdbStatsHead($by, $ind)
+d89 1
+a89 1
+function msdbStatsLine($fname, $fvalue, $ind)
+d105 1
+a105 1
+	$linkStr = "<A HREF=\"javascript:msdbStatsRestrict('$fname', '$fvalue')\">$fvalue</A>";
+d121 1
+a121 1
+function msdbStats($by, $ind)
+d135 1
+a135 1
+	msdbStatsHead($by, $ind);
+d137 1
+a137 1
+		msdbStatsLine($by, $byval, $ind);
+d188 1
+a188 1
+function msdbDateStatsHead()
+d194 1
+a194 1
+	echo "\t\t<TR CLASS=dateStatsHead><TD>$dfname</TD><TD>#</TD><TD><B>total</B></TD>\n";
+d204 1
+a204 1
+function msdbDateStatsLine($i)
+d251 1
+a251 1
+function msdbDateStats()
+d260 2
+a261 2
+	echo "<TD VALIGN=TOP><TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0 CLASS=dateStats>\n" ;
+	msdbDateStatsHead(h);
+d264 1
+a264 1
+		msdbDateStatsLine($i);
+d282 1
+a282 1
+		msdbStats($fname);
+d286 1
+a286 1
+	msdbDateStats(h);
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: stats.php,v 1.7 2004/01/13 10:06:57 engine Exp engine $  */
+d8 1
+a8 1
+function msdbGroupBys()
+d50 1
+a50 1
+function msdbReportTotals()
+d63 1
+a63 1
+function msdbReportPrepare()
+d65 2
+a66 2
+	msdbReportGroupBys(h);
+	msdbReportTotals(h);
+d71 1
+a71 1
+function msdbReportHead($by, $ind)
+d89 1
+a89 1
+function msdbReportLine($fname, $fvalue, $ind)
+d105 1
+a105 1
+	$linkStr = "<A HREF=\"javascript:msdbReportRestrict('$fname', '$fvalue')\">$fvalue</A>";
+d121 1
+a121 1
+function msdbReport($by, $ind)
+d135 1
+a135 1
+	msdbReportHead($by, $ind);
+d137 1
+a137 1
+		msdbReportLine($by, $byval, $ind);
+d188 1
+a188 1
+function msdbDateReportHead()
+d194 1
+a194 1
+	echo "\t\t<TR CLASS=dateReportHead><TD>$dfname</TD><TD>#</TD><TD><B>total</B></TD>\n";
+d204 1
+a204 1
+function msdbDateReportLine($i)
+d251 1
+a251 1
+function msdbDateReport()
+d260 2
+a261 2
+	echo "<TD VALIGN=TOP><TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0 CLASS=dateReport>\n" ;
+	msdbDateReportHead(h);
+d264 1
+a264 1
+		msdbDateReportLine($i);
+d271 1
+a271 1
+function msdbReports()
+d282 1
+a282 1
+		msdbReport($fname);
+d286 1
+a286 1
+	msdbDateReport(h);
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: stats.php,v 1.6 2004/01/11 18:32:18 engine Exp engine $  */
+d71 1
+a71 1
+function msdbReportHead($h, $by, $ind)
+d73 5
+a77 1
+	/*	printf("\t\t<TR class=reportHead%d>\n", ind);	*/
+d79 6
+a84 6
+	/*	printf("\t\t\t<TD>%s</TD><TD>%s</TD>\n", _eng_dname(engf), "#");	*/
+	/*	for(i=0;i<h->reportTotalsN;i++) {	*/
+		/*	engf = _eng_field(h->engt, h->reportTotals[i]);	*/
+		/*	printf("\t\t\t<TD>%s</TD>\n", _eng_dname(engf));	*/
+	/*	}	*/
+	/*	printf("\t\t</TR>\n");	*/
+d91 26
+a116 29
+	/*	engf = _eng_field(h->engt, fname);	*/
+/*		*/
+	/*	printf("\t\t<TR>\n");	*/
+	/*	sprintf(w, "where %s = '%s'", fname, engdb_str_fmt(dbStr, fvalue));	*/
+	/*	sprintf(cmd, "select count(*) from %s %s", h->engt->name, w);	*/
+/*		*/
+	/*	cnt = engdb_getint(cmd);	*/
+/*		*/
+	/*	if ( strcmp(engf->basic->ftype, "ENG_hebrew") == 0 )	*/
+		/*	heb_db2unicode(dname, fvalue);	*/
+	/*	else	*/
+		/*	strcpy(dname, fvalue);	*/
+/*		*/
+	/*	sprintf(linkStr,	*/
+		/*	"<A HREF=\"javascript:msdbReportRestrict('%s', '%s')\">%s</A>", 	*/
+		/*	fname, fvalue, dname);	*/
+/*		*/
+	/*	printf("\t\t\t<TD class=reportBy%d>%s</TD><TD class=reportCnt%d>%d</TD>\n",	*/
+							/*	ind, linkStr, ind, cnt);	*/
+/*		*/
+	/*	for(i=0;i<h->reportTotalsN;i++) {	*/
+		/*	sprintf(cmd, "select sum(%s) from %s %s",	*/
+				/*	h->reportTotals[i], h->engt->name, w);	*/
+		/*	total = engdb_getdouble(cmd);	*/
+		/*	eng_cash_fmt(totalStr, &total);	*/
+		/*	printf("\t\t\t<TD class=reportTotal%d>%s</TD>\n", ind, totalStr);	*/
+	/*	}	*/
+/*		*/
+	/*	printf("\t\t</TR>\n");	*/
+d123 16
+a138 12
+	/*	sprintf(cmd, "select distinct %s from %s order by %s", by, h->engt->name, by);	*/
+/*		*/
+	/*	n = engdb_getstrings(bys, 1024, cmd);	*/
+/*		*/
+	/*	if ( n <= 0 )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	printf("\t<TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0>\n");	*/
+	/*	msdbReportHead(h, by, ind);	*/
+	/*	for(i=0;i<n;i++)	*/
+		/*	msdbReportLine(h, by, bys[i], ind);	*/
+	/*	printf("\t</TABLE>\n");	*/
+d190 1
+a190 1
+		global $dbMeta;
+d192 1
+a192 1
+		$dfname = $dbMeta->dateFname;
+d194 1
+a194 1
+		echo "\t\t<TR CLASS=dateReportHead><TD>$dfname</TD><TD>#</TD><TD><B>total</B></TD>\n";
+d196 3
+a198 5
+	/*	for(i=0;i<h->reportTotalsN;i++) {	*/
+		/*	engf = _eng_field(h->engt, h->reportTotals[i]);	*/
+		/*	printf("\t\t\t<TD COLSPAN=2>%s</TD>\n", _eng_dname(engf));	*/
+	/*	}	*/
+	/*	printf("\t\t</TR>\n");	*/
+d206 17
+a222 1
+	/*	sprintf(href, "javascript:msdbDateRestrict('%d-%d')", fromDate, toDate);	*/
+d224 23
+a246 25
+/*		*/
+	/*	sprintf(w, "where %s > %d and %s <= %d",	*/
+		/*	h->dateFname, fromDate, h->dateFname, toDate);	*/
+/*		*/
+	/*	sprintf(cmd, "select count(*) from %s %s", h->tname, w);	*/
+	/*	cnt = engdb_getint(cmd);	*/
+/*		*/
+	/*	h->dateCntBalance += cnt ;	*/
+/*		*/
+	/*	printf("<TR><TD>%s</TD><TD>%d</TD><TD><B>%d</B></TD>\n", monthStr, cnt, h->dateCntBalance);	*/
+/*		*/
+/*		*/
+/*		*/
+/*		*/
+	/*	for(i=0;i<h->reportTotalsN;i++) {	*/
+		/*	sprintf(cmd, "select sum(%s) from %s %s",	*/
+				/*	h->reportTotals[i], h->engt->name, w);	*/
+		/*	theSum = engdb_getdouble(cmd);	*/
+		/*	h->dateBalances[i] += theSum;	*/
+		/*	eng_cash_fmt(sumStr, &theSum);	*/
+		/*	eng_cash_fmt(totalStr, &h->dateBalances[i]);	*/
+		/*	printf("\t\t\t<TD>%s</TD><TD><B>%s</B></TD>\n", sumStr, totalStr);	*/
+	/*	}	*/
+/*		*/
+	/*	printf("</TR>\n");	*/
+@
+
+
+1.6
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: stats.php,v 1.5 2004/01/11 16:51:54 engine Exp engine $  */
+d101 1
+a101 1
+		/*	"<A HREF=\"javascript:enghtReportRestrict('%s', '%s')\">%s</A>", 	*/
+d130 1
+a130 1
+	/*	enghtReportHead(h, by, ind);	*/
+d132 1
+a132 1
+		/*	enghtReportLine(h, by, bys[i], ind);	*/
+d203 1
+a203 1
+	/*	sprintf(href, "javascript:enghtDateRestrict('%d-%d')", fromDate, toDate);	*/
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: stats.php,v 1.4 2004/01/11 16:13:52 engine Exp engine $  */
+d148 6
+a153 1
+	$firstDate = msDbGetString("select min(
+a154 2
+	/*	sprintf(cmd, "select min(%s) from %s where %s > 19610215", h->dateFname, h->tname, h->dateFname);	*/
+	/*	firstDate = engdb_getint(cmd);	*/
+d177 2
+d185 6
+a190 4
+	/*	printf(	*/
+		/*	"\t\t<TR CLASS=dateReportHead><TD>%s</TD><TD>#</TD><TD><B>total</B></TD>\n",	*/
+		/*	h->dateFname);	*/
+/*		*/
+d201 1
+a201 1
+function msdbDateReportLine($fromDate, $toDate)
+d236 14
+a249 15
+	/*	if ( ! h->dateFname )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	if ( (n = enghtDateList(h, dateList)) == 0 )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	printf("<TD VALIGN=TOP><TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0 CLASS=dateReport>\n");	*/
+	/*	enghtDateReportHead(h);	*/
+	/*	bal = 0.0;	*/
+	/*	for(i=0;i<n;i++)	*/
+		/*	enghtDateReportLine(h,	*/
+				/*	i == 0 ? -1 : dateList[i-1],	*/
+				/*	dateList[i]	*/
+				/*	);	*/
+	/*	printf("</TABLE></TD>\n");	*/
+d256 14
+a269 11
+	/*	if ( h->reportgroupByN == 0 && ! h->dateFname )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	printf("<TABLE class=reportsClass BORDER=1 CELLPADDING=0 CELLSPACING=0><TR>\n");	*/
+	/*	for(i=0;i<h->reportgroupByN;i++) {	*/
+		/*	printf("<TD VALIGN=TOP>\n");	*/
+		/*	enghtReport(h, h->reportGroupBy[i], i);	*/
+		/*	printf("</TD>\n");	*/
+	/*	}	*/
+/*		*/
+	/*	enghtDateReport(h);	*/
+d271 1
+a271 1
+	/*	printf("</TR></TABLE>\n");	*/
+@
+
+
+1.4
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: stats.php,v 1.3 2004/01/11 15:24:44 engine Exp engine $  */
+d17 1
+a17 1
+		if ( $f->dbtype == "string") )
+d19 1
+a19 1
+		else if ( $f->dbtype, "integer") == 0 )
+d57 2
+a58 2
+		if ( $f->dbtype == "float") )
+			$dbMeta->groupBy[] = $f->fname ;
+d140 9
+a148 2
+	if ( h->lastDate < 0 )
+		return(0);
+a149 4
+	/*
+	 * not to count too many yearly totals or crash trying
+	 * the down limit for date report is my birthday
+	 */
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: .exrc,v 1.5 2004/01/05 10:16:31 engine Exp engine $  */
+d8 3
+a10 24
+/*
+ * should f be a candidate for report grouping
+ *
+ * 0 means no, the rest are levels of importance
+ */
+
+/* groupby candidate grades */
+#define GBCG_EXACT_SPOT 100
+#define GBCG_NEXACT_SPOT 90
+#define GBCG_DCNT 80
+
+function enghtGrouBy(f)
+{
+
+	spot = f->spot ;
+
+	if ( eng_isstring(f->ti->dstype->dsname) ) {
+		/*	sprintf(isNull, "%s = ''", f->basic->eng_fname);	*/
+		sprintf(isNotNull, "%s != ''", f->basic->eng_fname);
+	} else if ( strcmp(f->ti->dstype->dsname, "int") == 0 ) {
+		/*	sprintf(isNull, "%s = 0", f->basic->eng_fname);	*/
+		sprintf(isNotNull, "%s != 0",  f->basic->eng_fname);
+	} else
+		return(0);
+d12 1
+a12 2
+	sprintf(cmd, "select count(*) from %s where %s",
+		f->basic->eng_tname, isNotNull);
+d14 2
+a15 1
+	rowNum = engdb_getint(cmd);
+d17 6
+a22 2
+	if ( rowNum <= 7 )
+		return(0);
+a23 6
+	sprintf(cmd, "select count(distinct %s) from %s where %s",
+				f->basic->eng_fname,
+				f->basic->eng_tname,
+				isNotNull
+				);
+	dCnt = engdb_getint(cmd);
+d25 1
+d27 2
+a28 4
+	if ( dCnt < 0 ) {
+		ERR0_LOG();
+		return(0);
+	}
+d30 1
+a30 3
+	/* dCnt might look larger by 1 from here after an insert */
+	if ( dCnt == 0 || iabs(rowNum-dCnt) <= 5 )
+		return(0);
+a31 1
+	isDcnt = dCnt < 16 || dCnt < rowNum / 2 && spot || dCnt < rowNum / 3 ;
+d33 2
+a34 2
+	if ( ! isDcnt )
+		return(0);
+d36 2
+a37 2
+	if ( ! spot )
+			return(GBCG_DCNT);
+d39 6
+a44 2
+	if( f->valid && *f->valid->by_spot == 'n' )
+		return(GBCG_NEXACT_SPOT);
+a45 2
+	return(GBCG_EXACT_SPOT);
+}
+a48 18
+/*
+ * decide what fields are to be used to group by in reports
+ *
+ * they are allways varchars
+ */
+
+/*
+ * sort by reverse order of grade (highest grade first)
+ */
+
+/*	static	*/
+/*	gbc_cmp(a, b)	*/
+/*	GBC *a, *b;	*/
+/*	{	*/
+	/*	return(b->grade - a->grade);	*/
+/*	}	*/
+
+/******************************/
+d50 1
+a50 1
+enghtReportGroupBys()
+d52 1
+a52 18
+	/*	if ( ! h->engt )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	t = h->engt;	*/
+/*		*/
+	/*	for(i=0, n=0;i<t->fldnum;i++) {	*/
+		/*	if ( (gbc[n].grade = enghtGrouBy(&t->field[i])) > 0 ) {	*/
+			/*	gbc[n].cand = t->field[i].basic->eng_fname ;	*/
+			/*	n++;	*/
+		/*	}	*/
+	/*	}	*/
+/*		*/
+	/*	qsort(gbc, n, sizeof(GBC), gbc_cmp);	*/
+/*		*/
+	/*	for(i=0;i<n && i < 4;i++)	*/
+		/*	h->reportGroupBy[i] = gbc[i].cand;	*/
+	/*	h->reportgroupByN = i;	*/
+}
+d54 1
+a54 4
+/************************************************************/
+
+enghtReportTotals()
+{
+d56 3
+a58 4
+	/*	for(i=0,n=0;i<t->fldnum && n<4;i++)	*/
+		/*	if ( strcmp(t->field[i].ti->dstype->dsname, "float") == 0 )	*/
+			/*	h->reportTotals[n++] = t->field[i].basic->eng_fname  ;	*/
+	/*	h->reportTotalsN = n;	*/
+d63 1
+a63 1
+enghtReportPrepare()
+d65 2
+a66 4
+	/*	if ( h->engt->tattr && *h->engt->tattr->htreport )	*/
+		/*	return;	*/
+	/*	enghtReportGroupBys(h);	*/
+	/*	enghtReportTotals(h);	*/
+d71 1
+a71 1
+function enghtReportHead($h, $by, $ind)
+d85 1
+a85 1
+function enghtReportLine($fname, $fvalue, $ind)
+d120 1
+a120 1
+function enghtReport($by, $ind)
+d138 1
+a138 1
+function enghtDateList()
+d175 1
+a175 1
+function enghtDateReportHead()
+d191 1
+a191 1
+function enghtDateReportLine($fromDate, $toDate)
+d224 1
+a224 1
+function enghtDateReport()
+d245 1
+a245 1
+enghtReports()
+@
+
+
+1.2
+log
+@None
+@
+text
+@d2 4
+a5 3
+static char *rcsid="$Id: htreport.c,v 1.1 2004/01/11 15:12:13 engine Exp engine $ ";
+static char *copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+static char *licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 2
+a2 1
+static char *rcsid="$Id: htreport.c,v 1.24 2003/12/22 08:06:44 engine Exp engine $ ";
+a5 2
+#include	"enght.h"
+/************************************************************/
+d18 2
+a19 12
+static
+enghtGrouBy(f)
+ENG_FIELD *f;
+{
+	ENG_SPOT *spot;
+	int dCnt;
+	char cmd[1024];
+	int isDcnt;
+	int rowNum;
+	char isNotNull[1024];
+	/*	char isNull[1024];	*/
+
+a78 5
+typedef struct { int grade; char *cand; } GBC ;
+
+GBC gbc[64];
+/******************************/
+
+d83 6
+a88 6
+static
+gbc_cmp(a, b)
+GBC *a, *b;
+{
+	return(b->grade - a->grade);
+}
+d92 1
+a92 3
+static
+enghtReportGroupBys(h)
+ENGHT_HEAD *h;
+d94 17
+a110 20
+	ENG_TABLE *t;
+	int i, n;
+
+	if ( ! h->engt )
+		return(0);
+
+	t = h->engt;
+
+	for(i=0, n=0;i<t->fldnum;i++) {
+		if ( (gbc[n].grade = enghtGrouBy(&t->field[i])) > 0 ) {
+			gbc[n].cand = t->field[i].basic->eng_fname ;
+			n++;
+		}
+	}
+
+	qsort(gbc, n, sizeof(GBC), gbc_cmp);
+
+	for(i=0;i<n && i < 4;i++)
+		h->reportGroupBy[i] = gbc[i].cand;
+	h->reportgroupByN = i;
+d115 1
+a115 3
+static
+enghtReportTotals(h)
+ENGHT_HEAD *h;
+a116 4
+	ENG_TABLE *t;
+	int i, n;
+	
+	t = h->engt;
+d118 4
+a121 4
+	for(i=0,n=0;i<t->fldnum && n<4;i++)
+		if ( strcmp(t->field[i].ti->dstype->dsname, "float") == 0 )
+			h->reportTotals[n++] = t->field[i].basic->eng_fname  ;
+	h->reportTotalsN = n;
+d126 1
+a126 2
+enghtReportPrepare(h)
+ENGHT_HEAD *h;
+d128 4
+a131 4
+	if ( h->engt->tattr && *h->engt->tattr->htreport )
+		return;
+	enghtReportGroupBys(h);
+	enghtReportTotals(h);
+d136 10
+a145 17
+static
+enghtReportHead(h, by, ind)
+ENGHT_HEAD *h;
+char *by;
+int ind;
+{
+	int i;
+	ENG_FIELD *engf;
+
+	printf("\t\t<TR class=reportHead%d>\n", ind);
+	engf = _eng_field(h->engt, by);
+	printf("\t\t\t<TD>%s</TD><TD>%s</TD>\n", _eng_dname(engf), "#");
+	for(i=0;i<h->reportTotalsN;i++) {
+		engf = _eng_field(h->engt, h->reportTotals[i]);
+		printf("\t\t\t<TD>%s</TD>\n", _eng_dname(engf));
+	}
+	printf("\t\t</TR>\n");
+d150 31
+a180 45
+static
+enghtReportLine(h, fname, fvalue, ind)
+ENGHT_HEAD *h;
+char *fname, *fvalue;
+int ind;
+{
+	ENG_FIELD *engf;
+	char cmd[1024];
+	char w[1024];
+	double total;
+	char totalStr[1024];
+	int i, cnt;
+	char linkStr[1024];
+	char dbStr[1024];
+	char dname[1024];
+
+	engf = _eng_field(h->engt, fname);
+
+	printf("\t\t<TR>\n");
+	sprintf(w, "where %s = '%s'", fname, engdb_str_fmt(dbStr, fvalue));
+	sprintf(cmd, "select count(*) from %s %s", h->engt->name, w);
+
+	cnt = engdb_getint(cmd);
+
+	if ( strcmp(engf->basic->ftype, "ENG_hebrew") == 0 )
+		heb_db2unicode(dname, fvalue);
+	else
+		strcpy(dname, fvalue);
+
+	sprintf(linkStr,
+		"<A HREF=\"javascript:enghtReportRestrict('%s', '%s')\">%s</A>", 
+		fname, fvalue, dname);
+
+	printf("\t\t\t<TD class=reportBy%d>%s</TD><TD class=reportCnt%d>%d</TD>\n",
+							ind, linkStr, ind, cnt);
+
+	for(i=0;i<h->reportTotalsN;i++) {
+		sprintf(cmd, "select sum(%s) from %s %s",
+				h->reportTotals[i], h->engt->name, w);
+		total = engdb_getdouble(cmd);
+		eng_cash_fmt(totalStr, &total);
+		printf("\t\t\t<TD class=reportTotal%d>%s</TD>\n", ind, totalStr);
+	}
+
+	printf("\t\t</TR>\n");
+d185 1
+a185 5
+static
+enghtReport(h, by, ind)
+ENGHT_HEAD *h;
+char *by;
+int ind;
+d187 12
+a198 16
+	char cmd[1024];
+	char *bys[1024];
+	int i, n;
+
+	sprintf(cmd, "select distinct %s from %s order by %s", by, h->engt->name, by);
+
+	n = engdb_getstrings(bys, 1024, cmd);
+
+	if ( n <= 0 )
+		return(0);
+
+	printf("\t<TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0>\n");
+	enghtReportHead(h, by, ind);
+	for(i=0;i<n;i++)
+		enghtReportLine(h, by, bys[i], ind);
+	printf("\t</TABLE>\n");
+d203 2
+a204 10
+static
+enghtDateList(h, l)
+ENGHT_HEAD *h;
+int *l;
+{
+	char cmd[1024];
+	int firstDate;
+	int y, fy, ly, m, fm, lm;
+	int ret;
+
+d212 15
+a226 15
+	sprintf(cmd, "select min(%s) from %s where %s > 19610215", h->dateFname, h->tname, h->dateFname);
+	firstDate = engdb_getint(cmd);
+	if ( firstDate <= 0 )
+		firstDate = day_today();
+
+	fy = firstDate / 10000 ;
+	fm = ( firstDate / 100 ) % 100 ;
+	lm = ( h->lastDate / 100 ) % 100 ;
+	ly = h->lastDate / 10000 ;
+
+	ret = 0;
+
+	for(y=fy;y<ly;y++)
+		l[ret++] = y * 10000 + 1231 ;
+
+d228 8
+a235 8
+	if ( ly == fy )
+		m = fm;
+	else
+		m = 1;
+	for(;m<=lm;m++)
+		l[ret++] = ly*10000 + m * 100 + 31 ;
+
+	return(ret);
+d240 11
+a250 16
+static
+enghtDateReportHead(h)
+ENGHT_HEAD *h;
+{
+	int i;
+	ENG_FIELD *engf;
+
+	printf(
+		"\t\t<TR CLASS=dateReportHead><TD>%s</TD><TD>#</TD><TD><B>total</B></TD>\n",
+		h->dateFname);
+
+	for(i=0;i<h->reportTotalsN;i++) {
+		engf = _eng_field(h->engt, h->reportTotals[i]);
+		printf("\t\t\t<TD COLSPAN=2>%s</TD>\n", _eng_dname(engf));
+	}
+	printf("\t\t</TR>\n");
+d256 1
+a256 4
+static
+enghtDateReportLine(h, fromDate, toDate)
+ENGHT_HEAD *h;
+int fromDate, toDate;
+d258 27
+a284 35
+	char cmd[1024];
+	char monthStr[1024];
+	char w[1024];
+	char sumStr[1024], totalStr[1024];
+	char href[1024];
+	int i, cnt;
+	double theSum;
+
+	sprintf(href, "javascript:enghtDateRestrict('%d-%d')", fromDate, toDate);
+	sprintf(monthStr, "<A HREF=\"%s\">%d/%d</A>", href,  ( toDate / 100 ) % 100, toDate / 10000);
+
+	sprintf(w, "where %s > %d and %s <= %d",
+		h->dateFname, fromDate, h->dateFname, toDate);
+
+	sprintf(cmd, "select count(*) from %s %s", h->tname, w);
+	cnt = engdb_getint(cmd);
+
+	h->dateCntBalance += cnt ;
+
+	printf("<TR><TD>%s</TD><TD>%d</TD><TD><B>%d</B></TD>\n", monthStr, cnt, h->dateCntBalance);
+
+
+
+
+	for(i=0;i<h->reportTotalsN;i++) {
+		sprintf(cmd, "select sum(%s) from %s %s",
+				h->reportTotals[i], h->engt->name, w);
+		theSum = engdb_getdouble(cmd);
+		h->dateBalances[i] += theSum;
+		eng_cash_fmt(sumStr, &theSum);
+		eng_cash_fmt(totalStr, &h->dateBalances[i]);
+		printf("\t\t\t<TD>%s</TD><TD><B>%s</B></TD>\n", sumStr, totalStr);
+	}
+
+	printf("</TR>\n");
+d289 17
+a305 23
+static
+enghtDateReport(h)
+ENGHT_HEAD *h;
+{
+	int dateList[4096];
+	int i, n;
+	double bal;
+
+	if ( ! h->dateFname )
+		return(0);
+
+	if ( (n = enghtDateList(h, dateList)) == 0 )
+		return(0);
+
+	printf("<TD VALIGN=TOP><TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0 CLASS=dateReport>\n");
+	enghtDateReportHead(h);
+	bal = 0.0;
+	for(i=0;i<n;i++)
+		enghtDateReportLine(h,
+				i == 0 ? -1 : dateList[i-1],
+				dateList[i]
+				);
+	printf("</TABLE></TD>\n");
+d310 13
+a322 22
+enghtReports(h)
+ENGHT_HEAD *h;
+{
+	int i;
+	FUNC userFunc;
+
+	if ( h->engt->tattr && *h->engt->tattr->htreport ) {
+		userFunc = eng_func(h->engt->tattr->htreport);
+		return(userFunc());
+	}
+
+	if ( h->reportgroupByN == 0 && ! h->dateFname )
+		return(0);
+
+	printf("<TABLE class=reportsClass BORDER=1 CELLPADDING=0 CELLSPACING=0><TR>\n");
+	for(i=0;i<h->reportgroupByN;i++) {
+		printf("<TD VALIGN=TOP>\n");
+		enghtReport(h, h->reportGroupBy[i], i);
+		printf("</TD>\n");
+	}
+
+	enghtDateReport(h);
+d324 1
+a324 1
+	printf("</TR></TABLE>\n");
+d328 1
+@

@@ -1,0 +1,163 @@
+head	1.8;
+access;
+symbols;
+locks
+	engine:1.8; strict;
+comment	@ * @;
+
+
+1.8
+date	2004.08.23.09.18.36;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.26.18.49.27;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.26.06.40.04;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.24.11.22.30;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.21.17.56.07;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.14.14.36.37;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.06.07.11.49;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.05.21.35.45;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.8
+log
+@None
+@
+text
+@<IMG SRC="$iconDir/hr-island.gif"><BR>
+
+
+<!-- Anti ZoneLabs Popup Blocking Insertion -->
+<script language='javascript'>function postamble(){}</script>
+
+@
+
+
+1.7
+log
+@None
+@
+text
+@d1 1
+a1 1
+<IMG SRC="icons/hr-island.gif"><BR>
+@
+
+
+1.6
+log
+@None
+@
+text
+@a0 2
+<BR>
+
+a2 10
+<FONT face="helvetica">
+<CENTER>
+	MSDB Version $msdbVersion<BR>
+
+	<A HREF="http://msdb.dyndns.org/msdb/">MSDB home</A>
+	<A HREF="http://sourceforge.net/projects/msdb/">Download @@ sourceforge.net</A>
+	<A HREF="Help/help.txt">Help</A>
+
+</CENTER>
+</FONT>
+@
+
+
+1.5
+log
+@None
+@
+text
+@d6 2
+a8 1
+	MSDB Version $msdbVersion<BR>
+d10 2
+d13 1
+@
+
+
+1.4
+log
+@None
+@
+text
+@d3 2
+a4 1
+<IMG SRC="icons/hr-island.gif"><BR><BR>
+d6 4
+a9 3
+By <A HREF="mailto:nekko@@engine.com/">Ohad</A>
+<BR>
+<A HREF="http://msdb.dyndns.org/msdb/">msdb.dyndns.org</A>
+@
+
+
+1.3
+log
+@None
+@
+text
+@d7 1
+a7 1
+<A HREF="http://msdb.dyndns.org/">msdb.dyndns.org/</A>
+d10 1
+a10 1
+<!-- Anti ZoneLabs Popup Blocking Insertion by Ohad -->
+@
+
+
+1.2
+log
+@None
+@
+text
+@d7 1
+a7 1
+<A HREF="http://msdb.dyndns.org/msdb/">msdb.dyndns.org/msdb</A>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 9
+d12 1
+@

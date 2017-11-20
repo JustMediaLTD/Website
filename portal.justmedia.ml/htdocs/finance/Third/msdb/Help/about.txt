@@ -1,0 +1,38 @@
+
+About MSDB - My SQL Data Browser
+--------------------------------
+
+
+Development Environment
+-----------------------
+
+RedHat Linux 9 on AMD Duron
+	Apache httpd-2.0
+	php-4.2.2
+	MySQL-4.0.17
+	php-mysql-4.2.2
+	vim 6.1
+
+Demo Server
+-----------
+RedHat Linux 9 on AMD Athlon
+
+
+Testing Environments
+--------------------
+
+Windows XP on AMD Athlon
+	IIS 5
+	php 4.3.4
+	mysql 4.0.17
+	Internet Explorer 6.0
+	Opera 7.23 build  3227
+
+RedHat Linux 9 on AMD Athlon
+	Opera 7.23 build 518
+
+
+
+Copyright (c) Ohad Aloni 1990-2004. All rights reserved.
+Released under http://ohad.dyndns.org/license.txt (BSD).
+

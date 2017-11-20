@@ -1,0 +1,8 @@
+create table msdb_permit (
+	tname varchar(64) NOT NULL,
+	owner varchar(64),
+	puser int,
+	pgroup int,
+	pother int,
+	PRIMARY KEY (tname)
+)

@@ -1,0 +1,1770 @@
+head	1.60;
+access;
+symbols;
+locks
+	engine:1.60; strict;
+comment	@# @;
+
+
+1.60
+date	2004.08.21.12.38.28;	author engine;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.07.29.08.48.04;	author engine;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.07.22.13.55.25;	author engine;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.05.08.12.23.36;	author engine;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.05.07.19.55.31;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.04.29.10.01.57;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.04.20.02.18.41;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.04.20.00.28.21;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.03.30.12.58.05;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.02.23.21.57.08;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.02.11.07.45.31;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.02.06.08.32.44;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.02.03.06.31.58;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.02.02.10.39.39;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.02.01.19.50.00;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.02.01.07.44.28;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.01.31.21.53.21;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.01.31.21.25.47;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.01.31.12.09.34;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.30.11.04.57;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.30.05.58.36;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.29.17.12.00;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.29.15.26.39;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.29.08.25.52;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.28.13.15.52;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.26.18.49.43;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.26.16.37.27;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.24.15.11.21;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.24.14.29.05;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.24.11.34.22;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.24.11.28.23;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.24.11.24.30;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.24.11.22.27;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.24.11.16.33;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.23.19.07.32;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.22.13.02.37;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.21.16.19.29;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.21.06.04.20;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.19.15.33.50;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.19.10.38.34;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.19.09.35.31;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.18.16.22.10;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.15.13.43.55;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.15.10.09.43;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.14.16.34.07;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.14.14.36.35;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.14.14.32.24;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.14.13.04.38;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.13.15.12.55;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.13.14.56.05;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.13.11.48.10;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.11.18.32.17;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.11.11.42.50;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.10.19.52.13;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.10.19.20.19;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.10.18.56.16;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.10.18.53.51;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.10.18.34.26;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.10.16.26.06;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.60
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: meta.php,v 1.59 2004/07/29 08:48:04 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+$msdbDataTypes = array (
+	'string' => 'string',
+	'int' => 'int',
+	'real' => 'real',
+	'date' => 'date',
+	'datetime' => 'datetime',
+	'time' => 'time',
+	'timestamp' => 'timestamp',
+
+	'blob' => 'string',
+	'year' => 'int'
+);
+
+/******************************/
+
+function msdbDataType($dbtype)
+{
+	global $msdbDataTypes;
+
+	if ( ! msdbArrKeyIn($dbtype, $msdbDataTypes) ) {
+		MSDB_ERROR("$dbtype: unsupported db data type. your mysql rev ?");
+		return('');
+	}
+	return($msdbDataTypes[$dbtype]);
+}
+
+/************************************************************/
+
+class dbMetaField
+{
+	function dbMetaField($fname, $dbtype)
+	{
+		$this->fname = $fname ;
+		$this->dbtype = $dbtype ;
+		$this->ftype = msdbDataType($dbtype);
+		$this->isAutoInc = false ;
+	}
+}
+
+/******************************/
+
+class dbMetaClass
+{
+	function dbMetaClass()
+	{
+		$this->DB = null ; // current Database, (not control DB, though this is the default)
+		$this->tname = null ;
+		$this->isTable = null ;
+		// $this->fields = null; // not set. see msDbMeta()
+		// $this->showColumns = null; // not set. see msdbShowColumnsInfo()
+		$this->noPerm = null; // true if permission to perform the operation is denied
+
+		$this->primaryKey = null; // name of pk
+
+		$this->pkIndex = null; // index into data row array
+
+		$this->rowNum = null;
+		$this->colNum = null;
+		$this->dateFname = null;
+		$this->firstDate = null; // in table
+		$this->lastDate = null;
+		$this->dateList = null ; // list of dates for report by date
+		$this->orderBy = null; // fname
+		$this->isDesc = null; // null or 'true' (the string) or -1, (-1 is not used as such but is set and means 'conciously ascendind)
+							  // while null means ascending by default
+		$this->dateCntBalance = 0; // balance total of how many itms are totaled in date reports
+		$this->dateBalances = null; // array of balances (one item for each column totaled)
+		$this->where = null;  // where clause to be custructed
+		$this->limit = null;  // "LIMIT $rownum"
+		$this->whereEtc = null;  // the entire SQL less the trivial select part
+		$this->isSearch = null; // is op a search
+		$this->ea = null; // is op a search
+		$this->isInserted = null; // was the insert successful
+		$this->isUpdated = null; // was the update successful
+		$this->curId = null; // value of primary key of row being affected
+		$this->insertIdOr = null; // '...or row was just inserted'
+		$this->uFailed = null; // update faied
+		$this->iFailed = null; // insert faied
+		$this->iuFailed = null; // either, send to the javascript database in the page
+
+		$this->msdbFields = null; // Field attributes
+		$this->pkField = null;	// $this->msdbFields[$this->$pkIndex]
+
+
+		$this->ret = false ;
+	}
+}
+
+/******************************/
+
+global $dbMeta;
+$dbMeta = new dbMetaClass();
+
+
+/******************************/
+
+function msdbMetaFieldIndex($fname)
+{
+	global $dbMeta;
+
+	$i = 0;
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( $f->fname == $fname)
+			return($i);
+		$i++;
+	}
+	return(-1);
+}
+
+/************************************************************/
+
+function msdbShowColumnsInfo()
+{
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+
+	$ci = msDbGetAssoc("show columns from $tname");
+	// for msdbInfo
+	$dbMeta->colInfo = $ci ;
+
+	// dont break, there can be more than one autoincrement column
+	for($i=0;$i<count($ci);$i++) {
+		if ( ! isset($ci[$i]['Extra']) )
+			continue;
+		if ( $ci[$i]['Extra'] != 'auto_increment' )
+			continue;
+
+		$dbMeta->msdbFields[$i]->isAutoInc = true;
+		$dbMeta->primaryKey = $dbMeta->msdbFields[$i]->fname ;
+		$dbMeta->pkIndex = $i ;
+		$dbMeta->pkField = & $dbMeta->msdbFields[$i];
+		break;
+	}
+}
+
+/**********/
+
+// look for a primary key to base updates and deletes on.
+// only trust auto increment or a the result from a distinct()
+
+function msdbLookForPrimary()
+{
+	global $dbMeta;
+	global $msdbConfig;
+
+	$rn = $dbMeta->rowNum;
+		
+	msdbShowColumnsInfo();
+
+	if ( $dbMeta->primaryKey )
+		return;
+
+	// above this many rows, you should really consider putting a key in
+	$lots = $msdbConfig['LOTS_OF_ROWS'];
+	if ( $rn > $lots )
+		return(false); 
+
+	$tname = $dbMeta->tname;
+
+	for($i=0;$i<$dbMeta->colNum;$i++) {
+		$f = & $dbMeta->msdbFields[$i];
+		$fname = $f->fname;
+		if ( $rn <= 1 )
+			$dstnct = 0 ; // any column is good
+		else
+			$dstnct = msDbGetInt("select count(distinct $fname) from $tname");
+		if ( $rn > 1 && $rn != $dstnct )
+			continue;
+		$dbMeta->primaryKey = $f->fname ;
+		$dbMeta->pkIndex = $i ;
+		$dbMeta->pkField = & $f ;
+		break;
+	}
+}
+
+/******************************/
+
+function msDbMeta()
+{
+	global $dbHandle;
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+
+	$sql = "select * from $tname limit 0" ;
+
+	if ( ! msDbQuery($sql) ) {
+		MSDB_ERROR("dbMetaClass: $sql: Can not get meta data for $tname");
+		return($dbMeta->ret);
+	}
+
+	$dbMeta->colNum = mysql_num_fields($dbHandle->result);
+
+	for($i=0;$i<$dbMeta->colNum;$i++) {
+		$f = mysql_fetch_field($dbHandle->result, $i);
+		// for msdbInfo
+		/*	$dbMeta->fields[] = $f ;	*/
+		$dbMeta->msdbFields[] = new dbMetaField($f->name, $f->type);
+	}
+	mysql_free_result($dbHandle->result);
+
+	$dbMeta->rowNum = msDbRowNum($dbMeta->tname);
+
+	msdbLookForPrimary();
+
+	$dbMeta->ret = true;
+
+
+	return(true);
+}
+
+/******************************/
+?>
+@
+
+
+1.59
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.58 2004/07/22 13:55:25 engine Exp engine $ ';
+a214 3
+	if ( ! $dbMeta->primaryKey )
+		msdbMsg("Did not find unique key for $tname, update/delete disabled");
+
+@
+
+
+1.58
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.57 2004/05/08 12:23:36 engine Exp engine $ ';
+d128 1
+a128 1
+	/*	$dbMeta->colInfo = $ci ;	*/
+d176 1
+a176 1
+		if ( $rn != $dstnct )
+@
+
+
+1.57
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.56 2004/05/07 19:55:31 engine Exp engine $ ';
+d126 1
+a126 1
+	$ci = msDbFetchObjects("show columns from $tname");
+d132 1
+a132 1
+		if ( ! isset($ci[$i]->Extra) )
+d134 1
+a134 1
+		if ( $ci[$i]->Extra != 'auto_increment' )
+@
+
+
+1.56
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.55 2004/04/29 10:01:57 engine Exp engine $ ';
+d147 1
+a147 1
+// look for a primary key to base updates and delete on.
+a210 1
+
+@
+
+
+1.55
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.54 2004/04/20 02:18:41 engine Exp engine $ ';
+d9 28
+@
+
+
+1.54
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.53 2004/04/20 00:28:21 engine Exp engine $ ';
+a16 1
+		$this->isPrimary = false ; // from show columns, not used, see 'primaryKey'
+a34 1
+		$this->pkField = null;	// the msdbMetaField of the primary key
+a35 1
+		$this->pkIsGuessed = null;
+a36 1
+		$this->msdbFields = null; // my view of Fields
+d61 3
+d92 29
+a120 2
+// if rowNum == 0 then the first field is the primary
+// key as far as this page is concerned
+d129 4
+a142 1
+
+d144 2
+a145 3
+
+		if ( $rn == 0 )
+			$dstnct = 0 ;
+a147 1
+
+a149 2
+
+		$dbMeta->pkIsGuessed = true;
+a152 1
+
+a158 21
+function msdbShowColumnsInfo()
+{
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+
+	$dbMeta->colInfo = msDbFetchObjects("show columns from $tname");
+
+	// dont break, there can be more than one autoincrement column
+	for($i=0;$i<count($dbMeta->colInfo);$i++) {
+		if ( isset($dbMeta->colInfo[$i]->Extra) )
+			if ( $dbMeta->colInfo[$i]->Extra == 'auto_increment' )
+				$dbMeta->msdbFields[$i]->isAutoInc = true;
+		if ( isset($dbMeta->colInfo[$i]->Key) )
+			if ( $dbMeta->colInfo[$i]->Key == 'PRI' )
+				$dbMeta->msdbFields[$i]->isPrimary = true;
+	}
+}
+
+/**********/
+
+d177 1
+a177 1
+		// the next line line as commented so as not to clutter msdbInfo()
+a179 6
+
+		if ( $f->primary_key || $f->unique_key ) {
+			$dbMeta->primaryKey = $f->name ;
+			$dbMeta->pkIndex = $i ;
+			$dbMeta->pkField = & $dbMeta->msdbFields[$i];
+		}
+d186 2
+d189 1
+a189 4
+		msdbLookForPrimary();
+
+	if ( $dbMeta->rowNum> 0 && ! $dbMeta->primaryKey )
+		msdbMsg("Did not find unique key for $tname, some features are not enable");
+a192 1
+	msdbShowColumnsInfo();
+@
+
+
+1.53
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.52 2004/03/30 12:58:05 engine Exp engine $ ';
+d141 1
+a141 1
+	$dbMeta->colInfo = msDbFetchObjectsByCmd("show columns from $tname");
+@
+
+
+1.52
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.51 2004/02/23 21:57:08 engine Exp engine $ ';
+a137 1
+	global $dbData;
+d141 1
+a141 8
+	$showColNum = msDbGetObjectsByCmd("show columns from $tname");
+
+	if ( $showColNum != $dbMeta->colNum ) {
+		MSDB_ERROR("'show columns': $showColNum columns, 'select *' $dbMeta->colNum columns");
+		// wierd, don't know how to continue
+		return;
+	}
+	// $dbMeta->showColumns = $dbData->objRows ;
+d144 3
+a146 4
+	for($i=0;$i<$showColNum;$i++) {
+		$col = & $dbData->objRows[$i] ;
+		if ( isset($col->Extra) )
+			if ( $col->Extra == 'auto_increment' )
+d148 3
+a150 3
+		if ( isset($col->Key) )
+			if ( $col->Key == 'PRI' )
+			$dbMeta->msdbFields[$i]->isPrimary = true;
+a171 1
+
+@
+
+
+1.51
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.50 2004/02/11 07:45:31 engine Exp engine $ ';
+d145 1
+a145 1
+		MSDB_ERROR("'show columns': $$showColNum, 'select *' $dbMeta->colNum columns");
+@
+
+
+1.50
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.49 2004/02/06 08:32:44 engine Exp engine $ ';
+d48 2
+a49 1
+		$this->isDesc = null; // null or 'true' (the string)
+@
+
+
+1.49
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.48 2004/02/03 06:31:58 engine Exp engine $ ';
+a48 2
+		$this->groupBy = null; // array of fnames
+		$this->totals = null; // array of fnames to total grouping by the above
+@
+
+
+1.48
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.47 2004/02/02 10:39:39 engine Exp engine $ ';
+d44 2
+a45 1
+		$this->lastDate = null; // in table
+@
+
+
+1.47
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.46 2004/02/01 19:50:00 engine Exp engine $ ';
+d60 1
+@
+
+
+1.46
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.45 2004/02/01 07:44:28 engine Exp engine $ ';
+d87 1
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.44 2004/01/31 21:53:21 engine Exp engine $ ';
+d30 2
+a31 2
+		// $this->fields = null; // not set. array of mysql_fetch_field()
+		// $this->showColumns = null; // not set. array of 'show columns output
+d147 1
+a147 1
+	$dbMeta->showColumns = $dbData->objRows ;
+d177 1
+a177 2
+	$dbHandle->numFields =  mysql_num_fields($dbHandle->result);
+	$dbMeta->colNum = $dbHandle->numFields;
+d180 1
+a180 1
+	for($i=0;$i<$dbHandle->numFields;$i++) {
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.43 2004/01/31 21:25:47 engine Exp engine $ ';
+d16 2
+d142 17
+a158 3
+
+	$showColumns = $dbData->dbRows ;
+	$dbMeta->showColumns = & $showColumns;
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.42 2004/01/31 12:09:34 engine Exp engine $ ';
+d28 2
+a29 1
+		// $this->fields = null; // not used. array of mysql_fetch_field() return values for a table
+d131 16
+d167 2
+a168 2
+		// the next line as commented so as not to clutter msdbInfo()
+		$dbMeta->fields[] = $f ;
+d190 2
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.41 2004/01/30 11:04:57 engine Exp engine $ ';
+d150 2
+a151 2
+		// the next line as commented so as not to cluuter msdbInfo()
+		/*	$dbMeta->fields[] = $f ;	*/
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.40 2004/01/30 05:58:36 engine Exp engine $ ';
+d27 1
+d74 1
+a74 1
+function msdbDateFname()
+d78 1
+a78 1
+
+d80 3
+a82 4
+		if ( $f->ftype == 'date' ) {
+			$dbMeta->dateFname = $f->name ;
+			break;
+		}
+a83 3
+	if ( $dbMeta->dateFname )
+		$dbMeta->lastDate =
+			msDbGetString("select max ($dbMeta->dateFname) from $dbMeta->tname");
+d86 1
+a86 1
+/******************************/
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.39 2004/01/29 17:12:00 engine Exp engine $ ';
+d43 1
+a43 1
+		$this->isDesc = null; // boolean
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.38 2004/01/29 15:26:39 engine Exp engine $ ';
+d25 1
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.37 2004/01/29 08:25:52 engine Exp engine $ ';
+d42 1
+a42 1
+		$this->orderDesc = null; // boolean
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.36 2004/01/28 13:15:52 engine Exp engine $ ';
+d26 1
+a26 1
+		$this->fields = null; // not used. array of mysql_fetch_field() return values for a table
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.35 2004/01/26 18:49:43 engine Exp engine $ ';
+d96 1
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.34 2004/01/26 16:37:27 engine Exp engine $ ';
+d101 2
+a102 1
+	if ( $rn > 3000 )
+@
+
+
+1.34
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.33 2004/01/24 15:11:21 engine Exp engine $ ';
+d33 1
+d90 3
+d97 2
+a98 1
+	$rn = $dbMeta->rownum;
+d106 1
+a106 1
+	for($i=0;$i<$dbHandle->numFields;$i++) {
+d110 5
+a114 1
+		$dstnct = msDbGetInt("select count(distinct $fname) from $tname");
+d119 2
+a120 1
+		$dbMeta->primaryKey = $f->name ;
+d122 3
+a124 1
+		$dbMeta->pkField = & $f
+d168 1
+a168 1
+	if ( ! $dbMeta->primaryKey )
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.32 2004/01/24 14:29:05 engine Exp engine $ ';
+d89 29
+a147 3
+	if ( ! $dbMeta->primaryKey )
+		msdbMsg("Did not find unique key for $tname, some features are not enable");
+	
+d150 1
+d153 6
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.31 2004/01/24 11:34:22 engine Exp engine $ ';
+a32 2
+		$this->pkDbType = null; // database type
+		$this->pkFtype = null; // msdb database type
+d116 1
+a116 3
+			$dbMeta->pkDbType = $f->type ;
+			$dbMeta->pkFtype = msdbDataType($f->type) ;
+			$dbMeta->pkField = & $dbMeta->msdbFields[count($dbMeta->msdbFields)-1];
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.30 2004/01/24 11:28:23 engine Exp engine $ ';
+d31 1
+a31 1
+		$this->pkField;	// the msdbMetaField of the primary key
+d120 1
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.29 2004/01/24 11:24:30 engine Exp engine $ ';
+d30 2
+@
+
+
+1.29
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.28 2004/01/24 11:22:27 engine Exp engine $ ';
+d117 1
+@
+
+
+1.28
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.27 2004/01/24 11:16:33 engine Exp engine $ ';
+d28 2
+a29 1
+		$this->primaryKey = null; // name of primaryKey
+d32 2
+@
+
+
+1.27
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.26 2004/01/23 19:07:32 engine Exp engine $ ';
+d74 1
+a74 1
+		if ( $f->dbtype == 'date' ) {
+@
+
+
+1.26
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.25 2004/01/22 13:02:37 engine Exp engine $ ';
+d15 1
+a15 1
+		$this->ftype = null ; // msdb notion of type ???
+@
+
+
+1.25
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.24 2004/01/21 16:19:29 engine Exp engine $ ';
+d26 1
+a26 2
+		$this->fields = null;
+
+d31 1
+a31 1
+		$this->msdbFields = null; // my viewof fields
+d106 1
+@
+
+
+1.24
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.23 2004/01/21 06:04:20 engine Exp engine $ ';
+d28 1
+a28 1
+		$this->noPerm = null; // true if permission to perform the operation was denied
+@
+
+
+1.23
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.22 2004/01/19 15:33:50 engine Exp engine $ ';
+d48 1
+d97 1
+a97 1
+		MSDB_MSG("dbMetaClass: $sql: Can not get meta data for $tname");
+d117 1
+a117 1
+		MSDB_MSG("msDbMeta: Warning: Did not find unique key for $dbMeta->tname");
+@
+
+
+1.22
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.21 2004/01/19 10:38:34 engine Exp engine $ ';
+d28 1
+@
+
+
+1.21
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.20 2004/01/19 09:35:31 engine Exp engine $ ';
+d28 3
+a30 2
+		$this->primaryKey = null;
+		$this->pkIndex = null;
+d111 1
+a111 1
+			break;
+d115 1
+a115 1
+		MSDB_MSG("msDbSetPrimary: Warning: Can not find unique key for $dbMeta->tname");
+@
+
+
+1.20
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.19 2004/01/18 16:22:10 engine Exp engine $ ';
+d107 1
+a107 1
+		if ( $f->primary_key || $f->primary_key )
+d110 2
+@
+
+
+1.19
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.18 2004/01/15 13:43:55 engine Exp engine $ ';
+d51 1
+@
+
+
+1.18
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.17 2004/01/15 10:09:43 engine Exp engine $ ';
+d45 6
+a50 1
+		$this->isSearch = null;
+@
+
+
+1.17
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.16 2004/01/14 16:34:07 engine Exp engine $ ';
+d45 1
+a111 2
+	msdbOrderBy();
+
+a117 37
+
+/*
+ * order result by this logic:
+ *
+ * the last order by this user has used.
+ * by date
+ * the primary key
+ * (by primary composite key.)
+ *
+ * the order is stored in $dbMeta
+ */
+
+function msdbOrderBy()
+{
+	global $dbMeta;
+
+	if ( $uo = msdbUserOrder() ) {
+		$dbMeta->orderBy = $uo ;
+		return(true);
+	}
+
+	if ( $dbMeta->dateFname ) {
+		$dbMeta->orderBy = "order by $dbMeta->dateFname" ;
+		return(true);
+	}
+
+	if ( $dbMeta->primaryKey ) {
+		$dbMeta->orderBy = "order by $dbMeta->primaryKey" ;
+		return(true);
+	}
+
+	$dbMeta->orderBy = "";
+
+	return(false);
+}
+
+/******************************/
+@
+
+
+1.16
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.15 2004/01/14 14:36:35 engine Exp engine $ ';
+d43 2
+@
+
+
+1.15
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.14 2004/01/14 14:32:24 engine Exp engine $ ';
+a15 1
+		$this->urlField = null ; // incoming values from URL
+d27 1
+d32 1
+d75 1
+a75 1
+function msDbMeta($tname)
+d80 1
+a80 5
+		
+	if ( $dbMeta->tname == $tname )
+		return($dbMeta->ret);
+
+	$dbMeta->tname = $tname;
+d90 1
+d96 1
+a96 5
+		$dbMeta->msdbFields[] = new dbMetaField(
+				$f->name,
+				$f->type,
+				$f->max_length // this is atual maximum length
+			);
+@
+
+
+1.14
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.13 2004/01/14 13:04:38 engine Exp engine $ ';
+a75 1
+	global $msdbHeadVar;
+d113 1
+a113 1
+	$dbMeta->rowNum = msDbRowNum($msdbHeadVar->tname);
+@
+
+
+1.13
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.12 2004/01/13 15:12:55 engine Exp engine $ ';
+d16 1
+a16 1
+		$this->hf = null ; // headField, incoming values from URL
+@
+
+
+1.12
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.11 2004/01/13 14:56:05 engine Exp engine $ ';
+d16 1
+d41 1
+@
+
+
+1.11
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: meta.php,v 1.10 2004/01/13 13:08:00 engine Exp engine $ ';
+d87 1
+a87 1
+		msdbMsg("dbMetaClass: $sql: Can not get meta data for $tname");
+d108 1
+a108 1
+		msdbMsg("msDbSetPrimary: Warning: Can not find unique key for $dbMeta->tname");
+@
+
+
+1.10
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.9
+log
+@None
+@
+text
+@d2 5
+a6 5
+/******************************/
+/* $Id: meta.php,v 1.8 2004/01/11 18:32:17 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/******************************/
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: meta.php,v 1.7 2004/01/11 11:42:50 engine Exp engine $  */
+d36 3
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: meta.php,v 1.6 2004/01/10 19:52:13 engine Exp engine $  */
+d31 5
+a35 2
+		$this->lastDate = null;
+		$this->orderBy = null;
+@
+
+
+1.6
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: meta.php,v 1.5 2004/01/10 19:20:19 engine Exp engine $  */
+d10 1
+a10 1
+	function dbMetaField($fname, $dbtype, $ftype, $strlen)
+d14 1
+a14 1
+		$this->ftype = $ftype ;
+d27 1
+d29 6
+d47 18
+a92 1
+				null, //??? determine my notion of type
+d95 1
+d98 1
+d105 4
+d115 37
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: meta.php,v 1.4 2004/01/10 18:56:16 engine Exp engine $  */
+a62 1
+		/*	$dbMeta->fields[] =	*/
+d64 1
+a64 1
+		$dbMeta->fields[] = $f ;
+d79 3
+a81 1
+	return($dbMeta->ret = true);
+@
+
+
+1.4
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: meta.php,v 1.3 2004/01/10 18:53:51 engine Exp engine $  */
+a11 1
+		$this->tname = $tname ;
+a14 1
+		$this->strlen = $strlen ;
+d26 1
+a26 1
+		$this->primaryName = null;
+a33 55
+/*	function msDbGetResMeta()	*/
+/*	{	*/
+	/*	global $msdbHeadVar;	*/
+	/*	global $dbHandle;	*/
+	/*	global $dbMeta;	*/
+/*		*/
+		/*		*/
+	/*	if ( ! $dbHandle->numFields )	*/
+		/*	return;	*/
+	/*	if ( $dbHandle->numFields <= 1 )	*/
+		/*	return; // don't waste time on 1x1 or less items of data	*/
+/*		*/
+	/*	if ( $dbMeta == null )	*/
+		/*	$dbMeta = new dbMetaClass();	*/
+/*		*/
+	/*	if ( $dbMeta->tname && $dbMeta->fields && $dbMeta->tname == $msdbHeadVar->tname ) {	*/
+		/*	msdbMsg("depr1: $msdbHeadVar->tname: Second Call?");	*/
+		/*	return;	*/
+	/*	}	*/
+/*		*/
+	/*	unset($dbHandle->fields);	*/
+/*		*/
+	/*	for($i=0;$i<$dbHandle->numFields;$i++)	*/
+		/*	$dbMeta->fields[] = mysql_fetch_field($dbHandle->result, $i);	*/
+/*		*/
+	/*	$sampleField = $dbMeta->fields[0];	*/
+	/*	$dbMeta->tname = $sampleField->table;	*/
+/*		*/
+	/*	$dbMeta->primaryName = null;	*/
+	/*	foreach ($dbMeta->fields as $field ) {	*/
+		/*	if ( $field->primary_key == 1 ) {	*/
+/*		*/
+			/*	$dbMeta->primaryName = $field->name ;	*/
+			/*	break;	*/
+		/*	}	*/
+	/*	}	*/
+	/*	if (is_null($dbMeta->primaryName)) {	*/
+		/*	foreach ($dbMeta->fields as $field ) {	*/
+			/*	if ( $field->unique_key == 1 ) {	*/
+				/*	$dbMeta->primaryName = $field->name ;	*/
+				/*	break;	*/
+			/*	}	*/
+		/*	}	*/
+	/*	}	*/
+/*		*/
+	/*	$tname = $sampleField->table ;	*/
+	/*	if (! is_null($dbMeta->primaryName)) {	*/
+		/*	$p = $dbMeta->primaryName ;	*/
+		/*	msdbMsg("depr2: Primary of $tname is $p");	*/
+	/*	} else	*/
+		/*	msdbMsg("depr3: Warning: Can not find unique key for $tname");	*/
+/*	}	*/
+
+/******************************/
+
+a36 31
+/******************************/
+
+function
+msDbSetPrimary()
+{
+	global $dbMeta;
+
+	$dbMeta->primaryName = null;
+	foreach ($dbMeta->fields as $field ) {
+		if ( $field->primary_key == 1 ) {
+
+			$dbMeta->primaryName = $field->name ;
+			break;
+		}
+	}
+	if (is_null($dbMeta->primaryName)) {
+		foreach ($dbMeta->fields as $field ) {
+			if ( $field->unique_key == 1 ) {
+				$dbMeta->primaryName = $field->name ;
+				break;
+			}
+		}
+	}
+
+	if (! is_null($dbMeta->primaryName)) {
+		msdbMsg("msDbSetPrimary: Primary of $dbMeta->tname is $dbMeta->primaryName");
+		return(false);
+	}
+	msdbMsg("msDbSetPrimary: Warning: Can not find unique key for $dbMeta->tname");
+	return(true);
+}
+d62 15
+a76 2
+	for($i=0;$i<$dbHandle->numFields;$i++)
+		$dbMeta->fields[] = mysql_fetch_field($dbHandle->result, $i);
+a77 2
+	msDbSetPrimary();
+
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: meta.php,v 1.2 2004/01/10 18:34:26 engine Exp engine $  */
+d36 52
+a87 59
+/*
+ * get meta of the current result set in progress
+ *
+ * issuing a  msDbGetRows("select * from $table limit 0");
+ * effectivly gets the meta Data without doing much more.
+ */
+
+function msDbGetResMeta()
+{
+	global $msdbHeadVar;
+	global $dbHandle;
+	global $dbMeta;
+
+		
+	if ( ! $dbHandle->numFields )
+		return;
+	if ( $dbHandle->numFields <= 1 )
+		return; // don't waste time on 1x1 or less items of data
+
+	if ( $dbMeta == null )
+		$dbMeta = new dbMetaClass();
+
+	if ( $dbMeta->tname && $dbMeta->fields && $dbMeta->tname == $msdbHeadVar->tname ) {
+		msdbMsg("depr1: $msdbHeadVar->tname: Second Call?");
+		return;
+	}
+
+	unset($dbHandle->fields);
+
+	for($i=0;$i<$dbHandle->numFields;$i++)
+		$dbMeta->fields[] = mysql_fetch_field($dbHandle->result, $i);
+
+	$sampleField = $dbMeta->fields[0];
+	$dbMeta->tname = $sampleField->table;
+
+	$dbMeta->primaryName = null;
+	foreach ($dbMeta->fields as $field ) {
+		if ( $field->primary_key == 1 ) {
+
+			$dbMeta->primaryName = $field->name ;
+			break;
+		}
+	}
+	if (is_null($dbMeta->primaryName)) {
+		foreach ($dbMeta->fields as $field ) {
+			if ( $field->unique_key == 1 ) {
+				$dbMeta->primaryName = $field->name ;
+				break;
+			}
+		}
+	}
+
+	$tname = $sampleField->table ;
+	if (! is_null($dbMeta->primaryName)) {
+		$p = $dbMeta->primaryName ;
+		msdbMsg("depr2: Primary of $tname is $p");
+	} else
+		msdbMsg("depr3: Warning: Can not find unique key for $tname");
+}
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: meta.php,v 1.1 2004/01/10 16:26:06 engine Exp engine $  */
+d106 2
+d162 2
+@
+
+
+1.1
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.20 2004/01/08 13:23:02 engine Exp engine $  */
+d30 1
+d59 1
+a59 1
+		msdbMsg("msDbGetResMeta: $msdbHeadVar->tname: Second Call?");
+d91 1
+a91 1
+		msdbMsg("msDbGetResMeta: Primary of $tname is $p");
+d93 68
+a160 1
+		msdbMsg("msDbGetResMeta: Warning: Can not find unique key for $tname");
+@

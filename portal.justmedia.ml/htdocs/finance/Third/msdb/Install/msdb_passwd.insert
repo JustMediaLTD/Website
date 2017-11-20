@@ -1,0 +1,4 @@
+insert msdb_passwd
+	( name, passwd, groupid, started, lasthit, userprefs, userid ) 
+values
+	( 'defaultUser', 'defaultPasswd', 'msdbGroup', 0,	0,	'', 1 )

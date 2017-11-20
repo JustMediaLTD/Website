@@ -1,0 +1,3636 @@
+head	1.89;
+access;
+symbols;
+locks
+	engine:1.89; strict;
+comment	@# @;
+
+
+1.89
+date	2004.09.02.12.11.03;	author engine;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2004.08.21.12.58.11;	author engine;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2004.08.21.08.30.56;	author engine;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2004.07.28.06.12.41;	author engine;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2004.07.28.06.08.38;	author engine;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2004.07.26.18.30.08;	author engine;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2004.05.31.15.03.52;	author engine;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2004.05.31.14.51.51;	author engine;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2004.05.30.11.51.06;	author engine;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2004.05.19.08.21.39;	author engine;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.05.07.19.55.31;	author engine;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.04.26.13.44.32;	author engine;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.04.20.02.18.41;	author engine;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.04.20.00.40.16;	author engine;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.04.20.00.28.25;	author engine;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.04.20.00.07.43;	author engine;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.04.20.00.01.14;	author engine;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.04.19.21.51.31;	author engine;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.03.30.12.58.16;	author engine;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.03.14.16.25.59;	author engine;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.02.26.12.30.12;	author engine;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.02.23.21.57.08;	author engine;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.02.16.11.39.18;	author engine;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.02.02.17.33.24;	author engine;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.02.02.10.39.39;	author engine;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.02.01.22.44.15;	author engine;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.02.01.19.50.00;	author engine;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.02.01.10.38.20;	author engine;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.02.01.07.44.28;	author engine;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.01.31.21.53.21;	author engine;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.01.30.09.28.02;	author engine;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.01.30.05.58.36;	author engine;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.01.29.20.03.30;	author engine;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.01.29.15.26.40;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.01.29.11.00.40;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.01.29.09.18.37;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.01.29.09.00.43;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.01.29.08.25.53;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.01.28.13.15.52;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.01.28.03.21.36;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.01.26.16.37.28;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.01.26.13.37.33;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.01.26.10.51.02;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.01.24.18.34.38;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.01.24.18.03.51;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.01.24.16.48.18;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.01.24.11.21.57;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.01.23.19.07.32;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.22.13.02.37;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.21.18.18.26;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.21.12.02.22;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.21.11.58.44;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.21.11.53.17;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.21.11.28.25;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.21.11.18.31;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.21.11.09.49;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.21.10.02.49;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.21.08.00.11;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.19.15.33.50;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.19.11.21.37;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.19.11.16.16;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.13.15.12.55;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.13.14.58.41;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.13.14.56.05;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.13.11.48.10;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.10.19.52.13;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.10.16.26.01;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.08.15.59.55;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.08.13.23.02;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.07.23.36.00;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.07.23.12.52;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.07.18.29.40;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.07.17.26.17;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.07.12.11.06;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.07.09.32.10;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.06.19.24.42;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.06.18.55.43;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.06.17.55.30;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.06.17.15.46;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.06.16.18.13;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.06.14.04.47;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.06.14.04.02;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.06.13.47.24;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.06.12.24.55;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.06.11.58.22;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.06.07.11.36;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.05.22.17.20;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.05.20.02.10;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.89
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: msDb.php,v 1.88 2004/08/21 12:58:11 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+/*
+ * msDb - Msdb Database Layer
+ */
+/******************************/
+
+class msDbHandle
+{
+	function msDbHandle()
+	{
+		// connection
+		$this->link = null ;
+		$this->connected = null ;
+
+		// protocol
+		$this->result = null ;
+		$this->error = null;
+		$this->lastSql = null ;
+	}
+}
+
+/******************************/
+global $dbHandle ;
+$dbHandle = new msDbHandle();
+/******************************/
+
+function msDbPing()
+{
+	global $dbHandle;
+
+	if ( ! function_exists('mysql_ping') )
+		return(true); // ?
+
+	if ( @@mysql_ping($dbHandle->link) )
+		return(true);
+
+	MSDB_ERROR("msDbPing: mysql_ping failed");
+	return(false);
+}
+
+/**********/
+
+function msDbConnect()
+{
+	global $dbHandle;
+	global $msdbConfig;
+
+	if ( ! is_null($dbHandle->connected) ) {
+		if ( ! $dbHandle->connected )
+			return(false);
+		if ( ! msDbPing() ) {
+			MSDB_ERROR("msDbConnect: (re-connect): msDbPing failed");
+			$dbHandle->connected = false ;
+			return(false);
+		}
+		return(true);
+	}
+
+	$dbHandle->connected = false;
+
+	if ( isset($msdbConfig['DB_HOST']) )
+		$host = $msdbConfig['DB_HOST'];
+	else
+		$host = 'localhost';
+
+	$dbHandle->link = @@mysql_connect(
+			$host,
+			$msdbConfig['DB_USER'],
+			$msdbConfig['DB_PW']
+		);
+
+	if ( ! $dbHandle->link ) {
+		$err = $dbHandle->error = mysql_error() ;
+		MSDB_ERROR("msDbConnect: Could not connect to database ($err)");
+		return(false);
+	}
+
+	// mysql will not allow queries without a selected DB
+	// even if the query is from $db.$table
+	$controlDB = $msdbConfig['DB_NAME'];
+
+	if ( ! msDbSelectDB($controlDB) ) {
+		MSDB_ERROR("msDbConnect: Unable to select $controlDB");
+		return(false);
+	}
+
+
+	$dbHandle->connected = true ;
+
+	return(true);
+}
+
+/******************************/
+// not to be confused with the user selecting a database
+// presented by msdbListDBs()
+
+function msDbSelectDB($dbname)
+{
+	global $dbHandle;
+	global $msdbConfig;
+
+	$cdb = $msdbConfig['DB_NAME'];
+
+	if ( $dbname != $cdb && msDbIsOnlyDB() ) {
+		MSDB_ERROR("msDbSelectDB: Unable to select $dbname in db only ($cdb) mode");
+		return(false);
+	}
+
+	if ( ! @@mysql_select_db($dbname, $dbHandle->link) ) {
+		MSDB_ERROR("msDbSelectDB: Unable to select $dbname");
+		return(false);
+	}
+
+	return(true);
+
+}
+
+/******************************/
+
+// all sql queries to the databse go through here.
+
+function msDbQuery($sql)
+{
+	global $dbHandle;
+	global $msdbQueries;
+	global $msdbStats;
+	static $statQcnt = 0 ;
+
+	if ( $msdbStats->started ) {
+		if ( $statQcnt == 0 )
+			$msdbQueries[] = ' --------------- Starting Stats Queries --------';
+		$statQcnt++;
+	}
+
+	$msdbQueries[] = $sql ;
+
+	// stop stats reporting after this many queries
+	if ( $statQcnt > 100 )
+		return(false);
+
+	$dbHandle->lastSql = $sql ;
+
+	if ( ! ( msDbConnect()) )
+		return(false);
+
+	$dbHandle->result = @@mysql_query($sql, $dbHandle->link);
+
+	if ( ! $dbHandle->result ) {
+		$dbHandle->error = @@mysql_error($dbHandle->link) ;
+		if ( stristr($dbHandle->error, "duplicate") || stristr($dbHandle->error, "You have an error in your SQL syntax near") ) {
+			msdbMsg("$dbHandle->error");
+			msdbMsg("$sql");
+		} else
+			/*	MSDB_ERROR("$dbHandle->error: $sql");	*/
+			msdbMsg("$dbHandle->error");
+			msdbMsg("$sql");
+		return(false);
+	}
+
+	return(true);
+}
+
+/**********/
+
+function msDbSql($sql)
+{
+	global $dbHandle;
+
+	if ( ! msDbQuery($sql) )
+		return(-1);
+
+	$affected = @@mysql_affected_rows($dbHandle->link);
+
+	/* result is bool(true) in this case so don't mysql_free_result() */
+	/*	var_dump($dbHandle->result);	*/
+
+	if ( $affected < 0 )
+		return(-1);
+
+	return($affected);
+}
+
+/******************************/
+
+function msDbInsertId()
+{
+	return(@@mysql_insert_id());
+}
+
+/************************************************************/
+
+function msDbDatabaseTables($db)
+{
+	$q = "show tables from $db";
+	$ret = msDbGetStrings($q);
+	if ( ! is_array($ret) ) // empty DB ?
+		return(array());
+	natcasesort($ret);
+	return($ret);
+}
+
+/******************************/
+
+function msDbDatabaseHasTable($db, $table)
+{
+	return(msdbArrValIn($table, msDbDatabaseTables($db)));
+}
+
+/******************************/
+
+function msDbDataBases()
+{
+	$msdbDbList = msDbGetStrings("show databases");
+
+	return($msdbDbList);
+}
+
+/******************************/
+
+function msDbTables()
+{
+	if ( ! ($msdbTableList = msDbGetStrings("show tables")) )
+		return(array());
+
+	natcasesort($msdbTableList);
+
+	return($msdbTableList);
+}
+
+/******************************/
+
+function msDbIsTable($t)
+{
+	return(msdbArrValIn($t, msDbTables()));
+}
+
+/******************************/
+
+function msDbRowNum($tname)
+{
+	return(msDbGetInt("select count(*) from $tname"));
+}
+
+/************************************************************/
+
+function msDbFetchRows($sql)
+{
+	global $dbHandle;
+
+	if ( ! msDbQuery($sql) )
+		return(null);
+
+	$ret = array();
+
+	while($row = @@mysql_fetch_row($dbHandle->result))
+		$ret[] = $row ;
+
+	@@mysql_free_result($dbHandle->result);
+
+	return($ret);
+}
+
+/******************************/
+
+function msDbFetchRow($sql)
+{
+	if ( ( $rows = msDbFetchRows($sql)) == null || count($rows) == 0 )
+		return(null);
+	return($rows[0]);
+}
+
+/******************************/
+
+function msDbGetStrings($sql)
+{
+	if ( ( $rows = msDbFetchRows($sql)) == null || count($rows) < 0)
+		return(null);
+
+	foreach ( $rows as $row )
+		$ret[] = $row[0] ;
+
+	return($ret);
+}
+
+/******************************/
+
+function msDbGetString($sql)
+{
+	if ( ( $row =  msDbFetchRow($sql)) == null )
+		return(null);
+
+	return($row[0]);
+}
+
+/******************************/
+
+function msDbGetInt($sql)
+{
+	if ( ! ($ret = msDbGetString($sql)) )
+		return(null);
+
+   return((int)$ret);
+}
+
+/************************************************************/
+
+function msDbGetAssoc($cmd)
+{
+	global $dbHandle;
+
+	if ( ! msDbQuery($cmd) )
+		return(null);
+
+	$numRows = @@mysql_num_rows($dbHandle->result);
+
+	$ret = array();
+
+	while($r = @@mysql_fetch_assoc($dbHandle->result))
+		$ret[] = $r ;
+
+	@@mysql_free_result($dbHandle->result);
+
+	return($ret);
+}
+
+/******************************/
+
+function msDbGet1Assoc($cmd)
+{
+	$ret = msDbGetAssoc($cmd);
+
+	if ( ! is_array($ret) || count($ret) != 1 )
+		return(null);
+	return($ret[0]);
+}
+
+/************************************************************/
+
+function msDbFetchObjects($cmd)
+{
+	global $dbHandle;
+
+	if ( ! msDbQuery($cmd) )
+		return(null);
+
+	$nr = @@mysql_num_rows($dbHandle->result);
+
+	$ret = array();
+	while($obj = @@mysql_fetch_object($dbHandle->result))
+		$ret[] = $obj ;
+
+	@@mysql_free_result($dbHandle->result);
+
+	return($ret);
+}
+
+/******************************/
+
+function msDbGetObject($cmd)
+{
+	$rows = msDbFetchObjects($cmd);
+	if ( count($rows) != 1 )
+		return(null);
+
+	return($rows[0]);
+}
+
+/************************************************************/
+
+function msDbSqlValue($field, $val)
+// dbMetaField $field;
+{
+	$ftype = $field->ftype;
+
+	if ( $ftype == 'string' ) {
+		// both should work
+		/*	$v = str_replace("'", "''", $val);	*/
+		$v = str_replace("'", "\\'", $val);
+		return("'$v'");
+	}
+
+	if ( $ftype == 'real' ) {
+		if ( is_null($val) || $val == "" )
+			return("0.0");
+		$d = 0.0 ;
+		 if ( sscanf($val, "%lf", & $d) == 1 )
+			return("$d");
+		msdbMsg("$field->fname: $val: not a valid $field->dbtype ");
+		return(null);
+	}
+
+	if ( $ftype == 'int' ) {
+		if ( is_null($val) || $val == "" )
+			return("0");
+		$i = 0 ;
+		if ( sscanf($val, "%d", & $i) == 1)
+			return("$i");
+		msdbMsg("$field->fname: $val: not a valid $field->dbtype");
+		return(null);
+	}
+
+	if ( $ftype == 'date' ) {
+		if ( msdbDayIsZero($val) )
+			$dt = 0 ;
+		else
+			$dt = msdbDayScan($val);
+		if ( ! is_null($dt) )
+			return("'$dt'");
+		msdbMsg("$field->fname: $val: not a valid $field->dbtype");
+		return(null);
+	}
+
+	if ( $ftype == 'datetime' ) {
+		// ???
+		return("'$val'");
+	}
+
+	if ( $ftype == 'timestamp' ) {
+		// ???
+		return("'$val'");
+	}
+
+	if ( $ftype == 'time' ) {
+		// ???
+		return("'$val'");
+	}
+
+	// ftype is ''
+	MSDB_ERROR("msDbSqlValue: $field->dbtype: unsupported data type: value is :::$val:::");
+	return(null);
+}
+
+/************************************************************/
+
+function msDbGetCreateTable($tname)
+{
+	$sql = "show create table $tname";
+
+	$rows = msDbGetAssoc("show create table $tname");
+
+	if ( count($rows) != 1 ) {
+		MSDB_ERROR("");
+		return(null);
+	}
+	return($rows[0]['Create Table']);
+}
+
+/************************************************************/
+
+function msDbColNames($table)
+{
+	$showColumns = msDbGetAssoc("show columns from $table");
+	foreach ( $showColumns as $col )
+		$ret[] = $col['Field'];
+	return($ret);
+}
+
+/************************************************************/
+
+// register an insert trigger
+// (same as defining a function with name)
+// preInsert_$tblName($row)
+// row is associative with field names as indices
+
+$insertTriggers = array();
+
+function msDbInsertTrigger($tname, $trigger)
+{
+	global $insertTriggers;
+
+	$insertTriggers[$tname] = $trigger ;
+}
+
+/********************/
+
+// call the preinsert trigger
+// abort the insert if it does not return true
+
+function msDbPreInsert($tname, & $row)
+{
+	global $insertTriggers;
+
+	if ( function_exists("preInsert_$tname") ) {
+		$funcName = "preInsert_$tname";
+		$ret = $funcName($row);
+		return($ret);
+	}
+
+	if ( ! isset($insertTriggers[$tname] ) )
+		return(true);
+	$trigger = $insertTriggers[$tname];
+	if ( ! function_exists($trigger) ) {
+		MSDB_ERROR("msDbPreInsert: registered trigger '$tirgger' does not exist");
+		return(false);
+	}
+
+	$ret = $trigger($row);
+
+	return($ret);
+}
+
+/******************************/
+
+// create an insert statement based on the associative array of name value pairs in $row
+
+function msDbInsertSql($tableName, $data)
+{
+	$names = array();
+	$values = array();
+
+	$colNames = msDbColNames($tableName);
+	if ( ! $colNames ) {
+		msdbMsg("Can Not Get Column Names for table $tableName");
+		return(false);
+	}
+
+	foreach ( $data as $name => $value ) {
+		if ( ! msdbArrValIn($name, $colNames) )
+			continue;
+		if ( msDbIsAI($tableName, $name ) )
+			continue;
+
+		$names[] = $name;
+		// fix unquoted values
+		if ( $value == '' )
+			$values[] = "''";
+		else if ( $value[0] == "'" )
+			$values[] = $value;
+		else
+			$values[] = "'$value'";
+	}
+
+	$nameList = implode(', ', $names);
+	$valueList = implode(', ', $values);
+
+	$ret = "insert into $tableName ( $nameList ) values ( $valueList )" ;
+
+	return($ret);
+}
+
+/************************************************************/
+// register an update trigger
+// to be called as triggerName($tableName, $row)
+// below is the simpler interface also:
+// preUpdate$tblName($row)
+// row is associative with field names as indices
+
+$updateTriggers = array();
+
+function msDbUpdateTrigger($tname, $trigger)
+{
+	global $updateTriggers;
+
+	$updateTriggers[$tname] = $trigger ;
+}
+
+/********************/
+
+// call the preupdate trigger
+// abort the update if it does not return true
+
+function msDbPreUpdate($tname, & $row)
+{
+	global $updateTriggers;
+
+	if ( function_exists("preUpdate_$tname") ) {
+		$funcName = "preUpdate_$tname";
+		$ret = $funcName($row);
+		return($ret);
+	}
+
+	if ( ! isset($updateTriggers[$tname] ) )
+		return(true);
+	$trigger = $updateTriggers[$tname];
+	if ( ! function_exists($trigger) ) {
+		MSDB_ERROR("msDbPreUpdate: registered trigger '$trigger' does not exist");
+		return(false);
+	}
+
+	$ret = $trigger($tname, $row);
+
+	return($ret);
+}
+
+/******************************/
+
+// create an update statment based on the associative array of name value pairs in $row
+// return null if the pre update trigger exists and returned false
+// $w is the key where clause that updates the row
+// $row can be $_REQUEST 
+
+function msDbUpdateSql($tableName, $row, $w)
+{
+	if ( ! msDbPreUpdate($tableName, $row) )
+		return(null);
+	
+	$names = array();
+	$values = array();
+	$colNames = msDbColNames($tableName);
+
+	$updates = array();
+	foreach ( $row as $n => $val ) {
+		if ( ! msdbArrValIn($n, $colNames) )
+			continue;
+
+		if ( $val == '' )
+			$v = "''";
+		else if ( $val[0] == "'" )
+			$v = $val;
+		else
+			$v = "'$val'";
+
+		$updates[] = "$n = $v";
+	}
+
+	$u = implode(', ', $updates);
+
+	$ret = "update $tableName set $u $w limit 1";
+
+	return($ret);
+}
+
+/************************************************************/
+/*------------------------------------------------------------------------------------------------------
+mysql> show index from cb_cb ;
++-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+---------+
+| Table | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Comment |
++-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+---------+
+| cb_cb |          0 | PRIMARY  |            1 | id          | A         |           0 |     NULL | NULL   |         |
++-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+---------+
+1 row in set (0.00 sec)
+
+mysql> show columns from cb_cb ;
++-----------+-------------+------+-----+---------+----------------+
+| Field     | Type        | Null | Key | Default | Extra          |
++-----------+-------------+------+-----+---------+----------------+
+| category  | varchar(64) | YES  |     | NULL    |                |
+| date      | date        | YES  |     | NULL    |                |
+| amount    | double      | YES  |     | NULL    |                |
+| toFrom    | varchar(64) | YES  |     | NULL    |                |
+| notes     | varchar(64) | YES  |     | NULL    |                |
+| closed    | int(11)     | YES  |     | NULL    |                |
+| entered   | date        | YES  |     | NULL    |                |
+| wasClosed | int(11)     | YES  |     | NULL    |                |
+| id        | int(11)     |      | PRI | NULL    | auto_increment |
++-----------+-------------+------+-----+---------+----------------+
+9 rows in set (0.00 sec)
+------------------------------------------------------------------------------------------------------------------------*/
+
+
+function msDbIsAI($table, $field)
+{
+	/*	$si = msDbGetAssoc("show index from $table");	*/
+	$sc = msDbGetAssoc("show columns from $table");
+
+	foreach ( $sc as $column ) {
+		if ( $column['Field'] == $field ) {
+			if ( $column['Extra'] == 'auto_increment' ) {
+				/*	msDbMsg("Found Auto Increment $table:$field");	*/
+				return(true);
+			} else {
+				return(false);
+			}
+		}
+	}
+
+	MSDB_ERROR("Can not find $field in $table");
+	return(false);
+}
+
+/************************************************************/
+
+function msDbIsOnlyDB()
+{
+	global $msdbConfig;
+
+	if ( isset($msdbConfig['ONLY_DB']) && $msdbConfig['ONLY_DB'] == 'true' )
+		return(true);
+	return(false);
+}
+/************************************************************/
+
+
+/*
+ * break down from the url the value of the field from a possible search operator
+ * and/or handle the explicit search:
+ * str is what the user typed, op is the comparison operator, wether explicit or typed,
+ * val is the value, without the op
+ *
+ * the 'url' may be a post
+ */
+
+class msdbUrlField
+{
+	function msdbUrlField($fname)
+	{
+		global $dbMeta;
+		$searchOps = array(">=", "<=", ">", "<", "=", "!=", "*", "!*", "like", "not like");
+
+		$this->str = null;
+		$this->op = null ;
+		$this->val = null ;
+
+		$this->str = msdbGetPost($fname);
+
+		if ( $this->str == null )
+			return; // op must stay null so this field can be ignored later,
+					//even though the sarch form always passes some op
+
+		// in msdb screens, this is define by the explicit search div
+		// if ( $dbMeta->ea == 'msdbSearch' ) {
+		if ( isset($_REQUEST["msdbOp_$fname"] ) ) {
+			$this->op = msdbGetPost("msdbOp_$fname");
+			$this->val = $this->str;
+			if ( $this->op == 'like' )
+				$this->val .= "%" ;
+			return;
+		}
+
+		/*
+		 * we want '<= ohad aloni' to go
+		 * op === '<='
+		 * val === 'ohad aloni'
+		 */
+
+		$str = $this->str;
+
+		list($op, $val) = sscanf($str, "%s %s");
+
+		if ( is_null($op) )
+			return;
+
+		if ( ! msdbArrValIn($op, $searchOps) ) {
+			$this->val = $str;
+			return;
+		}
+
+		$this->op = $op;
+
+		$this->val = substr($str, strlen($op)+1);
+	}
+}
+
+/************************************************************/
+
+// simple query builder
+// fields in $_REQUEST with names matching that of columns in the table
+// are parsed for 'op value'. A string values is implied '%val%', numbers and dates are subject to = <=, etc.
+// the result is a string:  a set of conditions anded together.
+// if (( $conds = msDbQbuild())
+//	$sql = "select * from $table where $conds";
+
+function msDbQueryBuild($table)
+{
+	
+	global $dbMeta;
+
+	$ret = array();
+
+	$dbMeta->tname = $table;
+	msDbMeta();
+
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( ! isset($_REQUEST[$f->fname]) || ! $_REQUEST[$f->fname] )
+			continue;
+
+		if ( ! ( $urlField = new msdbUrlField($f->fname) ) )
+			continue;
+		if ( is_null($urlField->op) )
+			continue;
+
+		$op = $urlField->op ;
+
+		if ( $op == '*' || $op == '!*' ) {
+			if ( $f->ftype == 'string' ) {
+				$theOp = ( $op == '*' ) ? 'like' : 'not like' ;
+				$v = '%'.$urlField->val.'%';
+				$val = msDbSqlValue($f, $v);
+				if ( $val == null )
+					return(false);
+				$ret[] = "$f->fname $theOp $val";
+			} else {
+				/*	msdbMsg("* on non-String Field ignored. Using '='");	*/
+				$theOp = ( $op == '*' ) ? '=' : '!=' ;
+				$val = msDbSqlValue($f, $urlField->val);
+				if ( $val == null )
+					return(false);
+				$ret[] = "$f->fname $theOp $val" ;
+			}
+		} else {
+			if (($val = msDbSqlValue($f, $urlField->val)) == null )
+				return(false);
+			$ret[] = "$f->fname $op $val";
+		}
+	}
+
+	return((count($ret) == 0) ? false :  implode(" and ", $ret));
+}
+
+/************************************************************/
+?>
+@
+
+
+1.88
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.87 2004/08/21 08:30:56 engine Exp engine $ ';
+d157 1
+a157 1
+		if ( stristr($dbHandle->error, "duplicate") ) {
+d161 3
+a163 1
+			MSDB_ERROR("$dbHandle->error: $sql");
+@
+
+
+1.87
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.86 2004/07/28 06:12:41 engine Exp engine $ ';
+d688 63
+a761 1
+	$ret = false ;
+d763 1
+a765 1
+
+d773 1
+a773 3
+
+
+		if ( is_null($f->urlField) )
+d775 1
+a775 2
+
+		if ( is_null($f->urlField->op) )
+d778 1
+a778 9
+		$ret = true;
+		$dbMeta->isSearch = true;
+		 // it is important that isSearch is on
+		// even if I return false from here on
+		// so as not to execute a 'new'
+
+
+		$op = $f->urlField->op ;
+
+d783 1
+a783 1
+				$v = '%'.$f->urlField->val.'%';
+d787 1
+a787 1
+				$cond = "$f->fname $theOp $val";
+d789 1
+a789 1
+				msdbMsg("* on non-String Field ignored. Using '='");
+d791 1
+a791 1
+				$val = msDbSqlValue($f, $f->urlField->val);
+d794 1
+a794 1
+				$cond = "$f->fname $theOp $val" ;
+d797 1
+a797 1
+			if (($val = msDbSqlValue($f, $f->urlField->val)) == null )
+d799 1
+a799 1
+			$cond = "$f->fname $op $val";
+a800 6
+
+
+		if ( is_null($dbMeta->where ) )
+			$dbMeta->where = "where $cond" ;
+		else
+			$dbMeta->where .= " and $cond" ;
+d803 1
+a803 1
+	return($ret);
+@
+
+
+1.86
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.85 2004/07/28 06:08:38 engine Exp engine $ ';
+d517 4
+d594 2
+a595 1
+// $w is the ket where cluase that updates the row
+d687 75
+@
+
+
+1.85
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.84 2004/07/26 18:30:08 engine Exp engine $ ';
+d521 2
+d651 1
+a651 1
+msDbIsAI($table, $field)
+d659 1
+a659 1
+				msDbMsg("Found Auto Increment $table:$field");
+@
+
+
+1.84
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.83 2004/05/31 15:03:52 engine Exp engine $ ';
+d455 10
+d511 1
+a511 1
+function msDbInsertSql($tableName, $row)
+d516 6
+a521 1
+	foreach ( $row as $name => $value ) {
+d524 3
+a526 1
+		if ( $value[0] == "'" )
+d592 3
+d597 1
+a598 3
+	if ( ! msDbPreUpdate($tableName, $row) )
+		return(null);
+	
+d601 6
+a606 2
+		// fix unquoted values
+		if ( $val[0] == "'" )
+d622 48
+@
+
+
+1.83
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.82 2004/05/31 14:51:51 engine Exp engine $ ';
+d107 8
+d199 4
+a202 1
+	$ret = msDbGetStrings("show tables from $db");
+a311 2
+function msDbFetchAssoc($cmd) { return(msDbGetAssoc($cmd)); }
+
+d331 10
+d382 2
+a383 2
+		/*	$v = ereg_replace("'", "''", $val);	*/
+		$v = ereg_replace("'", "\\'", $val);
+d444 1
+a444 1
+	$rows = msDbFetchAssoc("show create table $tname");
+d600 10
+@
+
+
+1.82
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.81 2004/05/30 11:51:06 engine Exp engine $ ';
+d216 2
+a217 1
+	$msdbTableList = msDbGetStrings("show tables");
+@
+
+
+1.81
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.80 2004/05/19 08:21:39 engine Exp engine $ ';
+d479 1
+a479 1
+// create an insert statment based on the associative of name value pairs in $row
+@
+
+
+1.80
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.79 2004/05/07 19:55:31 engine Exp engine $ ';
+d388 1
+a388 1
+		if ( $val == "" )
+d436 1
+a436 2
+// to be called as triggerName($tableName, $row)
+// below is the simpler interface also:
+d472 1
+a472 1
+	$ret = $trigger($tname, $row);
+a479 1
+// return null if the pre insert trigger exists and returned false
+a485 3
+	if ( ! msDbPreInsert($tableName, $row) )
+		return(null);
+	
+@
+
+
+1.79
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.78 2004/04/26 13:44:32 engine Exp engine $ ';
+d80 2
+a81 1
+		MSDB_ERROR("msDbConnect: Could not connect to database");
+d389 1
+a389 1
+			$dt = msdbDayToday();
+@
+
+
+1.78
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.77 2004/04/20 02:18:41 engine Exp engine $ ';
+d372 1
+a372 1
+		msdbMsg("$field->fname:::$val::: not a valid $field->dbtype ");
+d382 1
+a382 1
+		msdbMsg("$field->fname:::$val::: not a valid $field->dbtype");
+d393 1
+a393 1
+		msdbMsg("$field->fname:::$val::: not a valid $field->dbtype");
+d434 45
+d507 6
+a512 8
+/******************************/
+
+// register an insert trigger
+// this functionality is never used directly by msdb;
+// it is only used when msdb is used as an API
+//  it is quite useful, that the api functions
+// are only the registered callbacks
+// and main.php is then 'require'ed.
+d514 1
+a514 1
+$triggers = array();
+d516 1
+a516 1
+function msDbInsertTrigger($tname, $trigger)
+d518 1
+a518 1
+	global $triggers;
+d520 1
+a520 1
+	$triggers[$tname] = $trigger ;
+d525 2
+a526 1
+// call the preinsert trigger
+d528 1
+a528 1
+function msDbPreInsert($tname, & $row)
+d530 7
+a536 1
+	global $triggers;
+d538 1
+a538 1
+	if ( ! isset($triggers[$tname] ) )
+d540 1
+a540 3
+
+	$trigger = $triggers[$tname];
+
+d542 1
+a542 1
+		MSDB_ERROR("msDbPreInsert: registered trigger '$tirgger' does not exist");
+d551 32
+@
+
+
+1.77
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.76 2004/04/20 00:40:16 engine Exp engine $ ';
+d148 5
+a152 3
+		MSDB_ERROR("msDbQuery: mysql_query failed");
+		MSDB_ERROR($sql);
+		MSDB_ERROR($dbHandle->error);
+d433 71
+@
+
+
+1.76
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.75 2004/04/20 00:28:25 engine Exp engine $ ';
+d321 1
+a321 1
+function msDbFetchObjectsByCmd($cmd)
+d341 1
+a341 1
+function msDbGetObjectByCmd($cmd)
+d343 1
+a343 1
+	$rows = msDbFetchObjectsByCmd($cmd);
+@
+
+
+1.75
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.74 2004/04/20 00:07:43 engine Exp engine $ ';
+a24 1
+
+a25 20
+
+		$this->rowNum = null; // from last select
+		$this->affected = null ; // rows affected last msDbSql()
+	}
+}
+
+/******************************/
+
+class msDbData
+{
+	function msDbData()
+	{
+		// when gotten as array
+		$this->arrRows = null;
+		$this->numArrRows = null;
+		$this->numArrCols = null;
+		// when gotten as object
+		$this->objRows = null;
+		$this->objNumRows = null;
+		$this->objNumFields = null;
+a29 1
+
+a30 2
+global $dbData ;
+
+a31 2
+$dbData = new msDbData();
+
+a158 3
+// execute an SQL statements that is not expected
+// to return anything but success/failure
+
+d166 1
+a166 1
+	$dbHandle->affected = @@mysql_affected_rows($dbHandle->link);
+d171 1
+a171 1
+	if ( $dbHandle->affected < 0 )
+d174 1
+a174 2
+
+	return($dbHandle->affected);
+@
+
+
+1.74
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.73 2004/04/20 00:01:14 engine Exp engine $ ';
+d285 1
+a285 1
+function msDbGetRows($sql)
+d287 1
+a287 4
+	global $dbHandle;
+	global $dbData;
+
+	if ( ! msDbQuery($sql) )
+d289 1
+a289 34
+
+	unset($dbData->arrRows); // will the next line GC without it?
+	$dbData->arrRows = array();
+
+	while($row = @@mysql_fetch_row($dbHandle->result))
+		$dbData->arrRows[] = $row ;
+
+	$dbHandle->rowNum = count($dbData->arrRows);
+	$dbData->numArrRows = $dbHandle->rowNum ;
+
+	if ( $dbData->numArrRows > 0 )
+		$dbData->numArrCols = count($dbData->arrRows[0]);
+	else
+		$dbData->numArrCols = @@mysql_num_fields($dbHandle->result);
+
+	@@mysql_free_result($dbHandle->result);
+
+	return($dbData->numArrRows);
+}
+
+/******************************/
+
+function msDbGetRow($sql)
+{
+	global $dbHandle;
+
+	$cnt = msDbGetRows($sql);
+
+	if ( $cnt == 1 )
+		return(true);
+
+	/*	MSDB_ERROR("msDbGetRow: '$sql': $cnt Rows");	*/
+
+	return(false);
+d296 1
+a296 7
+	global $dbHandle;
+	global $dbData;
+
+
+	$cnt = msDbGetRows($sql);
+
+	if ( $cnt < 0 )
+a297 2
+	if ( $cnt == 0 )
+		return(array());
+d299 1
+a299 1
+	foreach ( $dbData->arrRows as $row )
+d309 1
+a309 5
+	global $dbHandle;
+	global $dbData;
+
+
+	if ( ! msDbGetRow($sql) )
+a311 2
+	$row = $dbData->arrRows[0];
+
+a370 27
+function msDbGetObjectsByCmd($cmd)
+{
+	global $dbHandle;
+	global $dbData;
+
+	if ( ! msDbQuery($cmd) )
+		return(null);
+
+	$dbData->objNumRows = @@mysql_num_rows($dbHandle->result);
+
+	unset($dbData->objRows); // will the next line GC without it?
+	$dbData->objRows = array();
+
+	while($obj = @@mysql_fetch_object($dbHandle->result))
+		$dbData->objRows[] = $obj ;
+
+	$dbData->objNumRows = count($dbData->objRows);
+
+	$dbData->objNumFields = @@mysql_num_fields($dbHandle->result);
+
+	@@mysql_free_result($dbHandle->result);
+
+	return($dbData->objNumRows);
+}
+
+/******************************/
+
+a448 2
+	global $dbData;
+
+a450 1
+	$ret = msDbGetRow($sql);
+@
+
+
+1.73
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.72 2004/04/19 21:51:31 engine Exp engine $ ';
+a456 7
+/******************************/
+
+function msDbGetObjectByWhere($objname, $w)
+{
+	return(msDbGetObjectByCmd("select * from $objname $w"));
+}
+
+@
+
+
+1.72
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.71 2004/03/30 12:58:16 engine Exp engine $ ';
+d377 2
+d398 1
+d401 20
+d448 1
+a448 8
+function msDbGetObjectsByWhere($objname, $w)
+{
+	return(msDbGetObjectsByCmd("select * from $objname $w"));
+}
+
+/******************************/
+
+function msDbGetObjectByCmd($objname, $cmd)
+d450 2
+a451 4
+	global $dbHandle;
+	global $dbData;
+
+	if ( msDbGetObjectsByCmd($cmd) != 1 )
+d454 1
+a454 1
+	return($dbData->objRows[0]);
+d461 1
+a461 1
+	return(msDbGetObjectByCmd($objname, "select * from $objname $w"));
+d538 1
+d540 2
+a541 2
+	if ( $ret != 1 ) {
+		MSDB_ERROR("msDbGetCreateTable: msDbGetRows returned $ret");
+d544 1
+a544 3
+	$row = & $dbData->arrRows[0] ;
+
+	return($row[1]);
+@
+
+
+1.71
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.70 2004/03/14 16:25:59 engine Exp engine $ ';
+d266 19
+@
+
+
+1.70
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.69 2004/02/26 12:30:12 engine Exp engine $ ';
+a149 1
+	global $dbMeta;
+d358 21
+d395 1
+a395 1
+	$this->objNumRows = count($dbData->objRows);
+@
+
+
+1.69
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.68 2004/02/23 21:57:08 engine Exp engine $ ';
+d150 9
+d162 4
+d219 3
+a221 1
+	return(msDbGetStrings("show tables from $db"));
+d246 2
+@
+
+
+1.68
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.67 2004/02/16 11:39:18 engine Exp engine $ ';
+d411 3
+a413 2
+		if ( msdbStrIsFloat($val) )
+			return($val);
+d421 3
+a423 2
+		if ( msdbStrIsInt($val) )
+			return($val);
+@
+
+
+1.67
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.66 2004/02/02 17:33:24 engine Exp engine $ ';
+d67 1
+a67 1
+	if ( mysql_ping($dbHandle->link) )
+d99 1
+a99 1
+	$dbHandle->link = mysql_connect(
+d133 1
+a133 1
+	if ( ! mysql_select_db($dbname, $dbHandle->link) ) {
+d158 1
+a158 1
+	$dbHandle->result = mysql_query($sql, $dbHandle->link);
+d161 1
+a161 1
+		$dbHandle->error = mysql_error($dbHandle->link) ;
+d183 1
+a183 1
+	$dbHandle->affected = mysql_affected_rows($dbHandle->link);
+d199 1
+a199 1
+	return(mysql_insert_id());
+d261 1
+a261 1
+	while($row = mysql_fetch_row($dbHandle->result))
+d270 1
+a270 1
+		$dbData->numArrCols = mysql_num_fields($dbHandle->result);
+d272 1
+a272 1
+	mysql_free_result($dbHandle->result);
+d350 1
+a350 1
+	$dbData->objNumRows = mysql_num_rows($dbHandle->result);
+d355 1
+a355 1
+	while($obj = mysql_fetch_object($dbHandle->result))
+d360 1
+a360 1
+	$dbData->objNumFields = mysql_num_fields($dbHandle->result);
+d362 1
+a362 1
+	mysql_free_result($dbHandle->result);
+@
+
+
+1.66
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.65 2004/02/02 10:39:39 engine Exp engine $ ';
+d26 2
+a28 1
+
+d153 2
+@
+
+
+1.65
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.64 2004/02/01 22:44:15 engine Exp engine $ ';
+d424 4
+a427 1
+		$dt = msdbDayScan($val);
+@
+
+
+1.64
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.63 2004/02/01 19:50:00 engine Exp engine $ ';
+d125 2
+@
+
+
+1.63
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.62 2004/02/01 10:38:20 engine Exp engine $ ';
+d253 1
+a253 1
+	unset($dbData->arrRows); // next line would probably GC this anyway
+d347 2
+a348 1
+	unset($dbData->objRows);
+@
+
+
+1.62
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.61 2004/02/01 07:44:28 engine Exp engine $ ';
+d26 1
+a26 5
+		// actual rows are separate in $dbData, so as not to show on msdbInfo()
+		$this->rowNum = null; // for convenience
+		$this->colNum = null; // for convenience
+		$this->numRows = null; // for consistency checking only
+		$this->numFields = null; // for consistency checking only
+d28 1
+a28 1
+		$this->affected = null ; // rows affected in the last msDbSql() call
+d38 5
+a42 2
+		$this->dbRows = null;
+		// data as object - for msDbGetObjects..
+d45 1
+d253 2
+a254 8
+
+
+	$dbHandle->numRows = mysql_num_rows($dbHandle->result);
+
+	unset($dbData->dbRows);
+
+	$dbData->dbRows = array();
+
+d257 1
+a257 1
+		$dbData->dbRows[] = $row ;
+d259 2
+a260 1
+	$dbHandle->rowNum = count($dbData->dbRows);
+d262 2
+a263 6
+	if ( $dbHandle->rowNum && $dbHandle->numRows &&
+						$dbHandle->rowNum != $dbHandle->numRows)
+		MSDB_ERROR("msDbGetRows: rowNum ".$dbHandle->rowNum.", numRows".$dbHandle->numRows);
+
+	if ( $dbHandle->rowNum > 0 )
+		$dbHandle->colNum = count($dbData->dbRows[0]);
+d265 1
+a265 7
+		$dbHandle->colNum = null ;
+
+	$dbHandle->numFields =  mysql_num_fields($dbHandle->result);
+
+	if ( $dbHandle->colNum && $dbHandle->numFields &&
+						$dbHandle->colNum != $dbHandle->numFields)
+		MSDB_ERROR("msDbGetRows: colNum ".$dbHandle->colNum.", numFields".$dbHandle->numFields);
+d269 1
+a269 1
+	return($dbHandle->rowNum);
+d303 1
+a303 1
+	foreach ( $dbData->dbRows as $row )
+d320 1
+a320 1
+	$row = $dbData->dbRows[0];
+d352 3
+d462 1
+a462 1
+	$row = & $dbData->dbRows[0] ;
+@
+
+
+1.61
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.60 2004/01/31 21:53:21 engine Exp engine $ ';
+a212 2
+$msdbDbList = -1;
+
+a214 5
+	global $msdbDbList;
+
+	if ( $msdbDbList != -1 )
+		return($msdbDbList);
+
+a221 2
+$msdbTableList = -1;
+
+a223 5
+	global $msdbTableList;
+
+	if ( $msdbTableList != -1 )
+		return($msdbTableList);
+
+@
+
+
+1.60
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.59 2004/01/30 09:28:02 engine Exp engine $ ';
+a31 3
+		// data as object - for msDbGetObjects..
+		$this->objRows = null;
+		$this->objNumRows = null;
+d43 3
+a361 2
+
+
+d366 1
+a366 1
+function msDbGetObjectsByCmd($objname, $cmd)
+d369 1
+a369 2
+
+	$dbHandle->objRows = null; // will this GC?
+d374 1
+a374 1
+	$dbHandle->objNumRows = mysql_num_rows($dbHandle->result);
+d376 1
+a376 1
+	unset($dbHandle->objRows);
+d379 1
+a379 1
+		$dbHandle->objRows[] = $obj ;
+d384 1
+a384 1
+	return($dbHandle->objNumRows);
+d391 1
+a391 1
+	return(msDbGetObjectsByCmd($objname, "select * from $objname $w"));
+d399 1
+d401 1
+a401 1
+	if ( msDbGetObjectsByCmd($objname, $cmd) != 1 )
+d404 1
+a404 1
+	return($dbHandle->objRows[0]);
+@
+
+
+1.59
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.58 2004/01/30 05:58:36 engine Exp engine $ ';
+a32 1
+		$this->objName = null;
+a371 1
+	$dbHandle->objName = $objname;
+d449 5
+a453 1
+		return("'$val'");
+d457 1
+d462 1
+d467 1
+@
+
+
+1.58
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.57 2004/01/29 20:03:30 engine Exp engine $ ';
+d113 2
+a114 1
+	if ( ! mysql_select_db($controlDB, $dbHandle->link) ) {
+d119 1
+d200 7
+d209 1
+a209 2
+	$dbTables = msDbGetStrings("show tables from $db") ;
+	return(msdbArrValIn($table, $dbTables));
+@
+
+
+1.57
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.56 2004/01/29 15:26:40 engine Exp engine $ ';
+d110 8
+@
+
+
+1.56
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.55 2004/01/29 11:00:40 engine Exp engine $ ';
+d109 12
+a120 1
+	$dbname = $msdbConfig['DB_NAME'];
+d122 1
+a122 1
+		MSDB_ERROR("msDbConnect: Unable to select $dbname");
+a123 1
+		
+d126 1
+a126 1
+	$dbHandle->connected = true ;
+a127 1
+	return(true);
+@
+
+
+1.55
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.54 2004/01/29 09:18:37 engine Exp engine $ ';
+a122 1
+// msDbQuery is a concentrator for control
+a124 1
+
+d184 1
+a184 1
+	return(msdbArrValIn($table, $dbTables);
+a342 4
+/*
+ * object interfaces are for msDb private objects mostly
+ * msdb_passwd, for logon and sid management.
+ */
+@
+
+
+1.54
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.53 2004/01/29 09:00:43 engine Exp engine $ ';
+d183 8
+@
+
+
+1.53
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.52 2004/01/29 08:25:53 engine Exp engine $ ';
+d130 1
+a130 3
+	global $msdbConfig;
+
+	$showAll = $msdbConfig['SHOW_ALL_QUERIES'];
+d132 1
+a132 2
+	if ( $showAll )
+		msdbMsg("msDbQuery: $sql");
+@
+
+
+1.52
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.51 2004/01/28 13:15:52 engine Exp engine $ ';
+d123 3
+d130 6
+d155 2
+a156 2
+// the diffrence between msDbSql() and msDbQuery() is mostly in the return value
+// which is not necessarily used
+d184 3
+a186 1
+/******************************/
+d188 1
+a188 1
+function msDbTables()
+d190 6
+a195 3
+	global $msdbConfig;
+	global $dbHandle;
+	$ret = null;
+d197 2
+a198 2
+	if ( ! ( msDbConnect()) )
+		return(false);
+d200 1
+a200 1
+	$dbHandle->result = mysql_list_tables($msdbConfig['DB_NAME']);
+d202 1
+a202 5
+	if ( ! $dbHandle->result ) {
+		$dbHandle->error = mysql_error($dbHandle->link) ;
+		MSDB_ERROR("msDbTables: mysql_list_tables failed");
+		return(null);
+	}
+d204 3
+a206 2
+	while($row = mysql_fetch_row($dbHandle->result))
+		$ret[] = $row[0] ;
+d208 2
+a209 4
+	$dbHandle->rowNum = count($row);
+	$dbHandle->numRows = $dbHandle->rowNum ;
+	$dbHandle->colNum = 1 ;
+	$dbHandle->numFields =  1 ;
+d211 1
+a211 1
+	mysql_free_result($dbHandle->result);
+d213 1
+a213 1
+	return($ret);
+d230 1
+a230 1
+/******************************/
+@
+
+
+1.51
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.50 2004/01/28 03:21:36 engine Exp engine $ ';
+d440 1
+a440 1
+function msDbShowCreateTable($tname)
+d449 1
+a449 1
+		MSDB_ERROR("msDbShowCreateTable: msDbGetRows returned $ret");
+@
+
+
+1.50
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.49 2004/01/26 16:37:28 engine Exp engine $ ';
+d439 19
+@
+
+
+1.49
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.48 2004/01/26 13:37:33 engine Exp engine $ ';
+d144 4
+a147 1
+/******************************/
+@
+
+
+1.48
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.47 2004/01/26 10:51:02 engine Exp engine $ ';
+d273 1
+a273 1
+	MSDB_ERROR("msDbGetRow: '$sql': $cnt Rows");
+@
+
+
+1.47
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.46 2004/01/24 18:34:38 engine Exp engine $ ';
+d94 5
+d100 1
+a100 1
+			$msdbConfig['DB_HOST'],
+a149 3
+	if ( ! ( msDbConnect()) )
+		return(-1);
+
+d155 3
+d161 1
+@
+
+
+1.46
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.45 2004/01/24 18:03:51 engine Exp engine $ ';
+d416 4
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.44 2004/01/24 16:48:18 engine Exp engine $ ';
+d393 1
+a393 2
+		$r = @@(float)$val;
+		if ( $r )
+d402 1
+a402 2
+		$i = @@(int)$val ;
+		if ( $i )
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.43 2004/01/24 11:21:57 engine Exp engine $ ';
+d379 1
+d381 1
+a381 1
+	$ftype = field->ftype;
+d396 1
+a396 1
+		msdbMsg(":::$val::: not valid");
+d406 1
+a406 1
+		msdbMsg(":::$val::: not valid");
+d410 2
+a411 1
+	if ( msdbArrValIn($ftype, array('date', 'datetime', 'timestamp') ) ) {
+d414 10
+a423 1
+	MSDB_ERROR("msDbSqlValue: $ftype: unsupported data type: value is :::$val:::");
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.42 2004/01/23 19:07:32 engine Exp engine $ ';
+d378 1
+a378 1
+function msDbSqlValue($ftype, $val)
+d380 2
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.41 2004/01/22 13:02:37 engine Exp engine $ ';
+d378 1
+a378 1
+function msDbSqlValue($dbtype, $val)
+d380 1
+a380 1
+	if ( $dbtype == 'string' ) {
+d387 1
+a387 1
+	if ( $dbtype == 'real' ) {
+d397 1
+a397 1
+	if ( $dbtype == 'int' ) {
+d407 1
+a407 1
+	if ( msdbArrValIn($dbtype, array('date', 'datetime', 'timestamp') ) ) {
+d410 1
+a410 1
+	MSDB_ERROR("msDbSqlValue: $dbtype: unsupported data type: value is :::$val:::");
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.40 2004/01/21 18:18:26 engine Exp engine $ ';
+a407 2
+		msdbMsg(":::$val:::$dbtype:::not known");
+		return(null);
+d410 1
+a410 1
+	msdbMsg(":::$val:::$dbtype:::not known");
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.39 2004/01/21 12:02:22 engine Exp engine $ ';
+d26 1
+a26 2
+		// data as array
+		/*	$this->rows = null;	*/ // rows are separate, so as not to show on msdbInfo()
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.38 2004/01/21 11:58:44 engine Exp engine $ ';
+d381 6
+a386 2
+	if ( $dbtype == 'string' )
+		return("'$val'");
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.37 2004/01/21 11:53:17 engine Exp engine $ ';
+d401 1
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.36 2004/01/21 11:28:25 engine Exp engine $ ';
+d379 1
+a379 5
+$sqlQuoteTypes = array('string');
+
+/**********/
+
+function msdbSqlQuote($dbtype)
+d381 1
+a381 20
+	global $sqlQuoteTypes;
+
+	return(msdbArrValIn($dbtype, $sqlQuoteTypes) ? "'" : "");
+}
+
+/**********/
+
+/*	function msdbQuoteSqlValue($dbtype, $val)	*/
+/*	{	*/
+	/*	$q = msdbSqlQuote($dbtype);	*/
+	/*	return("$q$val$q");	*/
+/*	}	*/
+
+/**********/
+
+function msdbSqlValue($dbtype, $val)
+{
+	global $sqlQuoteTypes;
+
+	if ( msdbArrValIn($dbtype, $sqlQuoteTypes) )
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.35 2004/01/21 11:18:31 engine Exp engine $ ';
+d426 3
+a428 1
+	if ( msdbArrValIn($dbtype, array('date', 'datetime', 'timestamp')) {
+d431 1
+a431 1
+	MSDB_ERROR("msdbSqlValue: :::$dbtype:::);
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.33 2004/01/21 10:02:49 engine Exp engine $ ';
+d407 2
+a408 2
+	if ( dbtype == 'real' ) {
+		if ( isnull($val) || $val == "" )
+d418 1
+a418 1
+		if ( isnull($val) || $val == "" )
+d425 5
+@
+
+
+1.34
+log
+@None
+@
+text
+@d392 5
+a396 5
+function msdbQuoteSqlValue($dbtype, $val)
+{
+	$q = msdbSqlQuote($dbtype);
+	return("$q$val$q");
+}
+d425 1
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.32 2004/01/21 08:00:11 engine Exp engine $ ';
+d71 1
+a71 1
+	MSDB_MSG("msDbPing: mysql_ping failed");
+d86 1
+a86 1
+			MSDB_MSG("msDbConnect: (re-connect): msDbPing failed");
+d102 1
+a102 1
+		MSDB_MSG("msDbConnect: Could not connect to database");
+d107 1
+a107 1
+		MSDB_MSG("msDbConnect: Unable to select $dbname");
+d182 1
+a182 1
+		MSDB_MSG("msDbTables: mysql_list_tables failed");
+d239 1
+a239 1
+		MSDB_MSG("msDbGetRows: rowNum ".$dbHandle->rowNum.", numRows".$dbHandle->numRows);
+d250 1
+a250 4
+		MSDB_MSG("msDbGetRows: colNum ".$dbHandle->colNum.", numFields".$dbHandle->numFields);
+
+	/*	msDbGetResMeta();	*/
+
+d268 1
+a268 1
+	MSDB_MSG("msDbGetRow: '$sql': $cnt Rows");
+d377 51
+a427 1
+/******************************/
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.31 2004/01/19 15:33:50 engine Exp engine $ ';
+d131 3
+a133 3
+		MSDB_MSG("msDbQuery: mysql_query failed");
+		MSDB_MSG($sql);
+		MSDB_MSG($dbHandle->error);
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.30 2004/01/19 11:21:37 engine Exp engine $ ';
+d162 7
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.29 2004/01/19 11:16:16 engine Exp engine $ ';
+d37 1
+d147 1
+a147 1
+		return(false);
+d150 3
+a152 1
+		return(false);
+d154 2
+d157 1
+a157 1
+	return($ret);
+@
+
+
+1.29
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.28 2004/01/13 15:12:55 engine Exp engine $ ';
+a125 7
+	if ( function_exists('mysql_ping')) {
+		if ( ! mysql_ping($dbHandle->link) ) {
+			MSDB_MSG("msDbQuery: mysql_ping failed");
+			return(false);
+		}
+	}
+
+d130 1
+a130 1
+		MSDB_MSG("msDbQuery: mysql_query failed: ");
+d143 10
+a152 1
+	
+a165 7
+	if ( function_exists('mysql_ping')) {
+		if ( ! mysql_ping($dbHandle->link) ) {
+			MSDB_MSG("msDbQuery: mysql_ping failed");
+			return(false);
+		}
+	}
+
+d170 1
+a170 1
+		MSDB_MSG("msDbQuery: mysql_list_tables failed, ");
+@
+
+
+1.28
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.27 2004/01/13 14:58:41 engine Exp engine $ ';
+d60 16
+d81 2
+a82 4
+	if ( ! is_null($dbHandle->connected) )
+		if ( $dbHandle->connected )
+			return(true);
+		else
+d84 7
+d148 7
+@
+
+
+1.27
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.26 2004/01/13 14:56:05 engine Exp engine $ ';
+d80 1
+a80 1
+		msdbMsg("msDbConnect: Could not connect to database");
+d85 1
+a85 1
+		msdbMsg("msDbConnect: Unable to select $dbname");
+d107 1
+a107 1
+			msdbMsg("msDbQuery: mysql_ping failed");
+d116 3
+a118 3
+		msdbMsg("msDbQuery: mysql_query failed: ");
+		msdbMsg($sql);
+		msdbMsg($dbHandle->error);
+d138 1
+a138 1
+			msdbMsg("msDbQuery: mysql_ping failed");
+d147 1
+a147 1
+		msdbMsg("msDbQuery: mysql_list_tables failed, ");
+d204 1
+a204 1
+		msdbMsg("msDbGetRows: rowNum ".$dbHandle->rowNum.", numRows".$dbHandle->numRows);
+d215 1
+a215 1
+		msdbMsg("msDbGetRows: colNum ".$dbHandle->colNum.", numFields".$dbHandle->numFields);
+@
+
+
+1.26
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msDb.php,v 1.25 2004/01/13 13:08:00 engine Exp engine $ ';
+d236 1
+a236 1
+	msdbMsg("msDbGetRow: '$sql': $cnt Rows");
+@
+
+
+1.25
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.24
+log
+@None
+@
+text
+@d2 5
+a6 5
+/******************************/
+/* $Id: msDb.php,v 1.23 2004/01/10 19:52:13 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/******************************/
+@
+
+
+1.23
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.22 2004/01/10 16:26:01 engine Exp engine $  */
+d242 21
+@
+
+
+1.22
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.20 2004/01/08 13:23:02 engine Exp engine $  */
+d216 1
+a216 1
+	msDbGetResMeta();
+@
+
+
+1.21
+log
+@None
+@
+text
+@d41 10
+d52 1
+d55 1
+d182 1
+a182 1
+	global $msdbRows;
+d191 1
+a191 1
+	unset($msdbRows);
+d193 1
+a193 1
+	$msdbRows = array();
+d197 1
+a197 1
+		$msdbRows[] = $row ;
+d199 1
+a199 1
+	$dbHandle->rowNum = count($msdbRows);
+d206 1
+a206 1
+		$dbHandle->colNum = count($msdbRows[0]);
+d245 1
+a245 1
+	global $msdbRows;
+d251 1
+a251 1
+	$row = $dbData->rows[0];
+@
+
+
+1.20
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.19 2004/01/07 23:36:00 engine Exp engine $  */
+d26 1
+a26 1
+		$this->rows = null;
+a31 5
+		// meta
+		$this->tableName = null;
+		$this->fields = null;
+		$this->primaryName = null;
+
+a43 1
+/*	$msdb['dbHandle'] = & $dbHandle ;	*/
+a113 52
+/*
+ * get meta of the current result set in progress
+ * but don't die trying
+ *
+ */
+
+function msDbGetResMeta()
+{
+	global $dbHandle;
+
+	if ( ! $dbHandle->numFields )
+		return;
+	if ( $dbHandle->numFields <= 1 )
+		return; // don't waste time on 1x1 or less items of data
+
+	unset($dbHandle->fields);
+
+	for($i=0;$i<$dbHandle->numFields;$i++)
+		$dbHandle->fields[] = mysql_fetch_field($dbHandle->result, $i);
+	if ( count($dbHandle->fields) != $dbHandle->numFields)
+		msdbMsg("msDbGetResMeta: fldNum Inconsistent:".count($dbHandle->fields)." - ".$dbHandle->numFields);
+
+	$sampleField = $dbHandle->fields[0];
+	$dbHandle->tableName = $sampleField->table;
+
+	$dbHandle->primaryName = null;
+	foreach ($dbHandle->fields as $field ) {
+		if ( $field->primary_key == 1 ) {
+
+			$dbHandle->primaryName = $field->name ;
+			break;
+		}
+	}
+	if (is_null($dbHandle->primaryName)) {
+		foreach ($dbHandle->fields as $field ) {
+			if ( $field->unique_key == 1 ) {
+				$dbHandle->primaryName = $field->name ;
+				break;
+			}
+		}
+	}
+
+	$tname = $sampleField->table ;
+	if (! is_null($dbHandle->primaryName)) {
+		$p = $dbHandle->primaryName ;
+		msdbMsg("msDbGetResMeta: Primary of $tname is $p");
+	} else
+		msdbMsg("msDbGetResMeta: Warning: Can not find unique key for $tname");
+}
+
+/******************************/
+
+d170 1
+d172 2
+a173 4
+	// first blank things out
+	$dbHandle->tableName = null;
+	$dbHandle->fields = null; // will this GC?
+	$dbHandle->primaryName = null;
+d177 1
+a177 2
+	if ( ! msDbQuery($sql) )
+		return(null);
+d179 1
+a179 1
+	$dbHandle->numRows = mysql_num_rows($dbHandle->result);
+d181 1
+a181 1
+	unset($dbHandle->rows);
+a182 1
+	$dbHandle->rows = array();
+d185 1
+a185 1
+		$dbHandle->rows[] = $row ;
+d187 1
+a187 1
+	$dbHandle->rowNum = count($dbHandle->rows);
+d194 1
+a194 1
+		$dbHandle->colNum = count($dbHandle->rows[0]);
+d206 1
+d233 1
+d239 1
+a239 1
+	$row = $dbHandle->rows[0];
+@
+
+
+1.19
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.18 2004/01/07 23:12:52 engine Exp engine $  */
+d140 1
+a140 1
+		msdbMsg("msDbGetResMeta: fldNum Inconsiste:".count($dbHandle->fields)." - ".$dbHandle->numFields);
+a149 1
+			var_dump($field); // ???
+d161 7
+@
+
+
+1.18
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.17 2004/01/07 18:29:40 engine Exp engine $  */
+d237 2
+@
+
+
+1.17
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.16 2004/01/07 17:26:17 engine Exp engine $  */
+d275 1
+a275 1
+	msdbMsg("msDbGetRow: <$sql>: $cnt Rows");
+@
+
+
+1.16
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.15 2004/01/07 12:11:06 engine Exp engine $  */
+d207 9
+a215 1
+	return(msdbArrValIn($t, msDbTables());
+@
+
+
+1.15
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.14 2004/01/07 09:32:10 engine Exp engine $  */
+d205 6
+@
+
+
+1.14
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.13 2004/01/06 19:24:42 engine Exp engine $  */
+d166 39
+@
+
+
+1.13
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.12 2004/01/06 18:55:43 engine Exp engine $  */
+d150 1
+@
+
+
+1.12
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.11 2004/01/06 17:55:30 engine Exp engine $  */
+a105 1
+	msdb_r($dbHandle->result);
+a114 5
+
+	/*	echo "\n<BR>--------------msDbQuery---------------<BR>\n";	*/
+	/*	msdb_r($dbHandle);	*/
+	/*	echo "\n<BR>--------------msDbQuery---------------<BR>\n";	*/
+
+a119 16
+function msDbExec($sql)
+{
+	global $dbHandle;
+
+	msdbMsg("Calling msDbExec with <$sql>");
+
+	if ( ! ($dbHandle->result = msDbQuery($sql)) )
+		return(false);
+
+	msdb_r($dbHandle->result);
+	mysql_free_result($dbHandle->result);
+
+	return(true);
+}
+
+/******************************/
+a160 1
+	/*	msdb_r($dbHandle);	*/
+a206 2
+	/*	msdb_r($dbHandle);	*/
+
+a278 2
+	/*	msdb_r($dbHandle);	*/
+
+@
+
+
+1.11
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.10 2004/01/06 17:15:46 engine Exp engine $  */
+d106 1
+d110 3
+a112 1
+		msdbMsg("msDbQuery: mysql_query failed: ".$dbHandle->error);
+d130 3
+a132 1
+	if ( ! msDbQuery($sql) )
+d135 1
+@
+
+
+1.10
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.9 2004/01/06 16:18:13 engine Exp engine $  */
+d161 1
+a161 1
+	$dbHandle->PrimaryName = null;
+d164 2
+a165 1
+			$dbHandle->PrimaryName = $field->name ;
+d169 1
+a169 1
+	if (is_null($dbHandle->PrimaryName)) {
+d172 1
+a172 1
+				$dbHandle->PrimaryName = $field->name ;
+d177 1
+a177 1
+	msdb_r($dbHandle);
+d298 1
+a298 1
+	msdb_r($dbHandle);
+@
+
+
+1.9
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.8 2004/01/06 14:04:47 engine Exp engine $  */
+d25 1
+a25 1
+		// data
+d36 5
+d271 50
+d325 1
+a325 2
+	return(msDbGetObjects
+	return(null);
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.7 2004/01/06 14:04:02 engine Exp engine $  */
+d17 1
+d21 2
+a22 3
+		$this->result = null ; // result resource from last query
+		$this->row = null ; // a single row query fetched
+		$this->rows = null; // a table
+d24 12
+d41 1
+a41 1
+global $theHandle ;
+d43 2
+a44 2
+$theHandle = new msDbHandle();
+/*	$msdb['dbHandle'] = & $theHandle ;	*/
+d50 1
+a50 1
+	global $theHandle;
+d53 2
+a54 2
+	if ( ! is_null($theHandle->connected) )
+		if ( $theHandle->connected )
+d59 1
+a59 1
+	$theHandle->connected = false;
+d61 1
+a61 1
+	$theHandle->link = mysql_connect(
+d67 1
+a67 1
+	if ( ! $theHandle->link ) {
+d72 1
+a72 1
+	if ( ! mysql_select_db($dbname, $theHandle->link) ) {
+d78 1
+a78 1
+	$theHandle->connected = true ;
+a85 9
+/*	function msDbGetObjectByWhere($objname, $w)	*/
+/*	{	*/
+	/*	msdbMsg("msdbGetObjectByWhere: NYI");	*/
+	/*	return(null);	*/
+/*	}	*/
+
+/******************************/
+
+
+d88 1
+a88 1
+	global $theHandle;
+d94 1
+a94 1
+		if ( ! mysql_ping($theHandle->link) ) {
+d100 1
+a100 1
+	$theHandle->result = mysql_query($sql, $theHandle->link);
+d102 3
+a104 3
+	if ( ! $theHandle->result ) {
+		$theHandle->error = mysql_error($theHandle->link) ;
+		msdbMsg("msDbQuery: mysql_query failed: ".$theHandle->error);
+d110 1
+a110 1
+	/*	msdb_r($theHandle);	*/
+d118 59
+a176 1
+function msDbGetRow($sql)
+d178 1
+a178 1
+	global $theHandle;
+d180 8
+a187 1
+	if ( ! msdbQuery($sql) )
+d190 12
+a201 1
+	$theHandle->row = mysql_fetch_row($theHandle->result);
+d203 4
+a206 1
+	$row = & $theHandle->row ;
+d208 9
+a216 5
+	if ( ! $row ) {
+		$theHandle->error = mysql_error($theHandle->link) ;
+		msdbMsg("msDbGetInt: mysql_fetch_row: ".$theHandle->error);
+		return(null);
+	}
+d218 1
+a218 1
+	mysql_free_result($theHandle->result);
+d220 1
+a220 1
+	return($row);
+d225 1
+a225 1
+function msDbGetString($sql)
+d227 1
+a227 1
+	global $theHandle;
+d229 1
+a229 2
+	if ( ! msdbQuery($sql) )
+		return(null);
+d231 2
+d234 1
+a234 1
+	$theHandle->row = mysql_fetch_row($theHandle->result);
+d236 2
+a237 1
+	$row = & $theHandle->row ;
+d239 1
+a239 5
+	if ( ! $row || ! $row[0] ) {
+		$theHandle->error = mysql_error($theHandle->link) ;
+		msdbMsg("msDbGetInt: mysql_fetch_row: ".$theHandle->error);
+		return(null);
+	}
+d241 3
+a243 1
+	$ret = $row[0] ;
+a244 1
+	mysql_free_result($theHandle->result);
+d246 2
+a247 1
+	return($ret);
+d249 1
+d251 1
+d258 2
+a259 1
+	$ret = msDbGetString($sql);
+d267 8
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.6 2004/01/06 13:47:24 engine Exp engine $  */
+d134 1
+a134 1
+	return(& $row);
+@
+
+
+1.6
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: msDb.php,v 1.5 2004/01/06 12:24:55 engine Exp engine $  */
+d115 25
+a139 1
+function msDbGetInt($sql)
+d157 5
+a161 1
+	$ret = (int)$row[0] ;
+a162 1
+   mysql_free_result($theHandle->result);
+d164 9
+a172 1
+   return($ret);
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: engdb.php,v 1.3 2004/01/06 07:11:36 engine Exp engine $  */
+a12 1
+
+d19 5
+d32 1
+d34 1
+d38 2
+d43 1
+a43 1
+			return($theHandle);
+d45 1
+a45 1
+			return(null);
+d57 1
+a57 1
+		return(null);
+d61 2
+a62 2
+		msdbMsg("CmsDbConnect: Unable to select $dbname");
+		return(null);
+d68 1
+a68 1
+	return($ret);
+d82 33
+d117 13
+a129 1
+	if ( ! ( $h = msDbConnect() )
+d131 9
+a139 1
+	$h->
+@
+
+
+1.4
+log
+@None
+@
+text
+@d13 1
+d16 5
+a20 3
+	$this->link = null ;
+	/*	$this->queryRet = null ;	*/
+	$this->connected = false ;
+d25 5
+d32 10
+a41 2
+	$ret = new msDbHandle();
+	$ret->link = mysql_connect(
+d47 1
+a47 1
+	if ( ! $ret->mysql ) {
+d51 3
+a53 2
+	if ( ! mysql_select_db($msdbConfig['DB_NAME'], $ret->link) ) {
+		msdbMsg("CmsDbConnect: Unable to select $msdbConfig['DB_NAME']");
+d58 1
+a58 1
+	$ret->connected = true ;
+d62 1
+a64 4
+function msDbGetInt(sql)
+{
+	if ( ! ( $h = msDbConnect() )
+		return(null);
+d66 5
+a70 1
+}
+d74 1
+a74 1
+function msDbGetObjectByWhere($objname, $w)
+d76 3
+a78 2
+	msdbMsg("msdbGetObjectByWhere: NYI");
+	return(null);
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: engdb.php,v 1.2 2004/01/05 22:17:20 engine Exp engine $  */
+d7 16
+a22 1
+class msdbTABLE
+d24 6
+a29 2
+	function msdbRow()
+	{
+d31 3
+d35 9
+a44 1
+
+d47 1
+a47 1
+function msdbGetObjectByWhere($objname, $w)
+d49 3
+a51 2
+	msdbMsg("msdbGetObjectByWhere: NYI");
+	return(null);
+d56 1
+a56 1
+function msdbgGetObjectsByWhere()
+a57 1
+	
+d61 1
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: engdb.php,v 1.1 2004/01/05 20:02:10 engine Exp engine $  */
+d7 9
+d17 1
+a17 1
+function engDbGetObjectByWhere($objname, $w)
+d19 1
+a19 1
+	msdbMsg("engDbGetObjectByWhere: NYI");
+d24 8
+@
+
+
+1.1
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: .exrc,v 1.5 2004/01/05 10:16:31 engine Exp engine $  */
+d8 1
+a8 1
+function engDbGetObjectByWhere($w)
+@

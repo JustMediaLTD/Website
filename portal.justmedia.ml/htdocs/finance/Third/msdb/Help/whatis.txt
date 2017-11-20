@@ -1,0 +1,48 @@
+<PRE>
+
+what is msdb
+------------
+
+Msdb is an easy-to-use data browser for editing a mysql database.
+Its intended audience is developers, database administrators, and desktop users.
+It is not an administration tool, and is not used to create or modify structure of
+databases or tables, nor does it require any more than casual familiarity with databases.
+Rather, its primary focus is a fast and easy GUI for accessing data.
+
+
+Brief Description
+-----------------
+
+If there is a context of a table present, then the page contains a selected
+set of rows from the table. What to show is determined based on various criteria.
+It can be the result of a search, or the result of a restricted group of rows having
+a common field value as described in the statistical reports.
+it can be the result of the last search performed, or the last restricted set chosen.
+msdb may decide based on some other criteria (not detailed here) what to show,
+with the obvious one being that a small enough table will be shown in its entirety.
+
+There are three buttons associated with each row: Edit, New Copy, and Discard.
+
+The last row shown is a form, which allows for inserting new rows, as well as supplying
+query criteria (operators & values) for display in the following page.
+With he New Copy button, one can initiate an Insert starting with the data of an existing row,
+and only changing some of the fields (if at all).
+
+following the table view of the rows, there is a set of statistical reports, showing some
+grouping of data with some likelihood of being interesting. This information is also
+useful for allowing the selection of restricted viewing of rows based on this grouping,
+lessens the need for the construction of more complicated queries, at least in some cases.
+
+If no table context is present, a list of tables to choose from is shown.
+
+A logon screen is presented if authentication information is invalid or outdated.
+
+Authentication is achieved by either by supplying a user name and password or valid
+session identifying information, (this part is done by msdb, not by the user).
+There are no cookies used.
+
+since msdb equally accepts GET and POST information, one can easily create
+shortcuts of URLs describing a desired view of a portion of a table,
+(at the expense of lesser security, keeping the authentication information as part of the shortcut).
+This might be useful in some environments.
+</PRE>

@@ -1,0 +1,221 @@
+head	1.8;
+access;
+symbols;
+locks
+	engine:1.8; strict;
+comment	@ * @;
+
+
+1.8
+date	2004.09.02.12.01.30;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.08.01.09.33.53;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.07.29.12.07.38;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.07.28.08.09.09;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.07.27.11.57.05;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.07.27.11.19.17;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.07.27.10.36.27;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.07.26.15.27.11;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.8
+log
+@None
+@
+text
+@<DIV ID=cbChangeId class=cbChangeClass>
+<TABLE BORDER=0>
+<FORM onsubmit="cbHideChange();">
+<INPUT TYPE=hidden NAME="cbTable" value = "$cbTable">
+<INPUT TYPE=hidden NAME="closed">
+<INPUT TYPE=hidden NAME="entered">
+<INPUT TYPE=hidden NAME="id">
+<INPUT TYPE=hidden NAME="t0" value="$msdb_t0">
+
+	<TR>
+		<TD> Date </TD>
+		<TD> Amount </TD>
+		<TD> Paid To/From </TD>
+		<TD> Category </TD>
+		<TD> Notes </TD>
+		<TD></TD>
+	</TR>
+	<TR>
+
+
+		<TD><INPUT type=text size=12 maxlength=18 name=date></TD>
+		<TD><INPUT type=text size=8 maxlength=30 name=amount></TD>
+
+
+		<TD>
+			<INPUT type=text size=12 maxlength=31 name=toFrom><A HREF="javascript:cbShowSelect('cbSELtoFrom');"
+				onMouseOver="msdbSaveMouse();"><IMG BORDER=0 ALT="Select Known Paid-To/From" SRC="images/select.gif"></A>
+		</TD>
+		<TD>
+			<INPUT type=text size=8 maxlength=31 name=category><A HREF="javascript:cbShowSelect('cbSELcategory');"
+				onMouseOver="msdbSaveMouse();"><IMG BORDER=0 ALT="Select Known Category" SRC="images/select.gif"></A>
+		</TD>
+
+
+
+
+		<TD><INPUT type=text size=12 maxlength=63 name=notes></TD>
+		<TD COLSPAN=4 ALIGN=RIGHT>
+			<INPUT type=hidden name="EA" value="cbUpdate">
+			<!-- lack of a native submit button implies no submitting when hitting return -->
+			<INPUT type=submit value="OK">
+			<A HREF="javascript:cbHideChange();"><IMG alt="Cancel" BORDER=0 SRC="images/xcorner.gif"></A>
+		</TD>
+
+
+
+	</TR>
+
+</FORM>
+</TABLE>
+</DIV>
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 1
+a3 1
+<FORM ACTION="cb.php" onsubmit="cbHideChange();">
+@
+
+
+1.6
+log
+@None
+@
+text
+@d11 8
+@
+
+
+1.5
+log
+@None
+@
+text
+@d4 1
+@
+
+
+1.4
+log
+@None
+@
+text
+@d28 1
+a28 1
+		<TD><INPUT type=text size=12 maxlength=63 name=description></TD>
+@
+
+
+1.3
+log
+@None
+@
+text
+@d7 1
+a7 1
+<INPUT TYPE=hidden NAME="msdb_t0" value="$msdb_t0">
+a19 1
+		<TD><INPUT type=text size=6 maxlength=31 name=ref></TD>
+@
+
+
+1.2
+log
+@None
+@
+text
+@d1 1
+a1 1
+<div ID=cbChangeId class=cbChangeClass>
+d10 2
+d14 2
+d17 2
+a18 1
+			<INPUT type=text size=12 maxlength=31 name=toFrom><A HREF="javascript:cbShowSelect('cbSELtoFrom');" onMouseOver="msdbSaveMouse();"><IMG BORDER=0 ALT="Select Known Paid-To/From" SRC="images/select.gif"></A>
+d22 2
+a23 1
+			<INPUT type=text size=8 maxlength=31 name=category><A HREF="javascript:cbShowSelect('cbSELcategory');" onMouseOver="msdbSaveMouse();"><IMG BORDER=0 ALT="Select Known Category" SRC="images/select.gif"></A>
+d25 4
+d36 3
+d43 1
+a43 1
+</div>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 1
+a1 1
+<div ID=gldChangeId class=gldChangeClass>
+d3 1
+a3 4
+<FORM ACTION="http://$YOU_SERVER/cgi-bin/$ENG_CGI" onsubmit="gldHideChange();">
+<INPUT TYPE=hidden NAME="eng_r" value="$eng_r">
+<INPUT TYPE=hidden NAME="yckid" value="$yckid">
+<INPUT TYPE=hidden NAME="File" value="$File">
+d6 2
+a7 2
+<INPUT TYPE=hidden NAME="Fid">
+<INPUT TYPE=hidden NAME="Eid">
+d13 1
+a13 1
+			<INPUT type=text size=12 maxlength=31 name=toFrom><A HREF="javascript:gldShowSelect('gldSELtoFrom');" onMouseOver="youSaveMouse();"><IMG BORDER=0 ALT="Select Known Paid-To/From" SRC="http://$YOU_ICON_SERVER/$YOU_ICONDIR/gld/select.gif"></A>
+d17 1
+a17 1
+			<INPUT type=text size=8 maxlength=31 name=category><A HREF="javascript:gldShowSelect('gldSELcategory');" onMouseOver="youSaveMouse();"><IMG BORDER=0 ALT="Select Known Category" SRC="http://$YOU_ICON_SERVER/$YOU_ICONDIR/gld/select.gif"></A>
+d21 1
+a21 1
+			<INPUT type=hidden name="EA" value="gldUpdate">
+d24 1
+a24 1
+			<A HREF="javascript:gldHideChange();"><IMG alt="Cancel" BORDER=0 SRC="http://$YOU_ICON_SERVER/$YOU_ICONDIR/xcorner.gif"></A>
+@

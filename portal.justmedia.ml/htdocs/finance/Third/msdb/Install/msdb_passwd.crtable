@@ -1,0 +1,12 @@
+create table msdb_passwd (
+	name varchar(64) not NULL,
+	passwd varchar(64),
+	groupid varchar(64),
+	started int,
+	lasthit int,
+	userprefs text,
+	userid int auto_increment NOT NULL,
+	PRIMARY KEY (name),
+	KEY (userid)
+	)
+

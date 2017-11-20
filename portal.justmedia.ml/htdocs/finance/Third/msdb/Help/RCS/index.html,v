@@ -1,0 +1,51 @@
+head	1.2;
+access;
+symbols;
+locks
+	engine:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2004.04.21.16.08.27;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.02.02.11.08.03;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.2
+log
+@None
+@
+text
+@<CENTER>
+<A HREF="whatis.txt">What is My SQL Data Browser</A><BR>
+<A HREF="help.txt">User Instructions</A><BR>
+<A HREF="authentication.txt">Authentication</A><BR>
+<A HREF="permissions.txt">Access Permissions</A><BR>
+<A HREF="ipups.txt">Implicit Persistent User Preferences System</A><BR>
+<A HREF="about.txt">About: Development Environment, license</A><BR>
+<A HREF="mailto:nekko@@engine.com?subject=My SQL Data Browser&body=(please do not change the subject of this e-mail)">Contact</A><BR>
+</CENTER>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d6 1
+a6 1
+<A HREF="ipups.txt">Implicit Persistent User Preference System</A><BR>
+d8 1
+@

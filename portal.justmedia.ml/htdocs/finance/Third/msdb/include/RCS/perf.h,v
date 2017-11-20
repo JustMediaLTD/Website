@@ -1,0 +1,77 @@
+head	1.4;
+access;
+symbols;
+locks
+	engine:1.4; strict;
+comment	@ * @;
+
+
+1.4
+date	2004.05.31.14.57.19;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.02.01.11.04.41;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.29.07.05.29;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.06.07.11.49;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.4
+log
+@None
+@
+text
+@<BR>
+<TABLE BORDER=0 cellpadding=2 cellspacing=2 CLASS=msdbPerf>
+<TR><TD COLSPAN=3>perf data</TD></TR>
+<TR><TD>File</TD><TD>Microsecs ELAPSED</TD></TR>
+@
+
+
+1.3
+log
+@None
+@
+text
+@d2 1
+a2 1
+<TABLE BORDER=1 CLASS=msdbPerf>
+@
+
+
+1.2
+log
+@None
+@
+text
+@d4 1
+a4 1
+<TR><TD>File</TD><TD>Line</TD><TD>Microsecs</TD></TR>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 2
+a2 1
+<TABLE BORDER=1>
+@

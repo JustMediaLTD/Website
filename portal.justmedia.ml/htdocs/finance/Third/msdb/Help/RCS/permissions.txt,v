@@ -1,0 +1,92 @@
+head	1.2;
+access;
+symbols;
+locks
+	engine:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2004.01.30.12.21.39;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.26.10.05.48;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.2
+log
+@None
+@
+text
+@
+msdb permissions
+----------------
+
+The permission system is quite a bit like the Unix file system access system.
+
+the table msdb_permit list tables, with their respective owners
+and permissions, as viewed by msdb.
+
+	tname - a name of a table
+	owner - the 'owner' of the table
+	puser - permission bits for the user who owns the table.
+	pgroup - permission bits for the group to which the owner of the table belongs
+	pother - permissions bits for everybody else
+
+each of the fields puser, pgroup, pother contain a number representing bits
+that can be OR'ed together, according to the following:
+	1 - select
+	2 - insert
+	4 - Update
+	8 - delete
+
+(The distinction between insert and update may be useful, for example a table
+for logging information can allow anybody to insert new rows, but not
+necessarily change or delete any.)
+
+Each table not listed in msdb_permit is granted all permissions
+to all users who can logon.
+
+To turn off the permission system and make sure nobody turns it on
+accidentally, insert a single row in msdb_permit:
+	insert msdb_permit values ( 'msdb_permit', 'someOwner', 1, 1, 1)
+This can also be done from a WEB browser.
+
+After this, you will not be able to use msdb_permit using msdb, except for viewing.
+
+@
+
+
+1.1
+log
+@None
+@
+text
+@a1 2
+</PRE>
+
+d5 2
+d10 16
+a25 9
+the permission system is Unix like.
+e.g. -rwxr-xr-x is represented by 755.
+The unix 'execute' bit is used for the 'Delete' operation.
+There are no other bits (setuid, etc.).
+
+tables have owners, and owners belong to groups.
+
+There is no way to allow or disallow users from
+subsets of tables (neither rows nor columns).
+d30 6
+a36 1
+</PRE>
+@

@@ -1,0 +1,16 @@
+
+Implicit Persistence User Preferences System
+--------------------------------------------
+
+My SQL Data Browser stores information about the user's latest
+activity in the database and restores it as needed upon logon.
+
+The information is stored in the user's logon table msdb_passwd.
+
+The name of the database last used, the table last viewed, the last
+selection criteria, the sort order, and the last row touched are stored.
+
+When the user next logs on, My SQL Data Browser will show the last set of rows
+viewed by the user. If the last row touched is in this set, it is highlighted.
+
+Note: ipups is keyed by the user name and does not use any cookies.

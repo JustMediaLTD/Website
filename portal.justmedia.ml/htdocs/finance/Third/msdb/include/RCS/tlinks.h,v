@@ -1,0 +1,27 @@
+head	1.1;
+access;
+symbols;
+locks
+	engine:1.1; strict;
+comment	@ * @;
+
+
+1.1
+date	2004.01.06.07.11.49;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.1
+log
+@None
+@
+text
+@
+<CENTER>
+@

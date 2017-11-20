@@ -1,0 +1,919 @@
+head	1.16;
+access;
+symbols;
+locks
+	engine:1.16; strict;
+comment	@# @;
+
+
+1.16
+date	2004.09.02.12.01.44;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.08.04.16.27.59;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.07.29.14.37.41;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.07.29.12.18.51;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.07.29.12.14.36;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.07.29.11.53.59;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.07.28.08.10.20;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.07.27.11.57.07;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.07.27.11.12.03;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.07.27.11.10.23;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.07.27.10.22.38;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.07.27.10.16.10;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.07.27.10.10.16;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.07.27.07.20.15;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.07.27.06.13.26;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.07.26.11.08.12;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.16
+log
+@None
+@
+text
+@/* $Id: cb.jss,v 1.15 2004/08/04 16:27:59 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://www.engine.com/license.txt (BSD) */
+/************************************************************/
+#include "alert.h"
+/************************************************************/
+
+function
+theCB(cbTable, restrFname, restrVal)
+{
+	this.cbTable = cbTable ;
+	this.restrFname = restrFname ;
+	this.restrVal = restrVal ;
+	this.data = null; /* is assigned later */
+	return(this);
+}
+
+/******************************/
+
+function
+cbItem(category, date, amount, toFrom, notes, closed, entered, id)
+{
+	this.category = category ;
+	this.date = date ;
+	this.amount = amount ;
+	this.toFrom = toFrom ;
+	this.notes = notes ;
+	this.closed = closed ;
+	this.entered = entered ;
+	this.id = id ;
+	return(this);
+}
+
+/************************************************************/
+
+function
+cbRestrictView(which, val)
+{
+	f = new Array('category', 'toFrom', 'Statement');
+	cbCmd('cbNoOp', 0, "&restrFname=" + f[which] + "&restrVal=" + escape(val));
+}
+
+/************************************************************/
+
+function
+cbNoOp()
+{
+	cbCmd('cbNoOp', 0, "");
+}
+
+/******************************/
+
+function
+cbNoCat()
+{
+	cbCmd('cbNoOp', 0, "");
+}
+
+/************************************************************/
+
+function
+cbForm(n)
+{
+	nnewForm = document.forms[0];
+	changeForm = document.forms[1] ;
+
+
+	if ( n == '' ) {
+		if ( cb.isChange == true )
+			return(changeForm);
+		else
+			return(nnewForm);
+	}
+	/* else ( n == 'Change' ) */
+	return(changeForm);
+}
+
+/************************************************************/
+
+function
+cbNewCopy()
+{
+	f = cbForm('Change');
+	f.EA.value = "cbAdd" ;
+	f.submit();
+}
+
+/************************************************************/
+
+function
+cbHideChange()
+{
+	cb.isChange = false ;
+	cb.isNew = false ;
+
+	msdbHideDialog('cbChangeId');
+	msdbHideDialog('cbSELcategory');
+	msdbHideDialog('cbSELtoFrom');
+}
+
+/************************************************************/
+
+function
+cbSetCat(val)
+{
+	cbForm('').category.value = val ;
+	msdbHideDialog('cbSELcategory');
+}
+
+/******************************/
+
+function
+cbSetToF(val)
+{
+	cbForm('').toFrom.value = val ;
+	msdbHideDialog('cbSELtoFrom');
+}
+
+/******************************/
+
+function
+cbSet(which, val)
+{
+	if ( which == 0 )
+		cbSetCat(val);
+	else
+		cbSetToF(val);
+}
+
+/************************************************************/
+
+function
+cbToggleSelect(idname)
+{
+	ALERT1('cbToggleSelect');
+	vis = msdbDialogVisibility(idname);
+	if ( vis == 1 ) {
+		msdbHideDialog(idname);
+		return;
+	}
+
+	msdbShowDialog(idname);
+
+	msdbPlaceDialog(idname,
+			msdbTop.mouseX + document.body.scrollLeft - 8,
+			msdbTop.mouseY + document.body.scrollTop + 4
+			);
+}
+
+/************************************************************/
+
+function
+cbShowSelect(idname)
+{
+	cbToggleSelect(idname);
+}
+
+/************************************************************/
+
+function
+cbShowChange(id)
+{
+	d = cb.data;
+	cb.isChange = true ;
+
+	for(i=0;i<d.length;i++)
+		if ( d[i].id == id )
+			break;
+	if ( i == d.length ) {
+		alert("Can not find data to change.");
+		return;
+	}
+	g = d[i] ;
+	if ( i == (d.length -1 ) )
+		isLast = true;
+	else
+		isLast = false;
+
+	f = cbForm('Change');
+
+	f.category.value = g.category;
+	f.date.value = g.date;
+	f.amount.value = g.amount;
+	f.toFrom.value = g.toFrom;
+	if ( cb.isNew == true )
+		f.notes.value = "" ;
+	else
+		f.notes.value = g.notes;
+	f.closed.value = g.closed;
+	f.entered.value = g.entered;
+	f.id.value = g.id;
+
+
+	msdbShowDialog('cbChangeId');
+	msdbHideDialog('cbSELcategory');
+	msdbHideDialog('cbSELtoFrom');
+
+
+	msdbPlaceDialog('cbChangeId', 8, document.body.scrollTop + msdbTop.mouseY - 12);
+	if ( cb.isNew ) {
+		f.date.focus();
+		f.date.select();
+	} else {
+		f.amount.focus();
+		f.amount.select();
+	}
+}
+
+/************************************************************/
+
+function
+cbFindItem(id)
+{
+	d = cb.data;
+
+	for(i=0;i<d.length;i++)
+		if ( d[i].id == id )
+			break;
+	if ( i == d.length )
+		return(msdb.undef);
+
+	return(d[i]);
+}
+
+/************************************************************/
+
+function
+cbMonthly()
+{
+	cbCmd('cbMonthly', 0, '')
+}
+
+/************************************************************/
+
+function
+cbCmd(action, id, args)
+{
+	ALERT1('cbCmd');
+
+	if ( action == 'cbCons' &&
+			cb.restrFname != '' &&
+			cb.restrFname != 'Statement'
+			) {
+		alert("Can not Consolidate when in item detail view");
+		return;
+	}
+
+	if ( action == 'cbDelete' ) {
+		g = cbFindItem(id) ;
+		delMsg = "Are you Sure you want to Discard this entry?\n(" +
+			g.amount + ")" ;
+		if ( ! confirm(delMsg) )
+			return;
+	}
+
+	if ( action == 'cbChange' ) {
+		cbChangeId.className = 'cbChangeClass' ;
+		f = cbForm('Change');
+		f.EA.value = "cbUpdate" ;
+		cbShowChange(id);
+		return;
+	}
+
+	if ( action == 'cbNew' ) {
+		cb.isNew = true ;
+		cbChangeId.className = 'cbNewClass' ;
+		f = cbForm('Change');
+		f.EA.value = "cbAdd" ;
+		cbShowChange(id);
+		return;
+	}
+
+	if ( id != 0 )
+		e = "&id=" + id ;
+	else
+		e = "" ;
+
+	location = "?" +
+		'cbTable=' + cb.cbTable +
+		"&EA=" + action +
+		e +
+		"&t0=" + msdbRandom() +
+		args
+		;
+}
+
+/************************************************************/
+@
+
+
+1.15
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $  */
+d278 1
+a278 1
+	location = "cb.php?" +
+@
+
+
+1.14
+log
+@None
+@
+text
+@d1 3
+a3 1
+/* $Id: cb.jss,v 1.13 2004/07/29 12:18:51 engine Exp engine $ --- Ohad Aloni */
+@
+
+
+1.13
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.12 2004/07/29 12:14:36 engine Exp engine $ --- Ohad Aloni */
+d198 7
+a204 2
+	f.date.focus();
+	f.date.select();
+@
+
+
+1.12
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.11 2004/07/29 11:53:59 engine Exp engine $ --- Ohad Aloni */
+d180 1
+a180 1
+	f.date.value = msdbDateStr(g.date);
+@
+
+
+1.11
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.10 2004/07/28 08:10:20 engine Exp engine $ --- Ohad Aloni */
+d19 1
+a19 2
+cbItem(category, date, amount, toFrom,
+		notes, closed, entered, id)
+@
+
+
+1.10
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.9 2004/07/27 11:57:07 engine Exp engine $ --- Ohad Aloni */
+d7 1
+a7 1
+theCB(restrFname, restrVal)
+d9 1
+d134 1
+d144 2
+a145 2
+			cb.mouseX + document.body.scrollLeft - 8,
+			cb.mouseY + document.body.scrollTop + 4
+d198 1
+a198 1
+	msdbPlaceDialog('cbChangeId', 8, document.body.scrollTop + msdb.mouseY - 12);
+d273 2
+a274 1
+		"EA=" + action +
+@
+
+
+1.9
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.8 2004/07/27 11:12:03 engine Exp engine $ --- Ohad Aloni */
+d19 1
+a19 1
+		description, closed, entered, id)
+d25 1
+a25 1
+	this.description = description ;
+d183 1
+a183 1
+		f.description.value = "" ;
+d185 1
+a185 1
+		f.description.value = g.description;
+a239 2
+	ALERT2('cbCmd');
+
+a247 2
+	ALERT2('cbCmd');
+
+a255 2
+	ALERT2('cbCmd');
+
+a264 2
+	ALERT2('cbCmd');
+
+a269 2
+	ALERT2('cbCmd');
+
+d271 2
+a273 1
+		"&EA=" + action +
+@
+
+
+1.8
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.7 2004/07/27 11:10:23 engine Exp engine $ --- Ohad Aloni */
+a185 1
+	f.ref.value = g.ref;
+d281 1
+a281 1
+		"&msdb_t0=" + msdbRandom() +
+@
+
+
+1.7
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.6 2004/07/27 10:22:38 engine Exp engine $ --- Ohad Aloni */
+d283 1
+a283 1
+		"EA=" + action +
+@
+
+
+1.6
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.5 2004/07/27 10:16:10 engine Exp engine $ --- Ohad Aloni */
+d62 2
+a63 2
+	changeForm = document.forms[0] ;
+	newForm = document.forms[1];
+d70 1
+a70 1
+			return(newForm);
+d241 2
+d251 2
+d261 2
+d272 2
+d279 2
+d283 1
+a283 1
+		"EA=" + $action +
+@
+
+
+1.5
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.4 2004/07/27 10:10:16 engine Exp engine $ --- Ohad Aloni */
+d271 3
+a273 2
+	cbCmd(action,
+		e +
+d275 1
+a275 1
+		);
+@
+
+
+1.4
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.3 2004/07/27 07:20:15 engine Exp engine $ --- Ohad Aloni */
+d44 8
+d231 2
+@
+
+
+1.3
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: cb.jss,v 1.2 2004/07/27 06:13:26 engine Exp engine $ --- Ohad Aloni */
+d19 1
+a19 1
+		description, ref, closed, entered, Eid)
+a25 1
+	this.ref = ref ;
+d28 1
+a28 1
+	this.Eid = Eid ;
+d54 3
+a56 7
+	if ( youIsNS() ) {
+		changeForm = document.layers.cbChangeId.document.forms[0];
+		newForm = document.forms[0];
+	} else {
+		changeForm = document.forms[0] ;
+		newForm = document.forms[1];
+	}
+d86 3
+a88 3
+	youHideDialog('cbChangeId');
+	youHideDialog('cbSELcategory');
+	youHideDialog('cbSELtoFrom');
+d97 1
+a97 1
+	youHideDialog('cbSELcategory');
+d106 1
+a106 1
+	youHideDialog('cbSELtoFrom');
+d125 1
+a125 1
+	vis = youDialogVisibility(idname);
+d127 1
+a127 1
+		youHideDialog(idname);
+d131 1
+a131 1
+	youShowDialog(idname);
+d133 3
+a135 4
+	if ( youIsMSIE() ) {
+		youPlaceDialog(idname,
+			you.mouseX + document.body.scrollLeft - 8,
+			you.mouseY + document.body.scrollTop + 4
+a136 7
+	} else if ( youIsNS() ) {
+		l = you.mouseX ;
+		t = you.mouseY ;
+
+		youPlaceDialog(idname, l, t);
+	} else
+		alert("cbToggleSelect() - " + you.browser);
+d150 1
+a150 1
+cbShowChange(Eid)
+d156 1
+a156 1
+		if ( d[i].Eid == Eid )
+d171 1
+a171 1
+	f.date.value = youDateStr(g.date);
+d181 2
+a182 1
+	f.Eid.value = g.Eid;
+d184 3
+d188 2
+a189 14
+	youShowDialog('cbChangeId');
+	youHideDialog('cbSELcategory');
+	youHideDialog('cbSELtoFrom');
+
+
+	if ( youIsMSIE() )
+		youPlaceDialog('cbChangeId',
+				8,
+				document.body.scrollTop + you.mouseY - 12);
+	else if ( youIsNS() )
+		youPlaceDialog('cbChangeId',
+				8,
+				you.mouseY - 12 - ( isLast ? 10 : 0 )
+			);
+d197 1
+a197 1
+cbFindItem(Eid)
+d202 1
+a202 1
+		if ( d[i].Eid == Eid )
+d205 1
+a205 1
+		return(you.undef);
+d221 1
+a221 1
+cbCmd(action, Eid, args)
+d232 1
+a232 1
+		g = cbFindItem(Eid) ;
+d239 2
+a240 3
+	if ( youIsDhtml() && action == 'cbChange' ) {
+		if ( youIsMSIE() )
+			cbChangeId.className = 'cbChangeClass' ;
+d243 1
+a243 1
+		cbShowChange(Eid);
+d247 1
+a247 1
+	if ( youIsDhtml() && action == 'cbNew' ) {
+d249 1
+a249 2
+		if ( youIsMSIE() )
+			cbChangeId.className = 'cbNewClass' ;
+d252 1
+a252 1
+		cbShowChange(Eid);
+d256 2
+a257 2
+	if ( Eid != 0 )
+		e = "&Eid=" + Eid ;
+d261 1
+a261 1
+	youCmd(action,
+@
+
+
+1.2
+log
+@None
+@
+text
+@d1 3
+a3 1
+/* $Id: cb.jss,v 1.1 2004/07/26 11:08:12 engine Exp engine $ --- Ohad Aloni */
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 1
+a1 1
+/* $Id: .exrc,v 1.2 2003/11/13 13:38:47 you Exp you $ --- Ohad Aloni */
+d5 1
+a5 1
+youGld(File, Fid, restrFname, restrVal)
+a6 2
+	this.File = File;
+	this.Fid = Fid;
+d16 1
+a16 1
+youGldItem(category, date, amount, toFrom,
+d34 1
+a34 1
+gldRestrictView(which, val)
+d37 1
+a37 1
+	youGldCmd('gldNoOp', 0, "&restrFname=" + f[which] + "&restrVal=" + escape(val));
+d43 1
+a43 1
+gldNoCat()
+d45 1
+a45 1
+	youGldCmd('gldNoOp', 0, "");
+d51 1
+a51 1
+gldForm(n)
+d54 1
+a54 1
+		changeForm = document.layers.gldChangeId.document.forms[0];
+d62 1
+a62 1
+		if ( you.gld.isChange == true )
+d74 1
+a74 1
+gldNewCopy()
+d76 2
+a77 2
+	f = gldForm('Change');
+	f.EA.value = "gldAdd" ;
+d84 1
+a84 1
+gldHideChange()
+d86 2
+a87 2
+	you.gld.isChange = false ;
+	you.gld.isNew = false ;
+d89 3
+a91 3
+	youHideDialog('gldChangeId');
+	youHideDialog('gldSELcategory');
+	youHideDialog('gldSELtoFrom');
+d97 1
+a97 1
+gldSetCat(val)
+d99 2
+a100 2
+	gldForm('').category.value = val ;
+	youHideDialog('gldSELcategory');
+d106 1
+a106 1
+gldSetToF(val)
+d108 2
+a109 2
+	gldForm('').toFrom.value = val ;
+	youHideDialog('gldSELtoFrom');
+d115 1
+a115 1
+gldSet(which, val)
+d118 1
+a118 1
+		gldSetCat(val);
+d120 1
+a120 1
+		gldSetToF(val);
+d126 1
+a126 1
+gldToggleSelect(idname)
+d147 1
+a147 1
+		alert("gldToggleSelect() - " + you.browser);
+d153 1
+a153 1
+gldShowSelect(idname)
+d155 1
+a155 1
+	gldToggleSelect(idname);
+d161 1
+a161 1
+gldShowChange(Eid)
+d163 2
+a164 2
+	d = you.gld.data;
+	you.gld.isChange = true ;
+d179 1
+a179 3
+	f = gldForm('Change');
+
+	f.Fid.value = you.gld.Fid;
+d185 1
+a185 1
+	if ( you.gld.isNew == true )
+d195 3
+a197 3
+	youShowDialog('gldChangeId');
+	youHideDialog('gldSELcategory');
+	youHideDialog('gldSELtoFrom');
+d201 1
+a201 1
+		youPlaceDialog('gldChangeId',
+d205 1
+a205 1
+		youPlaceDialog('gldChangeId',
+d216 1
+a216 1
+youGldFindItem(Eid)
+d218 1
+a218 1
+	d = you.gld.data;
+d232 1
+a232 1
+youGldMonthly()
+d234 1
+a234 1
+	youGldCmd('gldMonthly', 0, '')
+d240 1
+a240 1
+youGldCmd(action, Eid, args)
+d242 3
+a244 3
+	if ( action == 'gldCons' &&
+			you.gld.restrFname != '' &&
+			you.gld.restrFname != 'Statement'
+d250 2
+a251 2
+	if ( action == 'gldDelete' ) {
+		g = youGldFindItem(Eid) ;
+d258 1
+a258 1
+	if ( youIsDhtml() && action == 'gldChange' ) {
+d260 4
+a263 4
+			gldChangeId.className = 'gldChangeClass' ;
+		f = gldForm('Change');
+		f.EA.value = "gldUpdate" ;
+		gldShowChange(Eid);
+d267 2
+a268 2
+	if ( youIsDhtml() && action == 'gldNew' ) {
+		you.gld.isNew = true ;
+d270 4
+a273 4
+			gldChangeId.className = 'gldNewClass' ;
+		f = gldForm('Change');
+		f.EA.value = "gldAdd" ;
+		gldShowChange(Eid);
+a282 2
+		"&File=" + escape(you.gld.File) +
+		"&Fid=" + you.gld.Fid +
+@

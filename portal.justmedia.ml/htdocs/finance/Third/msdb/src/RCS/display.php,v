@@ -1,0 +1,1941 @@
+head	1.63;
+access;
+symbols;
+locks
+	engine:1.63; strict;
+comment	@# @;
+
+
+1.63
+date	2004.08.23.09.17.35;	author engine;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.07.29.08.47.59;	author engine;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.05.31.14.55.45;	author engine;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.05.20.11.11.35;	author engine;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.05.08.12.23.36;	author engine;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.05.07.19.55.27;	author engine;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.04.20.02.18.38;	author engine;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.04.19.21.51.36;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.04.19.20.55.03;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.03.14.16.25.57;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.02.23.21.57.07;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.02.23.11.26.04;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.02.16.12.37.37;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.02.16.11.39.13;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.02.06.08.32.43;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.02.03.06.31.57;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.02.02.17.33.23;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.02.01.22.44.04;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.02.01.19.49.59;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.02.01.15.36.30;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.02.01.14.33.23;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.02.01.10.38.18;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.31.12.09.32;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.30.11.04.56;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.28.03.21.34;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.26.18.37.53;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.24.11.22.25;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.22.20.54.07;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.22.20.00.18;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.22.13.26.44;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.21.12.43.15;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.21.08.00.09;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.19.15.33.47;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.19.09.42.34;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.18.16.22.08;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.15.10.09.42;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.14.14.36.31;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.14.13.04.36;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.13.19.26.36;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.13.15.12.54;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.13.15.09.56;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.13.14.56.02;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.13.12.15.28;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.13.12.09.53;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.13.12.09.05;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.13.11.48.10;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.11.18.32.16;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.11.11.42.49;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.11.08.09.36;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.10.20.26.11;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.10.19.52.10;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.10.16.26.05;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.08.01.02.49;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.08.00.08.41;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.07.23.35.59;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.07.22.39.14;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.07.22.06.21;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.07.22.01.29;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.07.18.29.39;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.07.16.54.36;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.07.09.32.10;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.06.19.34.59;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.63
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: display.php,v 1.62 2004/07/29 08:47:59 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+function msdbTableHead()
+{
+	global $dbMeta;
+
+	$str = "" ;
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( ! msdbIsVisible($f) )
+			continue;
+		$fname = $f->fname;
+		$tdText = "<B>$fname</B> ";
+		if ( $dbMeta->orderBy == $fname ) {
+			$upOrDown = $dbMeta->isDesc == 'true' ? "sorterDown.gif" : "sorterUp.gif" ;
+			$iconDir = ( $hu = msdbMyHomeUrl() ) ? "$hu".'icons' : 'icons' ;
+			$obTxt = " <IMG BORDER=0 SRC=\"$iconDir/$upOrDown\"> " ;
+		} else
+			$obTxt = "";
+		$sortByUrl = msdbJsCmd("", "&orderBy=$fname");
+		$tdContent = "<A HREF=\"$sortByUrl\">$tdText</A>$obTxt";
+		$str .= "\t\t<TD>$tdContent</TD>\n" ;
+	}
+	return($str);
+}
+
+/******************************/
+
+function msdbTdAlignment($f)
+{
+	$ftype = $f->ftype;
+
+	$tdAligns = array(
+			'string' => 'ALIGN=LEFT VALIGN=TOP',
+			'real' => 'ALIGN=RIGHT VALIGN=MIDDLE',
+			'int' => 'ALIGN=RIGHT VALIGN=MIDDLE',
+			'date' => 'ALIGN=LEFT VALIGN=MIDDLE',
+			'datetime' => 'ALIGN=LEFT VALIGN=MIDDLE',
+			'timestamp' => 'ALIGN=RIGHT VALIGN=MIDDLE',
+			'time' => 'ALIGN=LEFT VALIGN=MIDDLE',
+		);
+
+	if ( isset($tdAligns[$f->ftype]) )
+		return($tdAligns[$f->ftype]);
+
+	msdbError($f->ftype);
+
+	return('');
+
+}
+
+/******************************/
+
+function msdbTableLineContent($row)
+{
+	global $dbMeta;
+
+	$colNum = $dbMeta->colNum;
+
+	$rowColNum = count($row);
+
+	if ( $colNum != $rowColNum ) {
+		MSDB_ERROR("msdbTableLineContent: row with $rowColNum columns, expected $colNum");
+		return(null);
+	}
+	
+
+	$str = "" ;
+	for($i=0;$i<$colNum;$i++) {
+		$f = $dbMeta->msdbFields[$i];
+		if ( ! msdbIsVisible($f) )
+			continue;
+
+		$dbVal = $row[$i] ;
+		if ( $f->ftype == 'date' && msdbDayIsZero($dbVal) )
+			$show = '' ;
+		else if ( isset($dbVal) && ! is_null($dbVal) )
+			$show = htmlspecialchars($dbVal) ;
+		else
+			$show = "";
+
+		$al = msdbTdAlignment($f);
+		$str .= "\t<TD $al>$show</TD>\n" ;
+	}
+		
+
+	return($str);
+}
+
+/******************************/
+
+function msdbShowTableRow($row, $rowIndex)
+{
+	global $dbMeta;
+
+	$pkf = & $dbMeta->pkField;
+
+	$isKey = ( $pkf != null ) ;
+
+	$lineContent = msdbTableLineContent($row);
+
+	if ( $lineContent == null )
+		return;
+
+	if ( $isKey ) {
+		if ( isset($row[$dbMeta->pkIndex]) )
+			$pkValue = $row[$dbMeta->pkIndex] ;
+		else {
+			msdb_r($row);
+			$sr = serialize($row);
+			MSDB_ERROR("index=$dbMeta->pkIndex but row is $sr");
+			$pkValue = 'None' ;
+		}
+	}
+
+	if ( $dbMeta->curId && $isKey && $dbMeta->curId == $pkValue )
+		$lc = 'currentLineClass' ;
+	else if ( $rowIndex % 2 == 0 )
+		$lc = 'evenLineClass' ;
+	else
+		$lc = 'oddLineClass' ;
+
+	msdbInclude('include/line.h', array('lineClass' => $lc, 'lineNumber' => $rowIndex + 1));
+
+	echo $lineContent;
+
+	if ( ! $isKey ) {
+		msdbInclude('include/line.noKey.t', null);
+		return;
+	}
+
+	$q =  ( $pkf->ftype == 'string' ) ? "'" : "" ;
+	if ( isset($_REQUEST['printerFriendly']) )
+		echo "<TR>\n";
+	else
+		msdbInclude('include/line.t', array('pkValue' => $q.$pkValue.$q));
+}
+
+/******************************/
+
+function msdbShowTableHeader()
+{
+	global $dbMeta;
+
+	msdbInclude('include/tableHead.h');
+	echo  msdbTableHead();
+	if ( isset($_REQUEST['printerFriendly']) )
+		echo "<TR>\n";
+	else
+		msdbInclude('include/tableHead.t');
+}
+
+/******************************/
+
+function msdbShowTableTailer()
+{
+	echo "</TABLE>\n";
+}
+
+/******************************/
+
+function msdbFieldInputSize($f)
+{
+	global $dbMeta;
+
+	if ( $f->fname == $dbMeta->primaryKey )
+		$sz = 5 ;
+	else if ( $f->ftype == 'int' )
+		$sz = 7 ;
+	else if ( $f->ftype == 'real' )
+		$sz = 9 ;
+	else
+		$sz = round(80 / $dbMeta->colNum);
+
+	if ( $sz < 5 )
+		return(5);
+
+	return($sz);
+	
+}
+
+/******************************/
+
+function msdbIsVisible($f)
+{
+	global $msdbConfig;
+	global $dbMeta;
+
+	$pkf = $dbMeta->pkField;
+	$dontShow =
+		( isset($msdbConfig['noAi']) && $msdbConfig['noAi'] == true || isset($_REQUEST['msdbNoAi']) ) &&
+		$f->fname == $pkf->fname &&
+		$pkf->isAutoInc
+		;
+	return(! $dontShow);
+}
+
+/******************************/
+
+// present fields to search by
+// IE6 crashes if too many fields are in this form/table
+// so put harsh limits
+
+// store for each type an array of field names and fields we crossed already.
+$searchables = array();
+
+function msdbIsSearchable($f)
+{
+	global $searchables;
+
+	// limit each datatype to how many select fields
+	$tyLimits = array(
+			'string' => 5,
+			'int' => 2,
+			'real' => 1,
+			'date' => 1,
+			'datetime' => 1,
+			'time' => 0,
+			'timestamp' => 0,
+		);
+
+
+	$ftype = $f->ftype;
+	$fname = $f->fname ;
+
+	if ( ! isset($tyLimits[$ftype]) ) {
+		MSDB_ERROR("msdbIsSearchable: No tyLimits entry for $ftype");
+		return(false);
+	}
+
+	if ( ! isset($searchables[$ftype] ) )
+		$searchables[$ftype] = array();
+
+	if ( isset($searchables[$ftype][$fname]) )
+		return($searchables[$ftype][$fname]);
+
+	if ( count($searchables[$ftype]) < $tyLimits[$ftype] )
+		$ret = true;
+	else
+		$ret = false;
+	$searchables[$ftype][$fname] = $ret;
+	return($ret);
+}
+
+/******************************/
+
+
+// not much intelligence here
+// should be decided field by field
+
+function msdbNewOrChangeForm($isSearch = false)
+{
+	global $dbMeta;
+
+	$fs = $dbMeta->msdbFields;
+
+	echo "\t\t<TD>#</TD>\n" ;
+
+	foreach ( $fs as $f ) {
+		if ( $isSearch && ! msdbIsSearchable($f) )
+			continue;
+		$sz = msdbFieldInputSize($f);
+		// it would be nice to show the values of uniserted data, here
+		// so the javascript code can detect that this popup occured
+		// and not fill with real data after a failed insert
+		// but not if this is in the searchForm
+		if ( ! $isSearch && $dbMeta->iuFailed )
+			$value = "";
+		else
+			$value = "";
+		if ( msdbIsVisible($f) ) {
+			$textBox = "<INPUT type=text size=$sz maxlength=254 name=\"$f->fname\" value=\"$value\">" ;
+			$colSpan = ( $isSearch ) ? 2 : 1 ;
+			echo "\t\t<TD COLSPAN=$colSpan>$textBox</TD>\n" ;
+		} else {
+			$textBox = "<INPUT type=hidden name=\"$f->fname\" value=\"$value\">" ;
+			echo "\t\t$textBox\n" ;
+		}
+	}
+}
+
+/******************************/
+
+function msdbPopUpHeading()
+{
+	global $dbMeta;
+
+	$str = "\t\t<TD></TD>\n" ;
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( ! msdbIsVisible($f) )
+			continue;
+		$fname = $f->fname;
+		$str .= "\t\t<TD>$fname</TD>\n" ;
+	}
+	$str .= "\t\t<TD COLSOAN=3></TD>\n\t</TR>\n\t<TR>\n";
+	return($str);
+}
+
+/******************************/
+
+function msdbSearchHeading()
+{
+	global $dbMeta;
+	$msDdOps = array('=', '>', '<', '>=', '<=', '!=', 'like');
+	/*	$msDdOps = array('=', '>', '<', '>=', '<=', '!=', 'like', 'not like');	*/
+
+	$str = "\t\t<TD></TD>\n" ;
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( ! msdbIsVisible($f) )
+			continue;
+		if ( ! msdbIsSearchable($f) )
+			continue;
+	
+		$ops = msdbHtmlOptions($msDdOps, $msDdOps, '=', null, "msdbOp_$f->fname");
+		$fname = $f->fname;
+		$str .= "\t\t<TD ALIGN=LEFT>$fname</TD><TD ALIGN=RIGHT>$ops</TD>\n" ;
+	}
+	$str .= "\t\t<TD COLSOAN=3></TD>\n\t</TR>\n\t<TR>\n";
+	return($str);
+}
+
+/******************************/
+
+function msdbSearchForm()
+{
+	msdbInclude('include/search.h', array('msdbEA' => 'msdbSearch'));
+	echo msdbSearchHeading();
+	msdbNewOrChangeForm(true);
+	msdbInclude('include/search.t', null);
+}
+
+/******************************/
+
+function msdbChangeForm()
+{
+	msdbInclude('include/change.h', array('msdbEA' => 'msdbUpdate'));
+	echo msdbPopUpHeading();
+	msdbNewOrChangeForm();
+	msdbInclude('include/change.t', null);
+}
+
+/******************************/
+
+function msdbNewForm()
+{
+	msdbInclude('include/new.h', array('msdbEA' => 'msdbUpdate'));
+	msdbNewOrChangeForm();
+	msdbInclude('include/new.t', null);
+}
+
+/******************************/
+
+function msdbShowTable($rows)
+{
+	msdbAppBar(count($rows));
+
+	msdbShowTableHeader();
+	for($i=0;$i<count($rows);$i++)
+		msdbShowTableRow($rows[$i], $i);
+	if ( ! isset($_REQUEST['printerFriendly']) )
+		msdbNewForm();
+	msdbShowTableTailer();
+}
+
+/******************************/
+?>
+@
+
+
+1.62
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.61 2004/05/31 14:55:45 engine Exp engine $ ';
+d22 2
+a23 1
+			$obTxt = " <IMG BORDER=0 SRC=\"icons/$upOrDown\"> " ;
+@
+
+
+1.61
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.60 2004/05/20 11:11:35 engine Exp engine $ ';
+d196 1
+a196 1
+		( $msdbConfig['noAi'] == true || isset($_REQUEST['msdbNoAi']) ) &&
+@
+
+
+1.60
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.59 2004/05/08 12:23:36 engine Exp engine $ ';
+d362 1
+a362 2
+	$bar = msdbAppBar(count($rows));
+	echo "\n\n$bar\n\n";
+@
+
+
+1.59
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.58 2004/05/07 19:55:27 engine Exp engine $ ';
+d16 2
+d34 25
+d75 9
+a83 2
+		if ( isset($row[$i]) && ! is_null($row[$i]) )
+			$show = htmlspecialchars($row[$i]) ;
+d87 2
+a88 1
+		$str .= "\t<TD>$show</TD>\n" ;
+d178 4
+a181 1
+		$sz = (int)(80 / $dbMeta->colNum);
+d189 63
+d265 2
+a267 1
+
+d276 8
+a283 4
+
+		$textBox = "<INPUT type=text size=$sz maxlength=254 name=\"$f->fname\" value=\"$value\">" ;
+		$colSpan = ( $isSearch ) ? 2 : 1 ;
+		echo "\t\t<TD COLSPAN=$colSpan>$textBox</TD>\n" ;
+d296 2
+d316 5
+@
+
+
+1.58
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.57 2004/04/20 02:18:38 engine Exp engine $ ';
+d151 1
+d155 1
+a155 1
+function msdbNewOrChangeForm()
+d159 1
+a159 2
+	$fs = & $dbMeta->msdbFields;
+
+d169 2
+a170 1
+		if ( $dbMeta->iuFailed )
+d175 3
+a177 1
+		echo "\t\t<TD><INPUT type=text size=$sz maxlength=254 name=\"$f->fname\" value=\"$value\"></TD>\n" ;
+d183 3
+a185 10
+$msDdOps = array(
+		'' => '',
+		'=' => '=',
+		'>' => '>',
+		'<' => '<',
+		'>=' => '>=',
+		'<=' => '<=',
+		'!=' => '!=',
+		'like' => 'like',
+);
+d187 9
+d199 1
+a199 1
+function msdbPopUpHeading()
+d202 2
+d208 1
+d210 1
+a210 1
+		$str .= "\t\t<TD>$fname</TD>\n" ;
+d216 11
+a226 1
+/**********/
+d228 1
+a228 1
+function msdbChangeform()
+@
+
+
+1.57
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.56 2004/04/19 21:51:36 engine Exp engine $ ';
+d132 21
+a152 3
+// there is not much intelligence as to what $sz should
+// be at this stage ???
+// it should be decided field by field
+d164 1
+a164 8
+		if ( $f->fname == $dbMeta->primaryKey )
+			$sz = 5 ;
+		else if ( $f->ftype == 'int' )
+			$sz = 7 ;
+		else if ( $f->ftype == 'real' )
+			$sz = 9 ;
+		else
+			$sz = (int)(80 / $dbMeta->colNum);
+d166 4
+a169 1
+		if ( $dbMeta->isInserted )
+d180 14
+@
+
+
+1.56
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.55 2004/04/19 20:55:03 engine Exp engine $ ';
+d17 1
+a17 1
+		$tdText = $fname;
+a114 1
+	echo "<TABLE BORDER=1 CELLPADDING=1 CELLSPACING=0>\n";
+d201 1
+a201 1
+function msdbShowTable()
+a202 9
+	global $dbMeta;
+
+	$sql = "select * from $dbMeta->tname $dbMeta->whereEtc";
+
+	if ( ($rows = msDbFetchRows($sql)) == null ) {
+		MSDB_ERROR("msdbShowTable: $sql");
+		return(0);
+	}
+
+@
+
+
+1.55
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.54 2004/03/14 16:25:57 engine Exp engine $ ';
+d62 1
+a62 1
+function msdbShowTableRow($i)
+a63 2
+	global $dbHandle;
+	global $dbData;
+a64 1
+	global $dbTnameRows;
+a69 2
+	$row = & $dbTnameRows[$i] ;
+
+d88 1
+a88 1
+	else if ( $i % 2 == 0 )
+d93 1
+a93 1
+	msdbInclude('include/line.h', array('lineClass' => $lc, 'lineNumber' => $i + 1));
+a203 1
+	global $dbHandle;
+a204 3
+	global $dbTnameRows;
+	global $dbData;
+
+d208 3
+a210 3
+	if ( ($rn = msDbGetRows($sql)) < 0 ) {
+			MSDB_ERROR("msdbShowTable: $sql");
+			return(0);
+d213 1
+a213 1
+	$bar = msdbAppBar($rn);
+a215 2
+	$dbTnameRows = $dbData->arrRows ;
+
+d217 2
+a218 2
+	for($i=0;$i<$rn ;$i++)
+		msdbShowTableRow($i);
+@
+
+
+1.54
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.53 2004/02/23 21:57:07 engine Exp engine $ ';
+d108 4
+a111 1
+	msdbInclude('include/line.t', array('pkValue' => $q.$pkValue.$q));
+d123 4
+a126 1
+	msdbInclude('include/tableHead.t');
+d230 2
+a231 1
+	msdbNewForm();
+@
+
+
+1.53
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.52 2004/02/23 11:26:04 engine Exp engine $ ';
+d216 3
+@
+
+
+1.52
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.51 2004/02/16 12:37:37 engine Exp engine $ ';
+d113 1
+a113 1
+function msdbShowTableHeader($appBar)
+d117 2
+a118 3
+	echo "<TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0>\n";
+	msdbInclude('include/tableHead.h',
+		array('appBar' => $appBar, 'colSpan' => $dbMeta->colNum + 4));
+d120 1
+a120 1
+	msdbInclude('include/tableHead.t', null);
+d143 1
+a143 1
+	echo "<TD>#</TD>\n" ;
+d160 1
+a160 1
+		echo "<TD><INPUT type=text size=$sz maxlength=254 name=\"$f->fname\" value=\"$value\"></TD>\n" ;
+d170 1
+a170 1
+	$str = "<TD></TD>" ;
+d176 1
+a176 1
+	$str .= "\t\t<TD COLSOAN=3></TD></TR>\n\t\t<TR>\n";
+d180 1
+a180 1
+/******************************/
+d201 1
+a201 1
+function msdbShowTable($appBar)
+d218 1
+a218 1
+	msdbShowTableHeader($appBar);
+@
+
+
+1.51
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.50 2004/02/16 11:39:13 engine Exp engine $ ';
+d167 16
+d186 1
+@
+
+
+1.50
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.49 2004/02/06 08:32:43 engine Exp engine $ ';
+d49 1
+a49 1
+			$show = $row[$i] ;
+@
+
+
+1.49
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.48 2004/02/03 06:31:57 engine Exp engine $ ';
+d19 1
+a19 1
+			$upOrDown = $dbMeta->isDesc == 'true' ? "sorterUp.gif" : "sorterDown.gif" ;
+@
+
+
+1.48
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.47 2004/02/02 17:33:23 engine Exp engine $ ';
+d32 1
+a32 1
+function msdbTableLine($row)
+d36 9
+d47 3
+a49 3
+	for($i=0;$i<count($dbMeta->msdbFields);$i++)
+		if ( isset($row[$i]) )
+			$str .= "\t<TD>$row[$i]</TD>\n" ;
+d51 5
+a55 1
+			MSDB_ERROR("index=$i but row is ".serialize($row));
+d75 5
+d100 1
+a100 2
+
+	echo msdbTableLine($row);
+@
+
+
+1.47
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.46 2004/02/01 22:44:04 engine Exp engine $ ';
+d175 1
+@
+
+
+1.46
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.45 2004/02/01 19:49:59 engine Exp engine $ ';
+d137 1
+a137 1
+			$sz = (int)(120 / $dbMeta->colNum);
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.44 2004/02/01 15:36:30 engine Exp engine $ ';
+d23 1
+a23 1
+		$sortByUrl = msdbURL("orderBy=$fname");
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.43 2004/02/01 14:33:23 engine Exp engine $ ';
+d54 1
+d60 1
+a60 1
+	$row = & $dbData->dbRows[$i] ;
+d65 6
+a70 2
+		else
+			MSDB_ERROR("index=$dbMeta->pkIndex but row is ".serialize($row));
+d172 2
+d182 2
+d185 1
+a185 1
+	for($i=0;$i<$dbHandle->rowNum ;$i++)
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.42 2004/02/01 10:38:18 engine Exp engine $ ';
+d39 4
+a42 1
+		$str .= "\t<TD>$row[$i]</TD>\n" ;
+d61 6
+a66 2
+	if ( $isKey )
+		$pkValue = $row[$dbMeta->pkIndex] ;
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.41 2004/01/31 12:09:32 engine Exp engine $ ';
+a60 1
+
+d108 1
+a108 1
+function msdbNewOrChange()
+d141 1
+a141 1
+	msdbNewOrChange();
+d150 1
+a150 1
+	msdbNewOrChange();
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.40 2004/01/30 11:04:56 engine Exp engine $ ';
+d62 1
+a62 1
+	if ( $isKey && $dbMeta->curId == $pkValue )
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.39 2004/01/28 03:21:34 engine Exp engine $ ';
+d85 1
+a85 1
+function msdbShowTableHeader()
+d87 2
+d90 2
+a91 1
+	msdbInclude('include/tableHead.h', null);
+d157 1
+a157 1
+function msdbShowTable()
+d169 1
+a169 1
+	msdbShowTableHeader();
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.38 2004/01/26 18:37:53 engine Exp engine $ ';
+d16 10
+a25 1
+		$str .= "<TD>$f->fname</TD>" ;
+d70 2
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.37 2004/01/24 11:22:25 engine Exp engine $ ';
+d127 1
+a127 1
+	msdbInclude('include/change.h', array('EA' => 'msdbUpdate'));
+d136 1
+a136 1
+	msdbInclude('include/new.h', array('EA' => 'msdbUpdate'));
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.36 2004/01/22 20:54:07 engine Exp engine $ ';
+d43 4
+d48 3
+a50 1
+	$pkValue = $row[$dbMeta->pkIndex] ;
+d53 1
+a53 1
+	if ( $dbMeta->curId == $pkValue )
+d60 2
+d63 4
+a66 6
+	$parseValues = array(
+			'lineClass' => $lc,
+			'pkValue' => $pkValue,
+			'rowIndex' => $i,
+			'lineNumber' => $i + 1
+			);
+d68 2
+a69 3
+	msdbInclude('include/line.h', $parseValues);
+	echo msdbTableLine($row);
+	msdbInclude('include/line.t', $parseValues);
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.35 2004/01/22 20:00:18 engine Exp engine $ ';
+d102 1
+a102 1
+		else if ( $f->dbtype == 'int' )
+d104 1
+a104 1
+		else if ( $f->dbtype == 'real' )
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.34 2004/01/22 13:26:44 engine Exp engine $ ';
+d102 1
+a102 1
+		else if ( $f->dbtype == 'integer' )
+@
+
+
+1.34
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.33 2004/01/21 12:43:15 engine Exp engine $ ';
+a95 1
+	$sz = (int)(70 / count($fs)) ;
+d98 1
+d100 9
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.32 2004/01/21 08:00:09 engine Exp engine $ ';
+d86 4
+d96 2
+d104 2
+a105 1
+		echo "<TD><INPUT type=text size=10 maxlength=254 name=\"$f->fname\" value=\"$value\"></TD>\n" ;
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.31 2004/01/19 15:33:47 engine Exp engine $ ';
+d130 1
+a130 1
+			MSDB_MSG("msdbShowTable: $sql");
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.30 2004/01/19 09:42:34 engine Exp engine $ ';
+d43 7
+a49 1
+	if ( $i % 2 == 0 )
+a53 2
+	$row = & $dbData->dbRows[$i] ;
+	$pkValue = $row[$dbMeta->pkIndex] ;
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.29 2004/01/18 16:22:08 engine Exp engine $ ';
+d94 1
+a94 1
+		echo "<TD><INPUT type=text size=16 maxlength=30 name=\"$f->fname\" value=\"$value\"></TD>\n" ;
+@
+
+
+1.29
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.28 2004/01/15 10:09:42 engine Exp engine $ ';
+d27 1
+d29 1
+a29 1
+	for($i=0;$i<count($dbMeta->msdbFields);$i++) {
+d31 1
+a31 2
+		
+	}
+d88 1
+@
+
+
+1.28
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.27 2004/01/14 14:36:31 engine Exp engine $ ';
+d82 35
+d132 1
+@
+
+
+1.27
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.26 2004/01/14 13:04:36 engine Exp engine $ ';
+a80 38
+/*
+ * the main sql statement that selects the rows from the table
+ */
+
+
+
+function msdbTheSql()
+{
+	global $msdb;
+	global $dbMeta;
+
+	$sr = $msdb['showRows'];
+	$lr = $msdb['limitRows'];
+
+	$tname = $dbMeta->tname ;
+
+	if ( is_null($dbMeta->where) ) {
+		$w = "" ;
+		if ( $dbMeta->rowNum > $lr )
+			$limit = "LIMIT $sr" ;
+		else
+			$limit = "";
+	} else {
+		$w = $dbMeta->where ;
+		$limit = "LIMIT $lr";
+	}
+
+	if ( is_null($dbMeta->orderBy) )
+		$ob = "" ;
+	else
+		$ob = $dbMeta->orderBy;
+
+	$ret = "select * from $tname $w $ob $limit";
+
+	return($ret);
+}
+
+/******************************/
+d87 2
+a88 1
+	$sql = msdbTheSql();
+a92 1
+	msdbMsg("$dbMeta->tname: showing $rn Rows");
+@
+
+
+1.26
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.25 2004/01/13 19:26:36 engine Exp engine $ ';
+d108 1
+a108 1
+	if ( is_null($dbMeta->orderBy )
+@
+
+
+1.25
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.24 2004/01/13 15:12:54 engine Exp engine $ ';
+d85 2
+d89 7
+a95 1
+	global $msdbHeadVar;
+d97 17
+a113 2
+	$tname = $msdbHeadVar->tname ;
+	$w = $msdbHeadVar->where ;
+a114 1
+	$ret = "select * from $tname $w";
+d123 1
+a123 1
+	global $msdbHeadVar;
+d130 1
+a130 1
+	MSDB_MSG("$msdbHeadVar->tname: $rn Rows");
+@
+
+
+1.24
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.23 2004/01/13 15:09:56 engine Exp engine $ ';
+d81 16
+d103 3
+a105 2
+	if ( ($rn = msDbGetRows("select * from $msdbHeadVar->tname")) < 0 ) {
+			MSDB_MSG("msdbShowTable: No rows in $msdbHeadVar->tname");
+a113 4
+
+	msdbStatistics();
+
+	msdbInfo();
+@
+
+
+1.23
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.22 2004/01/13 14:56:02 engine Exp engine $ ';
+d91 1
+a91 1
+	msdbMsg("$msdbHeadVar->tname: $rn Rows");
+@
+
+
+1.22
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: display.php,v 1.21 2004/01/13 13:08:00 engine Exp engine $ ';
+d88 1
+a88 1
+			msdbMsg("msdbShowTable: No rows in $msdbHeadVar->tname");
+@
+
+
+1.21
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.20
+log
+@None
+@
+text
+@d2 5
+a6 5
+/******************************/
+/* $Id: display.php,v 1.19 2004/01/13 12:09:53 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/******************************/
+@
+
+
+1.19
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.18 2004/01/13 12:09:05 engine Exp engine $  */
+d97 1
+a97 1
+	msdbStatss();
+@
+
+
+1.18
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.17 2004/01/13 11:48:10 engine Exp engine $  */
+d97 1
+a97 1
+	msdbReports();
+@
+
+
+1.17
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.16 2004/01/11 18:32:16 engine Exp engine $  */
+d54 1
+a54 1
+			'linNumber' => $i + 1
+@
+
+
+1.16
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.15 2004/01/11 11:42:49 engine Exp engine $  */
+d53 2
+a54 1
+			'rowIndex' => $i + 1
+@
+
+
+1.15
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.14 2004/01/11 08:09:36 engine Exp engine $  */
+d96 2
+@
+
+
+1.14
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.13 2004/01/10 20:26:11 engine Exp engine $  */
+d53 1
+a53 1
+			'rowIndex' => $i
+a84 2
+	msdbInfo();
+
+@
+
+
+1.13
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.12 2004/01/10 19:52:10 engine Exp engine $  */
+d47 2
+a48 1
+	msdbInclude('include/line.h', array('lineClass' => $lc));
+d50 5
+a54 1
+	$row = & $dbData->dbRows[$i] ;
+d56 1
+d58 1
+a58 4
+
+	$pkValue = $row[$dbMeta->pkIndex] ;
+
+	msdbInclude('include/line.t', array('pkValue' => $pkValue));
+d85 2
+@
+
+
+1.12
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.11 2004/01/10 16:26:05 engine Exp engine $  */
+d40 1
+d53 3
+a55 1
+	msdbInclude('include/line.t', array('msdbRowid' => 1961));
+@
+
+
+1.11
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.10 2004/01/08 01:02:49 engine Exp engine $  */
+d12 20
+a31 4
+	$n2 = $dbMeta->fields[0]->name;
+	$n3 = $dbMeta->fields[1]->name;
+	$ret = "<TD>$n2</TD><TD>$n3</TD>" ;
+	return($ret);
+a48 2
+	$f1 = $row[0];
+	$f2 = $row[1];
+d50 1
+a50 1
+	echo "<TD>$f1</TD><TD>$f2</TD>\n";
+d59 1
+a59 1
+	echo "<TABLE BORDER=1>\n";
+@
+
+
+1.10
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.9 2004/01/08 00:08:41 engine Exp engine $  */
+d10 1
+a10 1
+	global $dbHandle;
+d12 2
+a13 2
+	$n2 = $dbHandle->fields[0]->name;
+	$n3 = $dbHandle->fields[1]->name;
+d23 1
+d32 1
+a32 1
+	$row = & $dbHandle->rows[$i] ;
+@
+
+
+1.9
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.8 2004/01/07 23:35:59 engine Exp engine $  */
+d12 2
+a13 2
+	$n2 = $dbHandle->fields[2]->name;
+	$n3 = $dbHandle->fields[3]->name;
+d32 2
+a33 2
+	$f1 = $row[2];
+	$f2 = $row[3];
+a69 1
+	/*	msdbInfo();	*/
+d74 2
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.7 2004/01/07 22:39:14 engine Exp engine $  */
+d35 1
+a35 2
+	echo "<TD>$f1</TD><TD><$f2></TD>\n";
+
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.6 2004/01/07 22:06:21 engine Exp engine $  */
+d69 3
+a71 1
+	msdbMsg("msdbShowTable: Shwoing table $msdbHeadVar->tname: $rn Rows");
+@
+
+
+1.6
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.5 2004/01/07 22:01:29 engine Exp engine $  */
+d24 6
+a29 1
+	msdbInclude('include/line.h', null);
+d37 2
+a38 1
+	msdbInclude('include/line.t', null);
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.4 2004/01/07 18:29:39 engine Exp engine $  */
+d24 2
+d29 4
+a32 1
+	echo "<TR><TD>$f1</TD><TD><$f2></TD></TR>\n";
+@
+
+
+1.4
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.3 2004/01/07 16:54:36 engine Exp engine $  */
+d11 4
+a14 2
+	$n1 = $
+	$ret = "<TD>fname1</TD><TD>fname2</TD>" ;
+d25 3
+a27 3
+	$f1 = $row[$2];
+	$f2 = $row[$3];
+	echo "<TD>$row[$2]\n";
+d42 1
+a42 1
+function msdbShowTableTailer($i)
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.2 2004/01/07 09:32:10 engine Exp engine $  */
+d8 1
+a8 1
+function msdbShowTable($mh)
+d11 40
+d52 2
+a53 2
+	if ( ($rn = msDbGetRows("select * from $mh->tname")) < 0 ) {
+			msdbMsg("msdbShowTable: No rows in $mh->tname");
+d56 5
+a60 5
+	msdbMsg("msdbShowTable: Shwoing table $mh->tname: $rn Rows");
+	msdbShowHeader(
+	foreach ( 
+		
+		
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: display.php,v 1.1 2004/01/06 19:34:59 engine Exp engine $  */
+d7 1
+d17 2
+@
+
+
+1.1
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: .exrc,v 1.5 2004/01/05 10:16:31 engine Exp engine $  */
+d9 9
+a17 1
+	
+d19 1
+@

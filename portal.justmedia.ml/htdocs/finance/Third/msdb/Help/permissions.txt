@@ -1,0 +1,62 @@
+
+permissions
+-----------
+
+
+
+1 . Access is only allowed to data in database containing the table msdb_permit.
+
+Installation:
+	Upon install, My SQL Data Browser will ask you to install two tables in the
+	database identified in msdbConfig[].
+
+	msdb_passwd - is a table of users. one user is inserted upon install.
+	msdb_permit - list of permission. is installed empty.
+
+	this allows anyone who can login as listed in msdb_passwd to access all
+	tables in the configured database.
+
+	A read-only mode configuration also exists (in config.php).
+	if read-only mode is set, permissions can still be explicitely defined
+	for tables and users to allow write access to some users. (see below).
+
+2.  To allow access to other databases, the table msdb_permit must be installed in it.
+	Admin Instruction are given when trying to access a databse without permissions.
+
+
+3.  The permission system is similar to the Unix file system access system.
+	(The numbers have a different meaning and there are 4 bits in all not 3.)
+
+msdb_permit lists tables, with their respective owners and permissions.
+
+msdb_passwd lists a group name with each user.
+
+msdb_permit -
+	tname - a name of a table
+	owner - the 'owner' of the table
+	puser - permission bits for the user who owns the table.
+	pgroup - permission bits for the group to which the owner of the table belongs
+	pother - permissions bits for everybody else
+
+each of the fields puser, pgroup, pother contain a number representing bits
+that can be OR'ed together, according to the following:
+	1 - select
+	2 - insert
+	4 - Update
+	8 - delete
+
+(The distinction between insert and update may be useful, for example a table
+for logging information can allow anybody to insert new rows, but not
+necessarily change or delete any.)
+
+4. turning the system off.
+
+To turn off the permission system and make sure nobody turns it on
+accidentally, insert a single row in msdb_permit:
+	insert msdb_permit values ( 'msdb_permit', 'someOwner', 1, 1, 1)
+
+This means anyone who can login can access any table but nobody can change it. 
+
+This can also be done from a WEB browser. (once!).
+
+

@@ -1,0 +1,1588 @@
+head	1.46;
+access;
+symbols;
+locks
+	engine:1.46; strict;
+comment	@# @;
+
+
+1.46
+date	2004.05.31.14.55.29;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.05.08.12.23.35;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.05.07.19.55.22;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.04.29.10.01.53;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.04.20.02.18.36;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.03.14.16.25.54;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.02.16.12.37.22;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.02.03.06.31.56;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.02.02.08.24.25;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.02.02.08.20.40;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.02.01.19.49.58;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.02.01.15.36.29;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.02.01.10.38.18;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.02.01.07.44.27;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.30.05.58.34;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.29.08.25.51;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.29.08.25.25;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.28.13.15.48;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.26.18.49.42;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.26.17.57.16;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.26.13.37.29;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.24.20.02.27;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.24.19.53.33;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.24.16.48.16;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.24.15.52.35;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.24.11.29.58;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.24.11.21.56;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.23.11.13.28;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.23.11.12.21;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.22.18.17.40;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.22.13.02.36;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.22.12.47.38;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.22.09.52.00;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.21.12.17.47;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.21.11.58.43;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.21.11.53.15;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.21.11.28.19;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.21.11.09.48;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.21.10.02.49;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.21.09.53.19;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.21.08.00.09;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.21.06.15.55;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.19.15.33.47;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.19.14.56.06;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.19.13.47.43;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.19.10.42.07;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.46
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: actions.php,v 1.45 2004/05/08 12:23:35 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+function msdbIsPrimary($fname)
+{
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+	$rn = $dbMeta->rowNum;
+
+	$dstnct = msDbGetInt("select count(distinct $fname) from $tname");
+
+	if ( $rn > 0 && $dstnct != $rn )
+		return(false);
+
+	return(true);
+}
+
+/************************************************************/
+
+function msdbPkWhere()
+{
+	global $dbMeta;
+
+	if ( ! $dbMeta->primaryKey ) {
+		msdbMsg("msdbPkWhere: no Primary Key");
+		return(null);
+	}
+
+	$pkName = msdbGetPost('msdbPkName');
+
+	if ( $pkName != $dbMeta->primaryKey ) {
+		// recheck
+		if ( ! msdbIsPrimary($pkName) ) {
+			msdbMsg("Primary Key problem: $pkName used to be unique, but no longer");
+			msdbMsg("Can not safely perform the operation requested (yet)");
+			msdbMsg("Refresh and try again");
+			return(null);
+		}
+	}
+
+	$rawValue = msdbGetPost('msdbPkval');
+	if ( $rawValue === null )
+		return(null);
+
+	if ( ($pkValue = msDbSqlValue($dbMeta->pkField, $rawValue)) == null )
+		return(null);
+
+	$w = "where $pkName = $pkValue";
+	return($w);
+}
+
+/************************************************************/
+
+/*
+ * show create table and insert statements
+ */
+
+function msdbGenInsert()
+{
+	global $dbMeta;
+	global $msdbConfig;
+
+	$tname = $dbMeta->tname;
+	$pkName = $dbMeta->primaryKey;
+
+	if ( $pkName )
+		$ob = "order by $pkName" ;
+	else
+		$ob = "";
+
+	$lots = $msdbConfig['LOTS_OF_ROWS'];
+
+	if  ( $dbMeta->rowNum == 0  ) {
+		msdbMsg("$tname: 0 rows");
+		return;
+	}
+
+	if  ( $dbMeta->rowNum > $lots  ) {
+		// msdb is not intended as an admin tool
+		msdbMsg("$tname: Too many Rows ($dbMeta->rowNum). use mysqldump.");
+		return;
+	}
+
+	$rows = msDbGetAssoc("select * from $tname $ob");
+
+	echo "<BR><BR><PRE>\n\n\n";
+
+	foreach ( $rows as $row ) {
+		$valueList = array();
+		for($i=0;$i < $dbMeta->colNum;$i++) {
+			$f = & $dbMeta->msdbFields[$i] ;
+			$valueList[] = msDbSqlValue($f, $row[$f->fname]);
+		}
+		$str = "insert into $tname values (".implode(", ", $valueList).");";
+		echo "$str\n";
+	}
+	echo "\n\n\n</PRE><BR><BR>\n";
+
+}
+
+/******************************/
+
+/*
+ * debugging tool to aid re-creating bugs in a separate environment
+ */
+
+function msdbGenCrtable()
+{
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+
+	if ( ($crtable = msDbGetCreateTable($tname)) == null)
+		return;
+
+	echo "<BR><PRE><BR>\n\n";
+	echo $crtable.";\n\n";
+	echo "<BR></PRE><BR>\n\n";
+
+	msdbGenInsert();
+}
+
+/************************************************************/
+
+function msdbInsert()
+{
+	global $dbMeta;
+
+	$dbMeta->curId = null;
+	$dbMeta->insertIdOr = null;
+
+	// first, check to see that its not a search action rather than insert
+	if ( $dbMeta->isSearch )
+		return;
+
+	$isEmpty = true;
+	$row = array();
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( $f->ftype == 'timestamp' )
+			continue;
+		if ( $f->isAutoInc ) {
+			$autoIncFname = $f->fname;
+			continue;
+		}
+
+		$fstr = $f->urlField->val ;
+		if ( $fstr != "" )
+			$isEmpty = false;
+
+		if ( ($fvalue = msDbSqlValue($f, $fstr)) == null ) {
+			msdbMsg("Not Inserted");
+			return;
+		}
+
+		if ( $f->fname == $dbMeta->primaryKey && ! $f->isAutoInc ) {
+			$dbMeta->curId = $fstr;
+			$dbMeta->insertIdOr = "$f->fname = $fvalue";
+		}
+
+		$row[$f->fname] = $fvalue;
+	}
+
+	if ( $isEmpty ) {
+		msdbMsg("Empty row not inserted");
+		return;
+	}
+
+	if ( ! msDbPreInsert($dbMeta->tname, $row) )
+		return;
+	
+	$ins = msDbInsertSql($dbMeta->tname, $row);
+
+	$affected = msDbSql($ins);
+
+	if ( $affected < 1 ) {
+		msdbMsg("Nothing Inserted");
+		return;
+	}
+
+	msdbMsg("One Row Inserted by: $ins");
+
+	if ( is_null($dbMeta->curId) && ! isset($autoIncFname) )
+		return;
+
+	if ( ( $dbMeta->curId = @@msDbInsertId() ) )
+		$dbMeta->insertIdOr = "$autoIncFname = $dbMeta->curId" ;
+
+	msdbUserPrefSetProperty('curId', $dbMeta->curId);
+	msdbUserPrefsStoreDbPropoerties();
+
+}
+
+/************************************************************/
+
+function msdbUpdate()
+{
+	global $dbMeta;
+
+	if ( ( $w = msdbPkWhere()) == null ) {
+		MSDB_ERROR("msdbUpdate: No Key Where Clause: nothing Changed");
+		return;
+	}
+
+	$tname = $dbMeta->tname;
+
+	$dbMeta->curId = msdbGetPost('msdbPkval');
+	msdbUserPrefSetProperty('curId', $dbMeta->curId);
+	msdbUserPrefsStoreDbPropoerties();
+
+	$row = array();
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( $f->ftype == 'timestamp' )
+			continue;
+		$fname = $f->fname ;
+		$fstr = $f->urlField->val ;
+		if ( ($fvalue = msDbSqlValue($f, $fstr)) == null ) {
+			msdbMsg("Not updated");
+			return;
+		}
+		$row[$fname] = $fvalue;
+	}
+
+	$sql = msDbUpdateSql($tname, $row, $w);
+
+	$affected = msDbSql($sql);
+
+	if ( $affected == 1 ) {
+		msdbMsg("One Row Affected by: $sql");
+		return;
+	}
+
+	if ( $affected == 0 ) {
+		msdbMsg("Nothing Changed: :::$sql:::");
+		return;
+	}
+}
+
+/************************************************************/
+
+function msdbDelete()
+{
+	global $dbMeta;
+
+	if ( ( $w = msdbPkWhere()) == null ) {
+		MSDB_ERROR("msdbDelete: No Key Where Clause: nothing Deleted");
+		return;
+	}
+
+	$tname = $dbMeta->tname;
+
+	$del = "delete from $tname $w" ;
+
+	$affected = msDbSql($del);
+
+	if ( $affected == 1 ) {
+		/*	MSDB_ERROR("msdbDelete: Deleted: :::$del:::");	*/
+		msdbMsg("Deleted 1 row from $tname $w");
+		msdbUserPrefSetProperty('curId', -1);
+		return;
+	}
+
+	if ( $affected < 1 ) {
+		MSDB_ERROR("msdbDelete: Nothing Deleted: :::$del:::");
+		return;
+	}
+
+	msdbUserPrefSetProperty('curId', -1);
+
+	MSDB_ERROR("msdbDelete: hayWire SQL warning: :::$del::: affected $affected rows");
+}
+
+/************************************************************/
+
+function msdbAction()
+{
+	global $dbMeta;
+
+	$ea = $dbMeta->ea;
+
+	if ( $ea == 'msdbInsert' )
+		msdbInsert();
+	else if ( $ea == 'msdbDelete' )
+		msdbDelete();
+	else if ( $ea == 'msdbUpdate' )
+		msdbUpdate();
+	else if ( $ea == 'msdbTest' )
+		msdbTest();
+	else if ( $ea == 'msdbGenCrtable' )
+		msdbGenCrtable();
+	else if ( $ea == 'msdbSearch' )
+		; // don't fall back to the error
+	else
+		MSDB_ERROR("msdbAction: $ea: unknown");
+
+	echo "<BR><BR>";
+}
+
+/************************************************************/
+?>
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.44 2004/05/07 19:55:22 engine Exp engine $ ';
+d174 3
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.43 2004/04/29 10:01:53 engine Exp engine $ ';
+d293 2
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.42 2004/04/20 02:18:36 engine Exp engine $ ';
+d198 1
+a198 1
+function msdbDelete()
+d203 1
+a203 1
+		MSDB_ERROR("msdbDelete: No Key Where Clause: nothing Deleted");
+d209 18
+a226 1
+	$del = "delete from $tname $w" ;
+d228 1
+a228 1
+	$affected = msDbSql($del);
+d231 1
+a231 3
+		/*	MSDB_ERROR("msdbDelete: Deleted: :::$del:::");	*/
+		msdbMsg("Deleted 1 row from $tname $w");
+		msdbUserPrefSetProperty('curId', -1);
+d235 2
+a236 2
+	if ( $affected < 1 ) {
+		MSDB_ERROR("msdbDelete: Nothing Deleted: :::$del:::");
+a238 4
+
+	msdbUserPrefSetProperty('curId', -1);
+
+	MSDB_ERROR("msdbDelete: hayWire SQL warning: :::$del::: affected $affected rows");
+d243 1
+a243 1
+function msdbUpdate()
+d248 1
+a248 1
+		MSDB_ERROR("msdbUpdate: No Key Where Clause: nothing Changed");
+d254 1
+a254 21
+	$str = "update $tname set " ;
+
+	$dbMeta->curId = msdbGetPost('msdbPkval');
+	msdbUserPrefSetProperty('curId', $dbMeta->curId);
+	msdbUserPrefsStoreDbPropoerties();
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( $f->ftype == 'timestamp' )
+			continue;
+		$fname = $f->fname ;
+		$fstr = $f->urlField->val ;
+		if ( ($fvalue = msDbSqlValue($f, $fstr)) == null ) {
+			msdbMsg("Not updated");
+			return;
+		}
+		$str .= " $fname = $fvalue,";
+	}
+	$upd = rtrim($str, ",");
+
+	$upd .= " ".$w ;
+	$affected = msDbSql($upd);
+d256 1
+d259 3
+a261 1
+		msdbMsg("One Row Affected by: $upd");
+d265 2
+a266 2
+	if ( $affected == 0 ) {
+		msdbMsg("Nothing Changed: :::$upd:::");
+d270 1
+a270 4
+	if ( $affected < 0 ) {
+		MSDB_ERROR("msdbUpdate: Nothing Changed: :::$upd:::");
+		return;
+	}
+d272 1
+a272 1
+	MSDB_ERROR("msdbUpdate: hayWire SQL warning: :::$upd::: affected $affected rows");
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.41 2004/03/14 16:25:54 engine Exp engine $ ';
+d48 3
+a130 1
+
+d138 1
+a138 2
+	// the insert form is also used for searching so the insert command is often
+	// used without inserting anything
+a141 1
+	$tname = $dbMeta->tname;
+d143 1
+a143 3
+
+	$strNames = "insert into $tname (";
+
+a146 11
+		$strNames .= " $f->fname," ;
+	}
+
+	$str = rtrim($strNames, ",");
+
+	 $str .= ") values (" ;
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( $f->ftype == 'timestamp' )
+			continue;
+		// allow auto increment to work on its own
+a147 1
+			$fstr = "";
+d149 2
+a150 2
+		} else
+			$fstr = $f->urlField->val ;
+d152 1
+a159 1
+		$str .= " $fvalue,";
+d161 1
+a161 1
+		if ( $f->isPrimary && ! $f->isAutoInc ) {
+d165 2
+a167 2
+	$ins = rtrim($str, ",");
+	$ins .= " )";
+d174 2
+d179 1
+a179 1
+		MSDB_ERROR("msdbInsert: Nothing Inserted: :::$ins:::");
+d188 1
+a188 2
+	if ( is_null($dbMeta->curId) ) {
+		$dbMeta->curId = msDbInsertId();
+a189 1
+	}
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.40 2004/02/16 12:37:22 engine Exp engine $ ';
+a62 1
+	global $dbData;
+d87 1
+a87 3
+	$rn = msDbGetRows("select * from $tname $ob");
+
+	$rows = & $dbData->arrRows;
+d92 7
+a98 10
+			$str = "insert into $tname values (";
+			for($i=0;$i < $dbMeta->colNum;$i++) {
+				$f = & $dbMeta->msdbFields[$i] ;
+				$val = msDbSqlValue($f, $row[$i]);
+				$str .= $val ;
+				if ( $i != $dbMeta->colNum - 1 )
+					$str .= ", ";
+			}
+			$str .= " )";
+			echo $str.";\n";
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.39 2004/02/03 06:31:56 engine Exp engine $ ';
+d58 1
+a58 1
+ * generate the data in machine friendly insert statements
+d84 1
+a84 1
+		msdbMsg("$tname: Too many Rows ($dbMeta->rowNum). Sorry.");
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.38 2004/02/02 08:24:25 engine Exp engine $ ';
+d190 1
+a190 1
+		msdbMsg("<B>Empty row not inserted</B><BR><BR>");
+d201 1
+a201 1
+	msdbMsg("<B>One Row Inserted by: $ins</B><BR<BR>");
+d287 1
+a287 1
+		msdbMsg("<B>One Row Affected by: $upd</B><BR><BR>");
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.37 2004/02/02 08:20:40 engine Exp engine $ ';
+d140 1
+d181 1
+a181 1
+		if ( $f->isPrimary && ! $f->isAutoInc )
+d183 2
+d196 1
+a196 3
+	if ( $affected == 1 )
+		msdbMsg("<B>One Row Inserted by: $ins</B><BR<BR>");
+	else if ( $affected < 1 )
+d198 2
+a199 2
+	else
+		MSDB_ERROR("msdbInsert: hayWire SQL warning: :::$ins::: affected $affected rows");
+d201 1
+d206 1
+a206 1
+	if ( is_null($dbMeta->curId) )
+d208 2
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.36 2004/02/01 19:49:58 engine Exp engine $ ';
+d232 1
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.35 2004/02/01 15:36:29 engine Exp engine $ ';
+d240 2
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.34 2004/02/01 10:38:18 engine Exp engine $ ';
+d90 1
+a90 1
+	$rows = & $dbData->dbRows;
+@
+
+
+1.34
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.33 2004/02/01 07:44:27 engine Exp engine $ ';
+d197 1
+a197 1
+	} else
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.32 2004/01/30 05:58:34 engine Exp engine $ ';
+d139 2
+d165 1
+a165 1
+		if ( $f->isAutoInc )
+d167 2
+a168 1
+		else
+d179 3
+d193 7
+a199 3
+	$dbMeta->curId = msDbInsertId();
+	msdbUserPrefSetProperty('curId', $dbMeta->curId);
+	msdbUserPrefsStoreDbPropoerties();
+d201 1
+a201 2
+	if ( $affected == 1 ) {
+		msdbMsg("<B>One Row Inserted by: $ins</B><BR<BR>");
+a202 1
+	}
+d204 5
+a208 4
+	if ( $affected < 1 ) {
+		MSDB_ERROR("msdbInsert: Nothing Inserted: :::$ins:::");
+		return;
+	}
+a209 1
+	MSDB_ERROR("msdbInsert: hayWire SQL warning: :::$ins::: affected $affected rows");
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.31 2004/01/29 08:25:51 engine Exp engine $ ';
+d163 1
+a163 1
+		if ( $f->fname == $dbMeta->primaryKey && ! $dbMeta->pkIsGuessed )
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.30 2004/01/29 08:25:25 engine Exp engine $ ';
+d188 2
+d250 3
+a252 1
+	$dbMeta->curId = msdbGetPost('pkval');
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.29 2004/01/28 13:15:48 engine Exp engine $ ';
+d122 1
+a122 1
+	if ( ($crtable = msDbShowCreateTable($tname)) == null)
+@
+
+
+1.29
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.28 2004/01/26 18:49:42 engine Exp engine $ ';
+a57 1
+ * debugging tool and/or primitive backup
+d112 4
+@
+
+
+1.28
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.27 2004/01/26 17:57:16 engine Exp engine $ ';
+d66 1
+d76 6
+a81 1
+	$rn = msDbGetRows("select * from $tname $ob");
+d83 3
+a85 2
+	if  ( $rn == 0  ) {
+		echo "$tname: 0 rows";
+d89 2
+a92 1
+	msdbMsg("Insert statements for $tname");
+d105 1
+a105 1
+			echo $str."\n";
+d111 18
+d131 1
+d288 3
+a290 1
+	if ( $dbMeta->ea == 'msdbInsert' )
+d292 1
+a292 1
+	else if ( $dbMeta->ea == 'msdbDelete' )
+d294 1
+a294 1
+	else if ( $dbMeta->ea == 'msdbUpdate' )
+d296 1
+a296 1
+	else if ( $dbMeta->ea == 'msdbTest' )
+d298 2
+a299 2
+	else if ( $dbMeta->ea == 'msdbGenInsert' )
+		msdbGenInsert();
+d301 1
+a301 1
+		MSDB_ERROR("msdbAction: $dbMeta->ea: unknown");
+@
+
+
+1.27
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.26 2004/01/26 13:37:29 engine Exp engine $ ';
+d132 2
+a133 1
+		if ( $f->fname == $dbMeta->primaryKey )
+@
+
+
+1.26
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.25 2004/01/24 20:02:27 engine Exp engine $ ';
+d9 17
+d35 13
+a47 2
+	$pkName = $dbMeta->primaryKey ;
+	$rawValue = msdbGetPost('pkval');
+@
+
+
+1.25
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.24 2004/01/24 19:53:33 engine Exp engine $ ';
+d29 48
+d89 1
+a89 1
+	$str = "insert into $tname values (" ;
+d92 12
+d131 1
+a131 2
+		/*	MSDB_ERROR("msdbInsert: :::$ins:::");	*/
+		msdbMsg("<B>One Row Inserted</B><BR<BR>");
+d156 1
+a156 1
+	$sql = "delete from $tname $w" ;
+d158 1
+a158 1
+	$affected = msDbSql($sql);
+d161 1
+a161 1
+		/*	MSDB_ERROR("msdbDelete: Deleted: :::$sql:::");	*/
+d167 1
+a167 1
+		MSDB_ERROR("msdbDelete: Nothing Deleted: :::$sql:::");
+d171 1
+a171 1
+	MSDB_ERROR("msdbDelete: hayWire SQL warning: :::$sql::: affected $affected rows");
+d209 1
+a209 1
+		msdbMsg("One Row Affected by: $upd");
+a227 48
+/*
+ * debugging tool and/or primitive backup
+ * generate the data in machine friendly insert statements
+ */
+
+function msdbGenInsert()
+{
+	global $dbData;
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+	$pkName = $dbMeta->primaryKey;
+
+	if ( $pkName )
+		$ob = "order by $pkName" ;
+	else
+		$ob = "";
+
+	$rn = msDbGetRows("select * from $tname $ob");
+
+	if  ( $rn == 0  ) {
+		echo "$tname: 0 rows";
+		return;
+	}
+
+	$rows = & $dbData->dbRows;
+
+	msdbMsg("Insert statements for $tname");
+	echo "<BR><BR><PRE>\n\n\n";
+
+	foreach ( $rows as $row ) {
+			$str = "insert into $tname values (";
+			for($i=0;$i < $dbMeta->colNum;$i++) {
+				$f = & $dbMeta->msdbFields[$i] ;
+				$val = msDbSqlValue($f, $row[$i]);
+				$str .= $val ;
+				if ( $i != $dbMeta->colNum - 1 )
+					$str .= ", ";
+			}
+			$str .= " )";
+			echo $str."\n";
+	}
+	echo "\n\n\n</PRE><BR><BR>\n";
+
+}
+
+/************************************************************/
+
+@
+
+
+1.24
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.23 2004/01/24 16:48:16 engine Exp engine $ ';
+d150 1
+a150 2
+		MSDB_ERROR("msdbUpdate: :::$upd:::");
+		msdbMsg("One Row Affected");
+@
+
+
+1.23
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.22 2004/01/24 15:52:35 engine Exp engine $ ';
+d133 2
+d150 1
+a150 1
+		/*	MSDB_ERROR("msdbUpdate: :::$upd:::");	*/
+@
+
+
+1.22
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.21 2004/01/24 11:29:58 engine Exp engine $ ';
+d20 1
+a20 1
+	if ( ($pkValue = msDbSqlValue($dbMeta->pkField->ftype, $rawValue)) == null )
+d52 1
+a52 1
+		if ( ($fvalue = msDbSqlValue($f->ftype, $fstr)) == null ) {
+d135 1
+a135 1
+		if ( ($fvalue = msDbSqlValue($f->ftype, $fstr)) == null ) {
+d202 1
+a202 1
+				$val = msDbSqlValue($f->ftype, $row[$i]);
+@
+
+
+1.21
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.20 2004/01/24 11:21:56 engine Exp engine $ ';
+d20 1
+a20 1
+	if ( ($pkValue = msDbSqlValue($dbMeta->pkFtype, $rawValue)) == null )
+@
+
+
+1.20
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.19 2004/01/23 11:13:28 engine Exp engine $ ';
+d20 1
+a20 1
+	if ( ($pkValue = msDbSqlValue($dbMeta->pkDbType, $rawValue)) == null )
+@
+
+
+1.19
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.18 2004/01/23 11:12:21 engine Exp engine $ ';
+d52 1
+a52 1
+		if ( ($fvalue = msDbSqlValue($f->dbtype, $fstr)) == null ) {
+d135 1
+a135 1
+		if ( ($fvalue = msDbSqlValue($f->dbtype, $fstr)) == null ) {
+d202 1
+a202 1
+				$val = msDbSqlValue($f->dbtype, $row[$i]);
+@
+
+
+1.18
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.17 2004/01/22 18:17:40 engine Exp engine $ ';
+d231 1
+a231 1
+		MSDB_ERROR("msdbAction: action :::$dbMeta->ea::: unknown");
+@
+
+
+1.17
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.16 2004/01/22 13:02:36 engine Exp engine $ ';
+d39 1
+d49 3
+d61 5
+@
+
+
+1.16
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.15 2004/01/22 12:47:38 engine Exp engine $ ';
+d191 3
+a193 2
+			for($i=0;$i <= $dbMeta->colNum;$i++) {
+				$val = msDbSqlValue($dbMeta->$fields[$i]->dbtype, $row[$i]);
+d195 1
+a195 1
+				if ( i != $dbMeta->colNum - 1 )
+d198 2
+a199 1
+			$str .= ")";
+d201 2
+@
+
+
+1.15
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.14 2004/01/22 09:52:00 engine Exp engine $ ';
+d188 1
+d191 1
+a191 1
+			for($i=0;$i=$dbMeta->colNum;$i++) {
+@
+
+
+1.14
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.13 2004/01/21 12:17:47 engine Exp engine $ ';
+d158 65
+@
+
+
+1.13
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.12 2004/01/21 11:58:43 engine Exp engine $ ';
+d19 2
+a20 2
+	$getValue = $_GET['pkval'];
+	if ( ($pkValue = msDbSqlValue($dbMeta->pkDbType, $getValue)) == null )
+d121 1
+a121 1
+	$dbMeta->curId = $_GET['pkval'];
+@
+
+
+1.12
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.11 2004/01/21 11:53:15 engine Exp engine $ ';
+d43 9
+a51 2
+		$fstr = $f->urlField->val ;
+		$fvalue = msDbSqlValue($f->dbtype, $fstr);
+d121 2
+d126 4
+a129 1
+		$fvalue = msDbSqlValue($f->dbtype, $fstr);
+a136 1
+	$dbMeta->curId = $_GET['pkval'];
+@
+
+
+1.11
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.10 2004/01/21 11:28:19 engine Exp engine $ ';
+d20 1
+a20 1
+	if ( ($pkValue = msdbSqlValue($dbMeta->pkDbType, $getValue)) == null )
+@
+
+
+1.10
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.9 2004/01/21 11:09:48 engine Exp engine $ ';
+d20 2
+a21 1
+	$pkValue = msdbSqlValue($dbMeta->pkDbType, $getValue);
+@
+
+
+1.9
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.8 2004/01/21 10:02:49 engine Exp engine $ ';
+d20 1
+a20 1
+	$pkValue = msdbQuoteSqlValue($dbMeta->pkDbType, $getValue);
+d43 1
+a43 1
+		$fvalue = msDbQuoteSqlValue($f->dbtype, $fstr);
+d116 1
+a116 1
+		$fvalue = msDbQuoteSqlValue($f->dbtype, $fstr);
+@
+
+
+1.8
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.7 2004/01/21 09:53:19 engine Exp engine $ ';
+d74 1
+a74 1
+		MSDB_MSG("msdbDelete: No Key Where Clause: nothing Deleted");
+d85 1
+a85 1
+		/*	MSDB_MSG("msdbDelete: Deleted: :::$sql:::");	*/
+d91 1
+a91 1
+		MSDB_MSG("msdbDelete: Nothing Deleted: :::$sql:::");
+d95 1
+a95 1
+	MSDB_MSG("msdbDelete: hayWire SQL warning: :::$sql::: affected $affected rows");
+d105 1
+a105 1
+		MSDB_MSG("msdbUpdate: No Key Where Clause: nothing Changed");
+d127 1
+a127 1
+		/*	MSDB_MSG("msdbUpdate: :::$upd:::");	*/
+d138 1
+a138 1
+		MSDB_MSG("msdbUpdate: Nothing Changed: :::$upd:::");
+d142 1
+a142 1
+	MSDB_MSG("msdbUpdate: hayWire SQL warning: :::$upd::: affected $affected rows");
+@
+
+
+1.7
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.6 2004/01/21 08:00:09 engine Exp engine $ ';
+d14 1
+a14 1
+		MSDB_MSG("msdbPkWhere: no Primary Key");
+d54 1
+a54 1
+		/*	MSDB_MSG("msdbInsert: :::$ins:::");	*/
+d60 1
+a60 1
+		MSDB_MSG("msdbInsert: Nothing Inserted: :::$ins:::");
+d64 1
+a64 1
+	MSDB_MSG("msdbInsert: hayWire SQL warning: :::$ins::: affected $affected rows");
+@
+
+
+1.6
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.5 2004/01/21 06:15:55 engine Exp engine $ ';
+d60 1
+a60 1
+		MSDB_MSG("msdbInsert: Nothing Inserted: :::$sql:::");
+d64 1
+a64 1
+	MSDB_MSG("msdbInsert: hayWire SQL warning: :::$sql::: affected $affected rows");
+d124 2
+a128 1
+		$dbMeta->curId = $_GET['pkval'];
+d138 1
+a138 1
+		MSDB_MSG("msdbUpdate: Nothing Changed: :::$sql:::");
+d142 1
+a142 1
+	MSDB_MSG("msdbUpdate: hayWire SQL warning: :::$sql::: affected $affected rows");
+@
+
+
+1.5
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.4 2004/01/19 15:33:47 engine Exp engine $ ';
+d51 2
+d85 1
+a85 1
+		MSDB_MSG("msdbDelete: Deleted: :::$sql:::");
+d127 1
+@
+
+
+1.4
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.3 2004/01/19 14:56:06 engine Exp engine $ ';
+d123 1
+a123 1
+		MSDB_MSG("msdbUpdate: :::$upd:::");
+@
+
+
+1.3
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.2 2004/01/19 13:47:43 engine Exp engine $ ';
+a44 2
+		$ins = rtrim($str, ",");
+		$ins .= " )";
+d46 2
+d52 2
+a53 3
+		$tname = $dbMeta->tname;
+		/*	MSDB_MSG("msdbInsert: :::$ins::: affected $affected rows");	*/
+		msdbMsg("One New Row");
+a82 1
+		$tname = $dbMeta->tname;
+d102 37
+a138 1
+	MSDB_MSG("msdbUpdate - NYI");
+@
+
+
+1.2
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: actions.php,v 1.1 2004/01/19 10:42:07 engine Exp engine $ ';
+d32 5
+d53 1
+d59 1
+a59 1
+		MSDB_MSG("msdbInsert: Nothing Inserted: :::$sql:::);
+d85 1
+d91 1
+a91 1
+		MSDB_MSG("msdbDelete: Nothing Deleted: :::$sql:::);
+@
+
+
+1.1
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: test.php,v 1.4 2004/01/13 15:04:35 engine Exp engine $ ';
+d9 19
+d30 3
+a32 1
+	global $dbData;
+d34 1
+a34 1
+	$notNull = true;
+d36 22
+a57 3
+	$str = "insert $dbMeta->tname values ( " ;
+	MSDB_MSG("msdbInsert - NYI");
+	/*	foreach ( $dbMeta->	*/
+d64 23
+a86 1
+	global $dbData;
+d88 1
+a88 1
+	MSDB_MSG("msdbDelete - NYI");
+d95 1
+a95 1
+	global $dbData;
+@

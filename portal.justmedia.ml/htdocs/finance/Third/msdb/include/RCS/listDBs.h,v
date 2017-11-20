@@ -1,0 +1,47 @@
+head	1.2;
+access;
+symbols;
+locks
+	engine:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2004.02.01.22.23.29;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.02.01.11.04.39;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.2
+log
+@None
+@
+text
+@<TABLE BORDER=1 CLASS=listDBs>
+<TR CLASS=listDBs>
+	<TD>Database Name</TD>
+	<TD>Tables</TD>
+</TR>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 2
+a2 2
+<TABLE BORDER=1>
+<TR>
+@

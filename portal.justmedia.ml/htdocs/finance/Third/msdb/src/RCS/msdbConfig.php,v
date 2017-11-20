@@ -1,0 +1,1462 @@
+head	1.58;
+access;
+symbols;
+locks
+	engine:1.58; strict;
+comment	@# @;
+
+
+1.58
+date	2004.09.02.12.11.01;	author engine;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.08.23.09.17.57;	author engine;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.08.21.12.38.29;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.07.31.09.14.31;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.05.31.14.56.26;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.05.13.10.59.34;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.05.13.10.59.20;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.04.29.10.01.54;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.04.25.06.52.02;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.04.20.02.18.38;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.03.30.12.58.02;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.03.22.20.42.21;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.03.14.16.25.56;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.02.23.21.57.06;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.02.22.19.43.30;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.02.16.11.39.11;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.02.06.08.32.43;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.29.11.00.38;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.29.10.21.06;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.29.09.18.35;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.29.09.00.41;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.28.13.15.50;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.28.04.32.22;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.28.04.31.56;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.26.14.46.22;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.26.13.37.30;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.26.10.56.17;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.23.19.07.31;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.22.15.17.27;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.22.14.16.45;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.13.15.12.53;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.13.13.07.59;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.13.11.48.10;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.13.09.47.17;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.11.18.32.13;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.08.08.26.00;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.07.23.27.11;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.07.22.01.29;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.07.18.29.39;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.07.09.32.09;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.05.21.03.08;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.05.20.51.57;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.05.20.35.07;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.05.20.30.07;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.05.20.01.40;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.05.18.32.47;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.05.18.08.44;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.05.11.15.43;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.03.19.50.04;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.03.16.30.04;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.03.16.29.40;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.03.12.35.03;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.03.12.08.18;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.03.12.01.01;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.02.13.21.23;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.02.12.08.02;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.02.10.57.15;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.02.09.46.48;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.58
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: msdbConfig.php,v 1.57 2004/08/23 09:17:57 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+// installation instructions:
+//		having set the follwing 4 values correctly,
+// 		to enable database access,
+//		point the web browser to this folder.
+//
+//	e.g http://yourhost.yourdomain.com/MSDBinstallDir/
+// 
+
+global $msdbConfig;
+
+if ( ! isset($msdbConfig['DB_USER']) ) {
+	$msdbConfig['DB_HOST'] =  'localhost' ;
+	$msdbConfig['DB_USER'] =  'msdb' ;
+	$msdbConfig['DB_PW'] =  'msdb' ;
+	$msdbConfig['DB_NAME'] =  'msdb' ;
+}
+/************************************************************/
+$msdbConfig['mailErrorsTo'] =  'nekko@@engine.com' ;
+if ( ! isset($msdbConfig['ONLY_DB']) )
+	$msdbConfig['ONLY_DB'] = true ; // only access $msdbConfig['DB_NAME']
+/************************************************************/
+?>
+@
+
+
+1.57
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msdbConfig.php,v 1.56 2004/08/21 12:38:29 engine Exp engine $ ';
+d11 1
+a11 2
+//		from your web browser get the page
+//				main.php
+d13 1
+a13 1
+//	e.g http://yourhost.yourdomain.com/MSDBinstallDir/main.php
+d27 1
+a27 1
+	$msdbConfig['ONLY_DB'] = false ; // only access $msdbConfig['DB_NAME']
+@
+
+
+1.56
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msdbConfig.php,v 1.55 2004/07/31 09:14:31 engine Exp engine $ ';
+d27 2
+a28 1
+$msdbConfig['ONLY_DB'] = false ; // only access $msdbConfig['DB_NAME']
+@
+
+
+1.55
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msdbConfig.php,v 1.54 2004/05/31 14:56:26 engine Exp engine $ ';
+d17 1
+a17 1
+global $msdbIsConfig;
+d19 1
+a19 1
+if ( ! isset($msdbIsConfig) ) {
+d26 3
+@
+
+
+1.54
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msdbConfig.php,v 1.53 2004/05/13 10:59:34 engine Exp engine $ ';
+d8 1
+a8 1
+// quick installation instructions:
+@
+
+
+1.53
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msdbConfig.php,v 1.52 2004/05/13 10:59:20 engine Exp engine $ ';
+d10 1
+a14 1
+//
+a24 40
+
+// these 4 must be set to some valid values pertaining to your database
+// they represent the control user name and password,
+// thruogh which access to the data server is gained
+// and the control database where the logon table msdb_passwd will reside after installation.
+// this user needs permissions to - and will as part of the installation - create two tables
+// called msdb_passwd and msdb_permit in the control database
+// msdb can also be used as a library, 
+// to use the data access library, set $msdbIsConfig, and the values, before require'ing
+// the msdb files
+/******************************/
+/******************************/
+/******************************/
+//
+// some other options one might want to change (later)
+//
+//
+// session expires after being idle this long
+$msdbConfig['SID_EXP'] = 3600 ;
+// tables not explicitely permitted in msdb_permit are read-only if this is set
+$msdbConfig['READ_ONLY_MODE'] = false ;
+// how many rows is considered 'a lot'
+$msdbConfig['LOTS_OF_ROWS'] = 1000;
+// how many rows to show when no select criteria
+$msdbConfig['showRows'] =  20 ;
+// maximum rows to show (even with a select criterion )
+$msdbConfig['limitRows'] =  70 ;
+// round to this many digits in floats in reports
+$msdbConfig['statsFloatRound'] =  2 ; // money style by default
+// e-mailing errors:
+// if the address contains '@@' then mail errors to this user,
+// otherwise, check if there is a local user by this name,
+// and only mail the local user if it exists.
+// with the following default no mail is sent to anyone,
+// excpet there happen's to b a local unix user called msdb
+$msdbConfig['mailErrorsTo'] =  'msdb' ;
+
+// show internal data structures and performance information
+$msdbConfig['msdbInfo'] =  false ;
+
+@
+
+
+1.52
+log
+@None
+@
+text
+@a1 1
+
+d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.51 2004/04/29 10:01:54 engine Exp engine $ ';
+@
+
+
+1.51
+log
+@None
+@
+text
+@d2 1
+d5 1
+a5 1
+$rcsid='$Id: config.php,v 1.50 2004/04/25 06:52:02 engine Exp engine $ ';
+@
+
+
+1.50
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.49 2004/04/20 02:18:38 engine Exp engine $ ';
+d54 8
+@
+
+
+1.49
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.48 2004/03/30 12:58:02 engine Exp engine $ ';
+d55 1
+a55 1
+$msdbConfig['msdbInfo'] =  true ;
+@
+
+
+1.48
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.47 2004/03/22 20:42:21 engine Exp engine $ ';
+d55 1
+a55 1
+$msdbConfig['msdbInfo'] =  false ;
+@
+
+
+1.47
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.46 2004/03/14 16:25:56 engine Exp engine $ ';
+d43 1
+a43 1
+$msdbConfig['SID_EXP'] = 3000 ;
+@
+
+
+1.46
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.45 2004/02/23 21:57:06 engine Exp engine $ ';
+d9 1
+a9 1
+//		having set the follwing 3 values correctly,
+d15 12
+a26 5
+$msdbConfig['DB_USER'] =  'msdb' ;
+$msdbConfig['DB_PW'] =  'msdb' ;
+$msdbConfig['DB_NAME'] =  'msdb' ;
+//
+// these 3 must be set to some valid values pertaining to your database
+d32 3
+a43 2
+// if the web server and the database are not on the same host
+$msdbConfig['DB_HOST'] =  'localhost' ;
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.44 2004/02/22 19:43:30 engine Exp engine $ ';
+d39 1
+a39 1
+$msdbConfig['LOTS_OF_ROWS'] = 7000;
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.43 2004/02/16 11:39:11 engine Exp engine $ ';
+d39 1
+a39 1
+$msdbConfig['LOTS_OF_ROWS'] = 2000;
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.42 2004/02/06 08:32:43 engine Exp engine $ ';
+d44 2
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.41 2004/01/29 11:00:38 engine Exp engine $ ';
+d44 2
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.40 2004/01/29 10:21:06 engine Exp engine $ ';
+d41 1
+a41 1
+$msdbConfig['showRows'] =  15 ;
+d43 1
+a43 1
+$msdbConfig['limitRows'] =  30 ;
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.39 2004/01/29 09:18:35 engine Exp engine $ ';
+d9 5
+a13 3
+// having set the follwing 3 values correctly,
+// from your web browser get the page
+//		main.php
+a14 1
+// these 3 must be set to some valid values pertaining to your database
+d18 2
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.38 2004/01/29 09:00:41 engine Exp engine $ ';
+d17 3
+a19 2
+// they represent the user name and password, as far as the database is concerned,
+// and the database to be used
+d21 3
+a23 1
+// called msdb_passwd and msdb_permit
+d26 1
+a26 1
+// some other options you might want to change
+d37 5
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.37 2004/01/28 13:15:50 engine Exp engine $ ';
+a33 4
+// show all attempts at querying the databse
+// this puts a lot of junk on the screen
+$msdbConfig['SHOW_ALL_QUERIES'] = true;
+/*	$msdbConfig['SHOW_ALL_QUERIES'] = false;	*/
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.36 2004/01/28 04:32:22 engine Exp engine $ ';
+d34 4
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.35 2004/01/28 04:31:56 engine Exp engine $ ';
+d27 1
+a27 1
+$msdbConfig['SID_EXP'] = 300 ;
+d32 2
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.34 2004/01/26 14:46:22 engine Exp engine $ ';
+a31 1
+$msdbConfig['READ_ONLY_MODE'] = true ;
+@
+
+
+1.34
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.33 2004/01/26 13:37:30 engine Exp engine $ ';
+d22 4
+d27 1
+a27 1
+$msdbConfig['SID_EXP'] = 3000 ;
+d30 3
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.32 2004/01/26 10:56:17 engine Exp engine $ ';
+d9 4
+d19 2
+a20 2
+// the msdb user and permission system is separate and is configured (if at all)
+// via the WEB interface once these are established.
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.31 2004/01/23 19:07:31 engine Exp engine $ ';
+d8 2
+d13 4
+d18 1
+a18 1
+// a session expires after SID_EXP seconds, default is 300
+d20 2
+a21 1
+// $msdbConfig['DB_HOST'] =  'localhost' ;
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.30 2004/01/22 15:17:27 engine Exp engine $ ';
+a7 71
+require_once("util.php");
+/******************************/
+/*
+	quick installation instructions:
+		0. If this is your first time with msdb,
+			create a test database,  (using example below).
+		1. set the priviliges to aloow msdb to access the database
+			(using example...).
+	    2. create the msdb_passwd table that controls
+		   acess from a WEB browser, and populate it (using...).
+		3. change global $msdbConfig to reflect the DB acees information.
+		4. from your browser:
+			http://yourWebSite.yourdomain.com/msdbFolderPath/main.php
+		
+
+0. create a new database.
+
+	% mysql -uroot -p"rootPassword" mysql
+		...
+		mysql> create database msdbTest ;
+
+1.	set priviliges:
+
+		mysql> GRANT ALL PRIVILEGES ON *.* TO msdbUser@@localhost IDENTIFIED BY 'msdbPassword' with GRANT OPTION ;
+
+2.	create msdb_passwd:
+		% mysql -umsdbUser -pmsdbPassword msdbTest
+
+			mysql>
+					create table msdb_passwd (
+					name varchar(64),
+					passwd varchar(64),
+					groupid varchar(64),,
+					started int,
+					lasthit int,
+					userpref varchar(255),
+					userid int auto_increment, PRIMARY KEY (userid)
+					)
+					;
+
+		populate:
+			mysql>
+					insert msdb_passwd values ( 'testuser', 'testpw', 'group1', 0, 0, '', 1 )
+					;
+
+
+/*
+ you must configure at least the following four items
+ to fit some valid values in your database
+ in order to be able to connect to it
+
+		$msdbConfig['DB_HOST'] =  'localhost' ;
+		$msdbConfig['DB_NAME'] =  'msdbTest' ;
+		$msdbConfig['DBUSER'] =  'msdbUser' ;
+		$msdbConfig['DBPW'] =  'msdbPassword' ;
+
+
+
+
+	*******************************************
+	// a session expires after this many seconds
+	$msdbConfig['SID_EXP'] = 300 ;
+*/
+/******************************/
+$msdbConfig['DB_HOST'] =  'localhost' ;
+/******************************/
+$msdbConfig['DB_NAME'] =  'msdbDemo' ;
+$msdbConfig['DB_USER'] =  'msdbDemoUser' ;
+$msdbConfig['DB_PW'] =  'msdbDemoPasswd' ;
+/******************************/
+$msdbConfig['DB_NAME'] =  'msdb' ;
+d10 1
+d12 1
+d14 1
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.29 2004/01/22 14:16:45 engine Exp engine $ ';
+d78 4
+@
+
+
+1.29
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.28 2004/01/13 15:12:53 engine Exp engine $ ';
+d73 4
+a76 3
+$msdbConfig['DB_NAME'] =  'msdb' ;
+$msdbConfig['DB_USER'] =  'msdb' ;
+$msdbConfig['DB_PW'] =  'msdb' ;
+@
+
+
+1.28
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: config.php,v 1.27 2004/01/13 13:07:59 engine Exp engine $ ';
+d40 1
+d50 1
+a50 1
+					insert msdb_passwd values ( 'testuser', 'testpw', 0, 0, '', 1 )
+a76 5
+/*	$msdbConfig['DB_HOST'] =  'localhost' ;	*/
+/*	$msdbConfig['DB_NAME'] =  'test' ;	*/
+/*	$msdbConfig['DB_USER'] =  'test' ;	*/
+/*	$msdbConfig['DB_PW'] =  '' ;	*/
+/************************************************************/
+@
+
+
+1.27
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.26
+log
+@None
+@
+text
+@d2 5
+a6 6
+/******************************/
+/* $Id: config.php,v 1.25 2004/01/13 09:47:17 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+/******************************/
+
+@
+
+
+1.25
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: config.php,v 1.24 2004/01/11 18:32:13 engine Exp engine $  */
+d44 2
+a45 1
+					) ;
+d49 2
+a50 1
+					insert msdb_passwd values ( 'testuser', 'testpw', 0, 0, 1 ) ;
+@
+
+
+1.24
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: config.php,v 1.23 2004/01/08 08:26:00 engine Exp engine $  */
+d36 2
+a37 1
+			mysql> create table msdb_passwd (
+d43 1
+a43 1
+					eng_id int auto_increment, PRIMARY KEY (eng_id)
+d47 2
+a48 1
+			mysql> insert msdb_passwd values ( 'testuser', 'testpw', 0, 0, 1 ) ;
+@
+
+
+1.23
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: config.php,v 1.22 2004/01/07 23:27:11 engine Exp engine $  */
+d71 5
+@
+
+
+1.22
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: config.php,v 1.21 2004/01/07 22:01:29 engine Exp engine $  */
+d49 16
+a64 4
+	$msdbConfig['DB_HOST'] =  'localhost' ;
+	$msdbConfig['DB_NAME'] =  'msdbTest' ;
+	$msdbConfig['DBUSER'] =  'msdbUser' ;
+	$msdbConfig['DBPW'] =  'msdbPassword' ;
+a66 5
+/*
+ * you must configure at least the following
+ * to fit some valid values in your database
+ * in order to be able to connect to it
+ */
+d72 1
+a72 2
+// a session expires after this many seconds
+$msdbConfig['SID_EXP'] = 300 ;
+@
+
+
+1.21
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: config.php,v 1.20 2004/01/07 18:29:39 engine Exp engine $  */
+d65 3
+@
+
+
+1.20
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: config.php,v 1.19 2004/01/07 09:32:09 engine Exp engine $  */
+a63 3
+/******************************/
+// a session expires after this many seconds
+$msdbConfig['SID_EXP'] = 300 ;
+@
+
+
+1.19
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: config.php,v 1.18 2004/01/05 21:03:08 engine Exp engine $  */
+a67 4
+/*
+ * don't uncomment this after configuring this file.
+ */
+/*	msdb_r($msdbConfig);	*/
+@
+
+
+1.18
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: .exrc,v 1.5 2004/01/05 10:16:31 engine Exp engine $  */
+d35 1
+d41 1
+d44 2
+a48 2
+
+
+@
+
+
+1.17
+log
+@None
+@
+text
+@d2 6
+d9 1
+a9 1
+/************************************************************/
+d11 1
+a11 1
+	install instructions:
+d13 1
+a13 1
+			create a test database.  (using example below).
+d18 2
+a19 1
+		3. from your browser:
+a21 2
+/************************************************************/
+	config:
+d23 1
+a23 1
+	if just testing, better create a new database.
+d26 2
+a27 2
+	...
+	mysql> create database msdbTest ;
+d29 1
+a29 1
+	in any case, in the database you wish to use:
+d31 1
+a31 1
+	mysql> GRANT ALL PRIVILEGES ON *.* TO msdbUser@@localhost IDENTIFIED BY 'msdbPassword' with GRANT OPTION ;
+d33 10
+a42 9
+	% mysql -umsdbUser -pmsdbPassword msdbTest
+	mysql>	create table msdb_passwd (
+				name varchar(64),
+				passwd varchar(64),
+				started int,
+				lasthit int,
+				eng_id int auto_increment, PRIMARY KEY (eng_id)
+				) ;
+			insert msdb_passwd values ( 'testuser', 'testpw', 0, 0, 1 ) ;
+d52 1
+a52 1
+/************************************************************/
+d60 3
+a62 3
+$msdbConfig['DBUSER'] =  'msdb' ;
+$msdbConfig['DBPW'] =  'msdb' ;
+/************************************************************/
+a66 8
+ *
+ * I don't think I'll ever need these
+ */
+/********************/
+/*	$msdbConfig['HTTP_HOST'] =  'msdb.dyndns.org' ;	*/
+/*	$msdbConfig['HTTP_PORT'] =  80 ;	*/
+/************************************************************/
+/*
+@
+
+
+1.16
+log
+@None
+@
+text
+@d5 11
+d29 11
+a39 2
+	mysql> create table msdb_passwd ( name varchar(64), passwd varchar(64), started int, lasthit int, eng_id int auto_increment, PRIMARY KEY (eng_id) );
+		insert msdb_passwd values ( 'testuser', 'testpw', 0, 0, 1 );
+@
+
+
+1.15
+log
+@None
+@
+text
+@d19 1
+a19 1
+		insert msdb_passwd values ( 'testuser', 'testpw', 0, 0 )
+@
+
+
+1.14
+log
+@None
+@
+text
+@d18 1
+a18 1
+	mysql> create table msdb_passwd ( name varchar(64), passwd varchar(64), started int, eng_id int auto_increment, PRIMARY KEY (eng_id) );
+@
+
+
+1.13
+log
+@None
+@
+text
+@d11 1
+a11 1
+	mysql> create database mypdbTest ;
+d15 1
+a15 1
+	mysql> GRANT ALL PRIVILEGES ON *.* TO mypdbUser@@localhost IDENTIFIED BY 'mypdbPassword' with GRANT OPTION ;
+d17 3
+a19 5
+	% mysql -umypdbUser -pmypdbPassword mypdbTest
+	mysql>
+		create table mypdb_passwd ( name varchar(64), passwd varchar(64), eng_id int auto_increment, PRIMARY KEY (eng_id) );
+		insert mypdb_passwd values ( 'testuser', 'testpw', 0 )
+		create table mypdb_sid ( started int, lasthit int, eng_id int auto_increment, PRIMARY KEY (eng_id) );
+d21 4
+a24 4
+	$mypdbConfig['DB_HOST'] =  'localhost' ;
+	$mypdbConfig['DB_NAME'] =  'mypdbTest' ;
+	$mypdbConfig['DBUSER'] =  'mypdbUser' ;
+	$mypdbConfig['DBPW'] =  'mypdbPassword' ;
+d32 4
+a35 4
+$mypdbConfig['DB_HOST'] =  'localhost' ;
+$mypdbConfig['DB_NAME'] =  'mypdb' ;
+$mypdbConfig['DBUSER'] =  'mypdb' ;
+$mypdbConfig['DBPW'] =  'mypdb' ;
+d38 1
+a38 1
+$mypdbConfig['SID_EXP'] = 300 ;
+d45 2
+a46 2
+/*	$mypdbConfig['HTTP_HOST'] =  'mypdb.dyndns.org' ;	*/
+/*	$mypdbConfig['HTTP_PORT'] =  80 ;	*/
+d51 1
+a51 1
+/*	mypdb_r($mypdbConfig);	*/
+@
+
+
+1.12
+log
+@None
+@
+text
+@d20 1
+a20 1
+		insert mypdb_passwd values ( 'testuser', 'testpw' )
+@
+
+
+1.11
+log
+@None
+@
+text
+@a37 3
+
+// http://yourserver/mypdb/
+$mypdbConfig['URL_HOME'] =  '/mypdb/' ;
+@
+
+
+1.10
+log
+@None
+@
+text
+@d38 3
+a51 1
+/*	$mypdbConfig['URL_HOME'] =  '/mypdb/' ;	*/
+@
+
+
+1.9
+log
+@None
+@
+text
+@d7 2
+d12 3
+d18 4
+a21 1
+	mysql> create table mypdb_session ( started int, lastHit int, eng_id int auto_increment, PRIMARY KEY (eng_id) )
+d30 3
+a32 2
+ * you must configure at least
+ * to some valid entries in your database
+d51 3
+@
+
+
+1.8
+log
+@None
+@
+text
+@a1 1
+error_reporting(E_ALL | E_STRICT) ;
+@
+
+
+1.7
+log
+@None
+@
+text
+@d22 4
+d31 8
+@
+
+
+1.6
+log
+@None
+@
+text
+@a4 1
+
+d14 1
+a14 1
+	mysql> create table mypdb_session ( started int, lastHit int, eng_id int auto_increment )
+a21 1
+
+a25 1
+
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+require_once("lib/util.php");
+d22 1
+d29 1
+d33 2
+a34 3
+
+mypdb_r($mypdbConfig);
+
+@
+
+
+1.4
+log
+@None
+@
+text
+@d2 1
+d4 1
+d7 1
+a7 2
+ * configuration.
+ */
+d9 22
+d32 1
+a32 42
+$enghtConfig['MYPDB_HOST'] =  'mypdb.dyndns.org' ;
+
+
+
+
+
+/*	define('PDB', 'MySQL');	*/
+/*		*/
+/*		*/
+/*		*/
+/*		*/
+/*	define('ENGHT_HOST',  'ohad.dyndns.org');	*/
+/*	define('ENGHT_PATH',  '/phpdtbrowse/');	*/
+/*		*/
+/*		*/
+/*	define ENGHT_HOM	*/
+/*	define('ENG_DB_ADMIN', 'mysuser');	*/
+/*	define('ENG_DB_PASS', 'mysuser152');	*/
+/*	define('ENG_PDB', 'phpdbrowse.php	*/
+/*		*/
+/*	define('ENG_DBUSER', 'demo');	*/
+/*	define('ENG_APPLDIR', 'demo');	*/
+/*	define('ENG_DB_PASS', 'mysuser152');	*/
+/*	define('ENG_DB_PASS', 'mysuser152');	*/
+/*	define('ENG_DB_PASS', 'mysuser152');	*/
+/*	define('ENG_DB_PASS', 'mysuser152');	*/
+/*	define('ENG_DB_PASS', 'mysuser152');	*/
+/*		*/
+/*	setenv ENG_PROG phpdbrowse.php	*/
+/*	setenv ENG_DBUSER mysuser	*/
+/*	setenv ENG_DBPW mysuser152	*/
+/*	setenv ENG_APPLDIR /home/mysqldb/app	*/
+/*	setenv ENG_DB mysuser	*/
+/*	setenv ENG_DBDS Mysql	*/
+/*	# setenv ENGDBSD_HOST cheetah	*/
+/*	# setenv ENGDBSD_PORT 2139	*/
+/*	setenv ENGHT_SIDEXP 360000	*/
+/*	# setenv ENG_EFL	*/
+/*	# setenv ENG_DEBUG	*/
+/*	setenv ENGHT_SHOW_PERF	*/
+
+mypdb_r($enghtConfig);
+@
+
+
+1.3
+log
+@None
+@
+text
+@d2 1
+d8 4
+a11 1
+global enghtConfig = array() ;
+d50 1
+a50 1
+print_r(enghtConfig);
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 5
+a7 1
+define('ENGHT_HOST',  'ohad.dyndns.org');
+a8 1
+/************************************************************/
+a9 7
+/*
+ * default variables,
+ * phpdbrowse will ask anything it doesn't know
+ *
+ * to maintain session info, it will create an enght_sid
+ * table in the database once it knows how.
+ */
+d11 34
+a44 1
+ * if the initiali
+d46 1
+a46 9
+setenv ENG_DB_ADMIN ""
+setenv ENG_APPLDIR /home/engine/appl/engine
+setenv ENG_DB ""
+setenv ENG_DBPW
+setenv ENGDBSD_HOST cheetah
+setenv ENGDBSD_PORT 2179
+setenv ENG_EFL
+setenv ENG_DEBUG
+setenv ENGHT_dfl
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 17
+a17 9
+setenv USER engine
+setenv HOME /home/engine
+setenv ENG_CONFIG LINUX
+setenv ENG_DB_SOFTWARE POSTGRES
+setenv ENGINE /home/engine
+setenv ENG_CGI engine
+# setenv ENGHT_HOST 192.168.0.46
+setenv ENGHT_HOST ohad.dyndns.org
+setenv ENG_DBUSER engine
+d19 1
+a19 1
+setenv ENG_DB engine
+d26 2
+@

@@ -1,0 +1,220 @@
+head	1.9;
+access;
+symbols;
+locks
+	engine:1.9; strict;
+comment	@# @;
+
+
+1.9
+date	2004.01.28.13.15.53;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.28.08.34.44;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.28.03.21.38;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.21.16.19.30;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.19.15.33.51;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.13.15.04.35;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.13.11.48.11;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.10.16.26.06;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.9
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: test.php,v 1.8 2004/01/28 08:34:44 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+/*
+ * test something
+ *
+ * this function is called when msdbEA=Test in the URL.
+ * 
+ * php has the msdb environment in place.
+ * the page has its msdb wrapping in place, and is otherwise
+ empty save what this test output at the moment.
+ */
+/******************************/
+
+
+function msdbTest()
+{
+	global $dbMeta;
+
+	$str = serialize($dbMeta->whereEtc);
+	var_dump($str);
+	$ev = unserialize($str);
+	var_dump($ev);
+	msdb_r($ev);
+
+	msdbInfo();
+}
+
+/************************************************************/
+?>
+@
+
+
+1.8
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: test.php,v 1.7 2004/01/28 03:21:38 engine Exp engine $ ';
+d22 1
+a22 1
+	global $msdbEnterVar;
+d24 1
+a24 1
+	$str = serialize($msdbEnterVar);
+d29 1
+a30 1
+	msdbMsg("msdbTest: Not testing anything right now");
+@
+
+
+1.7
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: test.php,v 1.6 2004/01/21 16:19:30 engine Exp engine $ ';
+d22 1
+a22 1
+	global $dbData;
+d24 6
+@
+
+
+1.6
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: test.php,v 1.5 2004/01/19 15:33:51 engine Exp engine $ ';
+d11 1
+a11 1
+ * this function is called when EA=Test in the URL.
+@
+
+
+1.5
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: test.php,v 1.4 2004/01/13 15:04:35 engine Exp engine $ ';
+d24 1
+a24 1
+	MSDB_MSG("msdbTest: Not testing anything right now");
+@
+
+
+1.4
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: msdbTest.php,v 1.3 2004/01/13 13:08:00 engine Exp engine $ ';
+d24 1
+a24 3
+	$n = msDbGetRows("select * from msdb_passwd limit 0");
+	echo "msDbGetRows returned $n rows";
+	msdbInfo();
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 3
+a5 3
+/* $Id: msdbTest.php,v 1.1 2004/01/10 16:26:06 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.1
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: main.php,v 1.7 2004/01/06 19:24:42 engine Exp engine $  */
+d23 2
+a24 5
+	/*	$n = msDbGetRows("show columns from eng_basic");	*/
+	/*	echo "msDbGetRows retturned $n rows";	*/
+
+	$n = msDbGetRows("select * from eng_basic limit 0");
+	echo "msDbGetRows retturned $n rows";
+@

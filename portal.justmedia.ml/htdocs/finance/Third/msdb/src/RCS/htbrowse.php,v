@@ -1,0 +1,2542 @@
+head	1.96;
+access;
+symbols;
+locks
+	engine:1.96; strict;
+comment	@# @;
+
+
+1.96
+date	2004.08.21.12.38.25;	author engine;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2004.08.16.16.43.51;	author engine;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2004.07.29.08.48.01;	author engine;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2004.07.07.08.13.34;	author engine;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2004.05.31.14.56.15;	author engine;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2004.05.08.12.23.36;	author engine;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2004.04.26.13.44.29;	author engine;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2004.04.20.02.18.39;	author engine;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2004.04.20.01.15.07;	author engine;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2004.03.14.16.25.58;	author engine;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2004.02.26.11.46.07;	author engine;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2004.02.26.11.17.09;	author engine;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2004.02.23.21.57.08;	author engine;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2004.02.23.21.29.56;	author engine;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2004.02.23.20.52.58;	author engine;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2004.02.16.12.35.50;	author engine;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2004.02.16.11.39.16;	author engine;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.02.11.07.47.15;	author engine;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.02.11.07.45.31;	author engine;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.02.06.08.32.44;	author engine;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.02.03.06.31.57;	author engine;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.02.02.10.39.38;	author engine;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.02.02.10.10.13;	author engine;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.02.02.08.24.26;	author engine;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.02.02.08.10.16;	author engine;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.02.01.19.50.00;	author engine;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.02.01.07.56.39;	author engine;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.02.01.07.56.10;	author engine;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.01.31.12.09.34;	author engine;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.01.30.09.28.01;	author engine;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.01.30.06.21.17;	author engine;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.01.30.05.58.35;	author engine;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.01.29.10.26.41;	author engine;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.01.29.08.25.51;	author engine;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.01.29.06.56.40;	author engine;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.01.29.06.04.32;	author engine;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.01.28.18.27.42;	author engine;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.01.28.18.23.47;	author engine;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.01.28.13.15.50;	author engine;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.01.28.04.31.57;	author engine;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.01.28.03.21.35;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.01.28.01.32.42;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.01.26.13.37.31;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.01.26.12.29.35;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.01.23.19.07.32;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.01.22.11.38.55;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.01.22.09.52.01;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.01.21.16.19.28;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.01.21.08.00.10;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.01.19.15.33.49;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.01.19.13.53.09;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.01.18.16.22.10;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.01.18.14.44.48;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.01.15.13.52.00;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.01.15.13.02.55;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.15.12.46.38;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.15.10.29.39;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.15.10.09.43;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.14.17.07.36;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.14.16.34.06;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.14.14.36.33;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.14.14.32.23;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.14.13.04.37;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.14.12.44.02;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.14.07.56.23;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.13.15.12.54;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.13.14.56.04;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.13.12.57.38;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.13.12.15.29;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.13.12.09.53;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.13.12.09.05;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.11.15.23.05;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.10.19.52.11;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.10.16.26.06;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.07.22.01.29;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.07.18.29.39;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.07.16.54.38;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.07.12.56.49;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.07.12.11.05;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.06.19.35.00;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.06.19.24.41;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.06.19.11.09;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.06.16.18.12;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.06.07.11.37;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.05.21.46.36;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.05.21.21.57;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.05.20.02.10;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.05.18.08.44;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.05.11.49.06;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.05.11.15.45;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.05.06.31.00;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.03.22.18.31;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.03.22.14.07;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.03.19.50.05;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.03.16.30.20;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.03.12.01.03;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.96
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: htbrowse.php,v 1.95 2004/08/16 16:43:51 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+function msdbHeader()
+{
+	$title = msdbTitle();
+
+	msdbInclude('include/doctype.h', null);
+	msdbInclude('include/dochead.h', null);
+	echo "<TITLE>$title</TITLE>\n";
+	msdbInclude('include/jsSrc.h', null);
+	echo "</HEAD>\n<BODY>\n\n" ;
+
+	msdbInclude('include/mOver.h', null);
+	msdbInclude('include/header.h', null);
+	msdbShowMenu();
+	echo "<BR><BR><BR>\n" ;
+}
+
+/************************************************************/
+
+function msdbTailer()
+{
+	echo "<BR><BR><BR>\n" ;
+	msdbShowMenu();
+	msdbInclude('include/tailer.h', null);
+	echo "</BODY>\n</HTML>\n" ;
+
+}
+
+/************************************************************/
+
+function msdbListDBs()
+{
+	if ( msDbIsOnlyDB() ) {
+		msdbMsg("Only DB Mode");
+		return;
+	}
+	msdbUserPrefSetProperty('DB', -1);
+
+	msdbMsg("Select a Database");
+
+	$dbs = msDbDataBases();
+
+	// ??? ... only list tables when few databases are around
+	// $listTables = ( count($dbs) <= 10 ) ;
+
+	foreach ( $dbs as $db )
+		$perms[$db] = msDbDatabaseHasTable($db, 'msdb_permit');
+
+	msdbInclude('include/listDBs.h', null);
+	foreach ( $perms as $db => $isPerm ) {
+		$cls = ( $isPerm ) ? "CLASS=dbIsPerm" : "CLASS=dbIsntPerm";
+		echo "<TR $cls>\n";
+		echo "<TD>$db</TD>\n" ;
+		echo "<TD>";
+		if ( $isPerm ) {
+			$ts = msDbDatabaseTables($db);
+			foreach ( $ts as $t ) {
+				$url = msdbJsCmd("", "&msdbDB=$db&msdbTNAME=$t");
+				echo "<A HREF=\"$url\">$t</A> ";
+			}
+		} else {
+			msdbMsg("Please install msdb_permit in Database $db:");
+			echo "<PRE>\n";
+			readfile('Install/msdb_permit.crtable');
+			echo "</PRE>\n";
+		}
+		echo "</TD>";
+		echo "</TR>\n";
+	}
+
+	msdbInclude('include/listDBs.t', null);
+}
+
+/******************************/
+
+function msdbSelectTable()
+{
+	msdbMsg("Select a table to browse");
+
+	$tables = msDbTables();
+
+	msdbInclude('include/listTables.h', null);
+	foreach ( $tables as $tname ) {
+		$rownum = msDbRowNum($tname);
+		$tableUrl =  msdbTableUrl($tname);
+		$vars = array( 'selectTable' => $tname, 'tableUrl' => $tableUrl, 'rownum' => $rownum);
+		msdbInclude('include/listTables.b', $vars);
+	}
+	msdbInclude('include/listTables.t', null);
+	echo "</TABLE>";
+}
+
+/******************************/
+
+function msdbAppBar($rows)
+{
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+	$tableUrl =  msdbTableUrl($tname);
+
+	$w = $dbMeta->where;
+	$tlink="<A HREF=\"$tableUrl\">$tname</A>";
+	$we = $dbMeta->whereEtc ;
+	$rn = $dbMeta->rowNum;
+	$s = ( $rows == 1 ) ? "" : "s" ;
+	if ( $rows != $rn )
+		$rns = "($rows row$s of $rn total)";
+	else
+		$rns = "" ;
+
+	$str = "Showing $tlink $we $rns.";
+
+	msdbInclude("include/appBar.h", array('appBarTitle' => $str));
+}
+
+/******************************/
+
+function msdbWhereEtc()
+{
+	global $dbMeta;
+
+	$ob = $dbMeta->orderBy;
+	$iio = $dbMeta->insertIdOr;
+	$mw = $dbMeta->where;
+	$limit = $dbMeta->limit;
+
+	if ( $iio && $limit )
+		$w = "where $iio";
+	else if ( $mw == "" )
+		$w = "" ;
+	else if ( $iio )
+		$w = "$mw or $iio";
+	else
+		$w = $mw ;
+		
+
+	if ( $ob ) {
+		$obStr = "order by $ob" ;
+		if ( $dbMeta->isDesc == 'true' )
+			$obStr .= " desc";
+		
+	} else
+		$obStr = "" ;
+
+	$dbMeta->whereEtc = "$w $obStr $limit";
+}
+
+/******************************/
+
+function msdbPresentTable()
+{
+	global $dbMeta;
+
+	MSDB_PERF('');
+	msdbStatPrepare();
+	MSDB_PERF('msdbStatPrepare');
+
+	if ( $dbMeta->ea ) {
+		MSDB_PERF('');
+		msdbAction();
+		MSDB_PERF('msdbAction');
+	}
+
+	MSDB_PERF('');
+
+	// action if any, may have change curId
+	// try to get an old one if not
+	if ( ! $dbMeta->curId )
+		$dbMeta->curId = msdbUserPrefGetProperty('curId');
+	// and set insertIdOr so only now we can the full detail about 'whereEtc'
+	msdbWhereEtc();
+
+	MSDB_PERF('');
+
+	$sql = "select * from $dbMeta->tname $dbMeta->whereEtc";
+	if ( ($rows = msDbFetchRows($sql)) === null )
+		MSDB_ERROR($sql);
+	else
+		msdbShowTable($rows);
+
+	MSDB_PERF('msdbShowTable');
+
+	msdbSend($rows);
+	MSDB_PERF('msdbSend');
+	msdbStatistics();
+	MSDB_PERF('msdbStatistics');
+
+	msdbInclude('include/crtableLink.h', null);
+
+	// for some reason, placing this DIV before any links, disables
+	// some of the links that follow in IE6 until the div is made visible (by user request).
+	// if anyone knows how I can fix this, please e-mail nekko@@engine.com , thanks
+	msdbChangeForm();
+	MSDB_PERF('msdbChangeForm');
+	msdbSearchForm();
+	MSDB_PERF('msdbSearchForm');
+}
+
+/******************************/
+
+function msdbHtbrowse()
+{
+	global $dbMeta;
+	global $msdbEnterVar;
+	global $msdbConfig;
+
+	MSDB_PERF('');
+
+	msdbHoldMsgs();
+
+	MSDB_PERF('');
+	$isH =  msdbHead() ;
+	MSDB_PERF('msdbHead');
+
+	msdbHeader();
+
+	MSDB_PERF('msdbHeader');
+
+	msdbFlushMsgs();
+
+	MSDB_PERF('msdbFlushMsg');
+
+	if ( $isH || $dbMeta->noPerm ) {
+		if ( $dbMeta->ea == 'msdbSelectDB' ) {
+			// before a switch DB
+			msdbListDBs();
+			MSDB_PERF('msdbSelectDB');
+		} else if ( ! $dbMeta->tname || $dbMeta->noPerm ) {
+			msdbSelectTable();
+			MSDB_PERF('msdbSelectTable');
+		}
+		else
+			msdbPresentTable();
+	} else {
+		/*	msdb_r($msdbEnterVar->pwent);	*/
+
+		if ( $msdbEnterVar->pwent )
+			$user = $msdbEnterVar->pwent['name'];
+		else if ( $msdbEnterVar->name )
+			$user = $msdbEnterVar->name ;
+		else
+			$user = 'username' ;
+
+		msdbInclude('include/logon.h', array('msdbUSER' => $user) );
+	}
+
+	MSDB_PERF('Done');
+
+
+	if ( isset($msdbConfig['msdbInfo']) && $msdbConfig['msdbInfo'] || isset($_GET['msdbInfo']) ) {
+		msdbShowPerf();
+		msdbInfo();
+	}
+
+	msdbTailer();
+}
+
+/************************************************************/
+?>
+@
+
+
+1.95
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.94 2004/07/29 08:48:01 engine Exp engine $ ';
+d258 1
+a258 1
+	if ( $msdbConfig['msdbInfo'] || isset($_GET['msdbInfo']) ) {
+@
+
+
+1.94
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.93 2004/07/07 08:13:34 engine Exp engine $ ';
+d19 1
+@
+
+
+1.93
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.92 2004/05/31 14:56:15 engine Exp engine $ ';
+d20 1
+a20 1
+	msdbInclude('include/menu.h', null);
+d29 1
+a29 1
+	msdbInclude('include/menu.h', null);
+d39 4
+d245 1
+a245 1
+			$user = $msdbEnterVar->pwent->name;
+@
+
+
+1.92
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.91 2004/05/08 12:23:36 engine Exp engine $ ';
+d45 3
+@
+
+
+1.91
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.90 2004/04/26 13:44:29 engine Exp engine $ ';
+d113 1
+a113 1
+	return("<FONT FACE=Helvetica size='3'><B>$str</B></FONT>") ;
+@
+
+
+1.90
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.89 2004/04/20 02:18:39 engine Exp engine $ ';
+d193 4
+a196 2
+	msdbChangeform();
+	MSDB_PERF('msdbChangeform');
+@
+
+
+1.89
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.88 2004/04/20 01:15:07 engine Exp engine $ ';
+d176 1
+a176 1
+	if ( ($rows = msDbFetchRows($sql)) == null )
+@
+
+
+1.88
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.87 2004/03/14 16:25:58 engine Exp engine $ ';
+d113 1
+a113 1
+	return("<FONT COLOR='BLUE' FACE=Helvetica size='3'><B>$str</B></FONT>") ;
+@
+
+
+1.87
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.86 2004/02/26 11:46:07 engine Exp engine $ ';
+d173 1
+d175 5
+a180 1
+	msdbShowTable();
+d183 1
+a183 1
+	msdbSend();
+@
+
+
+1.86
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.85 2004/02/26 11:17:09 engine Exp engine $ ';
+d94 1
+a94 1
+function msdbAppBar()
+d101 1
+d103 9
+a111 1
+	$str = "Showing ".$tlink." ".$dbMeta->whereEtc; 
+a172 2
+	$bar = msdbAppBar();
+	echo "\n\n$bar\n\n";
+@
+
+
+1.85
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.84 2004/02/23 21:57:08 engine Exp engine $ ';
+a170 3
+	msdbChangeform();
+	MSDB_PERF('msdbChangeform');
+
+d175 1
+d178 5
+a182 2
+
+	
+@
+
+
+1.84
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.83 2004/02/23 21:29:56 engine Exp engine $ ';
+d235 1
+a235 1
+	if ( $msdbConfig['msdbInfo'] || msdbGetPost("msdbInfo") != null ) {
+@
+
+
+1.83
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.82 2004/02/23 20:52:58 engine Exp engine $ ';
+d168 3
+a173 2
+	msdbShowTable();
+	MSDB_PERF('msdbShowTable');
+@
+
+
+1.82
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.81 2004/02/16 12:35:50 engine Exp engine $ ';
+d165 2
+a166 2
+	echo "$bar\n";
+	MSDB_PERF('msdbAppBar');
+@
+
+
+1.81
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.80 2004/02/16 11:39:16 engine Exp engine $ ';
+d155 1
+a163 1
+	MSDB_PERF('');
+d165 1
+d171 1
+a171 1
+	msdbShowTable($bar);
+d178 2
+@
+
+
+1.80
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.79 2004/02/11 07:47:15 engine Exp engine $ ';
+d41 1
+a41 1
+	msdbMsg("<BR>Select a Database<BR>");
+d77 1
+a77 1
+	msdbMsg("<BR>Select a table to browse<BR>");
+@
+
+
+1.79
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.78 2004/02/11 07:45:31 engine Exp engine $ ';
+a183 1
+	global $msdb;
+d186 1
+d230 5
+a234 4
+	/* turn this on/off if you want to look at development internals */
+	/*	msdbInfo();	*/
+	/*	MSDB_PERF('msdbInfo');	*/
+	/*	msdbShowPerf();	*/
+@
+
+
+1.78
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.77 2004/02/06 08:32:44 engine Exp engine $ ';
+d231 3
+a233 3
+	msdbInfo();
+	MSDB_PERF('msdbInfo');
+	msdbShowPerf();
+@
+
+
+1.77
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.76 2004/02/03 06:31:57 engine Exp engine $ ';
+a23 1
+
+a138 1
+
+d231 3
+a233 3
+	/*	msdbInfo();	*/
+	/*	MSDB_PERF('msdbInfo');	*/
+	/*	msdbShowPerf();	*/
+@
+
+
+1.76
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.75 2004/02/02 10:39:38 engine Exp engine $ ';
+d233 3
+a235 3
+	msdbInfo();
+	MSDB_PERF('msdbInfo');
+	msdbShowPerf();
+@
+
+
+1.75
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.74 2004/02/02 10:10:13 engine Exp engine $ ';
+d110 33
+d157 1
+d162 2
+@
+
+
+1.74
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.73 2004/02/02 08:24:26 engine Exp engine $ ';
+d58 1
+a58 1
+				$url = msdbURL("msdbDB=$db&msdbTNAME=$t");
+@
+
+
+1.73
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.72 2004/02/02 08:10:16 engine Exp engine $ ';
+d40 1
+a40 1
+	msdbUserPrefSetProperty('DB', null);
+@
+
+
+1.72
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.71 2004/02/01 19:50:00 engine Exp engine $ ';
+d175 1
+a175 2
+		} else if ( ! $dbMeta->tname || $dbMeta->noPerm || $dbMeta->ea == 'msdbSwitchDB' ) {
+			// after a switch DB (or no permissions or table switch requested, etc.)
+@
+
+
+1.71
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.70 2004/02/01 07:56:39 engine Exp engine $ ';
+d40 2
+@
+
+
+1.70
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.69 2004/02/01 07:56:10 engine Exp engine $ ';
+d49 2
+a50 1
+		echo "<TR>\n";
+d61 1
+a61 1
+			echo "<BR><PRE><BR>";
+d63 1
+a63 1
+			echo "<BR></PRE><BR>";
+d196 3
+a198 3
+	/*	msdbInfo();	*/
+	/*	MSDB_PERF('msdbInfo');	*/
+	/*	msdbShowPerf();	*/
+@
+
+
+1.69
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.68 2004/01/31 12:09:34 engine Exp engine $ ';
+d195 3
+a197 3
+	msdbInfo();
+	MSDB_PERF('msdbInfo');
+	msdbShowPerf();
+@
+
+
+1.68
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.67 2004/01/30 09:28:01 engine Exp engine $ ';
+d195 2
+a197 1
+	msdbInfo();
+@
+
+
+1.67
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.66 2004/01/30 06:21:17 engine Exp engine $ ';
+d102 1
+a102 1
+	echo "<FONT COLOR='BLUE' FACE=Helvetica size='3'><B>$str</B></FONT><BR><BR>\n" ;
+d127 1
+a127 1
+	msdbAppBar();
+d133 1
+a133 1
+	msdbShowTable();
+@
+
+
+1.66
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.65 2004/01/30 05:58:35 engine Exp engine $ ';
+d38 35
+d79 1
+a79 1
+	echo "<TABLE BORDER=1 CELLPADDING=0 CELLSPACING=0><TR><TD COLSPAN=2 CLASS=msdbTablesHead>Table</TD></TR>\n";
+d84 1
+a84 1
+		msdbInclude('include/tableUrl.h', $vars);
+d86 1
+@
+
+
+1.65
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.64 2004/01/29 10:26:41 engine Exp engine $ ';
+d42 1
+a42 1
+	$tables = msdbTables();
+d134 1
+a134 1
+			msdbSelectDB();
+@
+
+
+1.64
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.63 2004/01/29 08:25:51 engine Exp engine $ ';
+d71 38
+d132 6
+a137 2
+		if ( ! $dbMeta->tname || $dbMeta->noPerm ) {
+			MSDB_PERF('');
+d141 2
+a142 27
+		else {
+			MSDB_PERF('');
+			msdbStatPrepare();
+			MSDB_PERF('msdbStatPrepare');
+
+			if ( $dbMeta->ea ) {
+				MSDB_PERF('');
+				msdbAction();
+				MSDB_PERF('msdbAction');
+			}
+
+
+			MSDB_PERF('');
+			msdbAppBar();
+			MSDB_PERF('msdbAppBar');
+
+			msdbChangeform();
+			MSDB_PERF('msdbChangeform');
+
+			msdbShowTable();
+			MSDB_PERF('msdbShowTable');
+			msdbSend();
+			MSDB_PERF('msdbSend');
+			msdbStatistics();
+			MSDB_PERF('msdbStatistics');
+			msdbInclude('include/crtableLink.h', null);
+		}
+a145 2
+		MSDB_PERF('');
+
+a153 2
+
+		MSDB_PERF('show login screen');
+@
+
+
+1.63
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.62 2004/01/29 06:56:40 engine Exp engine $ ';
+d79 1
+a79 1
+	$msdb['holdMsgs'] = true ;
+@
+
+
+1.62
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.61 2004/01/29 06:04:32 engine Exp engine $ ';
+d77 1
+a77 1
+	MSDB_PERF();
+d81 1
+a81 1
+	MSDB_PERF();
+d83 1
+a83 1
+	MSDB_PERF();
+d87 2
+d91 2
+d95 1
+a95 1
+			MSDB_PERF();
+d97 1
+a97 1
+			MSDB_PERF();
+d100 1
+a100 1
+			MSDB_PERF();
+d102 1
+a102 1
+			MSDB_PERF();
+d105 1
+d107 1
+a107 1
+				MSDB_PERF();
+d111 1
+d113 1
+d116 1
+a117 1
+			MSDB_PERF();
+d119 1
+a119 1
+			MSDB_PERF();
+d121 1
+a121 1
+			MSDB_PERF();
+d123 1
+a123 1
+			MSDB_PERF();
+d129 2
+d139 2
+d143 1
+a143 1
+	MSDB_PERF();
+@
+
+
+1.61
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.60 2004/01/28 18:27:42 engine Exp engine $ ';
+d77 2
+d132 2
+@
+
+
+1.60
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.59 2004/01/28 18:23:47 engine Exp engine $ ';
+d79 1
+d81 1
+d88 2
+a89 1
+		if ( ! $dbMeta->tname || $dbMeta->noPerm )
+d91 2
+d94 1
+d96 1
+d98 1
+a98 1
+			if ( $dbMeta->ea )
+d100 3
+d105 1
+d107 2
+d110 1
+d112 1
+d114 1
+a128 1
+	
+d131 2
+a132 1
+	/*	msdbInfo();	*/
+@
+
+
+1.59
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.58 2004/01/28 13:15:50 engine Exp engine $ ';
+d14 1
+@
+
+
+1.58
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.57 2004/01/28 04:31:57 engine Exp engine $ ';
+d13 1
+a13 1
+	echo "<HTML><HEAD>\n" ;
+@
+
+
+1.57
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.56 2004/01/28 03:21:35 engine Exp engine $ ';
+a69 14
+function msdbOthersLink()
+{
+	global $msdbEnterVar;
+
+	$sid = $msdbEnterVar->sid;
+	$sidst = $msdbEnterVar->started;
+	$otherLink = "(<A HREF=\"main.php?msdbSID=$sid&msdbSIDST=$sidst\">Other Tables</A>)" ;
+
+	echo "<BR><FONT COLOR='BLUE' size='3'>$otherLink</FONT><BR><BR>\n" ;
+}
+
+/******************************/
+		
+
+d98 1
+a98 1
+			msdbOthersLink();
+d101 2
+d105 2
+@
+
+
+1.56
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.55 2004/01/28 01:32:42 engine Exp engine $ ';
+d47 1
+a47 1
+		$vars = array( 'tname' => $tname, 'tableUrl' => $tableUrl, 'rownum' => $rownum);
+@
+
+
+1.55
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.54 2004/01/26 13:37:31 engine Exp engine $ ';
+d73 1
+d76 1
+a76 1
+	$otherLink = "(<A HREF=\"main.php?SID=$sid&SIDST=$sidst\">Other Tables</A>)" ;
+d125 1
+a125 1
+	msdbInfo();
+@
+
+
+1.54
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.53 2004/01/26 12:29:35 engine Exp engine $ ';
+d119 1
+a119 1
+		msdbInclude('include/logon.h', array('user' => $user) );
+@
+
+
+1.53
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.52 2004/01/23 19:07:32 engine Exp engine $ ';
+d124 1
+a124 1
+	/*	msdbInfo();	*/
+@
+
+
+1.52
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.51 2004/01/22 11:38:55 engine Exp engine $ ';
+d16 1
+a16 1
+	echo "</HEAD>" ;
+d19 2
+d28 2
+d31 2
+d124 1
+a124 1
+	msdbInfo();
+@
+
+
+1.51
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.50 2004/01/22 09:52:01 engine Exp engine $ ';
+d118 1
+a118 1
+	/*	msdbInfo();	*/
+@
+
+
+1.50
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.49 2004/01/21 16:19:28 engine Exp engine $ ';
+a30 20
+function msdbAction()
+{
+	global $dbMeta;
+
+	if ( $dbMeta->ea == 'msdbInsert' )
+		msdbInsert();
+	else if ( $dbMeta->ea == 'msdbDelete' )
+		msdbDelete();
+	else if ( $dbMeta->ea == 'msdbUpdate' )
+		msdbUpdate();
+	else if ( $dbMeta->ea == 'msdbTest' )
+		msdbTest();
+	else
+		MSDB_ERROR("msdbAction: action :::$dbMeta->ea::: unknown");
+
+	echo "<BR><BR>";
+}
+
+/******************************/
+
+d33 1
+a33 1
+	msdbMsg("Select a table to browse");
+@
+
+
+1.49
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.48 2004/01/21 08:00:10 engine Exp engine $ ';
+d138 1
+a138 1
+	msdbInfo();
+@
+
+
+1.48
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.47 2004/01/19 15:33:49 engine Exp engine $ ';
+d44 1
+a44 1
+		MSDB_MSG("msdbAction: action :::$dbMeta->ea::: unknown");
+@
+
+
+1.47
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.46 2004/01/19 13:53:09 engine Exp engine $ ';
+d111 2
+a112 2
+	if ( $isH ) {
+		if ( ! $dbMeta->tname )
+@
+
+
+1.46
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.45 2004/01/18 16:22:10 engine Exp engine $ ';
+d43 2
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.44 2004/01/18 14:44:48 engine Exp engine $ ';
+d35 1
+a35 1
+	if ( $dbMeta->ea == 'Insert' )
+d37 1
+a37 1
+	else if ( $dbMeta->ea == 'Delete' )
+d39 1
+a39 1
+	else if ( $dbMeta->ea == 'Update' )
+d41 1
+a41 1
+	else if ( $dbMeta->ea == 'Test' )
+d43 2
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.43 2004/01/15 13:52:00 engine Exp engine $ ';
+d117 1
+d119 1
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.42 2004/01/15 13:02:55 engine Exp engine $ ';
+d53 1
+a53 1
+	echo "<TABLE BORDER=1><TR><TD COLSPAN=2 CLASS=msdbTablesHead>Table</TD></TR>\n";
+d87 1
+a87 1
+	echo "<FONT COLOR='BLUE' size='3'>$otherLink</FONT><BR><BR>\n" ;
+a115 1
+			msdbOthersLink();
+d119 1
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.41 2004/01/15 12:46:38 engine Exp engine $ ';
+d122 2
+a123 3
+		$user = $msdbEnterVar->pwent->user;
+		if ( $user )
+			$var = array( 'user' => $user )
+d125 1
+a125 1
+			$vars = array( 'user' => 'username');
+d127 1
+a127 1
+		msdbInclude('include/logon.h', $vars);
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.40 2004/01/15 10:29:39 engine Exp engine $ ';
+d97 1
+d122 6
+a127 1
+		$vars = array( 'user' => 'username');
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.39 2004/01/15 10:09:43 engine Exp engine $ ';
+a66 1
+	global $msdbEnterVar;
+d75 4
+a78 1
+	echo "<FONT COLOR='BLUE' size='4'>$str</FONT><BR>\n" ;
+d80 3
+d87 1
+a87 1
+	echo "<FONT COLOR='BLUE' size='3'>$otherLink</FONT><BR>\n" ;
+d115 1
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.38 2004/01/14 17:07:36 engine Exp engine $ ';
+d67 1
+a67 1
+
+d74 7
+a80 1
+	$str = $tlink.": Showing ".$dbMeta->whereEtc;  // the entire SQL less the trivial select part
+d82 1
+a82 1
+	echo "<FONT COLOR='BLUE' size='3'>$str</FONT><BR><BR>\n" ;
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.37 2004/01/14 16:34:06 engine Exp engine $ ';
+d49 1
+a49 1
+	MSDB_MSG("Select a table to browse");
+d53 1
+d55 1
+d57 1
+a57 1
+		$vars = array( 'tname' => $tname, 'tableUrl' => $tableUrl);
+d60 1
+d71 1
+d73 2
+a74 1
+	$str = $tname.": Showing ".$dbMeta->where ;
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.36 2004/01/14 14:36:33 engine Exp engine $ ';
+d69 3
+a71 1
+	echo "<CENTER><FONT COLOR='ORANGE' size='3'>App Bar: $tname</FONT></CENTER><BR>\n" ;
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.35 2004/01/14 14:32:23 engine Exp engine $ ';
+d33 2
+d65 2
+d78 1
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.34 2004/01/14 13:04:37 engine Exp engine $ ';
+a32 2
+	global $msdbHeadVar;
+
+a61 1
+	global $msdbHeadVar;
+d63 1
+a63 1
+	$tname = $msdbHeadVar->tname;
+a72 1
+	global $msdbHeadVar;
+d84 1
+a84 1
+		if ( ! $msdbHeadVar->tname )
+@
+
+
+1.34
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.33 2004/01/14 12:44:02 engine Exp engine $ ';
+d35 1
+a35 1
+	if ( $msdbHeadVar->ea == 'Insert' )
+d37 1
+a37 1
+	else if ( $msdbHeadVar->ea == 'Delete' )
+d39 1
+a39 1
+	else if ( $msdbHeadVar->ea == 'Update' )
+d41 1
+a41 1
+	else if ( $msdbHeadVar->ea == 'Test' )
+d93 1
+a93 1
+			if ( $msdbHeadVar->ea )
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.32 2004/01/14 07:56:23 engine Exp engine $ ';
+d106 1
+a106 1
+	echo "<BR>\n" ;
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.31 2004/01/13 15:12:54 engine Exp engine $ ';
+d106 1
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.30 2004/01/13 14:56:04 engine Exp engine $ ';
+d35 2
+a36 2
+	if ( $msdbHeadVar->ea == 'Add' )
+		msdbAdd();
+a90 1
+			msdbAppBar();
+d92 1
+d95 4
+a98 2
+			else
+				msdbShowTable();
+d105 3
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: htbrowse.php,v 1.29 2004/01/13 12:57:38 engine Exp engine $ ';
+d49 1
+a49 1
+	msdbMsg("Select a table to browse");
+@
+
+
+1.29
+log
+@None
+@
+text
+@d2 3
+a4 1
+$rcsid='$Id: .exrc,v 1.5 2004/01/05 10:16:31 engine Exp engine $ ';
+@
+
+
+1.28
+log
+@None
+@
+text
+@d2 3
+a4 3
+/* $Id: htbrowse.php,v 1.27 2004/01/13 12:09:53 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.27
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.26 2004/01/13 12:09:05 engine Exp engine $  */
+d90 1
+a90 1
+			msdbStatsPrepare();
+@
+
+
+1.26
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.25 2004/01/11 15:23:05 engine Exp engine $  */
+d90 1
+a90 1
+			msdbReportPrepare();
+@
+
+
+1.25
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.24 2004/01/10 19:52:11 engine Exp engine $  */
+d90 1
+@
+
+
+1.24
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.23 2004/01/10 16:26:06 engine Exp engine $  */
+a6 7
+function msdbTitle()
+{
+	return("msdb::htbrowse");
+}
+
+/************************************************************/
+
+@
+
+
+1.23
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.22 2004/01/07 22:01:29 engine Exp engine $  */
+d82 1
+@
+
+
+1.22
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.21 2004/01/07 18:29:39 engine Exp engine $  */
+a22 5
+	// cut and paste from IE in the old system into an include file
+	// then include it here ???
+	// heb_header();
+	// msdbInclude('include/hebHeader', null);
+
+d46 2
+@
+
+
+1.21
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.20 2004/01/07 16:54:38 engine Exp engine $  */
+d7 7
+d16 12
+d72 3
+a74 1
+	global $msdbTname;
+d76 1
+a76 1
+	echo "<CENTER><FONT COLOR='ORANGE' size='3'>App Bar: $$msdbTname</FONT></CENTER><BR>\n" ;
+@
+
+
+1.20
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.19 2004/01/07 12:56:49 engine Exp engine $  */
+d22 1
+a22 1
+function msdbAction($mh)
+d24 8
+a31 6
+	if ( $mh->ea == 'Add' )
+		msdbAdd($mh);
+	else if ( $mh->ea == 'Delete' )
+		msdbDelete($mh);
+	else if ( $mh->ea == 'Update' )
+		msdbUpdate($mh);
+a44 1
+		msdb_r($vars);
+d63 1
+a63 1
+	global $msdb;
+d67 1
+a67 1
+	$mh = msdbHead::msdbHead();
+d73 3
+a75 5
+	$msdb['head'] = &$mh ;
+
+	if ( $mh ) {
+		if ( ! $mh->tname )
+			msdbSelectTable($mh);
+d77 3
+a79 3
+			msdbAppBar($mh);
+			if ( $mh->ea )
+				msdbAction($mh);
+d81 1
+a81 2
+				msdbShowTable($mh);
+			
+a84 1
+		/*	msdb_r($vars);	*/
+a86 1
+
+@
+
+
+1.19
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.18 2004/01/07 12:11:05 engine Exp engine $  */
+d34 1
+a34 1
+function msdbSelectTable($mh)
+a45 3
+
+	/*	msdbMsg(__FILE__.": ".__LINE__);	*/
+	/*	msdbTableListMenu();	*/
+d50 1
+a50 1
+function msdbAppBar($mh)
+d52 3
+a54 2
+	echo "<CENTER><FONT COLOR='ORANGE' size='3'>App Bar: {$mh->tname}</FONT></CENTER><BR>\n" ;
+	/*	msdb_r($mh);	*/
+@
+
+
+1.18
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.17 2004/01/06 19:35:00 engine Exp engine $  */
+d42 1
+a42 1
+		$vars = array( '$tname' => $tname, '$tableUrl' => $tableUrl);
+@
+
+
+1.17
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.16 2004/01/06 19:24:41 engine Exp engine $  */
+d34 1
+a34 1
+function msdbNoTname($mh)
+d36 12
+a47 1
+	msdbMsg("No table to browse. Select a table");
+a60 1
+/*	msdbMsg(__FILE__.": ".__LINE__);	*/
+d78 1
+a78 1
+			msdbNoTname($mh);
+@
+
+
+1.16
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.15 2004/01/06 19:11:09 engine Exp engine $  */
+d41 8
+d70 1
+a70 1
+			msdbAppBar();
+d74 1
+a74 1
+				msdbMain();
+@
+
+
+1.15
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.14 2004/01/06 16:18:12 engine Exp engine $  */
+d42 1
+d60 1
+a60 1
+			return(msdbNoTname($mh));
+d64 1
+a64 1
+				return(msdbAction($mh));
+@
+
+
+1.14
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.13 2004/01/06 07:11:37 engine Exp engine $  */
+d33 8
+@
+
+
+1.13
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.12 2004/01/05 21:46:36 engine Exp engine $  */
+d22 13
+a48 1
+
+d50 10
+a59 6
+		msdbAppBar();
+		if ( $mh->action && isset($mybdb['actions'][$mh->action]) )
+			call_user_func($mybdb['actions'][$mh->action]);
+		else
+			mydbMain();
+		
+@
+
+
+1.12
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.11 2004/01/05 21:21:57 engine Exp engine $  */
+d24 2
+@
+
+
+1.11
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.10 2004/01/05 20:02:10 engine Exp engine $  */
+d7 15
+d28 2
+d44 1
+d48 2
+a49 4
+
+
+
+	/*	msdbTailer();	*/
+@
+
+
+1.10
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.9 2004/01/05 18:08:44 engine Exp engine $  */
+a25 1
+		echo "<HR>\n" ;
+a27 2
+		/*	echo "<HR>\n" ;	*/
+		echo "<HR>\n" ;
+@
+
+
+1.9
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.8 2004/01/05 11:49:06 engine Exp engine $  */
+d7 1
+a7 1
+function mypdbHtbrowse()
+d9 1
+a9 1
+	$mypdb['holdMsgs'] = true ;
+d11 1
+a11 1
+	$mh = mypdbHead::mypdbHead();
+d13 1
+a13 1
+	mypdbFlushMsgs();
+d15 1
+a15 1
+	$mypdb['head'] = &$mh ;
+d19 1
+a19 1
+		mypdbAppBar();
+d28 1
+a28 1
+		mypdbInclude('include/logon.h', $vars);
+d36 1
+a36 1
+	/*	mypdbTailer();	*/
+@
+
+
+1.8
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.7 2004/01/05 11:15:45 engine Exp engine $  */
+d17 1
+d25 8
+a32 2
+	} else
+		mypdbInclude('include/logon.h', array('user' => 'username'));
+@
+
+
+1.7
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.6 2004/01/05 06:31:00 engine Exp engine $  */
+a5 6
+error_reporting(E_ALL) ;
+/************************************************************/
+require_once("config.php");
+require_once("globals.php");
+require_once("functions.php");
+/************************************************************/
+d29 1
+a29 1
+	mypdbTailer();
+@
+
+
+1.6
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.5 2004/01/03 22:18:31 engine Exp engine $  */
+d6 6
+d31 1
+a31 1
+		mypdbShowLogon();
+@
+
+
+1.5
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.4 2004/01/03 22:14:07 engine Exp engine $  */
+d19 2
+a20 2
+		if ( $mh->ea && isset($mybdb['actions'][$mh->ea] )
+			call_user_func($mybdb['actions'][$mh->ea]);
+@
+
+
+1.4
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.3 2004/01/03 19:50:05 engine Exp engine $  */
+d18 5
+a22 5
+		/*	mypdbAppBar();	*/
+		/*	if ( $mh->ea && (func = _eng_func(h->ea)) != 0 )	*/
+			/*	func(h);	*/
+		/*	else	*/
+		/*	mydbMain();	*/
+@
+
+
+1.3
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.2 2004/01/03 16:30:20 engine Exp engine $  */
+d9 1
+a9 1
+	$mypdb['holdMsgs'] = TRUE ;
+d11 12
+a22 10
+	if ( ! ($mh = new mypdbHead()) ) {
+		mypdbFlushMsgs();
+		return;
+	}
+
+	/*	mypdb['head'] = &$mh ;	*/
+
+	mypdbHeader();
+	/*	mypdbFlushMsgs();	*/
+	/*	mypdbAppBar();	*/
+d24 4
+a27 4
+	/*	if ( $mh->ea && (func = _eng_func(h->ea)) != 0 )	*/
+		/*	func(h);	*/
+	/*	else	*/
+	/*	mydbMain();	*/
+@
+
+
+1.2
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: htbrowse.php,v 1.1 2004/01/03 12:01:03 engine Exp engine $  */
+d12 1
+a12 1
+		mypdbFlushMessages();
+d19 2
+a20 2
+	mypdbFlushMessages();
+	mypdbAppBar();
+d25 1
+a25 1
+	mydbMain();
+@
+
+
+1.1
+log
+@None
+@
+text
+@d2 1
+a2 1
+/* $Id: .exrc,v 1.4 2003/05/24 07:04:01 engine Exp engine $  */
+a5 4
+error_reporting(E_ALL | E_STRICT) ;
+require_once("include/settings.php");
+require_once("lib/functions.php");
+/************************************************************/
+a8 2
+	echo "Content-type: text/html\n\n";
+
+d16 1
+a16 1
+	mypdb['head'] = &$mh ;
+a30 2
+
+mypdbMain() ;
+@

@@ -1,0 +1,2151 @@
+head	1.72;
+access;
+symbols;
+locks
+	engine:1.72; strict;
+comment	@# @;
+
+
+1.72
+date	2004.09.02.12.11.07;	author engine;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.08.23.09.18.02;	author engine;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.08.23.06.10.37;	author engine;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.08.21.12.58.17;	author engine;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.08.05.12.12.16;	author engine;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.07.29.08.48.07;	author engine;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.07.28.09.00.31;	author engine;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.07.28.08.36.57;	author engine;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.07.21.15.09.04;	author engine;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.05.07.19.55.33;	author engine;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.04.29.10.01.59;	author engine;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.03.30.12.58.37;	author engine;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.03.14.16.26.00;	author engine;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.02.23.21.57.09;	author engine;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.02.16.12.37.44;	author engine;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.02.16.12.22.31;	author engine;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.02.07.12.13.54;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.02.03.06.31.58;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.02.02.10.39.41;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.02.01.22.44.17;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.02.01.07.44.29;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.01.31.18.47.17;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.01.29.10.26.43;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.01.28.13.15.54;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.01.28.03.21.38;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.01.28.01.35.14;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.01.28.01.25.38;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.01.26.18.49.44;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.01.23.19.07.32;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.01.22.09.52.02;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.01.21.18.18.27;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.21.17.28.12;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.21.16.19.31;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.21.10.24.34;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.21.10.12.44;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.21.10.10.14;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.21.10.02.50;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.21.09.53.20;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.18.16.22.17;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.14.16.34.07;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.14.14.36.37;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.13.15.12.56;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.13.15.10.01;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.13.14.56.06;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.13.13.08.01;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.10.19.52.14;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.08.08.24.31;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.07.22.39.17;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.07.22.33.27;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.07.22.01.30;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.07.18.29.41;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.07.16.54.39;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.07.12.11.06;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.07.12.00.16;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.06.19.24.43;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.06.16.18.13;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.06.07.11.38;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.05.20.02.12;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.05.18.08.46;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.05.16.49.34;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.05.11.13.02;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.05.09.32.57;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.05.08.46.43;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.05.08.33.27;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.03.22.18.31;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.03.19.50.06;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.03.16.56.28;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.03.16.30.22;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.03.15.26.05;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.03.12.01.05;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.02.12.39.54;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.01.14.10.55;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.72
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: util.php,v 1.71 2004/08/23 09:18:02 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+function msdb_r($var)
+{
+	/*	echo "\n<BR><HR><PRE>\n";	*/
+	echo "\n<PRE>\n";
+	print_r($var);
+	/*	echo "\n</PRE><HR><BR>\n";	*/
+	echo "\n</PRE>\n";
+}
+
+/************************************************************/
+
+function msdbMailTo($to, $err)
+{
+	if ( strstr("$to", "@@") ) {
+		mail($to, 'msdbError', "$err");
+		return;
+	}
+	if ( ! function_exists('posix_getpwnam') )
+		return;
+
+	if ( ! ( $pw = posix_getpwnam($to) ) )
+		return;
+
+	mail($to, 'msdbError', $err);
+}
+
+/******************************/
+
+/*
+ * log a msg on stderr (normally the server side error log file)
+ */
+
+global $msdbStderr;
+$msdbStderr = null;
+
+function msdbLogError($msg)
+{
+	global $msdbStderr;
+	global $msdbVersion;
+	global $msdbConfig;
+	global $_SERVER;
+	global $SERVER_NAME;
+
+	if ( isset($SERVER_NAME) )
+		$sn = $SERVER_NAME;
+	else if ( isset($_SERVER['SERVER_NAME']) )
+		$sn = $_SERVER['SERVER_NAME'];
+	else
+		$sn = "(server?)";
+
+	if ( ! ($ip = msdbRemoteIp()) )
+		$ip = '';
+
+	if ( is_null($msdbStderr) )
+		$msdbStderr = fopen('php://stderr', 'w'); 
+
+	$date = msdbDateTimeNow();
+	if ( ! ($url = @@ $_SERVER['QUERY_STRING'] ) ) 
+		$url = "" ;
+
+	// fgrep msdbError /.../error_log*
+	$logError = "$msdbVersion: $date: $msg (ip: $ip, URL: $url, server: $sn)";
+	fputs($msdbStderr, "msdbError: $logError\n"); 
+
+	if ( isset($msdbConfig['mailErrorsTo']) )
+		msdbMailTo($msdbConfig['mailErrorsTo'], $logError);
+}
+
+/************************************************************/
+$msdbMsgBuf = array();
+$msdbMsgsIsHold = false;
+/******************************/
+
+function msdbHoldMsgs()
+{
+	global $msdbMsgsIsHold;
+
+	$msdbMsgsIsHold = true;
+}
+
+/******************************/
+
+function msdbShowMsg($msg)
+{
+	$m = htmlspecialchars($msg);
+
+	echo "<FONT COLOR='BLUE' size='2'><B>$m</B></FONT><BR>\n" ;
+}
+
+/******************************/
+
+function msdbMsg($msg)
+{
+	global $msdbMsgBuf;
+	global $msdbMsgsIsHold;
+
+	if ( $msdbMsgsIsHold )
+		$msdbMsgBuf[] = $msg;
+	else
+		msdbShowMsg($msg);
+}
+
+/******************************/
+
+function msdbFlushMsgs()
+{
+	global $msdbMsgBuf;
+	global $msdbMsgsIsHold;
+
+	$msdbMsgsIsHold = false;
+
+	foreach ( $msdbMsgBuf as $msg )
+		msdbShowMsg($msg);
+
+	$msdbMsgBuf = array();
+}
+
+/******************************/
+
+/*
+ * an error messages.
+ * anything that is a failure of  any sort not derived from
+ * a user action comes through here
+ * this can be due to several reasons, like:
+ * 
+ *		1. A bug in msdb (this is what this is here for).
+ *			(php/mysql/webServer software unexpeted rev inconsistecy included)
+ *		2. a malfunction in the enviroment. (e.g. database down)
+ *		3. a user-created or modified URL
+ */
+
+function msdbError($msg)
+{
+
+	msdbMsg($msg);
+	msdbLogError($msg);
+}
+
+/************************************************************/
+
+ // as of php 4.1 can use $_REQUEST and do away with GET/POST
+
+function msdbGetPost($name)
+{
+	if ( isset($_REQUEST[$name]) )
+		$val = $_REQUEST[$name];
+	else if ( isset($_GET[$name]) )
+		$val = $_GET[$name];
+	else if ( isset($_POST[$name]) ) 
+		$val = $_POST[$name];
+	else
+		return(null);
+
+	// remove all backslashes from input put in by web browser and/or server
+	// you have to pass 2 bs's to str_replace, so it shows up as 4 here
+	$ret = str_replace("\\\\", "", $val);
+	return($ret);
+}
+
+/************************************************************/
+/*
+ * not to be confused with phph's include
+ * this is more of:
+ *  get the file,
+ *	parse the $variables,
+ * the rest is HTML,
+ * toss it out to the output stream
+ *
+ * $var is an array of this to replace, as if created with
+ *		array=('user' => 'Ohad', ...)
+ *
+ */
+/******************************/
+/*
+ * msdbStrParse() is not concious of the $ signs
+ * so if msdbSID appears before msdbSIDST
+ * in the substitutions array
+ * then msdbSIDST translates to 5ST when msdbSID = 5
+ */
+
+function msdbStrParse($str, $vars)
+{
+	$ret = $str ;
+
+	foreach ( $vars as $name => $value ) {
+		$rIn = $ret;
+		$rSearch = "\$$name" ;
+		$rReplace = $value ;
+		/*	echo "rIn = <$rIn><BR>\nrSearch=<$rSearch><BR>\nrReplace=<$rReplace><BR>\n" ;	*/
+		$rt = str_replace($rSearch, $rReplace, $rIn);
+		/*	echo "Now at ".__LINE__." ret = <$ret>\n" ;	*/
+		if ( isset($rt) )
+			$ret = $rt;
+
+	}
+	return($ret);
+}
+	
+/********************/
+function reverseStrlenCmp($s1, $s2) {  return(strlen($s2) - strlen($s1)); }
+/********************/
+/*
+ * msdbInclude() is a simple and effectve template system.
+ * template can contain $varname, nothing else
+ * the scope is a set of globals (see below)
+ * and an explicitely passed array of name=value pairs.
+ */
+
+function msdbInclude($fname, $vars = null)
+{
+	global $msdbEnterVar;
+	global $dbMeta;
+	global $msdbVersion;
+
+
+	if ( ( $myHome = msdbMyHome()) )
+		$fpath = "$myHome/$fname" ; 
+	else
+		$fpath = $fname ; 
+		
+	if ( ( $myHomeUrl = msdbMyHomeUrl()) ) {
+		$msdbMyHomeUrl = $myHomeUrl;
+		$iconDir = $myHomeUrl.'icons' ; 
+		$jsDir = $myHomeUrl.'JSlib' ; 
+	} else {
+		$msdbMyHomeUrl = '';
+		$iconDir = 'icons' ; 
+		$jsDir = 'JSlib' ; 
+	}
+
+	$std = array (
+			/*	'msdbMyHomeUrl' => $msdbMyHomeUrl,	*/
+			'msdbDB' => $dbMeta->DB,
+			'msdbTNAME' => $dbMeta->tname,
+			'msdb_t0' => sprintf("%d", time()),
+			'DATE' => date("F j, Y, g:i a"),
+			'msdbSIDST' => $msdbEnterVar->started,
+			'msdbSID' => $msdbEnterVar->sid,
+			'msdbPkName' => $dbMeta->primaryKey,
+			'msdbVersion' => $msdbVersion,
+			'iconDir' => $iconDir,
+			'jsDir' => $jsDir,
+		);
+
+
+	if ( isset($vars) )
+		$varList = array_merge($vars, $std);
+	else
+		$varList = $std ;
+
+	if ( ! is_readable($fpath) ) {
+		msdbMsg("msdbInclude: Can not read file: $fpath");
+		return(false);
+	}
+
+	if ( ! ($f = file($fpath)) ) {
+		MSDB_ERROR("msdbInclude: php Can not read file: $fpath");
+		return(false);
+	}
+
+	/*	msdb_r($varList);	*/
+
+	// parser ?!
+	// sort by key length, descending to prevent $ohad from replacing $ohadaloni
+	uksort($varList, "reverseStrlenCmp");
+
+	foreach ( $f as $line ) {
+		$parsed = msdbStrParse($line, $varList);
+		$out = msdbStrParse($parsed, $_GET); // only what was not parsed already is allowed to use _GET
+		echo "$out";
+	}
+	return(true);
+}
+
+/************************************************************/
+
+// msdbRound is for reports, so they don't clutter with data coming
+// pourly rounded from mysql
+// $str is a string that may represt an integer, or a floating pint.
+// in the case of a floating point, it might need some rounding
+// according to msdbConfig rounding value
+
+function msdbRound($str)
+{
+	global $msdbConfig;
+
+	if ( ($decimal = strstr($str, '.')) == null )
+		return($str);
+
+	$roundBy = $msdbConfig['statsFloatRound'];
+
+	if ( strlen($decimal) <= $roundBy + 1 )
+		return($str);
+
+	// now go numeric
+	$ret = (float)$str;
+	$rnd = pow(10, $roundBy);
+	$ret *= $rnd  ;
+	$ret += ( $ret > 0 ) ? 0.5 : -0.5 ;
+	$ret = (int)$ret;
+	$ret /= $rnd ;
+	$ret = (string)$ret;
+	return($ret);
+}
+
+/************************************************************/
+
+function msdbRoundTest()
+{
+	$a = array( '2', '4.5', '-3.77777', '3.77777', '5.99999567' );
+
+	foreach ( $a as $f ) {
+		$rf = msdbRound($f);
+		msdbMsg("::$f:: => ::$rf::");
+	}
+}
+
+/************************************************************/
+
+function msdbRemoteIp()
+{
+	global $_SERVER;
+
+	$rh = @@$_SERVER["REMOTE_HOST"];
+	$ra = @@$_SERVER["REMOTE_ADDR"];
+	$xff = @@$_SERVER['HTTP_X_FORWARDED_FOR'];
+
+	if ( $xff )
+		$ip=$xff;
+	else if ( $rh )
+		$ip = $rh;
+	else if ( $ra )
+		$ip = $ra;
+	else
+		return(null);
+
+	if ( $ip == '-' )
+		return(null);
+
+	return($ip);
+}
+
+/************************************************************/
+
+function msdbMyHomeUrl()
+{
+	global $msdbConfig;
+	global $_SERVER;
+
+	if ( isset($msdbConfig['myHomeUrl']) ) {
+		$ret = $msdbConfig['myHomeUrl'];
+		if ( $ret[strlen($ret)-1] != '/' )
+			return("$ret/");
+		return($ret);
+	}
+
+	/*	$ret = "/var/www/html/msdb/" ;	*/
+	/*	if ( ( is_dir($ret) || is_link($ret)  ) && is_readable($ret) )	*/
+		/*	return('msdb/');	*/
+
+	return(null);
+}
+
+/******************************/
+
+function msdbMyHome()
+{
+	global $msdbConfig;
+	global $_SERVER;
+
+	if ( isset($msdbConfig['myHome']) )
+		return($msdbConfig['myHome']);
+
+	/*	$ret = "/usr/local/msdb" ;	*/
+	/*	if ( ( is_dir($ret) || is_link($ret)  ) && is_readable($ret) )	*/
+		/*	return($ret);	*/
+
+	return(null);
+}
+
+/************************************************************/
+
+// like file() but without the newlines.
+
+function msdbFile($fname)
+{
+	if ( ! ( $c =file_get_contents($fname) ) )
+		return(null);
+	$ret = split("\n", $c);
+	array_pop($ret);
+	return($ret);
+}
+
+/************************************************************/
+?>
+@
+
+
+1.71
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.70 2004/08/23 06:10:37 engine Exp engine $ ';
+d382 3
+a384 3
+	$ret = "/user/local/msdb" ;
+	if ( ( is_dir($ret) || is_link($ret)  ) && is_readable($ret) )
+		return($ret);
+@
+
+
+1.70
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.69 2004/08/21 12:58:17 engine Exp engine $ ';
+d224 1
+a224 1
+	if ( ( $myHome = msdbScriptHome()) )
+d229 10
+d240 1
+d248 3
+a250 1
+			'msdbVersion' => $msdbVersion
+d353 1
+a353 1
+function msdbScriptHomeUrl()
+d358 6
+a363 4
+	if ( isset($msdbConfig['myHomeUrl']) )
+		return($msdbConfig['myHomeUrl']);
+
+	return(null);
+d365 3
+a367 3
+	$ret = "/var/www/html/msdb" ;
+	if ( ( is_dir($ret) || is_link($ret)  ) && is_readable($ret) )
+		return($ret);
+d374 1
+a374 1
+function msdbScriptHome()
+a381 2
+	return(null);
+
+@
+
+
+1.69
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.68 2004/08/05 12:12:16 engine Exp engine $ ';
+d247 1
+a247 1
+		msdbMsg("msdbInclude: Can not read file: $myHome/$fname");
+d252 1
+a252 1
+		MSDB_ERROR("msdbInclude: php Can not read file: $myHome/$fname");
+d340 19
+d369 5
+a373 8
+	/*	if ( ! isset($_SERVER['SCRIPT_FILENAME']) ) {	*/
+		/*	msdbMsg("SCRIPT_FILENAME not set. Can not find msdb home");	*/
+		/*	return(false);	*/
+	/*	}	*/
+	/*	$sfn = $_SERVER['SCRIPT_FILENAME'];	*/
+	/*	$ret = split('/', $sfn);	*/
+	/*	array_pop($ret);	*/
+	/*	return(implode('/', $ret));	*/
+@
+
+
+1.68
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.67 2004/07/29 08:48:07 engine Exp engine $ ';
+d223 6
+d246 2
+a247 2
+	if ( ! is_readable($fname) ) {
+		msdbMsg("msdbInclude: Can not read file: $fname");
+d251 2
+a252 2
+	if ( ! ($f = file($fname)) ) {
+		MSDB_ERROR("msdbInclude: php Can not read file: $fname");
+d340 22
+d368 3
+a370 1
+	return(split("\n", $c));
+@
+
+
+1.67
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.66 2004/07/28 09:00:31 engine Exp engine $ ';
+d333 11
+@
+
+
+1.66
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.65 2004/07/28 08:36:57 engine Exp engine $ ';
+d252 2
+@
+
+
+1.65
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.64 2004/07/21 15:09:04 engine Exp engine $ ';
+d208 2
+d252 2
+@
+
+
+1.64
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.63 2004/05/07 19:55:33 engine Exp engine $ ';
+d163 2
+a164 2
+	// you have to pass 2 bs's to ereg_replace, so it shows up as 4 here
+	$ret = ereg_replace("\\\\", "", $val);
+d224 1
+a224 1
+			'msdb_t0' => (string)time(),
+d232 1
+d234 1
+a234 1
+		$varList = array_merge($vars, $std, $_GET);
+d236 1
+a236 1
+		$varList = array_merge($std, $_GET);
+d248 2
+d251 2
+a252 1
+		$out = msdbStrParse($line, $varList);
+@
+
+
+1.63
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.62 2004/04/29 10:01:59 engine Exp engine $ ';
+d23 1
+a23 1
+		mail($to, 'msdbError', "$logError");
+d50 8
+d70 1
+a70 1
+	$logError = "$msdbVersion: $date: $msg ip: $ip URL: $url";
+@
+
+
+1.62
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.61 2004/03/30 12:58:37 engine Exp engine $ ';
+d32 1
+a32 1
+	mail($to, 'msdbError', "$logError");
+d51 2
+d62 1
+a62 1
+	$logError = "$msdbVersion: $date: $msg URL: $url";
+d65 1
+a65 1
+	if ( ! isset($msdbConfig['mailErrorsTo']) )
+d141 1
+a141 1
+ // as of php 4.1 can use $_REQUEST rather than GET/POST
+d146 1
+a146 1
+		$val = $_GET[$name];
+d175 1
+a175 1
+ * is not concious of the $ signs
+d295 1
+d301 2
+a311 8
+		
+
+
+	echo "<BR><BR><B>$ra</B><BR>\n";
+	echo 'mm' ;
+	print_r($ENVIRONMENT);
+	echo 'mm' ;
+	
+@
+
+
+1.61
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.60 2004/03/14 16:26:00 engine Exp engine $ ';
+d20 17
+d48 1
+d60 5
+a64 1
+	fputs($msdbStderr, "msdbError: $msdbVersion: $date: $msg URL: $url\n"); 
+a138 2
+ // when there is a variable with no value, this would still return
+ // a null, which is not very good ???
+d143 3
+a145 1
+	if ( isset($_GET[$name]) )
+@
+
+
+1.60
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.59 2004/02/23 21:57:09 engine Exp engine $ ';
+d177 4
+a180 6
+ * each string is scanned for occurance of $var,
+ * replacing themwith its notion of the value of $var, which is as follows:
+ *    if $var is in $vars , use it,
+ *		otherwise get it from some other arrays
+ * 					of interesting name=value pair lists
+ *    otherwise leave it as $var for others to see.
+d206 1
+a206 1
+		MSDB_ERROR("msdbInclude: Can not read file: $fname");
+@
+
+
+1.59
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.58 2004/02/16 12:37:44 engine Exp engine $ ';
+d119 1
+d268 30
+@
+
+
+1.58
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.57 2004/02/16 12:22:31 engine Exp engine $ ';
+d224 43
+@
+
+
+1.57
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.56 2004/02/07 12:13:54 engine Exp engine $ ';
+d62 2
+a63 1
+	echo "<FONT COLOR='BLUE' size='2'>$m</FONT><BR>\n" ;
+d117 2
+a118 4
+/*
+ * what is the value of a given
+ * _GET or _POST
+ */
+@
+
+
+1.56
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.55 2004/02/03 06:31:58 engine Exp engine $ ';
+d61 2
+a62 1
+	echo "<FONT COLOR='BLUE' size='2'>$msg</FONT><BR>\n" ;
+@
+
+
+1.55
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.54 2004/02/02 10:39:41 engine Exp engine $ ';
+d31 2
+d38 3
+d42 1
+a42 1
+	fputs($msdbStderr, "msdbError: $msdbVersion: $date: ".$msg."\n"); 
+@
+
+
+1.54
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.53 2004/02/01 22:44:17 engine Exp engine $ ';
+d35 1
+a35 1
+	$date = msdbDayToday();
+@
+
+
+1.53
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.52 2004/02/01 07:44:29 engine Exp engine $ ';
+d30 1
+d37 1
+a37 1
+	fputs($msdbStderr, "msdbError: $date: ".$msg."\n"); 
+@
+
+
+1.52
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.51 2004/01/31 18:47:17 engine Exp engine $ ';
+d185 1
+@
+
+
+1.51
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.50 2004/01/29 10:26:43 engine Exp engine $ ';
+d35 1
+@
+
+
+1.50
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.49 2004/01/28 13:15:54 engine Exp engine $ ';
+d34 2
+a35 1
+	fputs($msdbStderr, $msg."\n"); 
+d103 1
+a103 2
+	// grep msdbError error_log | mail -s msdbError support@@msdb...
+	msdbLogError("msdbError: ".$msg);
+@
+
+
+1.49
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.48 2004/01/28 03:21:38 engine Exp engine $ ';
+d38 12
+d60 2
+a61 3
+	global $msdb;
+
+	/*	msdb_r($msdb);	*/
+d63 2
+a64 2
+	if ( $msdb['holdMsgs'] )
+		$msdb['msgs'][] = $msg ;
+d73 2
+a74 1
+	global $msdb;
+d76 1
+a76 1
+	$msdb['holdMsgs'] = false;
+d78 1
+a78 3
+	if ( ! isset($msdb['msgs']) )
+		return;
+	foreach ( $msdb['msgs'] as $msg )
+d81 1
+a81 1
+	unset($msdb['msgs']);
+d181 1
+a181 1
+	global $msdb;
+d190 1
+a190 1
+			'msdbVersion' => $msdb['version']
+@
+
+
+1.48
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.47 2004/01/28 01:35:14 engine Exp engine $ ';
+a173 1
+			'msdbUSER' => $msdbEnterVar->name,
+@
+
+
+1.47
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.46 2004/01/28 01:25:38 engine Exp engine $ ';
+d134 1
+a134 1
+ * so if SID appears before SIDST
+d136 1
+a136 1
+ * then SIDST translates to 5ST when SID = 5
+d178 2
+a179 2
+			'SIDST' => $msdbEnterVar->started,
+			'SID' => $msdbEnterVar->sid,
+@
+
+
+1.46
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.45 2004/01/26 18:49:44 engine Exp engine $ ';
+d174 1
+a174 1
+			'USER' => $msdbEnterVar->name,
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.44 2004/01/23 19:07:32 engine Exp engine $ ';
+d175 1
+a175 1
+			'TNAME' => $dbMeta->tname,
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.43 2004/01/22 09:52:02 engine Exp engine $ ';
+d180 1
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.42 2004/01/21 18:18:27 engine Exp engine $ ';
+d171 1
+d179 2
+a180 1
+			'SID' => $msdbEnterVar->sid
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.41 2004/01/21 17:28:12 engine Exp engine $ ';
+d113 2
+a114 1
+	$ret = ereg_replace("\\", "", $val);
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.40 2004/01/21 16:19:31 engine Exp engine $ ';
+d106 1
+a106 1
+		return($_GET[$name]);
+d108 1
+a108 1
+		return($_POST[$name]);
+d111 4
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.39 2004/01/21 10:24:34 engine Exp engine $ ';
+d128 1
+a128 1
+ * is not conciouis of the $ signs
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.38 2004/01/21 10:12:44 engine Exp engine $ ';
+d182 1
+a182 1
+		MSDB_MSG("msdbInclude: Can not read file: $fname");
+d187 1
+a187 1
+		MSDB_MSG("msdbInclude: php Can not read file: $fname");
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.37 2004/01/21 10:10:14 engine Exp engine $ ';
+d92 2
+a93 1
+	msdbLogError($msg);
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.36 2004/01/21 10:02:50 engine Exp engine $ ';
+d85 1
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.35 2004/01/21 09:53:20 engine Exp engine $ ';
+d76 11
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.34 2004/01/18 16:22:17 engine Exp engine $ ';
+d24 2
+a25 1
+global $msdbStderr = null;
+d29 1
+d34 1
+a34 2
+	/*	fputs($msdbStderr,"$msg."\n"); 	*/
+	fputs($msdbStderr,"$msg"); 
+@
+
+
+1.34
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.33 2004/01/14 16:34:07 engine Exp engine $ ';
+d20 18
+d73 9
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.32 2004/01/14 14:36:37 engine Exp engine $ ';
+d121 1
+a121 1
+function msdbInclude($fname, $vars)
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.31 2004/01/13 15:12:56 engine Exp engine $ ';
+d45 1
+a45 1
+	$msdb['holdMsgs'] = false; ;
+d129 1
+a129 1
+			'eng_r' => (string)time(),
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.30 2004/01/13 15:10:01 engine Exp engine $ ';
+d124 1
+a124 1
+	global $msdbHeadVar;
+d128 2
+a129 2
+			'TNAME' => $msdbHeadVar->tname,
+			'err_r' => (string)time(),
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.29 2004/01/13 14:56:06 engine Exp engine $ ';
+d141 1
+a141 1
+		msdbMsg("msdbInclude: Can not read file: $fname");
+d146 1
+a146 1
+		msdbMsg("msdbInclude: php Can not read file: $fname");
+@
+
+
+1.29
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: util.php,v 1.28 2004/01/13 13:08:01 engine Exp engine $ ';
+d22 1
+a22 1
+	echo "<FONT COLOR='RED' size='2'>$msg</FONT><BR>\n" ;
+@
+
+
+1.28
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.27
+log
+@None
+@
+text
+@d3 3
+a5 3
+/* $Id: util.php,v 1.26 2004/01/08 08:24:31 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2003. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.26
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.25 2004/01/07 22:39:17 engine Exp engine $  */
+d30 2
+@
+
+
+1.25
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.24 2004/01/07 22:33:27 engine Exp engine $  */
+d10 2
+a11 1
+	echo "\n<BR><HR><PRE>\n";
+d13 2
+a14 1
+	echo "\n</PRE><HR><BR>\n";
+@
+
+
+1.24
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.23 2004/01/07 22:01:30 engine Exp engine $  */
+d81 6
+d126 2
+a127 2
+			'SID' => $msdbEnterVar->sid ;
+			'SIDST' => $msdbEnterVar->started
+a129 8
+	/*	$std['USER'] = $msdbEnterVar->user ;	*/
+	/*	$std['TNAME'] = $msdbTname;	*/
+	/*	$std['err_r'] = (string)time();	*/
+	/*	$std['DATE'] = date("F j, Y, g:i a");                	*/
+
+
+	// _GET ???
+
+@
+
+
+1.23
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.22 2004/01/07 18:29:41 engine Exp engine $  */
+d119 3
+a121 1
+			'DATE' => date("F j, Y, g:i a")
+@
+
+
+1.22
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.21 2004/01/07 16:54:39 engine Exp engine $  */
+a152 24
+
+function msdbInfoTitle($n) { echo "<BR>$n<HR width=50% align=left>\n"; }
+
+/**********/
+
+function msdbInfo()
+{
+
+	$title = "<FONT COLOR=BLUE size=5>msDBInfo</FONT>";
+	echo "<CENTER>$title</CENTER><HR WIDTH=50%>\n\n";
+
+	msdbRsTitle('msdbConfig'); msdb_r($msdbConfig);
+	msdbRsTitle('msdbEnterVar'); msdb_r($msdbEnterVar);
+	msdbRsTitle('msdbHeadVar'); msdb_r($msdbHeadVar);
+	msdbRsTitle('msdbSid'); msdb_r($msdbSid);
+	msdbRsTitle('msdb'); msdb_r($msdb);
+	msdbRsTitle('dbHandle'); msdb_r($dbHandle);
+	msdbRsTitle('userPrefs'); msdb_r($userPrefs);
+	msdbRsTitle('_GET'); msdb_r($_GET);
+	msdbRsTitle('_POST'); msdb_r($_POST);
+	msdbRsTitle('SERVER'); msdb_r($SERVER);
+}
+
+/************************************************************/
+@
+
+
+1.21
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.20 2004/01/07 12:11:06 engine Exp engine $  */
+d112 2
+a113 1
+	global $msdb;
+d116 2
+a117 2
+			'USER' => $msdbEnterVar->user,
+			'TNAME' => $msdbTname,
+d119 1
+a119 1
+			'DATE' => $date("F j, Y, g:i a")
+d128 2
+a144 1
+	/*	msdb_r($f);	*/
+d154 3
+a156 1
+function msdb_RsTitle($n) { echo "<BR>$n<HR width=50% align=left>\n"; }
+d164 10
+a173 9
+	msdb_RsTitle('msdb'); msdb_r($msdb);
+	msdb_RsTitle('msdbEnterVar'); msdb_r($msdbEnterVar);
+	msdb_RsTitle('msdbHeadVar'); msdb_r($msdbHeadVar);
+	msdb_RsTitle('msdbSid'); msdb_r($msdbSid);
+	msdb_RsTitle('dbHandle'); msdb_r($dbHandle);
+	msdb_RsTitle('userPrefs'); msdb_r($userPrefs);
+	msdb_RsTitle('_GET'); msdb_r($_GET);
+	msdb_RsTitle('_POST'); msdb_r($_POST);
+	msdb_RsTitle('SERVER'); msdb_r($SERVER);
+@
+
+
+1.20
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.19 2004/01/07 12:00:16 engine Exp engine $  */
+a112 1
+	global $msdbIncVars;
+d114 11
+d126 5
+a130 1
+	$msdbIncVars['eng_r'] = (string)time();
+d144 2
+a145 7
+		$ret = $line;
+		/*	$ret = msdbStrParse($ret, $msdb);	*/
+		$ret = msdbStrParse($ret, $msdbIncVars);
+		/*	$ret = msdbStrParse($ret, $_GET);	*/
+		if ( isset($vars) )
+			$ret = msdbStrParse($ret, $vars);
+		echo "$ret";
+d151 21
+@
+
+
+1.19
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.18 2004/01/06 19:24:43 engine Exp engine $  */
+d118 9
+a126 1
+	$f = file($fname);
+d138 1
+@
+
+
+1.18
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.17 2004/01/06 16:18:13 engine Exp engine $  */
+a78 8
+ * ?? verify this:
+ *
+ * I can't think on an implementation of str_replace
+ * where it wouldn't my much slower to do this to the entier file
+ * at once rahter then in small pieces.
+ * in a more direct way, I'd prefer to first
+ * seach for what needs to be replaced and then replace it.
+ * I'm sure this is what php does, like any other interpreter.
+d100 9
+a108 1
+/******************************/
+@
+
+
+1.17
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.16 2004/01/06 07:11:38 engine Exp engine $  */
+a7 6
+function msdbInit()
+{
+}
+
+/************************************************************/
+
+@
+
+
+1.16
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.15 2004/01/05 20:02:12 engine Exp engine $  */
+d16 1
+a16 1
+	echo "<PRE>\n";
+d18 1
+a18 1
+	echo "</PRE>\n";
+@
+
+
+1.15
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.14 2004/01/05 18:08:46 engine Exp engine $  */
+d44 1
+d52 2
+d122 1
+a122 2
+
+	/*	$msdbIncVars['err_r'] = (string)time();	*/
+d128 7
+a134 6
+		$p1 = $line;
+		$p2 = msdbStrParse($p1, $msdb);
+		$p3 = msdbStrParse($p2, $msdbIncVars);
+		$p4 = msdbStrParse($p3, $_GET);
+		$p5 = msdbStrParse($p4, $vars);
+		echo "$p5";
+@
+
+
+1.14
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.13 2004/01/05 16:49:34 engine Exp engine $  */
+d8 1
+a8 1
+function mypdbInit()
+d14 1
+a14 1
+function mypdb_r($var)
+d23 1
+a23 1
+function mypdbShowMsg($msg)
+d30 1
+a30 1
+function mypdbMsg($msg)
+d32 1
+a32 1
+	global $mypdb;
+d34 2
+a35 2
+	if ( $mypdb['holdMsgs'] )
+		$mypdb['msgs'][] = $msg ;
+d37 1
+a37 1
+		mypdbShowMsg($msg);
+d42 1
+a42 1
+function mypdbFlushMsgs()
+d45 1
+a45 1
+	$mypdb['holdMsgs'] = false; ;
+d47 1
+a47 1
+	if ( ! isset($mypdb['msgs']) )
+d49 2
+a50 2
+	foreach ( $mypdb['msgs'] as $msg )
+		mypdbShowMsg($msg);
+d60 1
+a60 1
+function mypdbGetPost($name)
+d93 1
+a93 1
+function mypdbStrParse($str, $vars)
+d113 1
+a113 1
+function mypdbInclude($fname, $vars)
+d115 2
+a116 2
+	global $mypdb;
+	global $mypdbIncVars;
+d120 1
+a120 1
+	/*	$mypdbIncVars['err_r'] = (string)time();	*/
+d124 1
+a124 1
+	/*	mypdb_r($f);	*/
+d127 4
+a130 4
+		$p2 = mypdbStrParse($p1, $mypdb);
+		$p3 = mypdbStrParse($p2, $mypdbIncVars);
+		$p4 = mypdbStrParse($p3, $_GET);
+		$p5 = mypdbStrParse($p4, $vars);
+@
+
+
+1.13
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.12 2004/01/05 11:13:02 engine Exp engine $  */
+d8 6
+d102 5
+a106 3
+		$rOut = str_replace($rSearch, $rReplace, $rIn);
+		/*	echo "Now at ".__LINE__." rOut = <$rOut>\n" ;	*/
+		$ret = $rOut;
+d115 7
+a121 1
+	/******************************/
+d126 6
+a131 2
+		$parsedLine = mypdbStrParse($line, $vars);
+		echo "$parsedLine";
+a135 1
+
+@
+
+
+1.12
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.11 2004/01/05 09:32:57 engine Exp engine $  */
+d85 19
+d107 1
+d110 1
+d112 2
+a113 2
+		foreach ( $vars as $name => $value )
+			str_replace($line, $name, $value);
+a114 1
+	echo $f ;
+@
+
+
+1.11
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.10 2004/01/05 08:46:43 engine Exp engine $  */
+d89 1
+@
+
+
+1.10
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.9 2004/01/05 08:33:27 engine Exp engine $  */
+d72 12
+d85 11
+a95 1
+function mypbInclude(
+@
+
+
+1.9
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.8 2004/01/03 22:18:31 engine Exp engine $  */
+d65 10
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.7 2004/01/03 19:50:06 engine Exp engine $  */
+d26 2
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.6 2004/01/03 16:56:28 engine Exp engine $  */
+d36 3
+@
+
+
+1.6
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.5 2004/01/03 16:30:22 engine Exp engine $  */
+a6 3
+/*
+ * not sure why I didn't get the <PRE> like the docs promised
+ */
+d24 1
+a24 1
+function mydbMsg($msg)
+d36 2
+d51 1
+a51 1
+	if ( $_GET[$name] )
+d53 1
+a53 1
+	else if ($_POST[$name])
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.4 2004/01/03 15:26:05 engine Exp engine $  */
+d20 25
+@
+
+
+1.4
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: util.php,v 1.3 2004/01/03 12:01:05 engine Exp engine $  */
+d7 3
+d20 17
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: .exrc,v 1.4 2003/05/24 07:04:01 engine Exp engine $  */
+a6 2
+error_reporting(E_ALL | E_STRICT);
+/************************************************************/
+@
+
+
+1.2
+log
+@None
+@
+text
+@d13 1
+a13 2
+	$str = "if ( isset(\$$var) )\n\tprint_r(\$$var);\nelse\n\techo '$var not set';\n" ;
+	eval($str) ;
+a18 24
+function mypdb_isMain()
+{
+	if ( 
+}
+
+<HTML>
+<HEAD><TITLE>mypr</TITLE></HEAD><BODY>
+
+
+/* I only use foreach to get the first entry without using $_GET[0]
+ *		as in $name=$_GET[0] ;
+ * I just need the key for now, since _GET will not have a value
+ * nor will the index 0 necessarily work when saying:
+ * http://.../mypr.php?a
+ */
+foreach ($_GET as $name => $value ) {
+	echo "<HR>\nName: $name\n<HR width = 50% align=left>\n";
+	$str = "if ( isset(\$$name) )\n\tprint_r(\$$name);\nelse\n\techo '$name not set';\n" ;
+	mypr($name);
+	break;
+}
+
+
+
+a19 2
+</BODY>
+</HTML>
+@
+
+
+1.1
+log
+@None
+@
+text
+@a0 3
+<HTML>
+<HEAD><TITLE>mypr</TITLE></HEAD><BODY>
+
+d2 5
+d8 1
+d10 1
+a10 4
+/*	$title = "Ohad's print_r: ";	*/
+
+
+function mypr($name)
+a11 2
+	echo "<HR>\nName: $name\n<HR width = 50% align=left>\n";
+
+d13 1
+a13 1
+	$str = "if ( isset(\$$name) )\n\tprint_r(\$$name);\nelse\n\techo '$name not set';\n" ;
+d18 10
+d36 2
+@

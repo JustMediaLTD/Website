@@ -1,0 +1,4470 @@
+head	1.109;
+access;
+symbols;
+locks
+	engine:1.109; strict;
+comment	@# @;
+
+
+1.109
+date	2004.09.02.12.10.55;	author engine;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2004.08.28.08.32.35;	author engine;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2004.08.28.08.30.11;	author engine;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2004.08.23.11.22.41;	author engine;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2004.08.21.12.38.24;	author engine;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2004.07.29.08.48.01;	author engine;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2004.07.22.13.39.07;	author engine;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2004.07.07.07.24.18;	author engine;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2004.05.31.14.56.08;	author engine;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2004.05.08.12.23.36;	author engine;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2004.03.27.17.04.09;	author engine;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2004.02.23.21.57.07;	author engine;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2004.02.13.12.33.57;	author engine;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2004.02.06.08.32.44;	author engine;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2004.02.03.06.31.57;	author engine;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2004.02.02.15.32.10;	author engine;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2004.02.02.12.22.24;	author engine;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2004.02.02.12.14.09;	author engine;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2004.02.02.10.39.38;	author engine;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2004.02.02.08.24.25;	author engine;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2004.02.01.22.44.14;	author engine;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2004.02.01.20.01.22;	author engine;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2004.02.01.19.50.00;	author engine;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2004.02.01.10.38.19;	author engine;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2004.02.01.08.35.03;	author engine;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2004.02.01.07.44.28;	author engine;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2004.01.31.12.09.33;	author engine;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2004.01.31.06.56.40;	author engine;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2004.01.30.11.04.57;	author engine;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2004.01.30.09.28.01;	author engine;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.01.30.05.58.35;	author engine;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.01.29.17.11.59;	author engine;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.01.29.15.26.39;	author engine;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.01.29.10.26.41;	author engine;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.01.29.10.21.07;	author engine;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.01.28.13.15.50;	author engine;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.01.28.03.21.35;	author engine;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.01.28.02.17.22;	author engine;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.01.28.01.32.41;	author engine;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.01.28.01.22.23;	author engine;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.01.26.14.46.23;	author engine;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.01.26.13.37.31;	author engine;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.01.24.16.48.17;	author engine;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.01.24.11.21.56;	author engine;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.01.22.20.01.46;	author engine;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.01.22.13.31.43;	author engine;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.01.22.10.40.21;	author engine;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.01.22.09.52.01;	author engine;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.01.21.11.58.43;	author engine;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.01.21.11.53.16;	author engine;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.01.21.11.28.24;	author engine;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.01.21.11.09.49;	author engine;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.01.21.08.00.10;	author engine;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.01.19.15.33.48;	author engine;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.01.15.13.44.57;	author engine;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.01.15.13.43.55;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.01.15.10.09.42;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.01.14.16.22.54;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.01.14.14.54.56;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.01.14.14.46.17;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.01.14.14.45.45;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.01.14.14.36.33;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.01.14.14.32.23;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.01.14.14.29.30;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.01.14.14.18.22;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.01.14.14.13.58;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.01.14.14.08.12;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.01.14.13.06.07;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.14.13.04.37;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.14.11.44.11;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.14.10.36.29;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.14.10.25.08;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.14.07.50.49;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.13.15.12.54;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.13.12.15.29;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.13.11.48.10;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.13.09.59.40;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.13.09.30.06;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.13.07.46.53;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.11.18.32.17;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.11.15.23.05;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.11.12.02.50;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.11.11.59.25;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.11.11.42.49;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.11.09.01.29;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.11.08.27.52;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.11.08.21.49;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.11.08.12.01;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.11.07.19.05;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.10.19.52.11;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.07.23.35.59;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.07.18.29.39;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.07.17.26.17;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.07.16.54.37;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.06.19.24.41;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.06.16.18.11;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.06.11.57.22;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.06.08.01.59;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.06.07.49.11;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.05.20.02.10;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.05.11.15.44;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.05.07.41.45;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.03.22.18.30;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.03.19.49.58;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.03.16.40.47;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.03.16.30.18;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.03.15.04.13;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.03.14.55.56;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.109
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: head.php,v 1.108 2004/08/28 08:32:35 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+
+function msdbTitle()
+{
+	global $msdbEnterVar;
+	global $dbMeta;
+
+	if( msDbIsOnlyDb() )
+		$str = '' ;
+	else if ( ! $msdbEnterVar->pwent )
+		return("msdb: Not logged on");
+	else
+		$str = $msdbEnterVar->pwent['name'] ;
+
+	if ( $dbMeta->DB )
+		$str .= ": ".$dbMeta->DB ;
+
+	if ( $dbMeta->tname )
+		$str .= ": ".$dbMeta->tname ;
+
+	$sr = msdbGetPost('msdbStatRestrict');
+	if ( ! is_null($sr) )
+		$str .= ": Stats Mining..." ;
+	else if ( $dbMeta->isSearch )
+		$str .= ": Search" ;
+	else if ( $dbMeta->ea )
+		$str .= ": ".$dbMeta->ea ;
+
+	return($str);
+}
+
+/************************************************************/
+
+function msdbDateRestr()
+{
+	global $dbMeta;
+
+	if ( ($dateRange = msdbGetPost('msdbDateRestrict')) == null )
+		return(false);
+
+	$dateFname = $dbMeta->dateFname;
+
+	$fromTo = split("-", $dateRange);
+	if ( count($fromTo) != 2 ) {
+		msdMsg("can not split date range $dateRange");
+		return(false);
+	}
+	list($from, $to) = $fromTo;
+	$dbMeta->where =  "where $dateFname > $from and $dateFname <= $to";
+
+	msdbUserPrefSetProperty('lastWhere', $dbMeta->where);
+
+	return(true);
+}
+
+/************************************************************/
+
+function msdbDateAutoWhere()
+{
+	global $dbMeta;
+	global $msdbConfig;
+
+	$showRows = $msdbConfig['showRows'] ;
+
+	if ( $dbMeta->rowNum <= $showRows )
+		return(false);
+
+	if ( ! $dbMeta->lastDate )
+		return(false);
+
+	$dateFname = $dbMeta->dateFname ;
+	$tname = $dbMeta->tname;
+
+	$lymd = split("-", $dbMeta->lastDate);
+	if ( count($lymd) != 3 ) {
+		msdbMsg("can not split date $dbMeta->lastDate");
+		return(false);
+	}
+	list($ly, $lm, $ld) = $lymd;
+
+	$today = msdbDayToday();
+	$lastDayInt = msdbDayConstruct($ly, $lm, $ld);
+
+	// if there is data in the future
+	// probably data is not entered in date sequence order
+	if ( $lastDayInt > $today )
+		return(false);
+
+	$prevWhere = null ;
+
+	for($y=$ly;$y>0;$y--) {
+		$m = ($y == $ly) ? $lm : 12 ;
+		for(;$m>0; $m--) {
+			$dt = msdbDayConstruct($y, $m, 1);
+			$w = "where $dateFname >= $dt " ;
+			$sql = "select count(*) from $tname $w";
+			$rc = msDbGetInt($sql);
+
+			if ( $rc > $showRows )
+				break;
+			$prevWhere = $w ;
+		}
+		if ( $rc > $showRows )
+			break;
+	}
+
+	if ( $y == 0 )
+		return(false);
+
+	if ( $prevWhere )
+		$dbMeta->where =  $prevWhere;
+	else
+		$dbMeta->where =  $w;
+
+	return(true);
+		
+}
+
+/******************************/
+
+function msdbDateWhere()
+{
+	if ( msdbDateAutoWhere() )
+		return(true);
+	return(false);
+}
+
+/******************************/
+
+function msdbPrepDate()
+{
+	global $dbMeta;
+
+	$tname = $dbMeta->tname;
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( $f->ftype == 'date' ) {
+			$dbMeta->dateFname = $f->fname ;
+			break;
+		}
+	}
+
+	$dateFname = $dbMeta->dateFname;
+	
+	if ( $dateFname ) {
+		$dbMeta->lastDate =
+			msDbGetString("select max($dateFname) from $dbMeta->tname");
+		// up to this 'epoc', accumulate a total in a single row, if any
+		$sql = "select min($dateFname) from $tname where $dateFname > 19610215 and $dateFname != 0" ;
+		$dbMeta->firstDate = msDbGetString("$sql");
+	}
+
+}
+
+/************************************************************/
+
+// query builder
+
+function msdbUserWhere()
+{
+	global $dbMeta;
+
+	$ret = false ;
+
+	if ( msdbDateRestr() )
+		return(true);
+
+	foreach ( $dbMeta->msdbFields as $f ) {
+		if ( is_null($f->urlField) )
+			continue;
+
+		if ( is_null($f->urlField->op) )
+			continue;
+
+		$ret = true;
+		$dbMeta->isSearch = true;
+		 // it is important that isSearch is on
+		// even if I return false from here on
+		// so as not to execute a 'new'
+
+
+		$op = $f->urlField->op ;
+
+
+		if ( $op == '*' || $op == '!*' ) {
+			if ( $f->ftype == 'string' ) {
+				$theOp = ( $op == '*' ) ? 'like' : 'not like' ;
+				$v = '%'.$f->urlField->val.'%';
+				$val = msDbSqlValue($f, $v);
+				if ( $val == null )
+					return(false);
+				$cond = "$f->fname $theOp $val";
+			} else {
+				msdbMsg("* on non-String Field ignored. Using '='");
+				$theOp = ( $op == '*' ) ? '=' : '!=' ;
+				$val = msDbSqlValue($f, $f->urlField->val);
+				if ( $val == null )
+					return(false);
+				$cond = "$f->fname $theOp $val" ;
+			}
+		} else {
+			if (($val = msDbSqlValue($f, $f->urlField->val)) == null )
+				return(false);
+			$cond = "$f->fname $op $val";
+		}
+
+
+		if ( is_null($dbMeta->where ) )
+			$dbMeta->where = "where $cond" ;
+		else
+			$dbMeta->where .= " and $cond" ;
+	}
+
+	return($ret);
+}
+
+/******************************/
+
+function msdbWhereMakesSense($tname, $where)
+{
+	$whereWords = preg_split('/[\s]+/', $where);
+	/*	$whereWords = split(' ', $where); // is probably good enough	*/
+
+	if ( ! is_array($whereWords) ) {
+		MSDB_ERROR("msdbWhereMakesSense: :::$where:::");
+		return(true);
+	}
+
+	for($i=0;$i<count($whereWords);$i++) {
+		if ( $i != 0 && msdbArrValIn($whereWords[$i-1], array('where', 'and'))) {
+			if ( msdbMetaFieldIndex($whereWords[$i]) == -1 ) {
+				msdbMsg("ipups: found obsolete senseless Where Clause '$where' for $tname");
+				return(false);
+			}
+		}
+	}
+
+	return(true);
+}
+
+/******************************/
+
+function msdbWhereClause()
+{
+	global $dbMeta;
+	global $msdbDefWhere;
+
+	if ( msdbUserWhere() ) {
+		msdbUserPrefSetProperty('lastWhere', $dbMeta->where);
+		return(true);
+	}
+
+	$prefWhere = msdbUserPrefGetProperty('lastWhere');
+
+	if ( $prefWhere ) {
+		if ( msdbWhereMakesSense($dbMeta->tname, $prefWhere) ) {
+			$dbMeta->where = $prefWhere ;
+			return(true);
+		} else
+			msdbUserPrefSetProperty('lastWhere', -1);
+			return(true);
+	}
+
+	if ( isset($msdbDefWhere[$dbMeta->tname]) ) {
+		$dbMeta->where = $msdbDefWhere[$dbMeta->tname];
+		return(true);
+	}
+	if ( $dbMeta->dateFname && msdbDateWhere())
+		return(true);
+
+	$dbMeta->where = "" ;
+
+	return(false);
+}
+
+/************************************************************/
+
+function msdbGetObjData()
+{
+	global $dbMeta;
+
+	for($i=0;$i<$dbMeta->colNum;$i++) {
+		$f = & $dbMeta->msdbFields[$i] ;
+		$f->urlField = new msdbUrlField($f->fname);
+	}
+}
+
+/******************************/
+
+function msdbLimit()
+{
+	global $dbMeta;
+	global $msdbConfig;
+
+	$w = $dbMeta->where;
+
+	if ( $w == "" )
+		$rn = $dbMeta->rowNum;
+	else
+		$rn = msDbGetInt("select count(*) from $dbMeta->tname $w");
+
+	$sr = $msdbConfig['showRows'];
+	$lr = $msdbConfig['limitRows'];
+
+
+	if ( $rn < $lr ) {
+		$dbMeta->limit = "";
+		return;
+	}
+
+	if ( $w == "" )
+		$dbMeta->limit = "limit $sr" ;
+	else
+		$dbMeta->limit = "limit $lr";
+}
+
+/************************************************************/
+
+/*
+ * order result by this logic:
+ *
+ * 1. if there is an incoming new order request,
+ * 							( and update userPrefs,)
+ * 2. ( if ther is a userPref for this table )
+ * 3. by date
+ * 4. by primary key
+ */
+
+function msdbOrderBy()
+{
+	global $dbMeta;
+	global $msdbConfig;
+	global $msdbDefOrderBy;
+
+
+	$dbOb = msdbUserPrefGetProperty('orderBy');
+
+	$urlOb = msdbGetPost("orderBy");
+
+	$isDesc = msdbUserPrefGetProperty('isDesc');
+
+	if ( $urlOb ) {
+		if ( $dbOb == $urlOb ) {
+			// reverse the order
+			if ( $isDesc == 'true' )
+				$isDesc = -1 ;
+			else
+				$isDesc = 'true';
+
+			$dbMeta->orderBy = $dbOb ;
+			$dbMeta->isDesc = $isDesc ;
+			msdbUserPrefSetProperty('isDesc', $isDesc);
+		} else {
+			// new order by selected
+			msdbUserPrefSetProperty('orderBy', $urlOb);
+			$dbMeta->orderBy = $urlOb ;
+			msdbUserPrefSetProperty('isDesc', -1);
+			$dbMeta->isDesc = null ;
+		}
+		return(true);
+	}
+
+
+	if ( $dbOb ) {
+		if ( msdbMetaFieldIndex($dbOb) == -1 ) {
+			msdbMsg("ipups: found obsolete senseless orderBy field '$dbOb' for $dbMeta->tname");
+			msdbUserPrefSetProperty('orderBy', -1);
+			// and don't return, continue to look for orderBy below
+		} else {
+			$dbMeta->orderBy = $dbOb ;
+			$dbMeta->isDesc = $isDesc ;
+			return(true);
+		}
+	}
+
+	if ( isset($msdbDefOrderBy[$dbMeta->tname]) ) {
+		$dbMeta->orderBy = $msdbDefOrderBy[$dbMeta->tname] ;
+		return(true);
+		
+	}
+
+	// reverse the order if LIMITing display to a subset
+	$isDesc = ( $dbMeta->limit != null && $dbMeta->limit != "" ) ? 'true' : null ;
+
+	if ( $dbMeta->dateFname ) {
+		$dbMeta->orderBy = $dbMeta->dateFname ;
+		$dbMeta->isDesc = $isDesc ;
+		return(true);
+	}
+
+	if ( $dbMeta->primaryKey ) {
+		$dbMeta->orderBy = $dbMeta->primaryKey ;
+		$dbMeta->isDesc = $isDesc ;
+		return(true);
+	}
+
+	return(false);
+}
+
+/******************************/
+
+function msdbSetDB()
+{
+	global $msdbConfig;
+	global $dbMeta;
+
+	$dbDB = msdbUserPrefGetProperty('DB');
+	$urlDB = msdbGetPost('msdbDB');
+	$controlDB = $msdbConfig['DB_NAME'];
+
+	$dbMeta->DB = null;
+
+	if ( $urlDB )
+		$db = $urlDB;
+	else if ( $dbDB )
+		$db = $dbDB;
+	else {
+		$db = $controlDB;
+		return(true);
+	}
+
+	if ( $db != $controlDB && msDbIsOnlyDB() ) {
+		msdbMsg("Unable to select $db in db only ($controlDB) mode");
+		msdbUserPrefSetProperty('DB', -1);
+		return(true); // continue in the only db
+	}
+
+	$dbMeta->DB = $db;
+
+	if ( $db != $controlDB && ! msDbDatabaseHasTable($db, 'msdb_permit') ) {
+		msdbMsg("Can not find table msdb_permit in Database $db");
+		/*	echo "<BR><PRE><BR>\n\n";	*/
+		/*	readfile('Install/msdb_permit.crtable');	*/
+		/*	echo "<BR></PRE><BR>\n\n";	*/
+		return(false);
+	}
+
+	if ( $urlDB && $dbDB != $urlDB )
+		msdbUserPrefSetProperty('DB', $urlDB);
+
+	$ret = msDbSelectDB($dbMeta->DB);
+
+	return($ret);
+}
+
+/******************************/
+
+function msdbSetTname()
+{
+	global $dbMeta;
+
+	// actions for which the DB value of tname is obsolete
+	// yet no new one is set
+	$eaTnameObsolete = array('msdbSelectTable', 'msdbSelectDB');
+
+	$dbTname = msdbUserPrefGetProperty('tname');
+	$urlTname = msdbGetPost('msdbTNAME');
+	$ea = $dbMeta->ea;
+
+
+	$dbMeta->tname = null;
+
+	if ( msdbArrValIn($ea, $eaTnameObsolete) ) {
+		msdbUserPrefSetProperty('tname', -1);
+		return(false);
+	}
+
+	if ( $urlTname ) {
+		if ( ! msdbIsTable($urlTname) ) {
+			msdbMsg("table $urlTname does not exist in database $dbMeta->DB");
+			return(false);
+		}
+		$dbMeta->tname = $urlTname;
+		if ( $dbTname != $urlTname )
+			msdbUserPrefSetProperty('tname', $urlTname);
+		return(true);
+
+	}
+	
+	if ( $dbTname ) {
+		if ( ! msdbIsTable($dbTname) )
+			return(false);
+		$dbMeta->tname = $dbTname;
+		return(true);
+	}
+
+	return(false);
+}
+
+/******************************/
+	
+function msdbHead()
+{
+	global $dbMeta;
+
+	// ea could also be msdbLogout, msdbSelectTable, msdbSelectDB (etc. ?)
+	// so needed before msdbEnter() and others
+	// 
+	$dbMeta->ea = msdbGetPost('msdbEA');
+
+	MSDB_PERF('');
+
+	if ( ! msdbEnter() )
+		return(false);
+
+	MSDB_PERF('');
+	msdbUserPrefsSetDbPropoerties();
+
+	if ( ! msdbSetDB() ) {
+		msdbMsg("Database not Selected");
+		return(false);
+	}
+
+
+	$dbMeta->isTable = msdbSetTname();
+
+	if ( $dbMeta->isTable ) {
+		msDbMeta();
+		msdbGetObjData();
+		msdbPrepDate();
+		msdbWhereClause();
+		// msdbWhereClause sets the user requested isSearch
+		// which implies that msdbInsert is really a search
+		// so checking permissions must be after msdbUserWhere()
+		if ( ! msDbIsOnlyDB() && ! msdbPermit() )
+			return(false);
+
+		msdbLimit();
+		msdbOrderBy();
+	}
+
+	msdbUserPrefsStoreDbPropoerties();
+
+	return(true);
+}
+
+/************************************************************/
+
+function msdbShowMenu()
+{
+	if ( msDbIsOnlyDB() )
+		msdbInclude('include/menu.h', null);
+	else
+		msdbInclude('include/menuDB.h', null);
+}
+
+/************************************************************/
+?>
+@
+
+
+1.108
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.107 2004/08/28 08:30:11 engine Exp engine $ ';
+d430 1
+@
+
+
+1.107
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.106 2004/08/23 11:22:41 engine Exp engine $ ';
+d429 2
+a430 2
+		MSDB_ERROR("msDbSelectDB: Unable to select $db in db only ($controlDB) mode");
+		return(false);
+@
+
+
+1.106
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.105 2004/08/21 12:38:24 engine Exp engine $ ';
+d429 1
+a429 1
+		MSDB_ERROR("msDbSelectDB: Unable to select $$db in db only ($controlDB) mode");
+@
+
+
+1.105
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.104 2004/07/29 08:48:01 engine Exp engine $ ';
+d435 1
+a435 1
+	if ( ! msDbDatabaseHasTable($db, 'msdb_permit') ) {
+@
+
+
+1.104
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.103 2004/07/22 13:39:07 engine Exp engine $ ';
+a8 63
+$searchOps = array(">=", "<=", ">", "<", "=", "!=", "*", "!*", "like", "not like");
+
+/*
+ * break down from the url the value of the field from a possible search operator
+ * and/or handle the explicit search:
+ * str is what the user typed, op is the comparison operator, wether explicit or typed,
+ * val is the value, without the op
+ *
+ * the 'url' may be a post
+ */
+
+class msdbUrlField
+{
+	function msdbUrlField($fname)
+	{
+		global $dbMeta;
+		global $searchOps;
+
+		$this->str = null;
+		$this->op = null ;
+		$this->val = null ;
+
+		$this->str = msdbGetPost($fname);
+
+		if ( $this->str == null )
+			return; // op must stay null so this field can be ignored later,
+					//even though the sarch form always passes some op
+
+		// dd the user use the search pop up (explicit), or the new for (implicit)
+		if ( $dbMeta->ea == 'msdbSearch' ) {
+			$this->op = msdbGetPost("msdbOp_$fname");
+			$this->val = $this->str;
+			if ( $this->op == 'like' )
+				$this->val .= "%" ;
+			return;
+		}
+
+		/*
+		 * we want '<= ohad aloni' to go
+		 * op === '<='
+		 * val === 'ohad aloni'
+		 */
+
+		$str = $this->str;
+
+		list($op, $val) = sscanf($str, "%s %s");
+
+		if ( is_null($op) )
+			return;
+
+		if ( ! msdbArrValIn($op, $searchOps) ) {
+			$this->val = $str;
+			return;
+		}
+
+		$this->op = $op;
+
+		$this->val = substr($str, strlen($op)+1);
+	}
+}
+
+/************************************************************/
+
+@
+
+
+1.103
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.102 2004/07/07 07:24:18 engine Exp engine $ ';
+d483 1
+a483 1
+		$dbMeta->DB = $urlDB;
+d485 1
+a485 1
+		$dbMeta->DB = $dbDB;
+d487 1
+a487 1
+		$dbMeta->DB = $controlDB;
+d491 12
+a502 5
+	if ( ! msDbDatabaseHasTable($dbMeta->DB, 'msdb_permit') ) {
+		msdbMsg("Can not find table msdb_permit in Database $dbMeta->DB. please Install as:");
+		echo "<BR><PRE><BR>\n\n";
+		readfile('Install/msdb_permit.crtable');
+		echo "<BR></PRE><BR>\n\n";
+d579 1
+a579 1
+		return(false); // don't even bother setting properties back in the control database
+@
+
+
+1.102
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.101 2004/05/31 14:56:08 engine Exp engine $ ';
+d77 3
+a79 1
+	if( ! $msdbEnterVar->pwent )
+d81 2
+a82 2
+
+	$str = $msdbEnterVar->pwent->name ;
+d562 2
+d567 1
+d586 1
+a586 1
+		if ( ! msdbPermit() )
+d599 10
+@
+
+
+1.101
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.100 2004/05/08 12:23:36 engine Exp engine $ ';
+d313 1
+d328 1
+d331 4
+@
+
+
+1.100
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.99 2004/03/27 17:04:09 engine Exp engine $ ';
+d41 2
+a45 1
+
+d394 1
+d437 6
+@
+
+
+1.99
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.98 2004/02/23 21:57:07 engine Exp engine $ ';
+d13 3
+d24 1
+a26 1
+
+a30 1
+
+d34 7
+d42 2
+d245 1
+d541 1
+a541 1
+	// this could be msdbLogout, msdbSelectTable, msdbSelectDB (etc. ?)
+@
+
+
+1.98
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.97 2004/02/13 12:33:57 engine Exp engine $ ';
+a51 3
+		if ( is_null($val) )
+			return;
+
+a267 1
+
+@
+
+
+1.97
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.96 2004/02/06 08:32:44 engine Exp engine $ ';
+d384 1
+d427 3
+d432 1
+a432 1
+		$dbMeta->isDesc = 'true';
+d438 1
+a438 1
+		$dbMeta->isDesc = 'true';
+@
+
+
+1.96
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.95 2004/02/03 06:31:57 engine Exp engine $ ';
+a303 1
+	global $msdb;
+a343 1
+	global $msdb;
+@
+
+
+1.95
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.94 2004/02/02 15:32:10 engine Exp engine $ ';
+d192 1
+d200 4
+a203 1
+	if ( $dbMeta->dateFname )
+d205 6
+a210 1
+			msDbGetString("select max($dbMeta->dateFname) from $dbMeta->tname");
+@
+
+
+1.94
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.93 2004/02/02 12:22:24 engine Exp engine $ ';
+a361 19
+/******************************/
+
+function msdbWhereEtc()
+{
+	global $dbMeta;
+
+	$ob = $dbMeta->orderBy;
+
+	if ( $ob ) {
+		$obStr = "order by $ob" ;
+		if ( $dbMeta->isDesc == 'true' )
+			$obStr .= " desc";
+		
+	} else
+		$obStr = "" ;
+
+	$dbMeta->whereEtc = "$dbMeta->where $obStr $dbMeta->limit";
+}
+
+a552 2
+
+		msdbWhereEtc();
+@
+
+
+1.93
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.92 2004/02/02 12:14:09 engine Exp engine $ ';
+d281 1
+a281 1
+				msdbMsg("found obsolete senseless Where Clause '$where' for $tname");
+d428 1
+a428 1
+			msdbMsg("found obsolete senseless orderBy field '$dbOb' for $dbMeta->tname");
+@
+
+
+1.92
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.91 2004/02/02 10:39:38 engine Exp engine $ ';
+d427 5
+a431 1
+		if ( msdbMetaFieldIndex($dbOb) ) {
+d435 1
+a435 3
+		} else
+			msdbUserPrefSetProperty('orderBy', -1);
+			// and don't return
+@
+
+
+1.91
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.90 2004/02/02 08:24:25 engine Exp engine $ ';
+d268 24
+d303 1
+d305 5
+a309 2
+		$dbMeta->where = $prefWhere ;
+		return(true);
+@
+
+
+1.90
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.89 2004/02/01 22:44:14 engine Exp engine $ ';
+d371 1
+d380 1
+a380 1
+				$isDesc = null ;
+d391 1
+a391 1
+			msdbUserPrefSetProperty('isDesc', null);
+d399 7
+a405 3
+		$dbMeta->orderBy = $dbOb ;
+		$dbMeta->isDesc = $isDesc ;
+		return(true);
+@
+
+
+1.89
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.88 2004/02/01 20:01:22 engine Exp engine $ ';
+d464 1
+a464 1
+	$eaTnameObsolete = array('msdbSelectTable', 'msdbSelectDB', 'msdbSwitchDB');
+d474 1
+a474 1
+		msdbUserPrefSetProperty('tname', null);
+@
+
+
+1.88
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.87 2004/02/01 19:50:00 engine Exp engine $ ';
+d370 3
+a372 1
+	$uob = msdbUserPrefGetProperty('orderBy');
+a373 1
+	$urlOb = msdbGetPost("orderBy");
+d376 1
+a376 1
+		if ( $uob == $urlOb ) {
+d383 1
+a383 1
+			$dbMeta->orderBy = $uob ;
+d397 2
+a398 2
+	if ( $uob ) {
+		$dbMeta->orderBy = $uob ;
+@
+
+
+1.87
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.86 2004/02/01 10:38:19 engine Exp engine $ ';
+d479 1
+a479 1
+			msdbMsg("table $urlTname does not exist");
+@
+
+
+1.86
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.85 2004/02/01 08:35:03 engine Exp engine $ ';
+d404 1
+d516 1
+a516 1
+		MSDB_ERROR("Database not Selected");
+@
+
+
+1.85
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.84 2004/02/01 07:44:28 engine Exp engine $ ';
+d473 1
+a473 1
+		return;
+d477 4
+d484 7
+a490 1
+	} else if ( $dbTname )
+d492 2
+d495 1
+a495 2
+	// else there is no tname, which defaults to selecting one
+	// if no other action is specified (e.g. upon first login)
+a518 3
+	msdbSetTname();
+
+	$dbMeta->isTable = msDbIsTable($dbMeta->tname);
+d520 1
+@
+
+
+1.84
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.83 2004/01/31 12:09:33 engine Exp engine $ ';
+d101 6
+a106 1
+	list($from, $to) = split("-", $dateRange);
+d132 6
+a137 1
+	list($ly, $lm, $ld) = split("-", $dbMeta->lastDate);
+d140 1
+a140 1
+	$ld = msdbDayConstruct($ly, $lm, $ld);
+d144 1
+a144 1
+	if ( $ld > $today )
+@
+
+
+1.83
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.82 2004/01/31 06:56:40 engine Exp engine $ ';
+d57 1
+a57 1
+		$this->val = strstr($str, $val);
+@
+
+
+1.82
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.81 2004/01/30 11:04:57 engine Exp engine $ ';
+d96 1
+a96 1
+	if ( ($dateRange = msdbGetPost('MSDBdateRestrict')) == null )
+d101 1
+a101 1
+	list($from, $to) = split("/", $dateRange);
+d103 3
+a115 3
+
+	MSDB_ERROR("msdbDateAutoWhere");
+
+a123 1
+
+d130 1
+a130 1
+	$ld = msdbDayConstrunct($ly, $lm, $ld);
+a170 2
+	if ( msdbDateRestr() )
+		return(true);
+d204 3
+@
+
+
+1.81
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.80 2004/01/30 09:28:01 engine Exp engine $ ';
+a91 14
+function msdbFromDate()
+{
+	MSDB_ERROR("msdbFromDate: NYI");
+}
+
+/********************/
+
+function msdbToDate()
+{
+	MSDB_ERROR("msdbToDate: NYI");
+}
+
+/********************/
+
+d101 1
+a101 2
+	$from = msdbFromDate($dateRange);
+	$to = msdbToDate($dateRange);
+d114 40
+a153 3
+	if ( $dbMeta->rowNum <= $msdbConfig['showRows'] ) {
+		$dbMeta->dateAutoWhere = "" ;
+		return(true);
+d155 11
+a165 28
+	/*	lastYear = h->lastDate / 10000 ;	*/
+	/*	lastMonth = ( h->lastDate / 100 ) % 100;	*/
+/*		*/
+	/*	*prevWhere = 0;	*/
+	/*	for(y=lastYear;y>0;y--) {	*/
+		/*	for(m=lastMonth; m>0; m--) {	*/
+			/*	sprintf(w, "where %s >= %d", h->dateFname, y*10000 + m*100 + 1);	*/
+			/*	sprintf(cmd, "select count(*) from %s %s", h->tname, w);	*/
+			/*	rc = msDbGetInt(cmd);	*/
+			/*	if ( rc > MSDB_SHOW_ROWS )	*/
+				/*	break;	*/
+			/*	strcpy(prevWhere, w);	*/
+		/*	}	*/
+		/*	if ( rc > MSDB_SHOW_ROWS )	*/
+			/*	break;	*/
+		/*	m = 12 ;	*/
+	/*	}	*/
+/*		*/
+	 /*	* if there are date prior to Jesus,	*/
+	 /*	* this could happen (no where, show everything)	*/
+	/*	if ( y == 0 && m == 1 )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	if ( *prevWhere )	*/
+		/*	strcpy(h->where, prevWhere);	*/
+	/*	else	*/
+		/*	strcpy(h->where, w);	*/
+		/*		*/
+d168 1
+a168 1
+/************************************************************/
+d178 1
+d181 18
+d282 1
+a282 1
+/******************************/
+d506 1
+a506 1
+		/*	msdbPrepDate();	*/
+@
+
+
+1.80
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.79 2004/01/30 05:58:35 engine Exp engine $ ';
+d310 1
+a310 1
+		if ( $dbMeta->isDesc )
+d337 1
+a337 1
+	$isDesc = msdbUserPrefGetProperty('isDesc') == 'true';
+d343 2
+a344 2
+			if ( $isDesc )
+				$newIsDesc = 'true' ;
+d346 1
+a346 1
+				$newIsDesc = null ;
+d348 3
+a350 2
+			$dbMeta->isDesc = $newIsDesc ;
+			msdbUserPrefSetProperty('isDesc', $newIsDesc);
+d375 1
+a375 1
+		$dbMeta->isDesc = true;
+@
+
+
+1.79
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.78 2004/01/29 17:11:59 engine Exp engine $ ';
+d72 4
+d394 1
+a394 1
+	if ( $urlDB ) {
+d396 1
+a396 4
+		if ( $dbDB != $urlDB )
+			msdbUserPrefSetProperty('DB', $urlDB);
+		$ret = msDbSelectDB($dbMeta->DB);
+	} else if ( $dbDB ) {
+d398 1
+a398 2
+		$ret = msDbSelectDB($dbMeta->DB);
+	} else {
+d403 14
+a416 1
+	return(ret);
+@
+
+
+1.78
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.77 2004/01/29 15:26:39 engine Exp engine $ ';
+d223 2
+d235 8
+a242 1
+	if ( msdbUserWhere() )
+d244 1
+d332 1
+a333 1
+	$uob = msdbUserPrefGetProperty('orderBy');
+a362 3
+	// once a user determined the orderBy once in Life
+	// it should never pass this point
+
+d378 62
+d445 3
+a447 1
+	// this could be msdbLogout so needed in msdbEnter()
+d455 6
+a460 1
+	$dbMeta->tname = msdbGetPost('msdbTNAME');
+@
+
+
+1.77
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.76 2004/01/29 10:26:41 engine Exp engine $ ';
+d292 11
+a302 1
+	$dbMeta->whereEtc = "$dbMeta->where $dbMeta->orderBy $dbMeta->limit";
+d321 22
+a342 2
+	if ( $uo = msdbUserPrefsOrderBy() ) {
+		$dbMeta->orderBy = $uo ;
+d346 9
+a354 2
+	// once a user detmined ithe orderBy once in Life
+	// it will never pass this point
+d357 1
+a357 1
+		$dbMeta->orderBy = "order by $dbMeta->dateFname" ;
+d362 2
+a363 1
+		$dbMeta->orderBy = "order by $dbMeta->primaryKey desc" ;
+a366 2
+	$dbMeta->orderBy = "";
+
+@
+
+
+1.76
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.75 2004/01/29 10:21:07 engine Exp engine $ ';
+d311 1
+a311 1
+	if ( $uo = msdbUrlOrder() ) {
+d316 2
+a317 4
+	if ( $uo = msdbUserOrder() ) {
+		$dbMeta->orderBy = $uo ;
+		return(true);
+	}
+d346 2
+d370 2
+@
+
+
+1.75
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.74 2004/01/28 13:15:50 engine Exp engine $ ';
+d125 1
+a125 1
+	if ( $dbMeta->rowNum <= $msdb['showRows'] ) {
+d158 1
+d262 1
+d271 2
+a272 2
+	$sr = $msdb['showRows'];
+	$lr = $msdb['limitRows'];
+@
+
+
+1.74
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.73 2004/01/28 03:21:35 engine Exp engine $ ';
+a118 1
+
+d122 1
+a122 1
+	global $msdb;
+@
+
+
+1.73
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.72 2004/01/28 02:17:22 engine Exp engine $ ';
+d341 3
+a347 1
+	$dbMeta->ea = msdbGetPost('msdbEA');
+d357 1
+a357 1
+		// msdbWhereClause set the user requested isSearch
+@
+
+
+1.72
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.71 2004/01/28 01:32:41 engine Exp engine $ ';
+d75 3
+a77 2
+	if ( msdbGetPost('StatRestrict') != null )
+		$str .= ": statsMining..." ;
+@
+
+
+1.71
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.70 2004/01/28 01:22:23 engine Exp engine $ ';
+d344 1
+a344 1
+	$dbMeta->ea = msdbGetPost('EA');
+@
+
+
+1.70
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.69 2004/01/26 14:46:23 engine Exp engine $ ';
+d279 1
+a279 1
+		$dbMeta->limit = "LIMIT $sr" ;
+d281 1
+a281 1
+		$dbMeta->limit = "LIMIT $lr";
+@
+
+
+1.69
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.68 2004/01/26 13:37:31 engine Exp engine $ ';
+d343 1
+a343 1
+	$dbMeta->tname = msdbGetPost('TNAME');
+@
+
+
+1.68
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.67 2004/01/24 16:48:17 engine Exp engine $ ';
+d170 2
+d187 2
+a191 2
+		if (($val = msDbSqlValue($f, $f->urlField->val)) == null )
+			return(false); // it is important that isSearch is still on though
+d193 23
+a215 1
+		$cond = "$f->fname $op $val";
+@
+
+
+1.67
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.66 2004/01/24 11:21:56 engine Exp engine $ ';
+a56 9
+		/*
+		 * the difference between these two is very slight:
+		 * the first, commented one, returns the value as starting
+		 * after the first space after op
+		 * so if there is more than one such space, then the second
+		 * skips all spaces after op and lands
+		 * on the begining of the original 'val'
+		 */
+		/*	$this->val = substr($str, strlen($op) + 1);	*/
+@
+
+
+1.66
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.65 2004/01/22 20:01:46 engine Exp engine $ ';
+d197 1
+a197 1
+		if (($val = msDbSqlValue($f->ftype, $f->urlField->val)) == null )
+@
+
+
+1.65
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.64 2004/01/22 13:31:43 engine Exp engine $ ';
+d197 1
+a197 1
+		if (($val = msDbSqlValue($f->dbtype, $f->urlField->val)) == null )
+@
+
+
+1.64
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.63 2004/01/22 10:40:21 engine Exp engine $ ';
+d340 1
+a340 1
+		// which implies that msdbAdd is really a search
+@
+
+
+1.63
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.62 2004/01/22 09:52:01 engine Exp engine $ ';
+a333 3
+	if ( ! msdbPermit() )
+		return(false);
+
+d339 6
+@
+
+
+1.62
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.61 2004/01/21 11:58:43 engine Exp engine $ ';
+a279 29
+function msdbPermit()
+{
+	global $dbMeta;
+	/*
+	 * for now, there is no permission mechanism
+	 * as long as this is the case, do not allow
+	 * any acess to msdb_passwd
+	 */
+
+	if ( $dbMeta->tname == 'msdb_passwd' ) {
+		msdbMsg("Access Mechanism not Yet Implemented");
+		msdbMsg("Browsing msdb_passwd is Denied");
+		$dbMeta->noPerm = true;
+		return(false);
+	}
+
+	/*
+	 * if the permit table is not installed,
+	 * then allow anything (anything the database configuration will alow).
+	 */
+
+	if ( ! msDbIsTable("msdb_permit"))
+		return(true);
+
+	return(true);
+}
+
+/************************************************************/
+
+@
+
+
+1.61
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.60 2004/01/21 11:53:16 engine Exp engine $ ';
+d11 6
+d28 4
+a31 1
+		if ( ! msdbArrKeyIn($fname, $_GET) )
+a33 2
+		$this->str = $_GET[$fname];
+
+d84 1
+a84 1
+	if ( msdbArrKeyIn('StatRestrict', $_GET) )
+d114 1
+a114 1
+	if ( ! msdbArrKeyIn("MSDBdateRestrict", $_GET) )
+a115 1
+	$dateRange = $_GET['MSDBdateRestrict'];
+@
+
+
+1.60
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.59 2004/01/21 11:28:24 engine Exp engine $ ';
+d191 1
+a191 1
+		if (($val = msdbSqlValue($f->dbtype, $f->urlField->val)) == null )
+@
+
+
+1.59
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.58 2004/01/21 11:09:49 engine Exp engine $ ';
+d191 2
+a192 1
+		$val = msdbSqlValue($f->dbtype, $f->urlField->val);
+@
+
+
+1.58
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.57 2004/01/21 08:00:10 engine Exp engine $ ';
+d191 1
+a191 1
+		$val = msdbQuoteSqlValue($f->dbtype, $f->urlField->val);
+@
+
+
+1.57
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.56 2004/01/19 15:33:48 engine Exp engine $ ';
+d91 1
+a91 1
+	MSDB_MSG("msdbFromDate: NYI");
+d98 1
+a98 1
+	MSDB_MSG("msdbToDate: NYI");
+a172 19
+$sqlQoteTypes = array('string');
+
+function msdbSqlQuote($dbtype)
+{
+	global $sqlQoteTypes;
+
+	return(msdbArrValIn($dbtype, $sqlQoteTypes) ? "'" : "");
+}
+
+/********************/
+
+function msdbQuoteSqlValue($dbtype, $val)
+{
+	$q = msdbSqlQuote($dbtype);
+	return("$q$val$q");
+}
+
+/********************/
+
+@
+
+
+1.56
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.55 2004/01/15 13:44:57 engine Exp engine $ ';
+d294 13
+d313 1
+a313 1
+	if ( ! msDbIsTable("msdb_permitA"))
+a315 3
+	/*
+	 * for now, there is no permission mechanism ???
+	 */
+@
+
+
+1.55
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.54 2004/01/15 13:43:55 engine Exp engine $ ';
+d184 8
+d210 1
+a210 2
+		$val = $f->urlField->val;
+		$q = msdbSqlQuote($f->dbtype);
+d212 1
+a212 1
+		$cond = "$f->fname $op $q$val$q";
+d341 1
+a341 1
+		$dbMeta->orderBy = "order by $dbMeta->primaryKey" ;
+@
+
+
+1.54
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.53 2004/01/15 10:09:42 engine Exp engine $ ';
+a82 1
+	if ( $dbMeta->isSearch
+@
+
+
+1.53
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.52 2004/01/14 16:22:54 engine Exp engine $ ';
+d73 9
+a81 3
+	$uname = $msdbEnterVar->pwent->name ;
+	$str = $uname.": ".$dbMeta->tname.": ";
+	if ( $dbMeta->ea )
+d83 1
+d199 1
+d229 2
+d253 7
+a262 1
+	$rn = $dbMeta->rowNum;
+d269 1
+a269 1
+	if ( is_null($dbMeta->where) )
+d281 1
+a281 13
+	$tname = $dbMeta->tname ;
+
+	if ( is_null($dbMeta->where) )
+		$w = "" ;
+	else
+		$w = $dbMeta->where ;
+
+	if ( is_null($dbMeta->orderBy) )
+		$ob = "" ;
+	else
+		$ob = $dbMeta->orderBy;
+
+	$dbMeta->whereEtc = "$w $ob $dbMeta->limit";
+d304 41
+d368 2
+a369 1
+		/*	msdbOrder();	*/
+@
+
+
+1.52
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.51 2004/01/14 14:54:56 engine Exp engine $ ';
+d238 44
+d320 5
+a326 4
+	/*	msdbPrepDate();	*/
+	msdbWhereClause();
+	/*	msdbOrder();	*/
+	/*	msdbSetTitle();	*/
+@
+
+
+1.51
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.50 2004/01/14 14:46:17 engine Exp engine $ ';
+d17 1
+a17 1
+		/*	$this->fname = $fname;	*/
+d171 2
+d193 3
+d197 2
+a198 1
+		$cond = "$f->fname $op $q$value$q";
+a211 1
+
+d230 2
+a231 1
+	foreach ( $dbMeta->msdbFields as $f )
+d233 1
+@
+
+
+1.50
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.49 2004/01/14 14:45:45 engine Exp engine $ ';
+d184 1
+a184 1
+			contiune;
+d187 1
+a187 1
+			contiune;
+@
+
+
+1.49
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.48 2004/01/14 14:36:33 engine Exp engine $ ';
+d182 1
+a182 1
+	foreach ( $msdbMeta->msdbFields as $f ) {
+@
+
+
+1.48
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.47 2004/01/14 14:32:23 engine Exp engine $ ';
+d267 1
+a267 1
+		msDbMeta($dbMeta->tname);
+@
+
+
+1.47
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.46 2004/01/14 14:29:30 engine Exp engine $ ';
+d74 1
+a74 1
+	$str = $uname.": ".$msdbHeadVar->tname.": ";
+a98 1
+	global $msdbHeadVar;
+a117 1
+	global $msdbHeadVar ;
+d123 1
+a123 1
+		$msdbHeadVar->autoWhere = "" ;
+a251 1
+	global $msdbHeadVar;
+a256 2
+	$msdbHeadVar = new msdbHeadClass();
+
+d260 1
+a260 1
+	$dbMeta->isTable = msDbIsTable($msdbHeadVar->tname);
+@
+
+
+1.46
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.45 2004/01/14 14:18:22 engine Exp engine $ ';
+d194 1
+a194 1
+		$cond = "$f->fname $op $q$value$q"
+d199 1
+a199 1
+			$dbMeta->where .= "and $cond" ;
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.44 2004/01/14 14:13:58 engine Exp engine $ ';
+a12 1
+
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.43 2004/01/14 14:08:12 engine Exp engine $ ';
+d11 1
+a11 1
+class headField
+d14 1
+a14 1
+	function headField($fname)
+d186 1
+a186 1
+		if ( is_null($f->hf) )
+d189 1
+a189 1
+		if ( is_null($f->hf->op) )
+d229 1
+a229 1
+		$f->hf = new headField($f->fname);
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.42 2004/01/14 13:06:07 engine Exp engine $ ';
+a63 11
+/******************************/
+
+class msdbHeadClass
+{
+	function msdbHeadClass()
+	{
+		$this->tname = null ;
+		$this->ea = null ;
+	}
+}
+	
+d69 1
+a69 1
+	global $msdbHeadVar;
+d76 2
+a77 2
+	if ( $msdbHeadVar->ea )
+		$str .= ": ".$msdbHeadVar->ea ;
+d263 2
+a264 2
+	$msdbHeadVar->tname = msdbGetPost('TNAME');
+	$msdbHeadVar->ea = msdbGetPost('EA');
+d273 1
+a273 1
+		msDbMeta($msdbHeadVar->tname);
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.41 2004/01/14 13:04:37 engine Exp engine $ ';
+a70 1
+		$this->isTable = null ;
+d267 1
+d277 1
+a277 1
+	$msdbHeadVar->isTable = msDbIsTable($msdbHeadVar->tname);
+d283 1
+a283 1
+	if ( $msdbHeadVar->isTable ) {
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.40 2004/01/14 11:44:11 engine Exp engine $ ';
+a72 1
+		$this->msdbObj = null; 
+d236 1
+a236 1
+function msdbObjGetData()
+d285 1
+a285 1
+		msdbObjGetData();
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.39 2004/01/14 10:36:29 engine Exp engine $ ';
+d9 1
+a9 15
+
+
+/*	if ( msdbArrKeyIn($f->fname, $_GET) )	*/
+	/*	$msdbHeadVar->msdbObj[] = msdbObjGetField($f->fname, $_GET[$f->fname]);	*/
+/*	else	*/
+	/*	$msdbHeadVar->msdbObj[] = new headField($f->fname, "", "");	*/
+/*		*/
+/*	function msdbObjGetField($name, $str)	*/
+/*	{	*/
+	/*	$f = new headField($name, fieldOp($str), fieldVal($str));	*/
+	/*	return($f);	*/
+/*	}	*/
+
+/**********/
+
+d13 1
+d16 3
+a18 1
+		$this->fname = $fname;
+d28 8
+d41 3
+a43 4
+		if ( ! is_null($val) && msdbIsOp($op)
+		if ( is_null($val) ) {
+			$this->val = $op;
+			
+d46 4
+a49 1
+		if ( 
+d51 10
+d63 1
+d183 1
+d185 8
+a192 1
+function msdbDefaultWhere()
+a193 1
+	global $msdbHeadVar;
+a194 1
+	global $msdb;
+d196 5
+a200 1
+	$sr = $msdb['showRows'];
+d202 2
+a203 5
+	if ( $dbMeta->rowNum <= $sr )
+		$msdbHeadVar->where = "";
+	else
+		$msdbHeadVar->where = "LIMIT $sr";
+}
+d205 1
+a205 1
+/******************************/
+d207 2
+a208 3
+function msdbUserWhere()
+{
+	global $msdbHeadVar;
+d210 4
+a213 9
+	if ( ! is_array($msdbHeadVar->msdbObj) )
+		return(false);
+		
+	foreach ( $msdbHeadVar->msdbObj as $f ) {
+		/*	if ( h->ops[i] && *h->ops[i] &&	*/
+			/*	msdb_single_cond(cond, egf, h->ops[i],	*/
+									/*	h->fstrings[i], 0) )	*/
+			/*	msdb_add_cond(h->where, cond);	*/
+	/*	}	*/
+d215 1
+a222 1
+	global $msdbHeadVar;
+d232 1
+a232 2
+	msdbDefaultWhere();
+	return(true);
+a238 1
+	global $msdbHeadVar;
+a240 3
+	if ( is_null($msdbHeadVar->msdbObj)  ) 
+		$msdbHeadVar->msdbObj = array();
+
+d242 1
+a242 1
+		$msdbHeadVar->msdbObj[] = new headField($f->fname);
+a248 1
+	global $msdbHeadVar;
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.38 2004/01/14 10:25:08 engine Exp engine $ ';
+d9 19
+a27 2
+class headField {
+	function headField($name, $op, $val)
+d29 23
+a51 3
+		$this->name = $name;
+		$this->op = $op ;
+		$this->val = $val ;
+d114 1
+a114 1
+	$dbMeta->where =  "where $dateFname > $from and $dateFname <= $to",
+a188 20
+/*
+ * query builder
+ */
+
+/**********/
+
+/* 
+ * break the incoming field into an op/value
+ * as in '<= 5' ===> ('<=',  '5').
+ */
+
+function msdbObjGetField($name, $str)
+{
+	/*	msdb_field_op(&h->ops[i], fval, p);	*/
+	// for now
+	$f = new headField($name, "", $str);
+	return($f);
+}
+
+/**********/
+d236 1
+a236 4
+		if ( msdbArrKeyIn($f->fname, $_GET) )
+			$msdbHeadVar->msdbObj[] = msdbObjGetField($f->fname, $_GET[$f->fname]);
+		else
+			$msdbHeadVar->msdbObj[] = new headField($f->fname, "", "");
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.37 2004/01/14 07:50:49 engine Exp engine $ ';
+a26 1
+		$this->where = null; 
+d50 14
+d67 1
+d73 1
+a73 7
+	/*	if (sscanf(dateRestr, "%d-%d", &from, &to) != 2 )	*/
+		/*	return(0);	*/
+
+	/*	sprintf(h->where, "where %s > %d and %s <= %d",	*/
+		/*	h->dateFname, from, h->dateFname, to);	*/
+
+	return("");
+d75 4
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.36 2004/01/13 15:12:54 engine Exp engine $ ';
+d9 24
+d35 1
+a35 1
+	global $enterVar;
+d38 5
+a42 1
+	$str = $enterVar->user.": ".$msdbHeadVar->tname.": ";
+d44 1
+a44 1
+		$str .= ": ".$$msdbHeadVar->ea ;
+d165 3
+d233 1
+a233 25
+/******************************/
+
+class headField {
+	function headField($name, $op, $val)
+	{
+		$this->name = $name;
+		$this->op = $op ;
+		$this->val = $val ;
+	}
+}
+/******************************/
+
+class msdbHeadClass
+{
+	function msdbHeadClass()
+	{
+		$this->tname = null ;
+		$this->isTable = null ;
+		$this->ea = null ;
+		$this->msdbObj = null; 
+		$this->where = null; 
+	}
+}
+	
+/**********/
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: head.php,v 1.35 2004/01/13 13:08:00 engine Exp engine $ ';
+d135 3
+a137 1
+	foreach ( $msdbHeadVar->obj as $f ) {
+d158 1
+a158 1
+	if ( $msdbHeadVar->dateFname && msdbDateWhere(h))
+d222 1
+d252 1
+a252 1
+	/*	msdbWhereClause();	*/
+@
+
+
+1.35
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.34
+log
+@None
+@
+text
+@d3 3
+a5 3
+/* $Id: head.php,v 1.33 2004/01/13 11:48:10 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.33
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.32 2004/01/13 09:59:40 engine Exp engine $  */
+d104 1
+a104 1
+	if ( $dbMeta->rowNum <= $sr ) {
+d106 3
+a109 2
+	$msdbHeadVar->where = "LIMIT $sr";
+}
+d247 4
+a250 5
+	msdbPrepDate();
+	msdbWhereClause();
+	msdbOrder();
+	msdbSetTitle();
+
+@
+
+
+1.32
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.31 2004/01/13 09:30:06 engine Exp engine $  */
+d62 1
+a62 1
+			/*	rc = engdb_getint(cmd);	*/
+d114 17
+d135 1
+a135 1
+			/*	eng_single_cond(cond, engf, h->ops[i],	*/
+d137 1
+a137 1
+			/*	eng_add_cond(h->where, cond);	*/
+a162 14
+/* 
+ * break the incoming field into an op/value
+ * as in '<= 5' ===> ('<=',  '5').
+
+function msdbObjGetField($name, $str)
+{
+	/*	eng_field_op(&h->ops[i], fval, p);	*/
+	// for now
+	$f = new headField($name, "", $str);
+	return($f);
+}
+
+/******************************/
+
+@
+
+
+1.31
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.30 2004/01/13 07:46:53 engine Exp engine $  */
+d63 1
+a63 1
+			/*	if ( rc > ENGHT_SHOW_ROWS )	*/
+d67 1
+a67 1
+		/*	if ( rc > ENGHT_SHOW_ROWS )	*/
+@
+
+
+1.30
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.29 2004/01/11 18:32:17 engine Exp engine $  */
+d114 1
+a114 1
+function msdbWhereClause()
+a115 2
+	/* ops */
+
+a116 2
+		/*	if ( $f->value != "" )	*/
+			
+d123 3
+d127 12
+a138 3
+	/*	if ( h->dateFname && enght_dateWhere(h))	*/
+		/*	return(1);	*/
+/*		*/
+d141 1
+d243 4
+a246 4
+	/*	enghtPrepDate(h);	*/
+	/*	enght_whereClause(h);	*/
+	/*	enght_order(h);	*/
+	/*	enght_setTitle(h);	*/
+@
+
+
+1.29
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.28 2004/01/11 15:23:05 engine Exp engine $  */
+d96 1
+a96 1
+function enght_defaultWhere()
+d102 3
+a104 1
+	if ( $dbMeta->rowNum <= $msdb['showRows'] ) {
+a105 3
+		return(true);
+
+	/*	sprintf(cmd, "select max(eng_id) from %s", h->tname);	*/
+d107 1
+a107 3
+	/*	sprintf(h->where, "where eng_id > %d", maxid - 3*ENGHT_SHOW_ROWS);	*/
+	$msdbHeadVar->where = "LIMIT 1";
+	return(true);
+d116 1
+a116 1
+	global $msdbHeadVar ;
+d118 1
+a118 1
+	/*	foreach ( $msdbHeadVar->obj as $f ) {	*/
+d120 1
+a120 4
+			/*		*/
+	}
+	/*	for(i=0;i<t->fldnum;i++) {	*/
+		/*	engf = &t->field[i];	*/
+d126 1
+a127 3
+	/*	if ( *h->where )	*/
+		/*	return(1);	*/
+/*		*/
+a130 3
+	/*	if ( enght_defaultWhere(h) )	*/
+		/*	return(1);	*/
+	/*	return(0);	*/
+d132 1
+a132 2
+	$msdbHeadVar->where = "LIMIT 1" ;
+	return(true);
+d137 4
+@
+
+
+1.28
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.27 2004/01/11 12:02:50 engine Exp engine $  */
+d10 2
+a11 2
+	globabl $enterVar;
+	globabl $msdbHeadVar;
+d13 1
+a13 1
+	$str = $enterVar->$user.": "$msdbHeadVar->$tname.": ";
+@
+
+
+1.27
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.26 2004/01/11 11:59:25 engine Exp engine $  */
+d7 23
+a29 32
+/*	static	*/
+/*	enght_setTitle(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	char *act;	*/
+/*		*/
+	/*	if ( ! h->ea || ! *h->ea )	*/
+		/*	act = 0;	*/
+	/*	else	*/
+		/*	if ( h->isSearch )	*/
+			/*	act = "Search" ;	*/
+		/*	else	*/
+			/*	act = h->ea;	*/
+/*		*/
+	/*	sprintf(h->title, "%s: %s - %s%s%s",	*/
+			/*	h->me, h->user, h->tname,	*/
+			/*	act ? " - " : "",	*/
+			/*	act ? act : ""	*/
+			/*	);	*/
+/*	}	*/
+/******************************/
+/*		*/
+/*	static	*/
+/*	enght_dateRestr(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	char *dateRestr;	*/
+	/*	int from, to;	*/
+/*		*/
+	/*	if ( ( dateRestr = getenv("ENGHT_dateRestrict")) == 0 )	*/
+		/*	return(0);	*/
+/*		*/
+d32 1
+a32 1
+/*		*/
+d35 19
+a53 19
+	/*	return(1);	*/
+/*	}	*/
+/*		*/
+/*		*/
+/*	#define ENGHT_SHOW_ROWS		7	*/
+/*		*/
+/*	static	*/
+/*	enght_dateAutoWhere(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	int y, m;	*/
+	/*	int rc;	*/
+	/*	int lastYear, lastMonth;	*/
+	/*	char cmd[1024];	*/
+	/*	char w[1024], prevWhere[1024];	*/
+/*		*/
+	/*	if ( h->rowNum <= ENGHT_SHOW_ROWS )	*/
+		/*	return(0);	*/
+/*		*/
+d82 24
+a105 24
+	/*	return(1);	*/
+/*	}	*/
+/*		*/
+/*	static	*/
+/*	enght_dateWhere(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	if ( enght_dateRestr(h) )	*/
+		/*	return(1);	*/
+	/*	if ( enght_dateAutoWhere(h) )	*/
+		/*	return(1);	*/
+	/*	return(0);	*/
+/*	}	*/
+/*		*/
+/*	static	*/
+/*	enght_defaultWhere(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	int maxid;	*/
+	/*	char cmd[1024];	*/
+/*		*/
+	/*	if ( h->rowNum < ENGHT_SHOW_ROWS )	*/
+		/*	return(0);	*/
+/*		*/
+d107 1
+a107 4
+	/*	maxid = engdb_getint(cmd);	*/
+	/*	if ( maxid <= 0 )	*/
+		/*	return(0);	*/
+/*		*/
+d109 16
+a124 13
+	/*	return(1);	*/
+/*	}	*/
+/*		*/
+/*	enght_whereClause(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	int i;	*/
+	/*	char cond[1024];	*/
+	/*	ENG_TABLE *t;	*/
+	/*	ENG_FIELD *engf;	*/
+/*		*/
+	/*	t = h->engt;	*/
+/*		*/
+d132 1
+d142 5
+a146 2
+/*	}	*/
+/*		*/
+d211 1
+@
+
+
+1.26
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.25 2004/01/11 11:42:49 engine Exp engine $  */
+d154 1
+a154 1
+function msdbObjGetField($str)
+d158 1
+a158 1
+	$f = new headField($str, "");
+d174 1
+a174 1
+			$msdbHeadVar->msdbObj[] = msdbObjGetField($_GET[$f->fname]);
+d176 1
+a176 1
+			$msdbHeadVar->msdbObj[] = new headField("", "");
+d202 1
+a202 1
+	function headField($val, $op)
+d204 2
+a206 1
+		$this->op = $op ;
+@
+
+
+1.25
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.24 2004/01/11 09:01:29 engine Exp engine $  */
+d167 4
+d174 1
+a174 1
+			$msdbHeadVar->msdbObj[] = msdbObjGetField($_GET[$f->$fname]);
+d216 1
+a216 1
+		$this->msdbObj = null;
+@
+
+
+1.24
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.23 2004/01/11 08:27:52 engine Exp engine $  */
+d154 1
+a154 1
+function msdbObjGetField($fname, $fvalue)
+d158 1
+a158 1
+	$f = new headField($fvalue, "");
+d170 1
+a170 1
+			$msdbHeadVar->object[] = msdbObjGetField($f->fname, $_GET[$f->$fname]);
+d172 1
+a172 1
+			$msdbHeadVar->object[] = new headField("", "");
+d212 1
+a212 1
+		$this->object = null;
+d236 1
+a236 1
+	if ( $msdbHeadVar->isTable )
+d238 3
+a240 1
+	/*	enght_setEngRestrict(h);	*/
+@
+
+
+1.23
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.22 2004/01/11 08:21:49 engine Exp engine $  */
+d7 21
+d153 2
+a154 3
+static
+enght_getEnvData(h)
+ENGHT_HEAD *h;
+d156 4
+a159 45
+	int i;
+	ENG_FIELD *engf;
+	char *p, *fname, heb_fstring[1024], fstring[1024], fval[1024], msg[1024];
+	char *addr;
+
+	for(i=0;i<h->engt->fldnum;i++) {
+		engf = &h->engt->field[i];
+		addr = _eng_field_address(h->data, engf);
+		* here if the incoming field is too long,
+		 * it will step over, and crash ???
+		 *	flen = _eng_field_maxlength(engf);
+		 *
+
+		fname = engf->basic->eng_fname;
+
+		p = getenv(fname);
+		if ( p == 0 || *p == 0 )
+			continue;
+		eng_field_op(&h->ops[i], fval, p);
+
+		for(p=fval;isspace(*p);p++)
+			;
+		if ( *p )
+			sprintf(fstring, "%s", fval);
+		else
+			*fstring = 0;
+
+		if ( *fstring == 0 ) {
+			h->ops[i] = 0;
+			continue;
+		}
+		if ( strcmp(engf->basic->ftype, "ENG_hebrew") == 0 ) {
+			heb_href2db(heb_fstring, fstring);
+			strcpy(fstring, heb_fstring);
+		}
+
+		if ( ! _eng_field_scan(addr, fstring, engf) ) {
+			sprintf(msg, "%s: '%s' is not valid", fname, fstring);
+			ENG_MSG(msg);
+			h->scanErr = 1 ;
+		}
+		h->fstrings[i] = eng_strdup(fstring);
+		if ( h->ops[i] )
+			h->isSearch = 1;
+	}
+a161 20
+/*	static	*/
+/*	enght_setTitle(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	char *act;	*/
+/*		*/
+	/*	if ( ! h->ea || ! *h->ea )	*/
+		/*	act = 0;	*/
+	/*	else	*/
+		/*	if ( h->isSearch )	*/
+			/*	act = "Search" ;	*/
+		/*	else	*/
+			/*	act = h->ea;	*/
+/*		*/
+	/*	sprintf(h->title, "%s: %s - %s%s%s",	*/
+			/*	h->me, h->user, h->tname,	*/
+			/*	act ? " - " : "",	*/
+			/*	act ? act : ""	*/
+			/*	);	*/
+/*	}	*/
+d164 1
+a164 6
+/*
+ * return a row object with data
+ * in the fields corresponding to values in _GET
+ */
+
+function msdbObjGetData($tname)
+d166 1
+d168 5
+d197 9
+@
+
+
+1.22
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.21 2004/01/11 08:12:01 engine Exp engine $  */
+a131 33
+
+/*
+ * order result by this logic:
+ *
+ * the last order by this user has used.
+ * by date
+ * the primary key
+ * (by primary composite key.)
+ *
+ * the order is stored in $dbMeta
+ */
+
+function msdbOrderBy()
+{
+	global dbMeta;
+
+	if ( $uo = msdbUserOrder() ) {
+		$dbMeta->order = "order by $dbMeta->dateFname" ;
+		return(true);
+	}
+
+	if ( $dbMeta->dateFname ) {
+		$dbMeta->order = "order by $dbMeta->dateFname" ;
+		retunr(true);
+	}
+
+	if ( $dbMeta->primaryKey )
+		$dbMeta->order = "order by $dbMeta->primaryKey" ;
+
+	return(false);
+}
+
+/******************************/
+d243 1
+@
+
+
+1.21
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.20 2004/01/11 07:19:05 engine Exp engine $  */
+d132 84
+a215 67
+/*		*/
+/*	enght_order(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	if ( eng_key_order_by(h->order_by, h->engt) )	*/
+		/*	return(1);	*/
+/*		*/
+	/*	if ( h->dateFname ) {	*/
+		/*	sprintf(h->order_by, "order by %s", h->dateFname);	*/
+		/*	return(1);	*/
+	/*	}	*/
+	/*	sprintf(h->order_by, "order by %s", h->engt->field[0].basic->eng_fname);	*/
+/*		*/
+	/*	return(0);	*/
+/*	}	*/
+/*		*/
+/*	static	*/
+/*	enght_getEnvData(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	int i;	*/
+	/*	ENG_FIELD *engf;	*/
+	/*	char *p, *fname, heb_fstring[1024], fstring[1024], fval[1024], msg[1024];	*/
+	/*	char *addr;	*/
+/*		*/
+	/*	for(i=0;i<h->engt->fldnum;i++) {	*/
+		/*	engf = &h->engt->field[i];	*/
+		/*	addr = _eng_field_address(h->data, engf);	*/
+		/*	* here if the incoming field is too long,	*/
+		 /*	* it will step over, and crash ???	*/
+		 /*	*	flen = _eng_field_maxlength(engf);	*/
+		 /*	*	*/
+/*		*/
+		/*	fname = engf->basic->eng_fname;	*/
+/*		*/
+		/*	p = getenv(fname);	*/
+		/*	if ( p == 0 || *p == 0 )	*/
+			/*	continue;	*/
+		/*	eng_field_op(&h->ops[i], fval, p);	*/
+/*		*/
+		/*	for(p=fval;isspace(*p);p++)	*/
+			/*	;	*/
+		/*	if ( *p )	*/
+			/*	sprintf(fstring, "%s", fval);	*/
+		/*	else	*/
+			/*	*fstring = 0;	*/
+/*		*/
+		/*	if ( *fstring == 0 ) {	*/
+			/*	h->ops[i] = 0;	*/
+			/*	continue;	*/
+		/*	}	*/
+		/*	if ( strcmp(engf->basic->ftype, "ENG_hebrew") == 0 ) {	*/
+			/*	heb_href2db(heb_fstring, fstring);	*/
+			/*	strcpy(fstring, heb_fstring);	*/
+		/*	}	*/
+/*		*/
+		/*	if ( ! _eng_field_scan(addr, fstring, engf) ) {	*/
+			/*	sprintf(msg, "%s: '%s' is not valid", fname, fstring);	*/
+			/*	ENG_MSG(msg);	*/
+			/*	h->scanErr = 1 ;	*/
+		/*	}	*/
+		/*	h->fstrings[i] = eng_strdup(fstring);	*/
+		/*	if ( h->ops[i] )	*/
+			/*	h->isSearch = 1;	*/
+	/*	}	*/
+/*	}	*/
+/*		*/
+@
+
+
+1.20
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.19 2004/01/10 19:52:11 engine Exp engine $  */
+a131 29
+
+functino msdbPrepDate()
+{
+
+	global $dbMeta;
+
+
+	foreach ( $dbmeta->msdbFields as $f ) {
+		if ( $f->dbtype == 'date' )
+	}
+
+
+
+	for(i=0;i<h->engt->fldnum;i++)
+		if ( substr(h->engt->field[i].basic->ftype, "date") ) 
+			break;
+
+	if ( i == h->engt->fldnum )
+		return(0);
+
+	h->dateFname = h->engt->field[i].basic->eng_fname;
+
+	sprintf(cmd, "select max(%s) from %s", h->dateFname, h->tname);
+
+	h->lastDate = engdb_getint(cmd);
+
+	return(1);
+}
+/******************************/
+a258 1
+		$this->dateFname = null;
+d282 1
+a282 2
+	if ( $msdbHeadVar->isTable ) {
+		$msdbHeadVar->rowNum = msDbRowNum($msdbHeadVar->tname);
+a283 1
+	}
+@
+
+
+1.19
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.18 2004/01/07 23:35:59 engine Exp engine $  */
+d131 30
+a160 52
+/*	static char *engtables[][2] = {	*/
+/*	{ "eng_table", "name" },	*/
+/*	{ "eng_basic", "eng_tname" },	*/
+/*	{ "eng_key", "eng_tname" },	*/
+/*	{ "eng_spot", "eng_tname" },	*/
+/*	{ "eng_valid", "eng_tname" },	*/
+/*	{ "eng_fattr", "eng_tname" },	*/
+/*	{ "eng_tattr", "eng_tname" },	*/
+/*	};	*/
+/*		*/
+/*	enght_setEngRestrict(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	int i;	*/
+/*		*/
+	/*	if ( h->isSearch )	*/
+		/*	return;	*/
+/*		*/
+	/*	for(i=0;i<ARR_LEN(engtables);i++)	*/
+		/*	if ( strcmp(h->tname, engtables[i][0]) == 0 )	*/
+			/*	break;	*/
+	/*	if ( i == ARR_LEN(engtables) )	*/
+		/*	return;	*/
+/*		*/
+	/*	if ( ! h->fstrings[0] || ! *h->fstrings[0] )	*/
+		/*	return;	*/
+/*		*/
+	/*	h->ops[0] = "=" ;	*/
+/*	}	*/
+/*		*/
+/*	static	*/
+/*	enghtPrepDate(h)	*/
+/*	ENGHT_HEAD *h;	*/
+/*	{	*/
+	/*	int i;	*/
+	/*	char cmd[1024];	*/
+/*		*/
+	/*	for(i=0;i<h->engt->fldnum;i++)	*/
+		/*	if ( substr(h->engt->field[i].basic->ftype, "date") ) 	*/
+			/*	break;	*/
+/*		*/
+	/*	if ( i == h->engt->fldnum )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	h->dateFname = h->engt->field[i].basic->eng_fname;	*/
+/*		*/
+	/*	sprintf(cmd, "select max(%s) from %s", h->dateFname, h->tname);	*/
+/*		*/
+	/*	h->lastDate = engdb_getint(cmd);	*/
+/*		*/
+	/*	return(1);	*/
+/*	}	*/
+d288 1
+@
+
+
+1.18
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.17 2004/01/07 18:29:39 engine Exp engine $  */
+d325 2
+d328 1
+a328 1
+	$msdbHeadVar->ea = msdbGetPost('EA');
+d332 2
+a333 1
+	if ( $msdbHeadVar->isTable )
+d335 2
+a336 2
+	else
+		$msdbHeadVar->rowNum = -1 ;
+@
+
+
+1.17
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.16 2004/01/07 17:26:17 engine Exp engine $  */
+d330 4
+a333 1
+	$msdbHeadVar->rowNum = msDbRowNum($msdbHeadVar->tname);
+@
+
+
+1.16
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.15 2004/01/07 16:54:37 engine Exp engine $  */
+a283 11
+class msdbHeadClass
+{
+	function msdbHeadClass()
+	{
+		$this->tname = null ;
+		$this->ea = null ;
+	}
+}
+	
+/******************************/
+
+d286 1
+a286 1
+	global $$msdbHeadVar;
+d303 11
+@
+
+
+1.15
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.14 2004/01/06 19:24:41 engine Exp engine $  */
+d286 5
+a290 2
+	$this->tname = null ;
+	$this->ea = null ;
+d316 2
+a317 2
+	{
+		global $msdbHeadVar;
+d319 2
+a320 2
+		if ( ! msdbEnter() )
+			return(false);
+d322 1
+a322 1
+		$msdbHeadVar = new msdbHeadClass();
+d324 3
+a326 3
+		$msdbHeadVar->tname = msdbGetPost('TNAME');
+		$msdbHeadVar->isTable = msDbIsTname
+		$msdbHeadVar->ea = msdbGetPost('EA');
+a335 1
+	/*	return(h);	*/
+d337 1
+a337 2
+		return(true);
+	}
+@
+
+
+1.14
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.13 2004/01/06 16:18:11 engine Exp engine $  */
+d284 1
+a284 1
+class msdbHead
+d286 3
+a288 8
+	/******************************/
+	function msdbHead()
+	{
+		if ( ! ($this->enter = msdbEnter::msdbEnter()) )
+			return(null);
+		$this->ea = msdbGetPost('EA');
+
+		$this->tname = msdbGetPost('TNAME');
+d290 1
+d292 3
+d296 13
+a308 1
+		$this->objGet = msdbObjGetData($this->tname);
+d310 5
+d316 2
+d319 1
+a319 3
+		return($this);
+	}
+}
+d321 3
+a323 6
+function ohad()
+{
+	return(false);
+}
+
+/******************************/
+d325 3
+a327 8
+
+	/*	enght_getEnvData(h);	*/
+/*		*/
+	/*	if ( ! enght_permit(h) )	*/
+		/*	return(0);	*/
+/*		*/
+	/*	h->rowNum = engdb_rownum(h->tname);	*/
+/*		*/
+a328 1
+/*		*/
+a329 1
+/*		*/
+a330 1
+/*		*/
+a331 1
+/*		*/
+a332 1
+/*		*/
+d334 4
+a337 1
+/*	}	*/
+@
+
+
+1.13
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.12 2004/01/06 11:57:22 engine Exp engine $  */
+d301 1
+a301 1
+		return(this);
+@
+
+
+1.12
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.11 2004/01/06 08:01:59 engine Exp engine $  */
+d297 1
+a297 1
+		this->objGet = msdbObjGetData($this->tname);
+d303 1
+d305 3
+@
+
+
+1.11
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.10 2004/01/06 07:49:11 engine Exp engine $  */
+d272 12
+d293 1
+a293 1
+		$this->tname = msdbGetPost('TNAME'));
+d297 1
+a297 1
+
+a308 12
+	/*	if ( ! h->tname ) {	*/
+		/*	ENG_MSG("can not find ENG_TNAME, setting to eng_table.");	*/
+		/*	h->tname = "eng_table" ;	*/
+		/*	eng_setenv("ENG_TNAME", h->tname);	*/
+	/*	}	*/
+	/*		*/
+	/*	if (h->tname && (h->engt = eng_table(h->tname)) == 0 ) {	*/
+		/*	ENG_MSG2(h->tname, "Not an object");	*/
+		/*	return(0);	*/
+	/*	}	*/
+/*		*/
+/*		*/
+@
+
+
+1.10
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.9 2004/01/05 20:02:10 engine Exp engine $  */
+d281 4
+a285 1
+		$this->tname = msdbGetPost
+@
+
+
+1.9
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.8 2004/01/05 11:15:44 engine Exp engine $  */
+d279 1
+a279 1
+		$this->action = msdbGetPost('ACTION');
+d282 1
+a293 9
+	/*	if ( ! enght_enter(h) ) {	*/
+		/*	enght_include("logon.h");	*/
+		/*	return(0);	*/
+	/*	}	*/
+/*		*/
+	/*	if ( h->engAct == 0 )	*/
+		/*	return(h);	*/
+/*		*/
+	/*	h->tname = getenv("ENG_TNAME");	*/
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.7 2004/01/05 07:41:45 engine Exp engine $  */
+d272 1
+a272 1
+class mypdbHead
+d275 1
+a275 1
+	function mypdbHead()
+d277 1
+a277 1
+		if ( ! ($this->enter = mypdbEnter::mypdbEnter()) )
+d279 1
+a279 1
+		$this->action = mypdbGetPost('ACTION');
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.6 2004/01/03 22:18:30 engine Exp engine $  */
+a292 13
+	/*	static ENGHT_HEAD *h = &_enght_head;	*/
+/*		*/
+	/*	bzero(h, sizeof(ENGHT_HEAD));	*/
+/*		*/
+	/*	h->me = getenv("USER"); */
+/*		*/
+	/*	h->user = getenv("ENGHT_USER");	*/
+	/*	h->pw = getenv("ENGHT_PW");	*/
+	/*	h->envSid = getenv("SID");	*/
+	/*	h->ea = getenv("EA");	*/
+	/*	h->engAct = enght_act(h->ea);	*/
+	/*	h->SIDstarted =  eng_getenv_int("SIDstarted", 0);	*/
+/*		*/
+@
+
+
+1.6
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.5 2004/01/03 19:49:58 engine Exp engine $  */
+a270 7
+/*
+ * you can enter with a user name
+ * and password
+ * or you can enter with a valid sid:
+ * it must be fresh enough, and passworded with a started timestamp
+ * that will match its DB counterpart
+ */
+d272 1
+a272 1
+function mypdbEnter()
+d275 1
+a275 1
+	function mypdbEnter()
+d277 4
+a281 16
+		$this->name = mypdbGetPost('MYPDB_USER');
+		$this->passwd = mypdbGetPost('MYPDB_PW');
+		$this->sid = mypdbGetPost('MYPDB_SID');
+		$this->started = mypdbGetPost('MYPDB_STARTED');
+
+		if ( $this->name )
+			if ( $this->enterByPw())
+				return(this);
+			else
+				return(null);
+
+		if ($this->sid  )
+			if ($this->enterBySid())
+				return(this);
+			else
+				return(null);
+a282 28
+		mypdbMsg("mypdbEnter: No entry point info");
+		return(null);
+	}
+	/******************************/
+	function sidReuse()
+	{
+		return(false); /* ??? */
+	}
+	/******************************/
+	function enterByPw()
+	{
+		if ( ! $this->pw ) {
+			mypdbMsg("mypdbEnter::enterByPw User but no Password");
+			return(false);
+		}
+		$w = "where name = $this->name and passwd = $this->passwd" ;
+		if ( ! ( $this->pwent = engDbGetObjectByWhere($w) ) ) {
+			mypdbMsg("Logon Incorrect");
+			return(false);
+		}
+		
+		if ( sidReuse() )
+			return(true);
+	}
+	/******************************/
+	/******************************/
+	/******************************/
+}
+a283 1
+/******************************/
+d285 1
+a285 7
+class mypdbHead
+{
+	/******************************/
+	function mypdbHead()
+	{
+		if ( ! ($this->enter = mypdbEnter::mypdbEnter()) )
+			return(null);
+a287 2
+	$this->a = getenv("EA");
+	$this->engAct = enght_act(h->ea);
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.4 2004/01/03 16:40:47 engine Exp engine $  */
+d279 1
+a279 1
+class mypdbEnter
+d281 1
+d284 1
+d290 11
+a300 7
+	}
+	function connect()
+	{
+		if ( $this->name && ! enterByPw());
+			return(false);
+		if ($this->sid && ! enterBySid)
+			return(false);
+d302 2
+a303 1
+		return(true);
+d305 1
+d308 1
+a308 1
+		return(false);
+d310 1
+a324 2
+
+
+d326 3
+d335 1
+d338 2
+a339 1
+		$this->enter = new mypdbEnter();
+d341 3
+@
+
+
+1.4
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.3 2004/01/03 16:30:18 engine Exp engine $  */
+d283 35
+a317 1
+		$this->user = mypdbGetPost('USER');
+d327 1
+a327 1
+		
+d331 1
+d334 53
+a386 53
+	static ENGHT_HEAD *h = &_enght_head;
+
+	bzero(h, sizeof(ENGHT_HEAD));
+
+	h->me = getenv("USER"); /* would be nice to get this more secure ??? */
+
+	h->user = getenv("ENGHT_USER");
+	h->pw = getenv("ENGHT_PW");
+	h->envSid = getenv("SID");
+	h->ea = getenv("EA");
+	h->engAct = enght_act(h->ea);
+	h->SIDstarted =  eng_getenv_int("SIDstarted", 0);
+
+	if ( ! enght_enter(h) ) {
+		enght_include("logon.h");
+		return(0);
+	}
+
+	if ( h->engAct == 0 )
+		return(h);
+
+	h->tname = getenv("ENG_TNAME");
+	if ( ! h->tname ) {
+		ENG_MSG("can not find ENG_TNAME, setting to eng_table.");
+		h->tname = "eng_table" ;
+		eng_setenv("ENG_TNAME", h->tname);
+	}
+	
+	if (h->tname && (h->engt = eng_table(h->tname)) == 0 ) {
+		ENG_MSG2(h->tname, "Not an object");
+		return(0);
+	}
+
+
+	enght_getEnvData(h);
+
+	if ( ! enght_permit(h) )
+		return(0);
+
+	h->rowNum = engdb_rownum(h->tname);
+
+	enght_setEngRestrict(h);
+
+	enghtPrepDate(h);
+
+	enght_whereClause(h);
+
+	enght_order(h);
+
+	enght_setTitle(h);
+
+	return(h);
+}
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.2 2004/01/03 15:04:13 engine Exp engine $  */
+d7 263
+a269 287
+
+static
+enght_dateRestr(h)
+ENGHT_HEAD *h;
+{
+	char *dateRestr;
+	int from, to;
+
+	if ( ( dateRestr = getenv("ENGHT_dateRestrict")) == 0 )
+		return(0);
+
+	if (sscanf(dateRestr, "%d-%d", &from, &to) != 2 )
+		return(0);
+
+	sprintf(h->where, "where %s > %d and %s <= %d",
+		h->dateFname, from, h->dateFname, to);
+	return(1);
+}
+
+/******************************/
+
+#define ENGHT_SHOW_ROWS		7
+
+static
+enght_dateAutoWhere(h)
+ENGHT_HEAD *h;
+{
+	int y, m;
+	int rc;
+	int lastYear, lastMonth;
+	char cmd[1024];
+	char w[1024], prevWhere[1024];
+
+	if ( h->rowNum <= ENGHT_SHOW_ROWS )
+		return(0);
+
+	lastYear = h->lastDate / 10000 ;
+	lastMonth = ( h->lastDate / 100 ) % 100;
+
+	*prevWhere = 0;
+	for(y=lastYear;y>0;y--) {
+		for(m=lastMonth; m>0; m--) {
+			sprintf(w, "where %s >= %d", h->dateFname, y*10000 + m*100 + 1);
+			sprintf(cmd, "select count(*) from %s %s", h->tname, w);
+			rc = engdb_getint(cmd);
+			if ( rc > ENGHT_SHOW_ROWS )
+				break;
+			strcpy(prevWhere, w);
+		}
+		if ( rc > ENGHT_SHOW_ROWS )
+			break;
+		m = 12 ;
+	}
+
+	/*
+	 * if there are date prior to Jesus,
+	 * this could happen (no where, show everything)
+	 */
+	if ( y == 0 && m == 1 )
+		return(0);
+
+	if ( *prevWhere )
+		strcpy(h->where, prevWhere);
+	else
+		strcpy(h->where, w);
+		
+	return(1);
+}
+
+/******************************/
+
+static
+enght_dateWhere(h)
+ENGHT_HEAD *h;
+{
+	if ( enght_dateRestr(h) )
+		return(1);
+	if ( enght_dateAutoWhere(h) )
+		return(1);
+	return(0);
+}
+
+/************************************************************/
+
+static
+enght_defaultWhere(h)
+ENGHT_HEAD *h;
+{
+	int maxid;
+	char cmd[1024];
+
+	if ( h->rowNum < ENGHT_SHOW_ROWS )
+		return(0);
+
+	sprintf(cmd, "select max(eng_id) from %s", h->tname);
+	maxid = engdb_getint(cmd);
+	if ( maxid <= 0 )
+		return(0);
+
+	sprintf(h->where, "where eng_id > %d", maxid - 3*ENGHT_SHOW_ROWS);
+	return(1);
+}
+
+/******************************/
+
+enght_whereClause(h)
+ENGHT_HEAD *h;
+{
+	int i;
+	char cond[1024];
+	ENG_TABLE *t;
+	ENG_FIELD *engf;
+
+	t = h->engt;
+
+	for(i=0;i<t->fldnum;i++) {
+		engf = &t->field[i];
+		if ( h->ops[i] && *h->ops[i] &&
+			eng_single_cond(cond, engf, h->ops[i],
+									h->fstrings[i], 0) )
+			eng_add_cond(h->where, cond);
+	}
+	if ( *h->where )
+		return(1);
+
+	if ( h->dateFname && enght_dateWhere(h))
+		return(1);
+
+	if ( enght_defaultWhere(h) )
+		return(1);
+	return(0);
+}
+
+/************************************************************/
+
+static char *engtables[][2] = {
+{ "eng_table", "name" },
+{ "eng_basic", "eng_tname" },
+{ "eng_key", "eng_tname" },
+{ "eng_spot", "eng_tname" },
+{ "eng_valid", "eng_tname" },
+{ "eng_fattr", "eng_tname" },
+{ "eng_tattr", "eng_tname" },
+};
+
+enght_setEngRestrict(h)
+ENGHT_HEAD *h;
+{
+	int i;
+
+	if ( h->isSearch )
+		return;
+
+	for(i=0;i<ARR_LEN(engtables);i++)
+		if ( strcmp(h->tname, engtables[i][0]) == 0 )
+			break;
+	if ( i == ARR_LEN(engtables) )
+		return;
+
+	/*
+	 * here I know that the table name is the first field,
+	 * regardless of its name, which might be eng_tname or 'name'
+	 */
+	if ( ! h->fstrings[0] || ! *h->fstrings[0] )
+		return;
+
+	h->ops[0] = "=" ;
+}
+
+/************************************************************/
+
+static
+enghtPrepDate(h)
+ENGHT_HEAD *h;
+{
+	int i;
+	char cmd[1024];
+
+	for(i=0;i<h->engt->fldnum;i++)
+		if ( substr(h->engt->field[i].basic->ftype, "date") ) 
+			break;
+
+	if ( i == h->engt->fldnum )
+		return(0);
+
+	h->dateFname = h->engt->field[i].basic->eng_fname;
+
+	sprintf(cmd, "select max(%s) from %s", h->dateFname, h->tname);
+
+	h->lastDate = engdb_getint(cmd);
+
+	return(1);
+}
+
+/******************************/
+
+enght_order(h)
+ENGHT_HEAD *h;
+{
+	if ( eng_key_order_by(h->order_by, h->engt) )
+		return(1);
+
+	if ( h->dateFname ) {
+		sprintf(h->order_by, "order by %s", h->dateFname);
+		return(1);
+	}
+	sprintf(h->order_by, "order by %s", h->engt->field[0].basic->eng_fname);
+
+	return(0);
+}
+
+/************************************************************/
+
+static
+enght_getEnvData(h)
+ENGHT_HEAD *h;
+{
+	int i;
+	ENG_FIELD *engf;
+	char *p, *fname, heb_fstring[1024], fstring[1024], fval[1024], msg[1024];
+	char *addr;
+
+	for(i=0;i<h->engt->fldnum;i++) {
+		engf = &h->engt->field[i];
+		addr = _eng_field_address(h->data, engf);
+		/* here if the incoming field is too long,
+		 * it will step over, and crash ???
+		 *	flen = _eng_field_maxlength(engf);
+		 */
+
+		fname = engf->basic->eng_fname;
+
+		p = getenv(fname);
+		if ( p == 0 || *p == 0 )
+			continue;
+		eng_field_op(&h->ops[i], fval, p);
+
+		for(p=fval;isspace(*p);p++)
+			;
+		if ( *p )
+			sprintf(fstring, "%s", fval);
+		else
+			*fstring = 0;
+
+		if ( *fstring == 0 ) {
+			h->ops[i] = 0;
+			continue;
+		}
+		if ( strcmp(engf->basic->ftype, "ENG_hebrew") == 0 ) {
+			heb_href2db(heb_fstring, fstring);
+			strcpy(fstring, heb_fstring);
+		}
+
+		if ( ! _eng_field_scan(addr, fstring, engf) ) {
+			sprintf(msg, "%s: '%s' is not valid", fname, fstring);
+			ENG_MSG(msg);
+			h->scanErr = 1 ;
+		}
+		h->fstrings[i] = eng_strdup(fstring);
+		if ( h->ops[i] )
+			h->isSearch = 1;
+	}
+}
+
+/******************************/
+
+static
+enght_setTitle(h)
+ENGHT_HEAD *h;
+{
+	char *act;
+
+	if ( ! h->ea || ! *h->ea )
+		act = 0;
+	else
+		if ( h->isSearch )
+			act = "Search" ;
+		else
+			act = h->ea;
+
+	sprintf(h->title, "%s: %s - %s%s%s",
+			h->me, h->user, h->tname,
+			act ? " - " : "",
+			act ? act : ""
+			);
+}
+
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: head.php,v 1.1 2004/01/03 14:55:56 engine Exp engine $  */
+d295 15
+d311 1
+d313 1
+a313 1
+enght_head()
+d315 8
+d378 1
+@
+
+
+1.1
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: .exrc,v 1.4 2003/05/24 07:04:01 engine Exp engine $  */
+a294 8
+/*
+ * return h on success, null on failure
+ * sucess means the securit passed OK
+ *
+ * when not an engine act, there is no table involved,
+ * when it is an engine action, the table is also checked for permissions
+ * and failure may still result
+ */
+a295 1
+static ENGHT_HEAD _enght_head;
+a296 1
+ENGHT_HEAD *
+@

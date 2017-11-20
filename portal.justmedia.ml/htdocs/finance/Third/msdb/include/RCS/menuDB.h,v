@@ -1,0 +1,57 @@
+head	1.2;
+access;
+symbols;
+locks
+	engine:1.2; strict;
+comment	@ * @;
+
+
+1.2
+date	2004.08.09.13.41.07;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.07.29.08.48.10;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.2
+log
+@None
+@
+text
+@<FONT face="helvetica">
+<CENTER>
+	My SQL Data Browser Version $msdbVersion<BR>
+
+	<A HREF="http://www.engine.com/msdb/">Home</A>
+	<A HREF="http://sourceforge.net/projects/msdb/">Download</A>
+	<A HREF="Help/">Help</A>
+	<A HREF="Help/about.txt">About</A>
+	<BR>
+	<A  HREF="javascript:msdbCmd('msdbSelectDB', '')" TARGET=_top>Databases</A>
+	<A  HREF="javascript:msdbCmd('msdbSelectTable', '')">Tables</A>
+	<A  HREF="javascript:msdbCmd('msdbLogout','')">Logout</A>
+
+</CENTER>
+</FONT>
+
+@
+
+
+1.1
+log
+@None
+@
+text
+@d5 1
+a5 1
+	<A HREF="http://msdb.sourceforge.net/">Home</A>
+@

@@ -1,0 +1,73 @@
+head	1.2;
+access;
+symbols;
+locks
+	engine:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2004.04.26.13.44.34;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.21.16.08.26;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.2
+log
+@None
+@
+text
+@
+Msdb Prigramming Interfaces
+---------------------------
+
+msDbGetString($query) returns a signle field from the database.
+msDbFetchRows($query) returns a two dimensional array of rows and columns.
+msDbGetAssoc($query) returns a two dimensional array
+		where each row is indexed by the column names
+
+example:
+
+<table>
+	<tr>
+		<td>Name</td>
+		<td>Address</td>
+		<td>Phone</td>
+	</tr>
+
+
+
+<?php
+	require_once("msdb/config.php"); // see config.php for alternatives
+	require_once("msdb/library.php");
+	$rows = msDbGetAssoc("select Name, Address, phone from addressBook");
+	foreach ( $rows as $row ) {
+		echo "<tr>";
+		foreach ( $row as $field )
+			echo "<td>$field</td>";
+		echo "</tr>";
+	}
+?>
+
+
+</table>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d22 1
+@

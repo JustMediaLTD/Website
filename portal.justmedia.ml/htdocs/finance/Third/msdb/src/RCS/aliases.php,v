@@ -1,0 +1,163 @@
+head	1.6;
+access;
+symbols;
+locks
+	engine:1.6; strict;
+comment	@# @;
+
+
+1.6
+date	2004.01.23.19.07.30;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.23.11.05.40;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.13.15.12.53;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.13.13.07.58;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.07.18.29.38;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.07.16.54.36;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.6
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: aliases.php,v 1.5 2004/01/23 11:05:40 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/******************************/
+/*
+ * Arrays
+ */
+
+/******************************/
+
+function msdbArrValIn($v, $a)
+{
+	if ( ! is_array($a) )
+		return(false);
+
+	return(in_array($v, $a));
+}
+
+/******************************/
+
+function msdbArrKeyIn($k, $a)
+{
+	if ( ! is_array($a) )
+		return(false);
+
+	return(array_key_exists($k, $a));
+}
+
+/************************************************************/
+
+?>
+@
+
+
+1.5
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: aliases.php,v 1.4 2004/01/13 15:12:53 engine Exp engine $ ';
+d16 3
+a18 5
+	if ( ! is_array($a) ) {
+		MSDB_ERROR("msdbArrValIn: not an array");
+		msdb_r($a);
+		return(null);
+	}
+d26 3
+a28 5
+	if ( ! is_array($a) ) {
+		MSDB_ERROR("msdbArrKeyIn: not an array");
+		msdb_r($a);
+		return(null);
+	}
+@
+
+
+1.4
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: aliases.php,v 1.3 2004/01/13 13:07:58 engine Exp engine $ ';
+d16 5
+d28 5
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 3
+a5 3
+/* $Id: aliases.php,v 1.1 2004/01/07 16:54:36 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.1
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: .exrc,v 1.5 2004/01/05 10:16:31 engine Exp engine $  */
+d13 1
+a13 1
+msdbArrValIn($v, $a)
+d20 1
+a20 1
+msdbArrKeyIn($k, $a)
+@

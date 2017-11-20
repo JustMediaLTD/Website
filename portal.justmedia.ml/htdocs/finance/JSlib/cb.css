@@ -1,0 +1,232 @@
+/************************************************************/
+/* $Id: cb.css,v 1.8 2004/07/29 11:53:54 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://www.engine.com/license.txt (BSD) */
+/************************************************************/
+/* general styles */
+body            {font-family: arial, helvetica, geneva, sans-serif; font-size: 10pt; color: #000000; background-color: #F5F5F5}
+pre, tt         {font-size: small}
+th              {font-family: arial, helvetica, geneva, sans-serif; font-size: small; font-weight: bold; color: #000000; background-color: #D3DCE3}
+td              {font-family: arial, helvetica, geneva, sans-serif; font-size: 9pt}
+form            {font-family: arial, helvetica, geneva, sans-serif; font-size: small}
+input           {font-family: arial, helvetica, geneva, sans-serif; font-size: smaller}
+input.textfield {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+select          {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+textarea        {font-family: arial, helvetica, geneva, sans-serif; font-size: small; color: #000000; background-color: #FFFFFF}
+h1              {font-family: arial, helvetica, geneva, sans-serif; font-size: large; font-weight: bold}
+A:link          {font-family: arial, helvetica, geneva, sans-serif; text-decoration: none; color: #0000FF}
+A:visited       {font-family: arial, helvetica, geneva, sans-serif; text-decoration: none; color: #0000FF}
+A:hover         {font-family: arial, helvetica, geneva, sans-serif; text-decoration: underline; color: #FF0000}
+A.nav:link      {font-family: arial, helvetica, geneva, sans-serif; color: #000000}
+A.nav:visited   {font-family: arial, helvetica, geneva, sans-serif; color: #000000}
+A.nav:hover     {font-family: arial, helvetica, geneva, sans-serif; color: #FF0000}
+/************************************************************/
+
+.cbTable {
+	font-family: arial;
+	font-size: 8pt;
+}
+
+/******************************/
+
+.cbHead {
+	background-color: #D3DCE3;
+}
+
+/******************************/
+
+.cbPrev {
+	background-color: #aaaaff;
+}
+
+/******************************/
+
+.cbPosPrev {
+	background-color: #44ff44;
+}
+
+/******************************/
+
+.cbNegPrev {
+	background-color: #ff8888;
+}
+
+/******************************/
+
+.cbOddLine {
+	background-color: #dddddd;
+}
+
+/******************************/
+
+.cbEvenLine {
+	background-color: #cccccc;
+}
+
+/******************************/
+
+.cbMonthlyLine {
+	background-color: #88FF88;
+}
+
+/******************************/
+
+.cbNew {
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	background-color: #dddddd;
+}
+
+/******************************/
+
+.cbNegAmount {
+	background-color: #88ff88;
+}
+
+/******************************/
+
+.cbNegBal {
+	background-color: #ff8888;
+}
+
+/******************************/
+
+.cbReportsTable {
+	background-color: #eeeeee;
+}
+
+/******************************/
+
+.cbReportsTitle {
+	background-color: #eeeeee;
+}
+
+/******************************/
+/******************************/
+
+.cbCategoryRestrictClass {
+	background-color: #7debd4;
+}
+
+/********************/
+
+.cbCategoryValClass {
+	background-color: #7debd4;
+}
+
+/********************/
+
+.cbCategoryTotalClass {
+	background-color: #7debd4;
+}
+
+/********************/
+
+.cbCategoryNegTotalClass {
+	background-color: #aaaaaa;
+}
+
+/******************************/
+
+.cbToFromRestrictClass {
+	background-color: #adebc2;
+}
+
+/********************/
+
+.cbToFromValClass {
+	background-color: #adebc2;
+}
+
+/********************/
+
+.cbToFromTotalClass {
+	background-color: #adebc2;
+}
+
+/********************/
+
+.cbToFromNegTotalClass {
+	background-color: #aaaaaa;
+}
+
+/******************************/
+
+.cbBalancesRestrictClass {
+	background-color: #aaddaa;
+}
+
+/********************/
+
+.cbBalancesValClass {
+	background-color: #aaddaa;
+}
+
+/********************/
+
+.cbBalancesTotalClass {
+	background-color: #88ff88;
+}
+
+/********************/
+
+.cbBalancesNegTotalClass {
+	background-color: #ff8888;
+}
+
+/************************************************************/
+
+.cbChangeClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:3px outset #ddddff;
+	background-color: #ddddff;
+}
+
+/******************************/
+
+.cbNewClass {
+	position: absolute;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 8pt;
+	color: #000000;
+	border:3px outset #ffdd00;
+	background-color: #ffdd00;
+}
+
+/******************************/
+
+.cbSELcategoryClass {
+	background-color: #dddddd;
+	position: absolute;
+	visibility: hidden;
+
+	border:3px outset #bbbbbb;
+	font-family:Verdana;
+	font-size: 9pt;
+	color: black;
+	line-height:16px;
+	cursor:default;
+}
+
+/******************************/
+
+.cbSELtoFromClass {
+	background-color: #dddddd;
+	position: absolute;
+	visibility: hidden;
+
+	border:3px outset #bbbbbb;
+	font-family:Verdana;
+	font-size: 8pt;
+	color: black;
+	line-height:16px;
+	cursor:default;
+}
+
+/************************************************************/

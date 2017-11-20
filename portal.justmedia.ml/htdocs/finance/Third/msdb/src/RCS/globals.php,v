@@ -1,0 +1,1058 @@
+head	1.54;
+access;
+symbols;
+locks
+	engine:1.54; strict;
+comment	@# @;
+
+
+1.54
+date	2004.07.29.08.48.00;	author engine;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.05.31.14.55.59;	author engine;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.05.08.12.23.36;	author engine;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.04.20.02.18.39;	author engine;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.03.21.09.02.44;	author engine;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.02.26.11.43.32;	author engine;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.02.23.21.57.07;	author engine;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.02.16.12.37.38;	author engine;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.02.16.11.39.16;	author engine;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.02.11.07.45.30;	author engine;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.02.07.11.49.10;	author engine;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.02.07.11.48.51;	author engine;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.02.06.08.35.08;	author engine;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.02.06.08.32.34;	author engine;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.02.04.06.21.46;	author engine;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.02.03.06.31.57;	author engine;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.02.02.10.39.36;	author engine;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.02.01.19.49.59;	author engine;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.29.16.37.25;	author engine;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.29.15.26.38;	author engine;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.29.11.00.39;	author engine;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.29.10.35.08;	author engine;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.29.10.11.51;	author engine;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.01.29.09.18.36;	author engine;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.01.29.06.04.31;	author engine;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.28.03.21.34;	author engine;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.01.27.11.14.24;	author engine;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.01.23.19.07.32;	author engine;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.22.09.52.01;	author engine;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.15.13.51.59;	author engine;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.14.16.34.06;	author engine;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.01.14.14.36.32;	author engine;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.01.14.13.04.36;	author engine;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.13.15.12.54;	author engine;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.01.13.13.08.00;	author engine;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.01.13.07.46.52;	author engine;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.11.15.23.04;	author engine;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.10.16.26.05;	author engine;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.07.23.35.59;	author engine;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.07.22.39.15;	author engine;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.07.16.54.37;	author engine;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.07.12.56.48;	author engine;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.07.12.11.05;	author engine;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.07.09.32.10;	author engine;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.06.17.55.29;	author engine;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.06.16.18.11;	author engine;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.06.07.11.36;	author engine;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.05.21.46.02;	author engine;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.05.20.02.10;	author engine;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.05.18.08.44;	author engine;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.05.11.15.44;	author engine;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.03.22.18.30;	author engine;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.03.15.15.03;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.03.12.01.04;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.54
+log
+@None
+@
+text
+@<?php
+/************************************************************/
+#include "msdb.h"
+$rcsid='$Id: globals.php,v 1.53 2004/05/31 14:55:59 engine Exp engine $ ';
+$copyRight="Copyright (c) Ohad Aloni 1990-2004. All rights reserved.";
+$licenseId="Released under http://ohad.dyndns.org/license.txt (BSD)";
+/************************************************************/
+$msdbVersion =  '1.1.2' ;
+/******************************/
+$dbHandle = null; // connection information
+$dbMeta = null; // Meta Data and other globabl info
+$msdbEnterVar = null; // logon Info
+$dbTnameRows = array(); // rows displayed on this page
+$msdbPerfStamps = array() ; // performance measurements
+$msdbQueries = array() ; // queries to db
+$msdbUserPrefs  = array('fromDB' => array(), 'fromUser' => array(), 'runWith' => array()) ;
+$msdbStats = null ;
+/************************************************************/
+?>
+@
+
+
+1.53
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.52 2004/05/08 12:23:36 engine Exp engine $ ';
+d8 1
+a9 2
+$msdbVersion =  '1.1.2' ;
+
+@
+
+
+1.52
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.51 2004/04/20 02:18:39 engine Exp engine $ ';
+d9 1
+a9 1
+$msdbVersion =  '1.1' ;
+@
+
+
+1.51
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.50 2004/03/21 09:02:44 engine Exp engine $ ';
+d9 1
+a9 1
+$msdbVersion =  '1.0.9' ;
+@
+
+
+1.50
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.49 2004/02/26 11:43:32 engine Exp engine $ ';
+a12 1
+$dbData = null ; // data from queries
+@
+
+
+1.49
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.48 2004/02/23 21:57:07 engine Exp engine $ ';
+d9 1
+a9 1
+$msdbVersion =  '1.0.8' ;
+@
+
+
+1.48
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.47 2004/02/16 12:37:38 engine Exp engine $ ';
+d9 1
+a9 1
+$msdbVersion =  '1.0.7' ;
+@
+
+
+1.47
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.46 2004/02/16 11:39:16 engine Exp engine $ ';
+d8 2
+a9 1
+$msdbVersion =  '1.0.6' ;
+@
+
+
+1.46
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.45 2004/02/11 07:45:30 engine Exp engine $ ';
+d8 1
+a8 1
+$msdbVersion =  '1.0.5' ;
+@
+
+
+1.45
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.44 2004/02/07 11:49:10 engine Exp engine $ ';
+a9 1
+// db variables ar mostly separated so msdbInfo look nicer
+d13 1
+a13 1
+$msdbEnterVar = null;
+d15 2
+a16 2
+$msdbPerfStamps = array() ;
+$msdbQueries = array() ;
+@
+
+
+1.44
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.43 2004/02/07 11:48:51 engine Exp engine $ ';
+d19 1
+@
+
+
+1.43
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.42 2004/02/06 08:35:08 engine Exp engine $ ';
+d8 1
+a8 1
+$msdbVersion =  '1.0.4' ;
+@
+
+
+1.42
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.41 2004/02/06 08:32:34 engine Exp engine $ ';
+d8 1
+a8 1
+$msdbVersion =  '1.0.3' ;
+@
+
+
+1.41
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.40 2004/02/04 06:21:46 engine Exp engine $ ';
+d8 1
+a8 1
+$msdbVersion =  '1.0.4' ;
+@
+
+
+1.40
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.39 2004/02/03 06:31:57 engine Exp engine $ ';
+d8 1
+a8 1
+$msdbVersion =  '1.0.2' ;
+@
+
+
+1.39
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.38 2004/02/02 10:39:36 engine Exp engine $ ';
+d8 1
+a8 1
+$msdbVersion =  '1.0.1' ;
+@
+
+
+1.38
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.37 2004/02/01 19:49:59 engine Exp engine $ ';
+d8 1
+a8 1
+$msdbVersion =  '1.0.1 Beta' ; // current release
+@
+
+
+1.37
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.36 2004/01/29 16:37:25 engine Exp engine $ ';
+d8 1
+a8 1
+$msdbVersion =  '1.0 Beta' ; // current release
+@
+
+
+1.36
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.35 2004/01/29 15:26:38 engine Exp engine $ ';
+d13 1
+a13 1
+$dbData = null ; // rows selected from DB to show on screen
+d15 1
+@
+
+
+1.35
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.34 2004/01/29 11:00:39 engine Exp engine $ ';
+d17 1
+a17 1
+$msdbUserPrefs  = array('fromDB' => null, 'fromUser' => null, 'runWith' => null) ;
+@
+
+
+1.34
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.33 2004/01/29 10:35:08 engine Exp engine $ ';
+a13 1
+$userPrefs = null; // prefs are stored in the string  controlDB.msdb_passwd.userprefs
+d17 1
+@
+
+
+1.33
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.32 2004/01/29 10:11:51 engine Exp engine $ ';
+d14 1
+a14 1
+$userPrefs = null; // prefs are stored in the string  msdb_passwd.userprefs
+@
+
+
+1.32
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.31 2004/01/29 09:18:36 engine Exp engine $ ';
+d8 1
+a8 3
+$msdb['showRows'] =  15 ; // how many rows to show when no select criteria
+$msdb['limitRows'] =  30 ; // maximum rows to show (even with a select criterion )
+$msdb['version'] =  '1.0 Beta' ; // current release
+@
+
+
+1.31
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.30 2004/01/29 06:04:31 engine Exp engine $ ';
+a7 1
+$msdb['holdMsgs'] =  false ; // hold and do not Show the messages until msdbFlushMsgs() is called.
+@
+
+
+1.30
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.29 2004/01/28 03:21:34 engine Exp engine $ ';
+d20 1
+@
+
+
+1.29
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.28 2004/01/27 11:14:24 engine Exp engine $ ';
+d19 1
+@
+
+
+1.28
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.27 2004/01/23 19:07:32 engine Exp engine $ ';
+d10 1
+a10 1
+$msdb['limitRows'] =  30 ; // maximum rows to show (even with a select criteria )
+@
+
+
+1.27
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.26 2004/01/22 09:52:01 engine Exp engine $ ';
+d11 1
+a11 1
+$msdb['version'] =  '0.9' ; // current release
+@
+
+
+1.26
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.25 2004/01/15 13:51:59 engine Exp engine $ ';
+a7 2
+// global varaible (for doc purposes).
+// msdbConfig defined in config.php
+d10 2
+a11 1
+$msdb['limitRows'] =  61 ; // maximum rows to show (even with a select criteria )
+a18 1
+$dbPermit = array('msdb_passwd' => 0); // table permissions
+@
+
+
+1.25
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.24 2004/01/14 16:34:06 engine Exp engine $ ';
+d20 1
+@
+
+
+1.24
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.23 2004/01/14 14:36:32 engine Exp engine $ ';
+d11 2
+a12 2
+$msdb['showRows'] =  22 ; // how many rows to show when no select criteria
+$msdb['limitRows'] =  50 ; // maximum rows to show (even with a select criteria )
+@
+
+
+1.23
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.22 2004/01/14 13:04:36 engine Exp engine $ ';
+d10 1
+a10 1
+$msdb['holdMsgs'] =  false ;
+d15 3
+a17 4
+$dbHandle = null;
+$dbMeta = null;
+$dbData = null ;
+
+a18 1
+
+@
+
+
+1.22
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.21 2004/01/13 15:12:54 engine Exp engine $ ';
+a21 1
+$msdbHeadVar = null;
+@
+
+
+1.21
+log
+@None
+@
+text
+@d4 1
+a4 1
+$rcsid='$Id: globals.php,v 1.20 2004/01/13 13:08:00 engine Exp engine $ ';
+d11 2
+a12 1
+$msdb['showRows'] =  22 ;
+@
+
+
+1.20
+log
+@None
+@
+text
+@d3 2
+a4 1
+$rcsid='$Id: .exrc,v 1.6 2004/01/13 12:58:14 engine Exp engine $ ';
+@
+
+
+1.19
+log
+@None
+@
+text
+@d3 3
+a5 3
+/* $Id: globals.php,v 1.18 2004/01/11 15:23:04 engine Exp engine $  */
+/* Copyright (c) Ohad Aloni 1990-2004. All rights reserved. */
+/* Released under http://ohad.dyndns.org/license.txt (BSD) */
+@
+
+
+1.18
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.17 2004/01/10 16:26:05 engine Exp engine $  */
+d10 1
+a10 1
+$msdb['showRows'] =  9 ;
+@
+
+
+1.17
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.16 2004/01/07 23:35:59 engine Exp engine $  */
+d10 1
+@
+
+
+1.16
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.15 2004/01/07 22:39:15 engine Exp engine $  */
+d10 2
+d13 3
+d17 1
+@
+
+
+1.15
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.14 2004/01/07 16:54:37 engine Exp engine $  */
+d7 3
+a9 2
+$msdb['holdMsgs'] =  FALSE ;
+
+a11 1
+$msdbSid = null;
+@
+
+
+1.14
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.13 2004/01/07 12:56:48 engine Exp engine $  */
+d11 1
+a11 1
+$msdbSid = array( 'SID' => '', 'SIDTST', 0 );
+@
+
+
+1.13
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.12 2004/01/07 12:11:05 engine Exp engine $  */
+a8 3
+$msdbIncVars['err_r'] = (string)time();
+$msdbIncVars['DATE'] = date("F j, Y, g:i a");                
+
+d12 2
+@
+
+
+1.12
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.11 2004/01/07 09:32:10 engine Exp engine $  */
+d8 1
+d11 1
+@
+
+
+1.11
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.10 2004/01/06 17:55:29 engine Exp engine $  */
+d12 1
+@
+
+
+1.10
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.9 2004/01/06 16:18:11 engine Exp engine $  */
+d11 1
+@
+
+
+1.9
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.8 2004/01/06 07:11:36 engine Exp engine $  */
+d10 1
+@
+
+
+1.8
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.7 2004/01/05 21:46:02 engine Exp engine $  */
+a7 1
+$msdb['actions'] = array('Add' => 'Add', 'Delete' => 'Delete', 'Update' => 'Update');
+@
+
+
+1.7
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.6 2004/01/05 20:02:10 engine Exp engine $  */
+d8 1
+a8 1
+$mybdb['actions'] = array('Add' => 'Add', 'Delete' => 'Delete', 'Update' => 'Update');
+d10 1
+a10 1
+$msdbIncVars['DATE'] = date();
+@
+
+
+1.6
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.5 2004/01/05 18:08:44 engine Exp engine $  */
+d10 1
+@
+
+
+1.5
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.4 2004/01/05 11:15:44 engine Exp engine $  */
+d7 1
+a7 1
+$mypdb['holdMsgs'] =  FALSE ;
+d9 1
+a9 1
+$mypdbIncVars['err_r'] = (string)time();
+@
+
+
+1.4
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.3 2004/01/03 22:18:30 engine Exp engine $  */
+d9 1
+@
+
+
+1.3
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: globals.php,v 1.2 2004/01/03 15:15:03 engine Exp engine $  */
+d8 1
+a8 1
+$mybdb['actions'] = array('Add', 'Delete', 'Update');
+@
+
+
+1.2
+log
+@None
+@
+text
+@d3 1
+a3 1
+/* $Id: .exrc,v 1.4 2003/05/24 07:04:01 engine Exp engine $  */
+d8 1
+@
+
+
+1.1
+log
+@None
+@
+text
+@d2 5
+a6 3
+error_reporting(E_ALL | E_STRICT) ;
+
+
+d8 1
+a8 2
+
+
+@

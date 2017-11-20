@@ -1,0 +1,48 @@
+head	1.2;
+access;
+symbols;
+locks
+	engine:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2004.05.31.14.57.16;	author engine;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.07.22.01.09;	author engine;	state Exp;
+branches;
+next	;
+
+
+desc
+@None
+@
+
+
+1.2
+log
+@None
+@
+text
+@		<TD COLSPAN=3 ALIGN=RIGHT VALIGN=BOTTOM>
+			<INPUT type=button value="Search" onMouseOver="msdbSaveMouse()" onclick="javascript:msdbSearch()">
+			<INPUT type=submit value="New">
+		</TD>
+	</TR>
+
+</FORM>
+@
+
+
+1.1
+log
+@None
+@
+text
+@d1 2
+a2 1
+		<TD COLSPAN=3 ALIGN=RIGHT>
+@
