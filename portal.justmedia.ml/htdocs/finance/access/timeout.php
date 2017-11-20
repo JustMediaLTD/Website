@@ -9,17 +9,23 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
     See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
 ***********************************************************************/
-	$path_to_root=".";
-	if (!file_exists($path_to_root.'/config_db.php'))
-		header("Location: ".$path_to_root."/install/index.php");
+/*
+	User authentication page popped up after login timeout during ajax call.
+*/
+$path_to_root = '..';
+$page_security = 'SA_OPEN';
+include_once($path_to_root . "/includes/session.inc");
 
-	$page_security = 'SA_OPEN';
-	ini_set('xdebug.auto_trace',1);
-	include_once("includes/session.inc");
+include($path_to_root .'/access/login.php');
 
-	add_access_extensions();
-	$app = &$_SESSION["App"];
-	if (isset($_GET['application']))
-		$app->selected_application = $_GET['application'];
-
-	$app->display();
+if (get_post('SubmitUser') && $_SESSION['wa_current_user']->logged_in()) {
+	// After successfull login repeat last ajax call.
+	// Login form consists all post variables from last ajax call.
+echo "<script>
+	var o = opener;
+	if (o) {
+		o.JsHttpRequest.request(document.getElementsByName('SubmitUser')[0], o.document.forms[0]);
+		close();
+	}
+</script>";
+}

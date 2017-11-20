@@ -9,17 +9,22 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
     See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
 ***********************************************************************/
-	$path_to_root=".";
-	if (!file_exists($path_to_root.'/config_db.php'))
-		header("Location: ".$path_to_root."/install/index.php");
+$page_security = 'SA_FORMSETUP';
+$path_to_root="..";
 
-	$page_security = 'SA_OPEN';
-	ini_set('xdebug.auto_trace',1);
-	include_once("includes/session.inc");
+include_once($path_to_root . "/includes/session.inc");
+include_once('../includes/ui/class.reflines_crud.inc');
 
-	add_access_extensions();
-	$app = &$_SESSION["App"];
-	if (isset($_GET['application']))
-		$app->selected_application = $_GET['application'];
+include_once($path_to_root . "/includes/ui.inc");
 
-	$app->display();
+page(_($help_context = "Transaction References"));
+
+start_form();
+
+$companies = new fa_reflines();
+
+$companies->show();
+
+end_form();
+
+end_page();

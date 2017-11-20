@@ -9,17 +9,11 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
     See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
 ***********************************************************************/
-	$path_to_root=".";
-	if (!file_exists($path_to_root.'/config_db.php'))
-		header("Location: ".$path_to_root."/install/index.php");
+include_once($path_to_root . "/includes/ui/ui_lists.inc");
+include_once($path_to_root . "/includes/ui/ui_controls.inc");
+include_once($path_to_root . "/includes/ui/ui_input.inc");
+include_once($path_to_root . "/includes/ui/ui_msgs.inc");
+include_once($path_to_root . "/includes/ui/ui_globals.inc");
+include_once($path_to_root . "/includes/ui/ui_view.inc");
+include_once($path_to_root . "/includes/data_checks.inc");
 
-	$page_security = 'SA_OPEN';
-	ini_set('xdebug.auto_trace',1);
-	include_once("includes/session.inc");
-
-	add_access_extensions();
-	$app = &$_SESSION["App"];
-	if (isset($_GET['application']))
-		$app->selected_application = $_GET['application'];
-
-	$app->display();

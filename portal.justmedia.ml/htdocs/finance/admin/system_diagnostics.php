@@ -9,17 +9,18 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
     See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
 ***********************************************************************/
-	$path_to_root=".";
-	if (!file_exists($path_to_root.'/config_db.php'))
-		header("Location: ".$path_to_root."/install/index.php");
+$page_security = 'SA_SOFTWAREUPGRADE';
+$path_to_root="..";
 
-	$page_security = 'SA_OPEN';
-	ini_set('xdebug.auto_trace',1);
-	include_once("includes/session.inc");
+include($path_to_root . "/includes/session.inc");
 
-	add_access_extensions();
-	$app = &$_SESSION["App"];
-	if (isset($_GET['application']))
-		$app->selected_application = $_GET['application'];
+page(_($help_context = "System Diagnostics"));
 
-	$app->display();
+include($path_to_root . "/includes/ui.inc");
+include($path_to_root . "/includes/system_tests.inc");
+//-------------------------------------------------------------------------------------------------
+
+display_system_tests();
+
+end_page();
+

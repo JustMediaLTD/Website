@@ -9,17 +9,12 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
     See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
 ***********************************************************************/
-	$path_to_root=".";
-	if (!file_exists($path_to_root.'/config_db.php'))
-		header("Location: ".$path_to_root."/install/index.php");
+include_once($path_to_root . "/purchasing/includes/supp_trans_class.inc");
+include_once($path_to_root . "/includes/date_functions.inc");
 
-	$page_security = 'SA_OPEN';
-	ini_set('xdebug.auto_trace',1);
-	include_once("includes/session.inc");
+include_once($path_to_root . "/includes/ui.inc");
 
-	add_access_extensions();
-	$app = &$_SESSION["App"];
-	if (isset($_GET['application']))
-		$app->selected_application = $_GET['application'];
-
-	$app->display();
+include_once($path_to_root . "/purchasing/includes/ui/invoice_ui.inc");
+include_once($path_to_root . "/purchasing/includes/ui/po_ui.inc");
+include_once($path_to_root . "/purchasing/includes/ui/grn_ui.inc");
+//--------------------------------------------------------------------------------------

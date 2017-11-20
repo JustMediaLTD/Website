@@ -1,4 +1,3 @@
-<?php
 /**********************************************************************
     Copyright (C) FrontAccounting, LLC.
 	Released under the terms of the GNU General Public License, GPL, 
@@ -9,17 +8,31 @@
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
     See the License here <http://www.gnu.org/licenses/gpl-3.0.html>.
 ***********************************************************************/
-	$path_to_root=".";
-	if (!file_exists($path_to_root.'/config_db.php'))
-		header("Location: ".$path_to_root."/install/index.php");
+function focus_amount(i) {
+    save_focus(i);
+	i.setAttribute('_last', get_amount(i.name));
+}
 
-	$page_security = 'SA_OPEN';
-	ini_set('xdebug.auto_trace',1);
-	include_once("includes/session.inc");
+function blur_amount(i) {
+	var change = get_amount(i.name);
 
-	add_access_extensions();
-	$app = &$_SESSION["App"];
-	if (isset($_GET['application']))
-		$app->selected_application = $_GET['application'];
+	price_format(i.name, change, user.pdec);
+	change = change-i.getAttribute('_last');
+	if (i.name=='beg_balance')
+		change = -change;
 
-	$app->display();
+	price_format('difference', get_amount('difference',1,1)+change, user.pdec, 1);
+}
+
+var balances = {
+	'.amount': function(e) {
+		e.onblur = function() {
+			blur_amount(this);
+		  };
+		e.onfocus = function() {
+			focus_amount(this);
+		};
+	}
+}
+
+Behaviour.register(balances);
