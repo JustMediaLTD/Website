@@ -64,7 +64,7 @@ $userdetails = fetchUserDetails(NULL, NULL, $get_info_id); //Fetch user details
 		<h1><?=echousername($user->data()->id)?></h1>
 		<p><?=ucfirst($user->data()->fname)." ".ucfirst($user->data()->lname)?> / <?=echouser($user->data()->id)?></p>
 		<p>Total Payed:<?=$user->data()->PayedAmount?></p>
-		<p>Payment Required: <?=$user->data()->UpcomingPayment?></p>
+		<p style="color:#FF0000";>Payment Required: <?=$user->data()->UpcomingPayment?></p>
 		<!--<p>The payment logs & information have moved. <a href="payment.php" class="btn btn-primary">Click here to go there.</a> --></p>
 	</div>
 </div>
