@@ -56,8 +56,6 @@ $userdetails = fetchUserDetails(NULL, NULL, $get_info_id); //Fetch user details
 <div class="row">
 	<div class="col-xs-12 col-md-3">
 		<p><img src="<?=$grav; ?>" class="img-thumbnail" alt="Generic placeholder thumbnail"></p>
-		<p><a href="user_settings.php" class="btn btn-primary">Edit Account Info</a></p>
-		<p><a class="btn btn-primary " href="profile.php?id=<?=$get_info_id;?>" role="button">Public Profile</a></p>
 
 	</div>
 	<div class="col-xs-12 col-md-9">
