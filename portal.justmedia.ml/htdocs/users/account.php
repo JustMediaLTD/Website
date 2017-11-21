@@ -49,7 +49,7 @@ $userdetails = fetchUserDetails(NULL, NULL, $get_info_id); //Fetch user details
      t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
    })(window, document, '_gscq','script','//widgets.getsitecontrol.com/113186/script.js');
  </script>
- 
+
 <div id="page-wrapper">
 <div class="container">
 <div class="well">
@@ -65,7 +65,7 @@ $userdetails = fetchUserDetails(NULL, NULL, $get_info_id); //Fetch user details
 		<p><?=ucfirst($user->data()->fname)." ".ucfirst($user->data()->lname)?> / <?=echouser($user->data()->id)?></p>
 		<p>Member Since:<?=$signupdate?></p>
 		<p>Number of Logins: <?=$user->data()->logins?></p>
-		<p>This is the private account page for your users. It can be whatever you want it to be; This code serves as a guide on how to use some of the built-in UserSpice functionality. </p>
+		<p>The payment logs & information have moved. <a href="payment.php" class="btn btn-primary">Click here to go there.</a> </p>
 	</div>
 </div>
 </div>
