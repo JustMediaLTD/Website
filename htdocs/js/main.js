@@ -47,14 +47,8 @@ $(window).load(function(){
                     })(this);
                 });
             }, 0);
-
+        
     },1000);
-
-    setTimeout(function()}
-    $('.text-intro').each(function(i) {
-      else {
-        removeClass('opacty-5');
-      }
 
     setTimeout(function(){
 
@@ -115,11 +109,6 @@ $(window).resize(function(){
 
 $(document).ready(function(){
     "use strict";
-  });
-
-$(document).error(function(){
-    "use strict"
-  });
 
     /* ------------------------------------- */
     /* 3. Action Buttons ................... */
@@ -183,21 +172,21 @@ $(document).error(function(){
                     scrollTop: $(target).offset().top
                 }, 500);
             });
-        }
+        } 
 
         else {
             $('body').mCustomScrollbar({
                 scrollInertia: 150,
                 axis            :"y"
-            });
+            });  
         }
     }
-
+  
     scrollbar();
 
     // Tooltips used on YouTube buttons
-    if (window.matchMedia("(min-width: 1025px)").matches) {
-
+    if (window.matchMedia("(min-width: 1025px)").matches) { 
+            
         $(function () { $("[data-toggle='tooltip']").tooltip(); });
 
     }
@@ -224,7 +213,7 @@ $(document).error(function(){
 
     var initPhotoSwipeFromDOM = function(gallerySelector) {
 
-    // parse slide data (url, title, size ...) from DOM elements
+    // parse slide data (url, title, size ...) from DOM elements 
     // (children of gallerySelector)
     var parseThumbnailElements = function(el) {
         var thumbElements = el.childNodes,
@@ -239,7 +228,7 @@ $(document).error(function(){
 
             figureEl = thumbElements[i]; // <figure> element
 
-            // include only element nodes
+            // include only element nodes 
             if(figureEl.nodeType !== 1) {
                 continue;
             }
@@ -259,13 +248,13 @@ $(document).error(function(){
 
             if(figureEl.children.length > 1) {
                 // <figcaption> content
-                item.title = figureEl.children[1].innerHTML;
+                item.title = figureEl.children[1].innerHTML; 
             }
 
             if(linkEl.children.length > 0) {
                 // <img> thumbnail element, retrieving thumbnail url
                 item.msrc = linkEl.children[0].getAttribute('src');
-            }
+            } 
 
             item.el = figureEl; // save link to element for getThumbBoundsFn
             items.push(item);
@@ -304,8 +293,8 @@ $(document).error(function(){
             index;
 
         for (var i = 0; i < numChildNodes; i++) {
-            if(childNodes[i].nodeType !== 1) {
-                continue;
+            if(childNodes[i].nodeType !== 1) { 
+                continue; 
             }
 
             if(childNodes[i] === clickedListItem) {
@@ -338,10 +327,10 @@ $(document).error(function(){
             if(!vars[i]) {
                 continue;
             }
-            var pair = vars[i].split('=');
+            var pair = vars[i].split('=');  
             if(pair.length < 2) {
                 continue;
-            }
+            }           
             params[pair[0]] = pair[1];
         }
 
@@ -370,7 +359,7 @@ $(document).error(function(){
                 // See Options -> getThumbBoundsFn section of documentation for more info
                 var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
                     pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                    rect = thumbnail.getBoundingClientRect();
+                    rect = thumbnail.getBoundingClientRect(); 
 
                 return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
             }
@@ -380,7 +369,7 @@ $(document).error(function(){
         // PhotoSwipe opened from URL
         if(fromURL) {
             if(options.galleryPIDs) {
-                // parse real index when custom PIDs are used
+                // parse real index when custom PIDs are used 
                 // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
                 for(var j = 0; j < items.length; j++) {
                     if(items[j].pid === index) {

@@ -2024,13 +2024,4 @@ canvas#canvasbg {
   #subscribe p.notify-valid {
     font-size: 12px;
   }
-
-  body {
-    background-color: #333;
-    overflow: hidden;
-  }
-
-
-
-
-  }
+}
