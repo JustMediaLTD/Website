@@ -69,7 +69,26 @@
 
 
 
+<nav id="player-nav">
+	<ul>
+		<li data-toggle="tooltip" data-placement="bottom" data-title="Play" data-trigger="hover">
+			<a onclick="$('#bgndVideo').playYTP()"><i class="fa fa-play"></i></a>
+		</li>
 
+		<li data-toggle="tooltip" data-placement="bottom" data-title="Pause" data-trigger="hover">
+			<a onclick="$('#bgndVideo').pauseYTP()"><i class="fa fa-pause"></i></a>
+		</li>
+
+		<li class="full-play" data-toggle="tooltip" data-placement="bottom" data-title="Fullscreen" data-trigger="hover">
+			<a class="expand-player"><i class="fa fa-expand"></i></a>
+		</li>
+
+		<li class="comp-play display-none" data-toggle="tooltip" data-placement="bottom" data-title="Reduce" data-trigger="hover">
+			<a class="compress-player"><i class="fa fa-compress"></i></a>
+		</li>
+
+	</ul>
+</nav> <!-- CLOSE - Player control -->
 
 
 <!--END OF FIDGET SPINNER-->
@@ -78,9 +97,9 @@
 							<li>
 								<a href="#" id="open-more-info" data-target="right-side" class="action-btn text-intro opacity-0">More Information</a>
 							</li>
-					<li>
+				<!--	<li>
 								<a href="http://www.portal.justmedia.ml">Client Portal</a>
-							</li>
+							</li> -->
 						</ul>
 					</nav>
 
