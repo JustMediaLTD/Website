@@ -26,9 +26,9 @@
 		<!-- Modernizr runs quickly on page load to detect features -->
 		<script src="js/modernizr.custom.js"></script>
 	</head>
-<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=7Nj6V7i3US0',containment:'body',autoPlay:true, mute:false, startAt:0, stopAt:0, opacity:1, loop:true}"></a>
-	<body>
-	
+<!--<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=7Nj6V7i3US0',containment:'body',autoPlay:true, mute:false, startAt:0, stopAt:0, opacity:1, loop:true}"></a>
+-->	<body>
+
 
 
 		<!-- Page preloader -->
@@ -637,10 +637,10 @@
 		<!-- Constellation effect -->
 		<script src="js/constellation.js"></script>
 
-		<script src="js/main-youtube.js"></script>
+		<!--<script src="js/main-youtube.js"></script>
 
 		<script src="js/jquery.mb.YTPlayer.js"></script>
-
+<script src="js/vegas-youtube-mobile.js"></script> -->
 		<script>
 		$("#getting-started")
 			// Year/Month/Day Hour:Minute:Second
@@ -653,6 +653,26 @@
 
 		<!-- Main JS File -->
 		<script src="js/main.js"></script>
+
+
+		<script>
+		$(window).load(function() {
+			$(function($){
+				$('body').vidbg({
+						'mp4': 'london.mp4', // Link to your video
+						'poster': 'img/gallery-1.jpg', // Picture displayed on mobile
+					}, {
+
+					// Options
+					muted: false,
+					loop: true,
+					overlay: true,
+					overlayColor: '#000',
+					overlayAlpha: '0.3',
+				});
+			});
+		});
+		</script>
 
 		<!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
 
