@@ -57,11 +57,10 @@ $msg = 'Test';
 		</div>
 	</div><!-- /panel -->
 </div><!-- /.col -->
-<!--<div class="col-md-6">
+<div class="col-md-6">
 	<div class="panel panel-default">
-		<div class="panel-heading"><strong>Step 2: Change some settings</strong></div>
-		<div class="panel-body">You want to go to the Admin Dashboard. From there you can personalize your settings.
-		You can decide whether or not you want to use reCaptcha, force SSL, or mess with some CSS.
+		<div class="panel-heading"><strong>Invoice 1000015</strong></div>
+		<div class="panel-body">Download Here - <a href="http://www.portal.justmedia.ml/invoices/15.pdf">here</a>
 		</div>
 	</div><!-- /panel -->
 </div><!-- /.col -->
