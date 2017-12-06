@@ -918,7 +918,7 @@ sup {
   animation: clocky 2s infinite linear;
 }
 .box-info-light h3 {
-  font-family: "Comic Sans MS", "Comic Sans MS", "Comic Sans MS", Arial, Verdana, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   text-transform: uppercase;
 }
 
@@ -940,7 +940,7 @@ sup {
 }
 .box-info-dark h3 {
   color: #FFFFFF !important;
-  font-family: "Comic Sans MS", "Comic Sans MS", "Comic Sans MS", Arial, Verdana, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   text-transform: uppercase;
 }
 .box-info-dark p {
