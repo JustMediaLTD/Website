@@ -266,7 +266,7 @@ em, i {
 }
 
 p {
-  font-family: "Comic Sans MS", "Comic Sans MS", "Comic Sans MS", Comic Sans MS, Comic Sans MS;
+  font-family: "Open Sans", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   margin: 0;
   font-size: 1.4rem;
   line-height: 1.8;
@@ -284,7 +284,7 @@ p.text-intro {
 
 h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF;
-  font-family: Raleway, "Comic Sans MS", "Comic Sans MS", Arial, Verdana, sans-serif;
+  font-family: Raleway, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   font-weight: 400;
   line-height: 1;
   margin: 0 0 1.5rem 0;
@@ -379,7 +379,7 @@ sup {
 /* 2. Home ............................. */
 /* ------------------------------------- */
 .light-btn {
-  font-family: Raleway, "Comic Sans MS", "Comic Sans MS", Arial, Verdana, sans-serif;
+  font-family: Raleway, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   background: transparent;
   font-weight: 700;
   padding: 0.7em 2em;
@@ -400,7 +400,7 @@ sup {
 }
 
 .action-btn {
-  font-family: Raleway, "Comic Sans MS", "Comic Sans MS", Arial, Verdana, sans-serif;
+  font-family: Raleway, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
   background: #FFFFFF;
   font-weight: 700;
   padding: 0.7em 2em;

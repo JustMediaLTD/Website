@@ -35,7 +35,7 @@
 			<span></span>
 		</div>
 	</div>
-	<?php
+
 
 
 
